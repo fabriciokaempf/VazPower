@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vaz Power | Dashboard de Performance | Abril 2026</title>
+  <title>Vaz Power | Dashboard Maio 2026 — 01 a 05/05</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <style>
@@ -158,6 +158,17 @@
     .legend-dot.g { background: #4285F4; }
     .legend-dot.m { background: #1877F2; }
 
+    /* Destaque meta no bar */
+    .meta-lead-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 12px; padding: 5px 14px; border-radius: 100px;
+      background: rgba(24,119,242,0.12); border: 1px solid rgba(24,119,242,0.3);
+      font-size: 11px; font-weight: 700; color: #7ab3ff;
+    }
+    .meta-lead-badge::before {
+      content: '▲'; font-size: 9px; color: var(--green);
+    }
+
     /* ─── PLATFORM CARDS ─── */
     .platforms-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 48px; }
     .plat-card {
@@ -204,7 +215,7 @@
     .plat-card.google .metric-item .m-value { color: #c5d8ff; }
     .plat-card.meta   .metric-item .m-value { color: #c5d8ff; }
 
-    /* ─── CPA STRIP (custo por conversão dentro do platform card) ─── */
+    /* ─── CPA STRIP ─── */
     .cpa-strip {
       margin: 0 30px 20px;
       padding: 14px 20px;
@@ -235,21 +246,25 @@
     }
     .conv-item.forms { background: rgba(34,208,122,0.08); border: 1px solid rgba(34,208,122,0.2); }
     .conv-item.calls { background: rgba(251,188,5,0.08);  border: 1px solid rgba(251,188,5,0.2); }
+    .conv-item.no-conv { background: rgba(107,127,163,0.06); border: 1px solid rgba(107,127,163,0.15); }
     .conv-svg { flex-shrink: 0; }
     .conv-text .c-label { font-size: 10px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
     .conv-item.forms .c-label { color: var(--green); }
     .conv-item.calls .c-label { color: var(--g-yellow); }
+    .conv-item.no-conv .c-label { color: var(--muted); }
     .conv-text .c-value { font-size: 20px; font-weight: 800; line-height: 1.1; }
     .conv-item.forms .c-value { color: var(--green); }
     .conv-item.calls .c-value { color: var(--g-yellow); }
+    .conv-item.no-conv .c-value { color: var(--muted); }
     .conv-text .c-cost {
       font-size: 11px; font-weight: 700; margin-top: 4px;
       padding: 2px 7px; border-radius: 6px; width: fit-content;
     }
     .conv-item.forms .c-cost { color: var(--green); background: rgba(34,208,122,0.1); }
     .conv-item.calls .c-cost { color: var(--g-yellow); background: rgba(251,188,5,0.1); }
+    .conv-item.no-conv .c-cost { color: var(--muted); }
 
-    /* ─── SPOTLIGHT / DESTAQUE ─── */
+    /* ─── SPOTLIGHT ─── */
     .spotlight-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 52px; }
     .spotlight-card { border-radius: 24px; padding: 0; overflow: hidden; position: relative; }
     .spotlight-card.sg {
@@ -268,15 +283,12 @@
     }
     .spotlight-card.sg .sp-ribbon { background: linear-gradient(90deg,rgba(66,133,244,0.25),rgba(52,168,83,0.15)); color: #a8c8ff; border-bottom: 1px solid rgba(66,133,244,0.2); }
     .spotlight-card.sm .sp-ribbon { background: linear-gradient(90deg,rgba(24,119,242,0.25),rgba(91,154,247,0.15)); color: #a8c8ff; border-bottom: 1px solid rgba(24,119,242,0.2); }
-
     .sp-medal {
       width: 22px; height: 22px; border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
       font-size: 11px; font-weight: 900;
+      background: linear-gradient(135deg,#FBBC05,#e89e00); color: #07091a;
     }
-    .spotlight-card.sg .sp-medal { background: linear-gradient(135deg,#FBBC05,#e89e00); color: #07091a; }
-    .spotlight-card.sm .sp-medal { background: linear-gradient(135deg,#FBBC05,#e89e00); color: #07091a; }
-
     .sp-body { padding: 26px 28px 28px; }
     .sp-top { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 22px; }
     .sp-plat-logo {
@@ -285,21 +297,14 @@
     }
     .spotlight-card.sg .sp-plat-logo { background: rgba(66,133,244,0.15); border: 1px solid rgba(66,133,244,0.3); }
     .spotlight-card.sm .sp-plat-logo { background: rgba(24,119,242,0.15); border: 1px solid rgba(24,119,242,0.3); }
-
     .sp-title-wrap { flex: 1; }
-    .sp-platform { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 4px; }
-    .spotlight-card.sg .sp-platform { color: #7ab3ff; }
-    .spotlight-card.sm .sp-platform { color: #7ab3ff; }
+    .sp-platform { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 4px; color: #7ab3ff; }
     .sp-camp-name { font-size: 18px; font-weight: 800; color: #fff; letter-spacing: -0.3px; line-height: 1.25; }
     .sp-camp-sub { font-size: 11px; color: var(--muted); margin-top: 5px; }
-
     .sp-cpa-box { margin-left: auto; text-align: right; flex-shrink: 0; }
     .sp-cpa-box .cpa-label { font-size: 9px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
-    .sp-cpa-box .cpa-val { font-size: 26px; font-weight: 900; letter-spacing: -1px; line-height: 1; margin-top: 3px; }
-    .spotlight-card.sg .cpa-val { color: var(--gold); }
-    .spotlight-card.sm .cpa-val { color: var(--gold); }
+    .sp-cpa-box .cpa-val { font-size: 26px; font-weight: 900; letter-spacing: -1px; line-height: 1; margin-top: 3px; color: var(--gold); }
     .sp-cpa-box .cpa-sub { font-size: 10px; color: var(--muted); margin-top: 2px; }
-
     .sp-metrics { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; margin-bottom: 18px; }
     .sp-metric {
       background: rgba(255,255,255,0.04); border-radius: 12px;
@@ -307,14 +312,12 @@
     }
     .sp-metric .sm-label { font-size: 9px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); margin-bottom: 5px; }
     .sp-metric .sm-val { font-size: 20px; font-weight: 800; color: #e8edff; letter-spacing: -0.5px; }
-
     .sp-share-bar { background: rgba(255,255,255,0.05); border-radius: 100px; height: 6px; overflow: hidden; margin-top: 6px; }
     .sp-share-fill { height: 100%; border-radius: 100px; }
     .spotlight-card.sg .sp-share-fill { background: linear-gradient(90deg,#4285F4,#34A853); }
     .spotlight-card.sm .sp-share-fill { background: linear-gradient(90deg,#1877F2,#5b9af7); }
     .sp-share-label { display: flex; justify-content: space-between; font-size: 10px; color: var(--muted); margin-top: 6px; }
     .sp-share-label strong { color: var(--green); font-size: 11px; }
-
     .sp-conv-pills { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
     .sp-pill {
       display: flex; align-items: center; gap: 6px;
@@ -333,7 +336,6 @@
     .table-platform-badge.google { background: rgba(66,133,244,0.12); border: 1px solid rgba(66,133,244,0.3); color: #7ab3ff; }
     .table-platform-badge.meta   { background: rgba(24,119,242,0.12); border: 1px solid rgba(24,119,242,0.3); color: #7ab3ff; }
     .table-note { font-size: 12px; color: var(--muted); margin-left: auto; }
-
     .table-wrap { border-radius: 18px; overflow: hidden; overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid var(--border); }
     table { width: 100%; border-collapse: collapse; font-size: 13px; }
     thead th {
@@ -346,11 +348,9 @@
     tbody tr:hover { background: rgba(255,255,255,0.025); }
     tbody td { padding: 15px 18px; color: var(--text); vertical-align: middle; }
     tbody td:not(:first-child) { text-align: right; }
-
     .camp-name { display: flex; flex-direction: column; gap: 3px; }
     .camp-name .cn-main { font-weight: 600; font-size: 13px; color: #e8edff; }
     .camp-name .cn-tag  { font-size: 10px; color: var(--muted); font-weight: 500; }
-
     .badge-type { display: inline-block; padding: 2px 8px; border-radius: 100px; font-size: 10px; font-weight: 600; }
     .badge-search { background: rgba(66,133,244,0.15); color: #7ab3ff; }
     .badge-leads  { background: rgba(34,208,122,0.12); color: #22d07a; }
@@ -362,26 +362,17 @@
       padding: 2px 8px; border-radius: 100px; font-size: 10px; font-weight: 700;
       background: rgba(245,184,0,0.14); color: var(--gold); border: 1px solid rgba(245,184,0,0.25);
     }
-
     .val-invest { color: var(--gold); font-weight: 700; }
     .val-conv   { color: var(--green); font-weight: 700; }
     .val-ctr    { color: #c5d8ff; font-weight: 600; }
-
     tfoot td {
       padding: 16px 18px; background: rgba(255,255,255,0.035);
       font-weight: 700; font-size: 13px; color: #fff; border-top: 1px solid rgba(255,255,255,0.12);
     }
     tfoot td:not(:first-child) { text-align: right; }
     tfoot .total-label { color: var(--muted); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
-
-    .conv-split { font-size: 11px; color: var(--muted); margin-top: 2px; }
-    .conv-split .f { color: var(--green); }
-    .conv-split .c { color: var(--g-yellow); }
-
-    .row-highlight { background: rgba(66,133,244,0.04); }
+    .row-highlight   { background: rgba(66,133,244,0.04); }
     .row-highlight-m { background: rgba(24,119,242,0.03); }
-
-    /* Status badges */
     .badge-active {
       display: inline-flex; align-items: center; gap: 4px;
       padding: 2px 8px; border-radius: 100px; font-size: 10px; font-weight: 700;
@@ -389,20 +380,8 @@
     }
     .badge-active::before {
       content: ''; display: inline-block; width: 5px; height: 5px;
-      border-radius: 50%; background: #22d07a;
-      box-shadow: 0 0 0 2px rgba(34,208,122,0.3);
+      border-radius: 50%; background: #22d07a; box-shadow: 0 0 0 2px rgba(34,208,122,0.3);
     }
-    .badge-paused {
-      display: inline-flex; align-items: center; gap: 4px;
-      padding: 2px 8px; border-radius: 100px; font-size: 10px; font-weight: 600;
-      background: rgba(107,127,163,0.1); color: #6b7fa3; border: 1px solid rgba(107,127,163,0.2);
-    }
-    .badge-paused::before {
-      content: ''; display: inline-block; width: 5px; height: 5px;
-      border-radius: 50%; background: #6b7fa3;
-    }
-    .row-paused td { opacity: 0.65; }
-    .row-paused:hover td { opacity: 0.85; }
 
     /* ─── RESULTADO COMERCIAL ─── */
     .comercial-section {
@@ -422,8 +401,6 @@
       background: rgba(245,184,0,0.1); border: 1px solid rgba(245,184,0,0.25); color: var(--gold);
     }
     .com-body { padding: 28px 30px; }
-
-    /* Funil */
     .funil-steps {
       display: grid;
       grid-template-columns: 1fr 24px 1fr 24px 1fr 24px 1fr;
@@ -448,36 +425,29 @@
     .funil-rate.fr-pending { background: transparent; border-color: transparent; color: var(--muted); }
     .funil-arrow { display: flex; align-items: center; justify-content: center; }
     .funil-arrow svg { opacity: 0.25; }
-
-    /* Cards por tipo de trabalho */
     .job-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
     .job-card { border-radius: 16px; padding: 20px 22px; border: 1px solid var(--border); }
-    .job-card.jc-local     { background: rgba(66,133,244,0.06); border-color: rgba(66,133,244,0.25); }
-    .job-card.jc-interstate{ background: rgba(245,184,0,0.06);  border-color: rgba(245,184,0,0.25); }
-    .job-card.jc-storage   { background: rgba(167,139,250,0.06);border-color: rgba(167,139,250,0.25);}
+    .job-card.jc-local     { background: rgba(66,133,244,0.06);  border-color: rgba(66,133,244,0.25); }
+    .job-card.jc-interstate{ background: rgba(245,184,0,0.06);   border-color: rgba(245,184,0,0.25); }
+    .job-card.jc-storage   { background: rgba(167,139,250,0.06); border-color: rgba(167,139,250,0.25); }
     .job-card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
-    .job-card-icon {
-      width: 36px; height: 36px; border-radius: 10px; flex-shrink: 0;
-      display: flex; align-items: center; justify-content: center;
-    }
-    .jc-local     .job-card-icon { background: rgba(66,133,244,0.15); }
-    .jc-interstate.job-card-icon { background: rgba(245,184,0,0.15); }
-    .jc-storage   .job-card-icon { background: rgba(167,139,250,0.15); }
+    .job-card-icon { width: 36px; height: 36px; border-radius: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+    .jc-local      .job-card-icon { background: rgba(66,133,244,0.15); }
+    .jc-interstate .job-card-icon { background: rgba(245,184,0,0.15); }
+    .jc-storage    .job-card-icon { background: rgba(167,139,250,0.15); }
     .job-card-type { font-size: 13px; font-weight: 700; }
-    .jc-local     .job-card-type { color: #7ab3ff; }
-    .jc-interstate .job-card-type{ color: var(--gold); }
-    .jc-storage   .job-card-type { color: #a78bfa; }
+    .jc-local      .job-card-type { color: #7ab3ff; }
+    .jc-interstate .job-card-type { color: var(--gold); }
+    .jc-storage    .job-card-type { color: #a78bfa; }
     .job-card-desc { font-size: 11px; color: var(--muted); }
     .job-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
     .job-metric { background: rgba(0,0,0,0.2); border-radius: 10px; padding: 10px 13px; }
     .jm-label { font-size: 9px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
     .jm-value { font-size: 20px; font-weight: 800; color: var(--muted); }
-    .jm-cost { font-size: 17px; font-weight: 800; }
+    .jm-cost  { font-size: 17px; font-weight: 800; }
     .jc-local      .jm-cost { color: #7ab3ff; }
     .jc-interstate .jm-cost { color: var(--gold); }
     .jc-storage    .jm-cost { color: #a78bfa; }
-
-    /* Pipeline status + motivos de perda */
     .pipeline-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
     .pipeline-box {
       background: rgba(0,0,0,0.2); border: 1px solid var(--border);
@@ -489,8 +459,6 @@
     .status-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
     .status-label { font-size: 12px; color: var(--text); flex: 1; }
     .status-count { font-size: 13px; font-weight: 700; color: var(--muted); min-width: 28px; text-align: right; }
-    .status-bar-wrap { height: 3px; background: rgba(255,255,255,0.05); border-radius: 100px; margin-top: 3px; }
-    .status-bar-fill { height: 100%; border-radius: 100px; transition: width 0.6s ease; }
     .loss-list { display: flex; flex-direction: column; gap: 11px; }
     .loss-item { display: flex; align-items: center; gap: 10px; }
     .loss-label { font-size: 12px; color: var(--text); flex: 1; }
@@ -502,142 +470,6 @@
       font-size: 11px; color: var(--muted); line-height: 1.6;
     }
     .data-note strong { color: var(--gold); }
-    @media (max-width: 900px) {
-      .funil-steps { grid-template-columns: 1fr; gap: 8px; }
-      .funil-arrow { transform: rotate(90deg); }
-      .job-grid { grid-template-columns: 1fr; }
-      .pipeline-row { grid-template-columns: 1fr; }
-    }
-
-    /* ─── UTM SECTION ─── */
-    .utm-section {
-      background: linear-gradient(135deg, var(--card) 0%, var(--card2) 100%);
-      border: 1px solid var(--border); border-radius: 24px;
-      overflow: hidden; margin-bottom: 52px;
-    }
-    .utm-section-head {
-      padding: 28px 32px 24px;
-      border-bottom: 1px solid var(--border);
-      background: linear-gradient(90deg, rgba(245,184,0,0.06) 0%, transparent 60%);
-      display: flex; align-items: flex-start; gap: 16px;
-    }
-    .utm-head-icon {
-      width: 48px; height: 48px; border-radius: 12px; flex-shrink: 0;
-      background: rgba(245,184,0,0.12); border: 1px solid rgba(245,184,0,0.25);
-      display: flex; align-items: center; justify-content: center;
-    }
-    .utm-section-title {
-      font-size: 18px; font-weight: 800; color: #fff; letter-spacing: -0.3px;
-    }
-    .utm-section-sub { font-size: 13px; color: var(--muted); margin-top: 5px; line-height: 1.6; }
-
-    .utm-body { padding: 28px 32px; }
-
-    /* URL anatomy */
-    .utm-anatomy {
-      background: rgba(0,0,0,0.25); border: 1px solid var(--border);
-      border-radius: 14px; padding: 20px 24px; margin-bottom: 24px; overflow-x: auto;
-    }
-    .utm-anatomy-label {
-      font-size: 10px; font-weight: 700; letter-spacing: 1.5px;
-      text-transform: uppercase; color: var(--muted); margin-bottom: 12px;
-    }
-    .utm-url-wrap { font-family: 'Courier New', monospace; font-size: 12px; line-height: 2; white-space: nowrap; }
-    .utm-url-base { color: #7ab3ff; }
-    .utm-p-source   { color: #22d07a; }
-    .utm-p-medium   { color: #7ab3ff; }
-    .utm-p-campaign { color: var(--gold); }
-    .utm-p-term     { color: #a78bfa; }
-    .utm-p-content  { color: #f472b6; }
-    .utm-p-auto     { color: var(--muted); }
-    .utm-sep        { color: rgba(255,255,255,0.25); }
-
-    .utm-legend {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px;
-    }
-    .utm-leg-item {
-      display: flex; align-items: center; gap: 6px;
-      font-size: 11px; font-weight: 500;
-    }
-    .utm-leg-dot { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; }
-
-    /* Platform UTM examples */
-    .utm-examples { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-
-    .utm-example {
-      border-radius: 16px; overflow: hidden;
-    }
-    .utm-example.ug { border: 1.5px solid rgba(66,133,244,0.35); }
-    .utm-example.um { border: 1.5px solid rgba(24,119,242,0.35); }
-
-    .utm-ex-head {
-      padding: 14px 18px; display: flex; align-items: center; gap: 12px;
-    }
-    .utm-example.ug .utm-ex-head { background: linear-gradient(90deg, rgba(66,133,244,0.18), rgba(66,133,244,0.06)); }
-    .utm-example.um .utm-ex-head { background: linear-gradient(90deg, rgba(24,119,242,0.18), rgba(24,119,242,0.06)); }
-
-    .utm-ex-logo {
-      width: 34px; height: 34px; border-radius: 9px;
-      background: #fff; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-    }
-    .utm-ex-title { font-size: 14px; font-weight: 800; }
-    .utm-example.ug .utm-ex-title { color: #7ab3ff; }
-    .utm-example.um .utm-ex-title { color: #7ab3ff; }
-    .utm-ex-subtitle { font-size: 11px; color: var(--muted); margin-top: 2px; }
-
-    /* Simulated lead card inside UTM example */
-    .lead-card {
-      background: #fff; border-radius: 0 0 14px 14px;
-      padding: 18px; color: #1a1a2e;
-    }
-    .lead-card-header {
-      font-size: 13px; font-weight: 700; color: #1a1a2e;
-      margin-bottom: 12px; padding-bottom: 10px;
-      border-bottom: 1px solid #e5e7eb;
-      display: flex; align-items: center; gap: 8px;
-    }
-    .lead-card-header .lc-badge {
-      font-size: 10px; font-weight: 700; padding: 2px 8px;
-      border-radius: 100px;
-    }
-    .lead-card-header .lc-badge.g { background: #e8f0fe; color: #1a73e8; }
-    .lead-card-header .lc-badge.m { background: #e7f0fd; color: #1877F2; }
-
-    .lead-fields { display: flex; flex-direction: column; gap: 5px; }
-    .lead-field { display: flex; gap: 8px; font-size: 11px; }
-    .lf-key { font-weight: 600; color: #6b7280; min-width: 100px; flex-shrink: 0; }
-    .lf-val { color: #1a1a2e; font-weight: 500; }
-
-    .lead-url-block {
-      margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;
-    }
-    .lead-url-label { font-size: 10px; font-weight: 700; color: #6b7280; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
-    .lead-url-text {
-      font-family: 'Courier New', monospace; font-size: 10px;
-      word-break: break-all; line-height: 1.8;
-      background: #f9fafb; border-radius: 8px; padding: 8px 10px;
-      border: 1px solid #e5e7eb;
-    }
-    .lu-base   { color: #6b7280; }
-    .lu-source   { color: #16a34a; font-weight: 700; }
-    .lu-medium   { color: #1d4ed8; font-weight: 700; }
-    .lu-campaign { color: #b45309; font-weight: 700; }
-    .lu-term     { color: #7c3aed; font-weight: 700; }
-    .lu-content  { color: #db2777; font-weight: 700; }
-    .lu-auto     { color: #9ca3af; }
-
-    .utm-param-table { margin-top: 12px; width: 100%; font-size: 10px; border-collapse: collapse; }
-    .utm-param-table td { padding: 4px 0; vertical-align: top; }
-    .utm-param-table td:first-child { font-weight: 700; color: #6b7280; min-width: 80px; font-family: 'Courier New', monospace; font-size: 9px; }
-    .utm-param-table td:nth-child(2) { padding: 4px 8px; font-style: italic; color: #4b5563; }
-    .utm-param-table td:last-child { font-weight: 600; color: #1a1a2e; }
-
-    .utm-note {
-      background: rgba(245,184,0,0.06); border: 1px solid rgba(245,184,0,0.18);
-      border-radius: 12px; padding: 16px 20px; margin-top: 20px;
-    }
-    .utm-note p { font-size: 12px; color: #c5d0e8; line-height: 1.7; }
-    .utm-note strong { color: var(--gold); }
 
     /* ─── FOOTER ─── */
     .footer {
@@ -651,7 +483,7 @@
       from { opacity: 0; transform: translateY(18px); }
       to   { opacity: 1; transform: translateY(0); }
     }
-    .ov-card, .plat-card, .invest-bar-section, .table-section, .spotlight-card, .utm-section {
+    .ov-card, .plat-card, .invest-bar-section, .table-section, .spotlight-card, .comercial-section {
       animation: fadeUp 0.5s ease both;
     }
     .ov-card:nth-child(2)        { animation-delay: 0.08s; }
@@ -660,10 +492,6 @@
     .spotlight-card:nth-child(2) { animation-delay: 0.10s; }
 
     /* ─── RESPONSIVE ─── */
-    @media (max-width: 1024px) {
-      .utm-examples { grid-template-columns: 1fr; }
-    }
-
     @media (max-width: 900px) {
       .header { padding: 24px 20px 20px; }
       .header-inner { flex-direction: column; align-items: flex-start; gap: 14px; }
@@ -675,11 +503,9 @@
       .cpa-strip-value { font-size: 22px; }
       .ov-card .ov-value { font-size: 28px; }
       .invest-bar-section { padding: 20px 18px; margin-bottom: 32px; }
-      .invest-legend { flex-direction: column; gap: 10px; }
       .platforms-grid { grid-template-columns: 1fr; gap: 18px; margin-bottom: 36px; }
       .plat-header { flex-wrap: wrap; gap: 12px; padding: 20px 20px 16px; }
       .plat-invest { margin-left: 0; text-align: left; width: 100%; border-top: 1px solid var(--border); padding-top: 12px; }
-      .plat-invest .invest-value { font-size: 22px; }
       .plat-metrics { grid-template-columns: 1fr 1fr; padding: 18px 20px; gap: 12px; }
       .conv-row { padding: 0 20px 20px; gap: 10px; }
       .spotlight-grid { grid-template-columns: 1fr; gap: 18px; margin-bottom: 36px; }
@@ -695,12 +521,11 @@
       .table-wrap { overflow-x: auto; }
       table { min-width: 820px; font-size: 12px; }
       thead th, tbody td, tfoot td { padding: 12px 13px; }
-      .utm-section-head { padding: 20px 20px 18px; }
-      .utm-body { padding: 20px; }
-      .utm-url-wrap { font-size: 10px; }
-      .utm-examples { grid-template-columns: 1fr; gap: 14px; }
+      .funil-steps { grid-template-columns: 1fr; gap: 8px; }
+      .funil-arrow { transform: rotate(90deg); }
+      .job-grid { grid-template-columns: 1fr; }
+      .pipeline-row { grid-template-columns: 1fr; }
     }
-
     @media (max-width: 540px) {
       .brand-icon { width: 44px; height: 44px; border-radius: 11px; }
       .brand-icon svg { width: 22px; height: 22px; }
@@ -726,7 +551,6 @@
   <div class="header-inner">
     <div class="brand">
       <div class="brand-icon">
-        <!-- Lightning / truck icon -->
         <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="2" y="10" width="18" height="13" rx="2.5" fill="#07091a"/>
           <path d="M20 13h5l4 5v5h-9V13Z" fill="#07091a"/>
@@ -741,8 +565,8 @@
       </div>
     </div>
     <div class="header-meta">
-      <div class="period-badge">01 / 04 / 2026 &nbsp;—&nbsp; 30 / 04 / 2026</div>
-      <div class="generated">Gerado em 02/05/2026 &nbsp;&middot;&nbsp; Período: 30 dias</div>
+      <div class="period-badge">01 / 05 / 2026 &nbsp;—&nbsp; 05 / 05 / 2026</div>
+      <div class="generated">Dashboard Maio 2026 &nbsp;&middot;&nbsp; Período: 5 dias &nbsp;&middot;&nbsp; Gerado em 05/05/2026</div>
     </div>
   </div>
 </header>
@@ -751,7 +575,7 @@
 <div class="page">
 
   <!-- VISÃO GERAL -->
-  <div class="section-title">Visão Geral Combinada</div>
+  <div class="section-title">Visão Geral — Maio 2026 (01 a 05/05)</div>
   <div class="overview-grid">
 
     <div class="ov-card combined">
@@ -762,7 +586,7 @@
         </svg>
       </div>
       <div class="ov-label">Total Investido — Ambas as Plataformas</div>
-      <div class="ov-value">A$11.654,80</div>
+      <div class="ov-value">A$895,96</div>
       <div class="ov-sub">Google Ads + Meta Ads &middot; Dólares Australianos</div>
     </div>
 
@@ -774,8 +598,8 @@
         </svg>
       </div>
       <div class="ov-label">Total de Impressões</div>
-      <div class="ov-value">145.183</div>
-      <div class="ov-sub">Google: 27.096 &nbsp;&middot;&nbsp; Meta: 118.087</div>
+      <div class="ov-value">65.932</div>
+      <div class="ov-sub">Google: 356 &nbsp;&middot;&nbsp; Meta: 65.576</div>
     </div>
 
     <div class="ov-card meta-ov">
@@ -785,8 +609,8 @@
         </svg>
       </div>
       <div class="ov-label">Total de Conversões</div>
-      <div class="ov-value">222</div>
-      <div class="ov-sub">Google: 154 &nbsp;&middot;&nbsp; Meta: 68</div>
+      <div class="ov-value">22</div>
+      <div class="ov-sub">Google: 2 &nbsp;&middot;&nbsp; Meta: 20</div>
     </div>
 
     <div class="ov-card cpl-ov">
@@ -797,32 +621,34 @@
         </svg>
       </div>
       <div class="ov-label">CPL Geral — Ambas as Plataformas</div>
-      <div class="ov-value">A$52,50</div>
-      <div class="ov-sub">222 conversões &middot; Google + Meta &middot; AUD</div>
+      <div class="ov-value">A$40,73</div>
+      <div class="ov-sub">Custo médio por conversão · 01–05/05/2026</div>
     </div>
+
   </div>
 
-  <!-- BARRA DE INVESTIMENTO -->
+  <!-- BARRA DE DISTRIBUIÇÃO -->
   <div class="invest-bar-section">
-    <div class="bar-title">Distribuição do Investimento &nbsp;&middot;&nbsp; A$11.654,80</div>
+    <div class="bar-title">Distribuição do Investimento &nbsp;&middot;&nbsp; A$895,96 &nbsp;&middot;&nbsp; 01 a 05/05/2026</div>
     <div class="invest-bar">
-      <div class="bar-g" style="width:85.4%"></div>
-      <div class="bar-m" style="width:14.6%"></div>
+      <div class="bar-g" style="width:39.1%"></div>
+      <div class="bar-m" style="width:60.9%"></div>
     </div>
     <div class="invest-legend">
       <div class="legend-item">
         <div class="legend-dot g"></div>
-        Google Ads: <strong style="color:#7ab3ff;margin-left:4px">A$9.958,26 &nbsp;(85,4%)</strong>
+        Google Ads: <strong style="color:#7ab3ff;margin-left:4px">A$350,48 &nbsp;(39,1%)</strong>
       </div>
       <div class="legend-item">
         <div class="legend-dot m"></div>
-        Meta Ads: <strong style="color:#7ab3ff;margin-left:4px">A$1.696,54 &nbsp;(14,6%)</strong>
+        Meta Ads: <strong style="color:#7ab3ff;margin-left:4px">A$545,48 &nbsp;(60,9%)</strong>
       </div>
     </div>
+    <div class="meta-lead-badge">Meta lidera o investimento em maio — inversão vs. abril (Google era 85,4%)</div>
   </div>
 
-  <!-- MÉTRICAS POR PLATAFORMA -->
-  <div class="section-title">Métricas por Plataforma</div>
+  <!-- PLATAFORMAS -->
+  <div class="section-title">Performance por Plataforma</div>
   <div class="platforms-grid">
 
     <!-- GOOGLE ADS -->
@@ -838,11 +664,11 @@
         </div>
         <div>
           <div class="plat-name">Google Ads</div>
-          <div class="plat-sub">Search · RickMarketingCo</div>
+          <div class="plat-sub">Search &middot; Brisbane</div>
         </div>
         <div class="plat-invest">
           <div class="invest-label">Investimento</div>
-          <div class="invest-value">A$9.958,26</div>
+          <div class="invest-value">A$350,48</div>
           <div class="invest-currency">Dólares Australianos</div>
         </div>
       </div>
@@ -850,19 +676,19 @@
       <div class="plat-metrics">
         <div class="metric-item">
           <div class="m-label">Impressões</div>
-          <div class="m-value">27.096</div>
+          <div class="m-value">356</div>
         </div>
         <div class="metric-item">
           <div class="m-label">Cliques</div>
-          <div class="m-value">722</div>
+          <div class="m-value">28</div>
         </div>
         <div class="metric-item">
           <div class="m-label">CTR</div>
-          <div class="m-value">2,66%</div>
+          <div class="m-value">7,87%</div>
         </div>
         <div class="metric-item">
           <div class="m-label">Conversões Totais</div>
-          <div class="m-value" style="color:var(--green)">154</div>
+          <div class="m-value" style="color:var(--green)">2</div>
         </div>
       </div>
 
@@ -875,26 +701,26 @@
         </div>
         <div class="cpa-strip-info">
           <div class="cpa-strip-label">Custo por Conversão</div>
-          <div class="cpa-strip-sub">154 conversões geradas em abril 2026</div>
+          <div class="cpa-strip-sub">2 conversões geradas · 01–05 de maio 2026</div>
         </div>
         <div class="cpa-strip-right">
-          <div class="cpa-strip-value">A$64,66</div>
+          <div class="cpa-strip-value">A$175,24</div>
           <div class="cpa-strip-unit">por conversão</div>
         </div>
       </div>
 
       <div class="conv-row">
-        <div class="conv-item forms">
+        <div class="conv-item no-conv">
           <div class="conv-svg">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-              <rect x="4" y="3" width="16" height="18" rx="2" stroke="#22d07a" stroke-width="1.8"/>
-              <path d="M8 8h8M8 12h8M8 16h5" stroke="#22d07a" stroke-width="1.8" stroke-linecap="round"/>
+              <rect x="4" y="3" width="16" height="18" rx="2" stroke="#6b7fa3" stroke-width="1.8"/>
+              <path d="M8 8h8M8 12h8M8 16h5" stroke="#6b7fa3" stroke-width="1.8" stroke-linecap="round"/>
             </svg>
           </div>
           <div class="conv-text">
             <div class="c-label">Formulários</div>
-            <div class="c-value">126</div>
-            <div class="c-cost">A$79,03 / form</div>
+            <div class="c-value">0</div>
+            <div class="c-cost">— sem forms em maio</div>
           </div>
         </div>
         <div class="conv-item calls">
@@ -905,8 +731,8 @@
           </div>
           <div class="conv-text">
             <div class="c-label">Ligações</div>
-            <div class="c-value">10</div>
-            <div class="c-cost">A$78,33 / ligação</div>
+            <div class="c-value">1</div>
+            <div class="c-cost">A$168,85 / ligação</div>
           </div>
         </div>
       </div>
@@ -927,7 +753,7 @@
         </div>
         <div class="plat-invest">
           <div class="invest-label">Investimento</div>
-          <div class="invest-value">A$1.696,54</div>
+          <div class="invest-value">A$545,48</div>
           <div class="invest-currency">Dólares Australianos</div>
         </div>
       </div>
@@ -935,19 +761,19 @@
       <div class="plat-metrics">
         <div class="metric-item">
           <div class="m-label">Impressões</div>
-          <div class="m-value">118.087</div>
+          <div class="m-value">65.576</div>
         </div>
         <div class="metric-item">
           <div class="m-label">Cliques no Link</div>
-          <div class="m-value">638</div>
+          <div class="m-value">190</div>
         </div>
         <div class="metric-item">
           <div class="m-label">CTR</div>
-          <div class="m-value">0,54%</div>
+          <div class="m-value">0,29%</div>
         </div>
         <div class="metric-item">
           <div class="m-label">Conversões Totais</div>
-          <div class="m-value" style="color:var(--green)">68</div>
+          <div class="m-value" style="color:var(--green)">20</div>
         </div>
       </div>
 
@@ -960,10 +786,10 @@
         </div>
         <div class="cpa-strip-info">
           <div class="cpa-strip-label">Custo por Conversão</div>
-          <div class="cpa-strip-sub">68 conversões geradas em abril 2026</div>
+          <div class="cpa-strip-sub">20 conversões geradas · 01–05 de maio 2026</div>
         </div>
         <div class="cpa-strip-right">
-          <div class="cpa-strip-value">A$24,95</div>
+          <div class="cpa-strip-value">A$27,27</div>
           <div class="cpa-strip-unit">por conversão</div>
         </div>
       </div>
@@ -978,8 +804,8 @@
           </div>
           <div class="conv-text">
             <div class="c-label">Formulários</div>
-            <div class="c-value">52</div>
-            <div class="c-cost">A$20,77 / form</div>
+            <div class="c-value">8</div>
+            <div class="c-cost">A$36,60 / form</div>
           </div>
         </div>
         <div class="conv-item calls">
@@ -990,16 +816,17 @@
           </div>
           <div class="conv-text">
             <div class="c-label">Ligações</div>
-            <div class="c-value">16</div>
-            <div class="c-cost">A$30,09 / ligação</div>
+            <div class="c-value">12</div>
+            <div class="c-cost">A$13,25 / ligação</div>
           </div>
         </div>
       </div>
     </div>
+
   </div>
 
-  <!-- ══════════════════════ CAMPANHAS EM DESTAQUE ══════════════════════ -->
-  <div class="section-title">Campanhas em Destaque</div>
+  <!-- CAMPANHAS EM DESTAQUE -->
+  <div class="section-title">Campanhas em Destaque — Maio 2026</div>
   <div class="spotlight-grid">
 
     <!-- DESTAQUE GOOGLE -->
@@ -1020,12 +847,12 @@
           </div>
           <div class="sp-title-wrap">
             <div class="sp-platform">Google Ads &middot; Search</div>
-            <div class="sp-camp-name">Core A &mdash; LP Form</div>
-            <div class="sp-camp-sub">Search &middot; Maximizar conversões &middot; CPA desejado &middot; A$400/dia</div>
+            <div class="sp-camp-name">Core A &mdash; 13h às 00h</div>
+            <div class="sp-camp-sub">Search &middot; Maximizar conversões &middot; CPA desejado &middot; A$350/dia</div>
           </div>
           <div class="sp-cpa-box">
             <div class="cpa-label">Custo por Conversão</div>
-            <div class="cpa-val">A$60,73</div>
+            <div class="cpa-val">A$147,38</div>
             <div class="cpa-sub">por conversão</div>
           </div>
         </div>
@@ -1033,42 +860,42 @@
         <div class="sp-metrics">
           <div class="sp-metric">
             <div class="sm-label">Investido</div>
-            <div class="sm-val" style="color:var(--gold)">A$5.830</div>
+            <div class="sm-val" style="color:var(--gold)">A$147,38</div>
           </div>
           <div class="sp-metric">
             <div class="sm-label">Impressões</div>
-            <div class="sm-val">5.044</div>
+            <div class="sm-val">188</div>
           </div>
           <div class="sp-metric">
             <div class="sm-label">Cliques</div>
-            <div class="sm-val">319</div>
+            <div class="sm-val">13</div>
           </div>
           <div class="sp-metric">
             <div class="sm-label">CTR</div>
-            <div class="sm-val" style="color:#c5d8ff">6,32%</div>
+            <div class="sm-val" style="color:#c5d8ff">6,91%</div>
           </div>
           <div class="sp-metric">
             <div class="sm-label">Conversões</div>
-            <div class="sm-val" style="color:var(--green)">96</div>
+            <div class="sm-val" style="color:var(--green)">1</div>
           </div>
           <div class="sp-metric">
             <div class="sm-label">Taxa de Conv.</div>
-            <div class="sm-val" style="color:var(--green)">30,09%</div>
+            <div class="sm-val" style="color:var(--green)">7,69%</div>
           </div>
         </div>
 
         <div>
           <div class="sp-share-bar">
-            <div class="sp-share-fill" style="width:62.3%"></div>
+            <div class="sp-share-fill" style="width:50%"></div>
           </div>
           <div class="sp-share-label">
             <span>Participação nas conversões Google</span>
-            <strong>62,3% &nbsp;(96 / 154)</strong>
+            <strong>50% &nbsp;(1 / 2 conv.)</strong>
           </div>
         </div>
 
         <div class="sp-conv-pills">
-          <div class="sp-pill forms">96 Formulários</div>
+          <div class="sp-pill forms">1 Conversão</div>
         </div>
       </div>
     </div>
@@ -1089,61 +916,62 @@
           </div>
           <div class="sp-title-wrap">
             <div class="sp-platform">Meta Ads &middot; Facebook + Instagram</div>
-            <div class="sp-camp-name">[LFC] Brisbane &mdash; Forms LP</div>
-            <div class="sp-camp-sub">Landing page &middot; fb_pixel_lead &middot; A$25/dia &middot; Campanha principal</div>
+            <div class="sp-camp-name">260429 &mdash; Calls &middot; Brisbane</div>
+            <div class="sp-camp-sub">Landing page &middot; Click-to-call &middot; A$32,98/dia &middot; ⭐ Estrela do mês</div>
           </div>
           <div class="sp-cpa-box">
-            <div class="cpa-label">Custo por Conversão</div>
-            <div class="cpa-val">A$18,11</div>
-            <div class="cpa-sub">por lead</div>
+            <div class="cpa-label">Custo por Ligação</div>
+            <div class="cpa-val">A$13,25</div>
+            <div class="cpa-sub">por ligação</div>
           </div>
         </div>
 
         <div class="sp-metrics">
           <div class="sp-metric">
             <div class="sm-label">Investido</div>
-            <div class="sm-val" style="color:var(--gold)">A$815</div>
+            <div class="sm-val" style="color:var(--gold)">A$158,98</div>
           </div>
           <div class="sp-metric">
             <div class="sm-label">Impressões</div>
-            <div class="sm-val">34.145</div>
+            <div class="sm-val">10.308</div>
           </div>
           <div class="sp-metric">
             <div class="sm-label">Cliques</div>
-            <div class="sm-val">316</div>
+            <div class="sm-val">50</div>
           </div>
           <div class="sp-metric">
             <div class="sm-label">CTR</div>
-            <div class="sm-val" style="color:#c5d8ff">0,93%</div>
+            <div class="sm-val" style="color:#c5d8ff">0,49%</div>
           </div>
           <div class="sp-metric">
-            <div class="sm-label">Conversões</div>
-            <div class="sm-val" style="color:var(--green)">45</div>
+            <div class="sm-label">Ligações</div>
+            <div class="sm-val" style="color:var(--green)">12</div>
           </div>
           <div class="sp-metric">
             <div class="sm-label">Frequência</div>
-            <div class="sm-val" style="color:#c5d8ff">2,25</div>
+            <div class="sm-val" style="color:#c5d8ff">1,82</div>
           </div>
         </div>
 
         <div>
           <div class="sp-share-bar">
-            <div class="sp-share-fill" style="width:66.2%"></div>
+            <div class="sp-share-fill" style="width:60%"></div>
           </div>
           <div class="sp-share-label">
             <span>Participação nas conversões Meta</span>
-            <strong>66,2% &nbsp;(45 / 68)</strong>
+            <strong>60% &nbsp;(12 / 20 conv.)</strong>
           </div>
         </div>
 
         <div class="sp-conv-pills">
-          <div class="sp-pill forms">45 Formulários</div>
+          <div class="sp-pill calls">12 Ligações &middot; A$13,25 / lig.</div>
         </div>
       </div>
     </div>
+
   </div>
 
-  <!-- ══════════════════════ CAMPANHAS GOOGLE ══════════════════════ -->
+  <!-- TABELA GOOGLE -->
   <div class="table-section">
     <div class="table-header">
       <div class="table-platform-badge google">
@@ -1155,7 +983,7 @@
         </svg>
         Google Ads &mdash; Campanhas
       </div>
-      <div class="table-note">01/04 – 30/04/2026 &middot; Moeda: AUD</div>
+      <div class="table-note">01/05 – 05/05/2026 &middot; Moeda: AUD &middot; Apenas campanhas ativas</div>
     </div>
     <div class="table-wrap">
       <table>
@@ -1178,90 +1006,47 @@
           <tr class="row-highlight">
             <td>
               <div class="camp-name">
-                <span class="cn-main">Core A &mdash; LP Form</span>
+                <span class="cn-main">Core A &mdash; 13h às 00h</span>
                 <span class="cn-tag">
                   <span class="badge-active">Ativa</span>
                   &nbsp;<span class="badge-type badge-search">Search</span>
-                  &nbsp;<span class="badge-type badge-star">Campanha Principal</span>
-                  &nbsp;Maximizar conversões
+                  &nbsp;<span class="badge-type badge-star">Maior volume</span>
+                  &nbsp;Maximizar conversões · CPA desejado
                 </span>
               </div>
             </td>
-            <td><span class="val-invest">A$5.830,04</span></td>
-            <td>5.044</td>
-            <td>319</td>
-            <td><span class="val-ctr">6,32%</span></td>
-            <td style="color:var(--green);font-weight:700">96</td>
-            <td style="color:var(--green);font-weight:700">A$60,73</td>
+            <td><span class="val-invest">A$147,38</span></td>
+            <td>188</td>
+            <td>13</td>
+            <td><span class="val-ctr">6,91%</span></td>
+            <td style="color:var(--muted)">0</td>
+            <td style="color:var(--muted)">—</td>
             <td>0</td>
             <td style="color:var(--muted)">—</td>
-            <td><span class="val-conv">96</span></td>
+            <td><span class="val-conv">1</span></td>
           </tr>
 
           <tr>
             <td>
               <div class="camp-name">
-                <span class="cn-main">Core C &mdash; LP Mix</span>
+                <span class="cn-main">Core C &mdash; 06h às 13h</span>
                 <span class="cn-tag">
                   <span class="badge-active">Ativa</span>
                   &nbsp;<span class="badge-type badge-search">Search</span>
-                  &nbsp;06h–13h &middot; Form + Ligação
+                  &nbsp;<span class="badge-type badge-calls">Gerou ligação</span>
+                  &nbsp;Maximizar conversões · CPA desejado
                 </span>
               </div>
             </td>
-            <td><span class="val-invest">A$1.678,87</span></td>
-            <td>20.301</td>
-            <td>224</td>
-            <td><span class="val-ctr">1,10%</span></td>
-            <td>4</td>
-            <td style="color:var(--green);font-weight:700">A$419,72</td>
-            <td>2</td>
-            <td style="color:var(--g-yellow);font-weight:700">A$839,44</td>
-            <td><span class="val-conv">20</span></td>
-          </tr>
-
-          <tr class="row-paused">
-            <td>
-              <div class="camp-name">
-                <span class="cn-main">Call LP &mdash; RickMarketingCo</span>
-                <span class="cn-tag">
-                  <span class="badge-paused">Pausada</span>
-                  &nbsp;<span class="badge-type badge-calls">Ligações</span>
-                  &nbsp;Campanha focada em chamadas
-                </span>
-              </div>
-            </td>
-            <td><span class="val-invest">A$996,21</span></td>
-            <td>777</td>
-            <td>43</td>
-            <td><span class="val-ctr">5,53%</span></td>
-            <td>0</td>
+            <td><span class="val-invest">A$168,85</span></td>
+            <td>131</td>
+            <td>8</td>
+            <td><span class="val-ctr">6,11%</span></td>
+            <td style="color:var(--muted)">0</td>
             <td style="color:var(--muted)">—</td>
-            <td>4</td>
-            <td style="color:var(--g-yellow);font-weight:700">A$249,05</td>
-            <td><span class="val-conv">8</span></td>
-          </tr>
-
-          <tr class="row-paused">
-            <td>
-              <div class="camp-name">
-                <span class="cn-main">Interstate A/B &mdash; 13h–00h</span>
-                <span class="cn-tag">
-                  <span class="badge-paused">Pausada</span>
-                  &nbsp;<span class="badge-type badge-search">Search</span>
-                  &nbsp;Horário noite &middot; Interestadual
-                </span>
-              </div>
-            </td>
-            <td><span class="val-invest">A$392,29</span></td>
-            <td>211</td>
-            <td>19</td>
-            <td><span class="val-ctr">9,00%</span></td>
-            <td>11</td>
-            <td style="color:var(--green);font-weight:700">A$35,66</td>
-            <td>0</td>
-            <td style="color:var(--muted)">—</td>
-            <td><span class="val-conv">11</span></td>
+            <td style="color:var(--g-yellow);font-weight:700">1</td>
+            <td style="color:var(--g-yellow);font-weight:700">A$168,85</td>
+            <td><span class="val-conv">1</span></td>
           </tr>
 
           <tr>
@@ -1271,81 +1056,15 @@
                 <span class="cn-tag">
                   <span class="badge-active">Ativa</span>
                   &nbsp;<span class="badge-type badge-brand">Brand</span>
-                  &nbsp;Palavras-chave de marca
+                  &nbsp;Palavras-chave de marca &middot; CTR 21,43%
                 </span>
               </div>
             </td>
-            <td><span class="val-invest">A$381,10</span></td>
-            <td>359</td>
-            <td>84</td>
-            <td><span class="val-ctr">23,40%</span></td>
-            <td>9</td>
-            <td style="color:var(--green);font-weight:700">A$42,34</td>
-            <td>4</td>
-            <td style="color:var(--g-yellow);font-weight:700">A$95,28</td>
-            <td><span class="val-conv">13</span></td>
-          </tr>
-
-          <tr class="row-paused">
-            <td>
-              <div class="camp-name">
-                <span class="cn-main">Core B &mdash; Tarde &middot; LP Form</span>
-                <span class="cn-tag">
-                  <span class="badge-paused">Pausada</span>
-                  &nbsp;<span class="badge-type badge-search">Search</span>
-                  &nbsp;Horário tarde
-                </span>
-              </div>
-            </td>
-            <td><span class="val-invest">A$505,98</span></td>
-            <td>284</td>
-            <td>23</td>
-            <td><span class="val-ctr">8,10%</span></td>
+            <td><span class="val-invest">A$27,82</span></td>
+            <td>28</td>
             <td>6</td>
-            <td style="color:var(--green);font-weight:700">A$84,33</td>
-            <td>0</td>
-            <td style="color:var(--muted)">—</td>
-            <td><span class="val-conv">6</span></td>
-          </tr>
-
-          <tr class="row-paused">
-            <td>
-              <div class="camp-name">
-                <span class="cn-main">Core + Residential A/B &mdash; Manhã</span>
-                <span class="cn-tag">
-                  <span class="badge-paused">Pausada</span>
-                  &nbsp;<span class="badge-type badge-search">Search</span>
-                  &nbsp;Residencial
-                </span>
-              </div>
-            </td>
-            <td><span class="val-invest">A$74,68</span></td>
-            <td>48</td>
-            <td>5</td>
-            <td><span class="val-ctr">10,42%</span></td>
-            <td>0</td>
-            <td style="color:var(--muted)">—</td>
-            <td>0</td>
-            <td style="color:var(--muted)">—</td>
-            <td><span class="val-conv">0</span></td>
-          </tr>
-
-          <tr class="row-paused">
-            <td>
-              <div class="camp-name">
-                <span class="cn-main">Interstate &mdash; Brisbane (Em construção)</span>
-                <span class="cn-tag">
-                  <span class="badge-paused">Pausada</span>
-                  &nbsp;<span class="badge-type badge-search">Search</span>
-                  &nbsp;Interestadual
-                </span>
-              </div>
-            </td>
-            <td><span class="val-invest">A$33,06</span></td>
-            <td>42</td>
-            <td>2</td>
-            <td><span class="val-ctr">4,76%</span></td>
-            <td>0</td>
+            <td><span class="val-ctr">21,43%</span></td>
+            <td style="color:var(--muted)">0</td>
             <td style="color:var(--muted)">—</td>
             <td>0</td>
             <td style="color:var(--muted)">—</td>
@@ -1359,15 +1078,15 @@
                 <span class="cn-tag">
                   <span class="badge-active">Ativa</span>
                   &nbsp;<span class="badge-type badge-search">Search</span>
-                  &nbsp;00h–03h
+                  &nbsp;00h às 03h &middot; Baixo volume no período
                 </span>
               </div>
             </td>
-            <td><span class="val-invest">A$66,02</span></td>
-            <td>20</td>
-            <td>3</td>
-            <td><span class="val-ctr">15,00%</span></td>
-            <td>0</td>
+            <td><span class="val-invest">A$6,43</span></td>
+            <td>9</td>
+            <td>1</td>
+            <td><span class="val-ctr">11,11%</span></td>
+            <td style="color:var(--muted)">0</td>
             <td style="color:var(--muted)">—</td>
             <td>0</td>
             <td style="color:var(--muted)">—</td>
@@ -1377,23 +1096,23 @@
         </tbody>
         <tfoot>
           <tr>
-            <td><span class="total-label">Total da Conta</span></td>
-            <td class="val-invest">A$9.958,26</td>
-            <td>27.096</td>
-            <td>722</td>
-            <td class="val-ctr">2,66%</td>
-            <td style="color:var(--green)">126</td>
-            <td style="color:var(--green);font-weight:700">A$78,99</td>
-            <td style="color:var(--g-yellow)">10</td>
-            <td style="color:var(--g-yellow);font-weight:700">A$78,33</td>
-            <td style="color:var(--green);font-size:15px">154</td>
+            <td><span class="total-label">Total Google Ads</span></td>
+            <td class="val-invest">A$350,48</td>
+            <td>356</td>
+            <td>28</td>
+            <td class="val-ctr">7,87%</td>
+            <td style="color:var(--muted)">0</td>
+            <td style="color:var(--muted)">—</td>
+            <td style="color:var(--g-yellow)">1</td>
+            <td style="color:var(--g-yellow);font-weight:700">A$168,85</td>
+            <td style="color:var(--green);font-size:15px">2</td>
           </tr>
         </tfoot>
       </table>
     </div>
   </div>
 
-  <!-- ══════════════════════ CAMPANHAS META ══════════════════════ -->
+  <!-- TABELA META -->
   <div class="table-section">
     <div class="table-header">
       <div class="table-platform-badge meta">
@@ -1403,16 +1122,16 @@
         </svg>
         Meta Ads &mdash; Campanhas
       </div>
-      <div class="table-note">01/04 – 30/04/2026 &middot; Moeda: AUD</div>
+      <div class="table-note">01/05 – 05/05/2026 &middot; Moeda: AUD &middot; 4 campanhas inativas filtradas</div>
     </div>
     <div class="table-wrap">
       <table>
         <thead>
           <tr>
-            <th style="text-align:left;min-width:240px">Campanha</th>
+            <th style="text-align:left;min-width:260px">Campanha</th>
             <th>Investido</th>
             <th>Impressões</th>
-            <th>Cliques no Link</th>
+            <th>Cliques</th>
             <th>CTR</th>
             <th>Formulários</th>
             <th>Custo/Form.</th>
@@ -1423,71 +1142,50 @@
         </thead>
         <tbody>
 
-          <tr class="row-highlight-m row-paused">
-            <td>
-              <div class="camp-name">
-                <span class="cn-main">[LFC] Brisbane &mdash; Forms LP</span>
-                <span class="cn-tag">
-                  <span class="badge-paused">Inativa</span>
-                  &nbsp;<span class="badge-type badge-leads">Leads</span>
-                  &nbsp;<span class="badge-type badge-star">Campanha Principal</span>
-                  &nbsp;Landing page &middot; fb_pixel_lead
-                </span>
-              </div>
-            </td>
-            <td><span class="val-invest">A$815,11</span></td>
-            <td>34.145</td>
-            <td>316</td>
-            <td><span class="val-ctr">0,93%</span></td>
-            <td style="color:var(--green);font-weight:700">45</td>
-            <td style="color:var(--green);font-weight:700">A$18,11</td>
-            <td>0</td>
-            <td style="color:var(--muted)">—</td>
-            <td><span class="val-conv">45</span></td>
-          </tr>
-
-          <tr class="row-paused">
-            <td>
-              <div class="camp-name">
-                <span class="cn-main">[LFC] Brisbane &mdash; Calls</span>
-                <span class="cn-tag">
-                  <span class="badge-paused">Inativa</span>
-                  &nbsp;<span class="badge-type badge-calls">Ligações</span>
-                  &nbsp;Click-to-call &middot; Geração de chamadas
-                </span>
-              </div>
-            </td>
-            <td><span class="val-invest">A$451,54</span></td>
-            <td>22.983</td>
-            <td>142</td>
-            <td><span class="val-ctr">0,62%</span></td>
-            <td>0</td>
-            <td style="color:var(--muted)">—</td>
-            <td>14</td>
-            <td style="color:var(--g-yellow);font-weight:700">A$32,25</td>
-            <td><span class="val-conv">14</span></td>
-          </tr>
-
-          <tr>
+          <tr class="row-highlight-m">
             <td>
               <div class="camp-name">
                 <span class="cn-main">260407 &mdash; Leads &middot; Forms &middot; Brisbane &middot; LP</span>
                 <span class="cn-tag">
                   <span class="badge-active">Ativa</span>
                   &nbsp;<span class="badge-type badge-leads">Leads</span>
-                  &nbsp;A$50/dia
+                  &nbsp;<span class="badge-type badge-star">Formulários</span>
+                  &nbsp;Landing page &middot; fb_pixel_lead &middot; A$50/dia
                 </span>
               </div>
             </td>
-            <td><span class="val-invest">A$265,08</span></td>
-            <td>10.768</td>
-            <td>110</td>
-            <td><span class="val-ctr">1,02%</span></td>
-            <td>7</td>
-            <td style="color:var(--green);font-weight:700">A$37,87</td>
+            <td><span class="val-invest">A$292,83</span></td>
+            <td>11.064</td>
+            <td>107</td>
+            <td><span class="val-ctr">0,97%</span></td>
+            <td style="color:var(--green);font-weight:700">8</td>
+            <td style="color:var(--green);font-weight:700">A$36,60</td>
             <td>0</td>
             <td style="color:var(--muted)">—</td>
-            <td><span class="val-conv">7</span></td>
+            <td><span class="val-conv">8</span></td>
+          </tr>
+
+          <tr class="row-highlight-m">
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">260429 &mdash; Leads &middot; Call &middot; Brisbane &middot; LP</span>
+                <span class="cn-tag">
+                  <span class="badge-active">Ativa</span>
+                  &nbsp;<span class="badge-type badge-calls">Ligações</span>
+                  &nbsp;<span class="badge-type badge-star">Estrela do mês</span>
+                  &nbsp;Click-to-call &middot; A$32,98/dia
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$158,98</span></td>
+            <td>10.308</td>
+            <td>50</td>
+            <td><span class="val-ctr">0,49%</span></td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td style="color:var(--g-yellow);font-weight:700">12</td>
+            <td style="color:var(--g-yellow);font-weight:700">A$13,25</td>
+            <td><span class="val-conv">12</span></td>
           </tr>
 
           <tr>
@@ -1497,81 +1195,58 @@
                 <span class="cn-tag">
                   <span class="badge-active">Ativa</span>
                   &nbsp;<span class="badge-type badge-rmkt">Remarketing</span>
-                  &nbsp;Alcance &middot; Reimpacto de visitantes
+                  &nbsp;Alcance &middot; Reimpacto de visitantes &middot; Objetivo: alcance
                 </span>
               </div>
             </td>
-            <td><span class="val-invest">A$134,90</span></td>
-            <td>48.408</td>
-            <td>60</td>
-            <td><span class="val-ctr">0,12%</span></td>
+            <td><span class="val-invest">A$93,67</span></td>
+            <td>44.204</td>
+            <td>33</td>
+            <td><span class="val-ctr">0,07%</span></td>
             <td>0</td>
             <td style="color:var(--muted)">—</td>
             <td>0</td>
             <td style="color:var(--muted)">—</td>
-            <td><span class="val-conv">—</span></td>
-          </tr>
-
-          <tr>
-            <td>
-              <div class="camp-name">
-                <span class="cn-main">260429 &mdash; Leads &middot; Call &middot; Brisbane &middot; LP</span>
-                <span class="cn-tag">
-                  <span class="badge-active">Ativa</span>
-                  &nbsp;<span class="badge-type badge-calls">Ligações</span>
-                  &nbsp;Iniciada em 29/04
-                </span>
-              </div>
-            </td>
-            <td><span class="val-invest">A$29,91</span></td>
-            <td>1.783</td>
-            <td>10</td>
-            <td><span class="val-ctr">0,56%</span></td>
-            <td>0</td>
             <td style="color:var(--muted)">—</td>
-            <td>2</td>
-            <td style="color:var(--g-yellow);font-weight:700">A$14,96</td>
-            <td><span class="val-conv">2</span></td>
           </tr>
 
         </tbody>
         <tfoot>
           <tr>
-            <td><span class="total-label">Total da Conta</span></td>
-            <td class="val-invest">A$1.696,54</td>
-            <td>118.087</td>
-            <td>638</td>
-            <td class="val-ctr">0,54%</td>
-            <td style="color:var(--green)">52</td>
-            <td style="color:var(--green);font-weight:700">A$20,77</td>
-            <td style="color:var(--g-yellow)">16</td>
-            <td style="color:var(--g-yellow);font-weight:700">A$30,09</td>
-            <td style="color:var(--green);font-size:15px">68</td>
+            <td><span class="total-label">Total Meta Ads</span></td>
+            <td class="val-invest">A$545,48</td>
+            <td>65.576</td>
+            <td>190</td>
+            <td class="val-ctr">0,29%</td>
+            <td style="color:var(--green)">8</td>
+            <td style="color:var(--green);font-weight:700">A$36,60</td>
+            <td style="color:var(--g-yellow)">12</td>
+            <td style="color:var(--g-yellow);font-weight:700">A$13,25</td>
+            <td style="color:var(--green);font-size:15px">20</td>
           </tr>
         </tfoot>
       </table>
     </div>
   </div>
 
-  <!-- ══════════════════════ RESULTADO COMERCIAL ══════════════════════ -->
+  <!-- RESULTADO COMERCIAL -->
   <div class="section-title">Resultado Comercial</div>
   <div class="comercial-section">
 
     <div class="com-header">
       <div>
         <div class="com-header-title">Funil de Conversão Comercial</div>
-        <div class="com-header-sub">Do lead gerado pelo tráfego pago ao trabalho executado &middot; Abril 2026</div>
+        <div class="com-header-sub">Do lead gerado pelo tráfego pago ao trabalho executado &middot; Maio 2026 (01–05/05)</div>
       </div>
       <div class="com-pending-badge">Aguarda dados da equipe Vaz</div>
     </div>
 
     <div class="com-body">
 
-      <!-- ── Funil ── -->
       <div class="funil-steps">
         <div class="funil-step fs-active">
           <div class="funil-step-label">Leads Gerados</div>
-          <div class="funil-step-value">222</div>
+          <div class="funil-step-value">22</div>
           <div class="funil-step-sub">Forms + Ligações</div>
         </div>
         <div class="funil-arrow">
@@ -1600,9 +1275,7 @@
         </div>
       </div>
 
-      <!-- ── Custo por Tipo de Trabalho ── -->
       <div class="job-grid">
-
         <div class="job-card jc-local">
           <div class="job-card-top">
             <div class="job-card-icon">
@@ -1632,10 +1305,10 @@
           <div class="job-card-top">
             <div class="job-card-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                <rect x="1" y="3" width="15" height="13" rx="2" stroke="#f5b800" stroke-width="2"/>
-                <path d="M16 8h4l3 4v5h-7V8z" stroke="#f5b800" stroke-width="2" stroke-linejoin="round"/>
-                <circle cx="5.5" cy="18.5" r="2.5" stroke="#f5b800" stroke-width="2"/>
-                <circle cx="18.5" cy="18.5" r="2.5" stroke="#f5b800" stroke-width="2"/>
+                <rect x="1" y="10" width="15" height="8" rx="1.5" stroke="#f5b800" stroke-width="2"/>
+                <path d="M16 13h4l3 4v3H16v-7z" stroke="#f5b800" stroke-width="2" stroke-linejoin="round"/>
+                <circle cx="5.5" cy="19.5" r="1.5" stroke="#f5b800" stroke-width="1.5"/>
+                <circle cx="19.5" cy="19.5" r="1.5" stroke="#f5b800" stroke-width="1.5"/>
               </svg>
             </div>
             <div>
@@ -1659,14 +1332,15 @@
           <div class="job-card-top">
             <div class="job-card-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke="#a78bfa" stroke-width="2" stroke-linejoin="round"/>
-                <polyline points="3.27 6.96 12 12.01 20.73 6.96" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
-                <line x1="12" y1="22.08" x2="12" y2="12" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
+                <rect x="2" y="7" width="20" height="14" rx="2" stroke="#a78bfa" stroke-width="2"/>
+                <path d="M2 11h20" stroke="#a78bfa" stroke-width="2"/>
+                <path d="M2 7l2-4h16l2 4" stroke="#a78bfa" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M9 15h6" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
               </svg>
             </div>
             <div>
               <div class="job-card-type">Storage</div>
-              <div class="job-card-desc">Armazenamento contratado</div>
+              <div class="job-card-desc">Armazenamento / self-storage</div>
             </div>
           </div>
           <div class="job-metrics">
@@ -1675,262 +1349,90 @@
               <div class="jm-value">—</div>
             </div>
             <div class="job-metric">
-              <div class="jm-label">Custo / Contrato</div>
+              <div class="jm-label">Custo / Cont.</div>
               <div class="jm-cost">A$—</div>
             </div>
           </div>
         </div>
-
       </div>
 
-      <!-- ── Pipeline Status + Motivos de Perda ── -->
       <div class="pipeline-row">
-
         <div class="pipeline-box">
-          <div class="pipeline-box-title">Status do Pipeline — Abril</div>
+          <div class="pipeline-box-title">Status dos Leads</div>
           <div class="status-list">
-            <div>
-              <div class="status-item">
-                <div class="status-dot" style="background:#22d07a"></div>
-                <div class="status-label">Fechados</div>
-                <div class="status-count">—</div>
-              </div>
-              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#22d07a;width:0%"></div></div>
+            <div class="status-item">
+              <div class="status-dot" style="background:#22d07a"></div>
+              <div class="status-label">Fechado / Executado</div>
+              <div class="status-count">—</div>
             </div>
-            <div>
-              <div class="status-item">
-                <div class="status-dot" style="background:#4285F4"></div>
-                <div class="status-label">Orçamento Enviado</div>
-                <div class="status-count">—</div>
-              </div>
-              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#4285F4;width:0%"></div></div>
+            <div class="status-item">
+              <div class="status-dot" style="background:#f5b800"></div>
+              <div class="status-label">Em negociação</div>
+              <div class="status-count">—</div>
             </div>
-            <div>
-              <div class="status-item">
-                <div class="status-dot" style="background:#f5b800"></div>
-                <div class="status-label">Em Negociação / Shadow</div>
-                <div class="status-count">—</div>
-              </div>
-              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#f5b800;width:0%"></div></div>
+            <div class="status-item">
+              <div class="status-dot" style="background:#4285F4"></div>
+              <div class="status-label">Aguardando resposta</div>
+              <div class="status-count">—</div>
             </div>
-            <div>
-              <div class="status-item">
-                <div class="status-dot" style="background:#EA4335"></div>
-                <div class="status-label">Perdidos</div>
-                <div class="status-count">—</div>
-              </div>
-              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#EA4335;width:0%"></div></div>
-            </div>
-            <div>
-              <div class="status-item">
-                <div class="status-dot" style="background:#6b7fa3"></div>
-                <div class="status-label">Sem Resposta</div>
-                <div class="status-count">—</div>
-              </div>
-              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#6b7fa3;width:0%"></div></div>
+            <div class="status-item">
+              <div class="status-dot" style="background:#EA4335"></div>
+              <div class="status-label">Perdido</div>
+              <div class="status-count">—</div>
             </div>
           </div>
         </div>
-
         <div class="pipeline-box">
-          <div class="pipeline-box-title">Motivos de Perda</div>
+          <div class="pipeline-box-title">Principais Motivos de Perda</div>
           <div class="loss-list">
             <div class="loss-item">
-              <div class="loss-label">Preço acima do esperado</div>
+              <div class="status-dot" style="background:#EA4335"></div>
+              <div class="loss-label">Preço / Concorrência</div>
               <div class="loss-count">—</div>
             </div>
             <div class="loss-item">
-              <div class="loss-label">Data / timing incompatível</div>
+              <div class="status-dot" style="background:#f5b800"></div>
+              <div class="loss-label">Data indisponível</div>
               <div class="loss-count">—</div>
             </div>
             <div class="loss-item">
-              <div class="loss-label">Escolheu concorrente</div>
+              <div class="status-dot" style="background:#a78bfa"></div>
+              <div class="loss-label">Sem retorno do cliente</div>
               <div class="loss-count">—</div>
             </div>
             <div class="loss-item">
-              <div class="loss-label">Lead não qualificado</div>
-              <div class="loss-count">—</div>
-            </div>
-            <div class="loss-item">
-              <div class="loss-label">Sem retorno após contato</div>
-              <div class="loss-count">—</div>
-            </div>
-            <div class="loss-item">
-              <div class="loss-label">Outros / Não identificado</div>
+              <div class="status-dot" style="background:#6b7fa3"></div>
+              <div class="loss-label">Outros</div>
               <div class="loss-count">—</div>
             </div>
           </div>
         </div>
-
       </div>
 
       <div class="data-note">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;margin-top:1px"><circle cx="12" cy="12" r="9" stroke="#f5b800" stroke-width="2"/><path d="M12 8v4M12 16h.01" stroke="#f5b800" stroke-width="2" stroke-linecap="round"/></svg>
-        Seção aguardando dados comerciais reportados pela equipe Vaz Power &mdash; alimentar mensalmente com <strong>fechamentos por tipo, status do pipeline e motivos de perda</strong>. O custo por job é calculado automaticamente quando os fechamentos forem informados.
-      </div>
-
-    </div>
-  </div>
-
-  <!-- ══════════════════════ UTM SECTION ══════════════════════ -->
-  <div class="section-title">Rastreamento de Origem</div>
-  <div class="utm-section">
-
-    <div class="utm-section-head">
-      <div class="utm-head-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" stroke="#f5b800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" stroke="#f5b800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;margin-top:1px">
+          <circle cx="12" cy="12" r="9" stroke="#f5b800" stroke-width="1.8"/>
+          <path d="M12 8v4M12 16h.01" stroke="#f5b800" stroke-width="1.8" stroke-linecap="round"/>
         </svg>
-      </div>
-      <div>
-        <div class="utm-section-title">Rastreamento por UTM Parameters</div>
-        <div class="utm-section-sub">
-          Cada lead recebida chega carregando parâmetros UTM reais na URL de origem. Esses parâmetros identificam com precisão a plataforma, campanha, conjunto de anúncios e criativo de origem &mdash; permitindo atribuição exata de cada contato. No Meta, os parâmetros são dinâmicos (<strong style="color:var(--gold)">&#123;&#123;variável&#125;&#125;</strong>) e preenchidos automaticamente pelo próprio Meta no momento do clique.
-        </div>
-      </div>
-    </div>
-
-    <div class="utm-body">
-
-      <!-- Anatomia da URL -->
-      <div class="utm-anatomy">
-        <div class="utm-anatomy-label">Estrutura real dos UTM Parameters utilizados</div>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px">
-          <div>
-            <div style="font-size:10px;font-weight:700;color:#7ab3ff;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px">Google Ads</div>
-            <div class="utm-url-wrap"><span class="utm-p-source">utm_source</span><span class="utm-sep">=</span><span class="utm-p-source">google</span><span class="utm-sep"> &amp; </span><span class="utm-p-medium">utm_medium</span><span class="utm-sep">=</span><span class="utm-p-medium">cpc</span><span class="utm-sep"> &amp; </span><span class="utm-p-campaign">utm_campaign</span><span class="utm-sep">=</span><span class="utm-p-campaign">campaign.name</span><span class="utm-sep"> &amp; </span><span class="utm-p-content">utm_content</span><span class="utm-sep">=</span><span class="utm-p-content">adset.name</span></div>
-          </div>
-          <div>
-            <div style="font-size:10px;font-weight:700;color:#7ab3ff;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px">Meta Ads — parâmetros dinâmicos</div>
-            <div class="utm-url-wrap"><span class="utm-p-source">utm_source</span><span class="utm-sep">=</span><span class="utm-p-source">metaads</span><span class="utm-sep"> &amp; </span><span class="utm-p-medium">utm_medium</span><span class="utm-sep">=</span><span class="utm-p-medium">&#123;&#123;adset.name&#125;&#125;</span><span class="utm-sep"> &amp; </span><span class="utm-p-campaign">utm_campaign</span><span class="utm-sep">=</span><span class="utm-p-campaign">&#123;&#123;campaign.name&#125;&#125;</span><span class="utm-sep"> &amp; </span><span class="utm-p-content">utm_content</span><span class="utm-sep">=</span><span class="utm-p-content">&#123;&#123;ad.name&#125;&#125;</span></div>
-          </div>
-        </div>
-        <div class="utm-legend">
-          <div class="utm-leg-item"><div class="utm-leg-dot" style="background:#22d07a"></div><span style="color:#22d07a">utm_source</span>&nbsp;— Plataforma de origem</div>
-          <div class="utm-leg-item"><div class="utm-leg-dot" style="background:#7ab3ff"></div><span style="color:#7ab3ff">utm_medium</span>&nbsp;— Canal / formato</div>
-          <div class="utm-leg-item"><div class="utm-leg-dot" style="background:#f5b800"></div><span style="color:#f5b800">utm_campaign</span>&nbsp;— Nome da campanha</div>
-          <div class="utm-leg-item"><div class="utm-leg-dot" style="background:#f472b6"></div><span style="color:#f472b6">utm_content</span>&nbsp;— Conjunto de anúncios / criativo</div>
-          <div class="utm-leg-item"><div class="utm-leg-dot" style="background:var(--muted)"></div><span style="color:var(--muted)">&#123;&#123;variável&#125;&#125;</span>&nbsp;— Macro dinâmica preenchida pelo Meta no clique</div>
-        </div>
-      </div>
-
-      <!-- Dois exemplos lado a lado -->
-      <div class="utm-examples">
-
-        <!-- EXEMPLO GOOGLE -->
-        <div class="utm-example ug">
-          <div class="utm-ex-head">
-            <div class="utm-ex-logo">
-              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
-                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
-                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
-                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
-              </svg>
-            </div>
-            <div>
-              <div class="utm-ex-title">Exemplo &mdash; Google Ads</div>
-              <div class="utm-ex-subtitle">Lead recebida via campanha de pesquisa</div>
-            </div>
-          </div>
-
-          <div class="lead-card">
-            <div class="lead-card-header">
-              New Message from Website
-              <span class="lc-badge g">Google Ads</span>
-            </div>
-            <div class="lead-fields">
-              <div class="lead-field"><span class="lf-key">Name:</span><span class="lf-val">Julie Bruce</span></div>
-              <div class="lead-field"><span class="lf-key">Phone:</span><span class="lf-val">0407 934 639</span></div>
-              <div class="lead-field"><span class="lf-key">Email:</span><span class="lf-val">julie.bruce123@outlook.com</span></div>
-              <div class="lead-field"><span class="lf-key">Pickup:</span><span class="lf-val">Woolloomooloo</span></div>
-              <div class="lead-field"><span class="lf-key">Drop Off:</span><span class="lf-val">Mudgeeraba</span></div>
-              <div class="lead-field"><span class="lf-key">Move Date:</span><span class="lf-val">11 May 2026</span></div>
-            </div>
-
-            <div class="lead-url-block">
-              <div class="lead-url-label">Page URL (origem rastreada)</div>
-              <div class="lead-url-text">
-                <span class="lu-base">https://moving-quote.vazpower.com.au/?</span><span class="lu-source">utm_source=google</span><span class="lu-base">&amp;</span><span class="lu-medium">utm_medium=cpc</span><span class="lu-base">&amp;</span><span class="lu-campaign">utm_campaign=Search_CoreA_LP_Form</span><span class="lu-base">&amp;</span><span class="lu-content">utm_content=AdGroup_Removalists_Brisbane</span><span class="lu-base">&amp;</span><span class="lu-auto">gclid=Tiz2H25953S5aiJd9...</span>
-              </div>
-              <table class="utm-param-table">
-                <tr><td>utm_source</td><td>=</td><td style="color:#16a34a">google — Origem: Google Ads</td></tr>
-                <tr><td>utm_medium</td><td>=</td><td style="color:#1d4ed8">cpc — Custo por clique (Search)</td></tr>
-                <tr><td>utm_campaign</td><td>=</td><td style="color:#b45309">campaign.name — Nome exato da campanha</td></tr>
-                <tr><td>utm_content</td><td>=</td><td style="color:#db2777">adset.name — Grupo de anúncio / ad set</td></tr>
-                <tr><td>gclid</td><td>=</td><td style="color:#9ca3af">ID automático do Google (rastreamento de conversão)</td></tr>
-              </table>
-            </div>
-          </div>
-        </div>
-
-        <!-- EXEMPLO META -->
-        <div class="utm-example um">
-          <div class="utm-ex-head">
-            <div class="utm-ex-logo">
-              <svg width="20" height="20" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 3C10.611 3 3 10.611 3 20s7.611 17 17 17 17-7.611 17-17S29.389 3 20 3z" fill="#1877F2"/>
-                <path d="M9 20c0-3.037 1.42-5.5 3.5-5.5 1.033 0 1.906.582 2.729 1.666L20 21.75l4.771-5.584C25.594 15.082 26.467 14.5 27.5 14.5c2.08 0 3.5 2.463 3.5 5.5s-1.42 5.5-3.5 5.5c-1.033 0-1.906-.582-2.729-1.666L20 18.25l-4.771 5.584C14.406 24.918 13.533 25.5 12.5 25.5 10.42 25.5 9 23.037 9 20z" fill="white"/>
-              </svg>
-            </div>
-            <div>
-              <div class="utm-ex-title">Exemplo &mdash; Meta Ads</div>
-              <div class="utm-ex-subtitle">Parâmetros dinâmicos preenchidos automaticamente pelo Meta</div>
-            </div>
-          </div>
-
-          <div class="lead-card">
-            <div class="lead-card-header">
-              New Message from Website
-              <span class="lc-badge m">Meta Ads</span>
-            </div>
-            <div class="lead-fields">
-              <div class="lead-field"><span class="lf-key">Name:</span><span class="lf-val">Daniel Nguyen</span></div>
-              <div class="lead-field"><span class="lf-key">Phone:</span><span class="lf-val">0413 287 501</span></div>
-              <div class="lead-field"><span class="lf-key">Email:</span><span class="lf-val">d.nguyen.brisbane@gmail.com</span></div>
-              <div class="lead-field"><span class="lf-key">Pickup:</span><span class="lf-val">Chermside</span></div>
-              <div class="lead-field"><span class="lf-key">Drop Off:</span><span class="lf-val">Newstead</span></div>
-              <div class="lead-field"><span class="lf-key">Move Date:</span><span class="lf-val">18 May 2026</span></div>
-            </div>
-
-            <div class="lead-url-block">
-              <div class="lead-url-label">Page URL (origem rastreada)</div>
-              <div class="lead-url-text">
-                <span class="lu-base">https://moving-quote.vazpower.com.au/?</span><span class="lu-source">utm_source=metaads</span><span class="lu-base">&amp;</span><span class="lu-medium">utm_medium=</span><span class="lu-medium" style="background:rgba(29,78,216,0.12);border-radius:3px;padding:0 3px">&#123;&#123;adset.name&#125;&#125;</span><span class="lu-base">&amp;</span><span class="lu-campaign">utm_campaign=</span><span class="lu-campaign" style="background:rgba(180,83,9,0.12);border-radius:3px;padding:0 3px">&#123;&#123;campaign.name&#125;&#125;</span><span class="lu-base">&amp;</span><span class="lu-content">utm_content=</span><span class="lu-content" style="background:rgba(219,39,119,0.12);border-radius:3px;padding:0 3px">&#123;&#123;ad.name&#125;&#125;</span><span class="lu-base">&amp;</span><span class="lu-auto">fbclid=IwAR2xNpQm7G...</span>
-              </div>
-              <table class="utm-param-table">
-                <tr><td>utm_source</td><td>=</td><td style="color:#16a34a">metaads — Origem: Meta Ads</td></tr>
-                <tr><td>utm_medium</td><td>=</td><td style="color:#1d4ed8">&#123;&#123;adset.name&#125;&#125; → preenchido com nome do conjunto de anúncios</td></tr>
-                <tr><td>utm_campaign</td><td>=</td><td style="color:#b45309">&#123;&#123;campaign.name&#125;&#125; → preenchido com nome da campanha</td></tr>
-                <tr><td>utm_content</td><td>=</td><td style="color:#db2777">&#123;&#123;ad.name&#125;&#125; → preenchido com nome do criativo/anúncio</td></tr>
-                <tr><td>fbclid</td><td>=</td><td style="color:#9ca3af">ID automático do Facebook (rastreamento de conversão)</td></tr>
-              </table>
-            </div>
-          </div>
-        </div>
-
-      </div><!-- /utm-examples -->
-
-      <div class="utm-note">
-        <p>
-          <strong>Como identificar a origem de cada lead na prática:</strong> ao receber uma notificação de lead pelo formulário do site, verifique o campo <strong>Page URL</strong> no e-mail. As leads do Google terão <strong style="color:var(--gold)">utm_source=google</strong> e o parâmetro <strong style="color:var(--gold)">gclid</strong>. As leads do Meta terão <strong style="color:var(--gold)">utm_source=metaads</strong> e o parâmetro <strong style="color:var(--gold)">fbclid</strong>, além dos nomes reais da campanha, conjunto de anúncios e criativo preenchidos automaticamente nas variáveis dinâmicas. Isso elimina qualquer dúvida sobre qual campanha originou cada contato.
-        </p>
+        <span>
+          <strong>Dados comerciais pendentes.</strong> Preencha a planilha Google Sheets compartilhada com os dados de resposta, orçamento, fechamento e tipo de trabalho para completar este painel no relatório final de maio.
+          <br>Planilha: <strong>Vaz Power — Dados Comerciais 2026</strong>
+        </span>
       </div>
 
     </div>
   </div>
 
-  <!-- FOOTER -->
-  <div class="footer">
-    <p>
-      <strong>Vaz Power Removals &amp; Storage</strong> &nbsp;&middot;&nbsp;
-      Dashboard de Performance Digital &nbsp;&middot;&nbsp;
-      Período: 01 a 29 de Abril de 2026 &nbsp;&middot;&nbsp;
-      Produzido por <strong>Kaempf Business</strong>
-    </p>
-  </div>
+</div>
 
-</div><!-- /page -->
+<!-- ══════════════════════ FOOTER ══════════════════════ -->
+<footer class="footer">
+  <strong>Vaz Power Removals &amp; Storage</strong> &nbsp;&middot;&nbsp;
+  Dashboard Maio 2026 — 01 a 05/05 &nbsp;&middot;&nbsp;
+  Google Ads + Meta Ads &nbsp;&middot;&nbsp;
+  Gestão: <strong>Kaempf Business</strong> &nbsp;&middot;&nbsp;
+  Período parcial · relatório final ao término do mês
+</footer>
+
 </body>
 </html>
