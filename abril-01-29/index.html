@@ -97,7 +97,7 @@
     .section-title::after { content: ''; flex: 1; height: 1px; background: var(--border); }
 
     /* ─── OVERVIEW CARDS ─── */
-    .overview-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 44px; }
+    .overview-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 44px; }
     .ov-card {
       background: linear-gradient(135deg, var(--card) 0%, var(--card2) 100%);
       border: 1px solid var(--border); border-radius: 20px; padding: 28px;
@@ -110,7 +110,6 @@
     .ov-card.combined::before  { background: linear-gradient(90deg, var(--gold), #e89e00); }
     .ov-card.google-ov::before { background: linear-gradient(90deg, var(--google), var(--g-green)); }
     .ov-card.meta-ov::before   { background: linear-gradient(90deg, var(--meta), #5b9af7); }
-    .ov-card.cpl-ov::before    { background: linear-gradient(90deg, var(--green), #16a34a); }
     .ov-card .ov-label {
       font-size: 11px; color: var(--muted); font-weight: 600;
       letter-spacing: 1px; text-transform: uppercase; margin-bottom: 10px;
@@ -123,12 +122,10 @@
     .ov-card.combined  .ov-icon-wrap { background: rgba(245,184,0,0.12); border: 1px solid rgba(245,184,0,0.25); }
     .ov-card.google-ov .ov-icon-wrap { background: rgba(66,133,244,0.12); border: 1px solid rgba(66,133,244,0.25); }
     .ov-card.meta-ov   .ov-icon-wrap { background: rgba(24,119,242,0.12); border: 1px solid rgba(24,119,242,0.25); }
-    .ov-card.cpl-ov    .ov-icon-wrap { background: rgba(34,208,122,0.12); border: 1px solid rgba(34,208,122,0.25); }
     .ov-card .ov-value { font-size: 34px; font-weight: 800; letter-spacing: -1px; line-height: 1; }
     .ov-card.combined  .ov-value { color: var(--gold); }
     .ov-card.google-ov .ov-value { color: #7ab3ff; }
     .ov-card.meta-ov   .ov-value { color: #7ab3ff; }
-    .ov-card.cpl-ov    .ov-value { color: var(--green); }
     .ov-card .ov-sub { font-size: 12px; color: var(--muted); margin-top: 8px; }
 
     /* ─── INVESTMENT BAR ─── */
@@ -203,30 +200,6 @@
     .metric-item .m-sub { font-size: 11px; color: var(--muted); margin-top: 3px; }
     .plat-card.google .metric-item .m-value { color: #c5d8ff; }
     .plat-card.meta   .metric-item .m-value { color: #c5d8ff; }
-
-    /* ─── CPA STRIP (custo por conversão dentro do platform card) ─── */
-    .cpa-strip {
-      margin: 0 30px 20px;
-      padding: 14px 20px;
-      border-radius: 14px;
-      display: flex; align-items: center; gap: 16px;
-    }
-    .plat-card.google .cpa-strip { background: rgba(245,184,0,0.07); border: 1px solid rgba(245,184,0,0.2); }
-    .plat-card.meta   .cpa-strip { background: rgba(34,208,122,0.07); border: 1px solid rgba(34,208,122,0.2); }
-    .cpa-strip-icon {
-      width: 38px; height: 38px; border-radius: 10px; flex-shrink: 0;
-      display: flex; align-items: center; justify-content: center;
-    }
-    .plat-card.google .cpa-strip-icon { background: rgba(245,184,0,0.13); border: 1px solid rgba(245,184,0,0.22); }
-    .plat-card.meta   .cpa-strip-icon { background: rgba(34,208,122,0.13); border: 1px solid rgba(34,208,122,0.22); }
-    .cpa-strip-info { flex: 1; }
-    .cpa-strip-label { font-size: 10px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
-    .cpa-strip-sub { font-size: 11px; color: var(--muted); }
-    .cpa-strip-right { text-align: right; flex-shrink: 0; }
-    .cpa-strip-value { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; line-height: 1; }
-    .plat-card.google .cpa-strip-value { color: var(--gold); }
-    .plat-card.meta   .cpa-strip-value { color: var(--green); }
-    .cpa-strip-unit { font-size: 11px; color: var(--muted); margin-top: 2px; font-weight: 500; }
 
     .conv-row { padding: 0 30px 26px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
     .conv-item {
@@ -404,111 +377,6 @@
     .row-paused td { opacity: 0.65; }
     .row-paused:hover td { opacity: 0.85; }
 
-    /* ─── RESULTADO COMERCIAL ─── */
-    .comercial-section {
-      background: linear-gradient(135deg, var(--card) 0%, var(--card2) 100%);
-      border: 1px solid var(--border); border-radius: 24px;
-      overflow: hidden; margin-bottom: 52px;
-    }
-    .com-header {
-      padding: 24px 30px 20px; border-bottom: 1px solid var(--border);
-      background: linear-gradient(90deg, rgba(245,184,0,0.05) 0%, transparent 60%);
-      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
-    }
-    .com-header-title { font-size: 16px; font-weight: 700; color: #fff; }
-    .com-header-sub { font-size: 12px; color: var(--muted); margin-top: 3px; }
-    .com-pending-badge {
-      font-size: 10px; font-weight: 700; padding: 4px 14px; border-radius: 100px;
-      background: rgba(245,184,0,0.1); border: 1px solid rgba(245,184,0,0.25); color: var(--gold);
-    }
-    .com-body { padding: 28px 30px; }
-
-    /* Funil */
-    .funil-steps {
-      display: grid;
-      grid-template-columns: 1fr 24px 1fr 24px 1fr 24px 1fr;
-      align-items: center; gap: 0; margin-bottom: 28px;
-    }
-    .funil-step {
-      background: rgba(255,255,255,0.03); border: 1px solid var(--border);
-      border-radius: 16px; padding: 18px 16px; text-align: center;
-    }
-    .funil-step.fs-active { border-color: rgba(66,133,244,0.35); background: rgba(66,133,244,0.06); }
-    .funil-step.fs-pending { opacity: 0.55; }
-    .funil-step-label { font-size: 9px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
-    .funil-step-value { font-size: 30px; font-weight: 800; letter-spacing: -1px; line-height: 1; }
-    .funil-step.fs-active  .funil-step-value { color: #7ab3ff; }
-    .funil-step.fs-pending .funil-step-value { color: var(--muted); }
-    .funil-step-sub { font-size: 10px; color: var(--muted); margin-top: 5px; }
-    .funil-rate {
-      display: inline-block; margin-top: 6px;
-      font-size: 10px; font-weight: 700; padding: 2px 9px; border-radius: 100px;
-      background: rgba(34,208,122,0.1); border: 1px solid rgba(34,208,122,0.2); color: var(--green);
-    }
-    .funil-rate.fr-pending { background: transparent; border-color: transparent; color: var(--muted); }
-    .funil-arrow { display: flex; align-items: center; justify-content: center; }
-    .funil-arrow svg { opacity: 0.25; }
-
-    /* Cards por tipo de trabalho */
-    .job-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
-    .job-card { border-radius: 16px; padding: 20px 22px; border: 1px solid var(--border); }
-    .job-card.jc-local     { background: rgba(66,133,244,0.06); border-color: rgba(66,133,244,0.25); }
-    .job-card.jc-interstate{ background: rgba(245,184,0,0.06);  border-color: rgba(245,184,0,0.25); }
-    .job-card.jc-storage   { background: rgba(167,139,250,0.06);border-color: rgba(167,139,250,0.25);}
-    .job-card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
-    .job-card-icon {
-      width: 36px; height: 36px; border-radius: 10px; flex-shrink: 0;
-      display: flex; align-items: center; justify-content: center;
-    }
-    .jc-local     .job-card-icon { background: rgba(66,133,244,0.15); }
-    .jc-interstate.job-card-icon { background: rgba(245,184,0,0.15); }
-    .jc-storage   .job-card-icon { background: rgba(167,139,250,0.15); }
-    .job-card-type { font-size: 13px; font-weight: 700; }
-    .jc-local     .job-card-type { color: #7ab3ff; }
-    .jc-interstate .job-card-type{ color: var(--gold); }
-    .jc-storage   .job-card-type { color: #a78bfa; }
-    .job-card-desc { font-size: 11px; color: var(--muted); }
-    .job-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-    .job-metric { background: rgba(0,0,0,0.2); border-radius: 10px; padding: 10px 13px; }
-    .jm-label { font-size: 9px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
-    .jm-value { font-size: 20px; font-weight: 800; color: var(--muted); }
-    .jm-cost { font-size: 17px; font-weight: 800; }
-    .jc-local      .jm-cost { color: #7ab3ff; }
-    .jc-interstate .jm-cost { color: var(--gold); }
-    .jc-storage    .jm-cost { color: #a78bfa; }
-
-    /* Pipeline status + motivos de perda */
-    .pipeline-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-    .pipeline-box {
-      background: rgba(0,0,0,0.2); border: 1px solid var(--border);
-      border-radius: 16px; padding: 20px 22px;
-    }
-    .pipeline-box-title { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 16px; }
-    .status-list { display: flex; flex-direction: column; gap: 12px; }
-    .status-item { display: flex; align-items: center; gap: 10px; }
-    .status-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-    .status-label { font-size: 12px; color: var(--text); flex: 1; }
-    .status-count { font-size: 13px; font-weight: 700; color: var(--muted); min-width: 28px; text-align: right; }
-    .status-bar-wrap { height: 3px; background: rgba(255,255,255,0.05); border-radius: 100px; margin-top: 3px; }
-    .status-bar-fill { height: 100%; border-radius: 100px; transition: width 0.6s ease; }
-    .loss-list { display: flex; flex-direction: column; gap: 11px; }
-    .loss-item { display: flex; align-items: center; gap: 10px; }
-    .loss-label { font-size: 12px; color: var(--text); flex: 1; }
-    .loss-count { font-size: 12px; font-weight: 700; color: var(--muted); min-width: 24px; text-align: right; }
-    .data-note {
-      display: flex; align-items: flex-start; gap: 9px; margin-top: 22px;
-      padding: 12px 16px; border-radius: 12px;
-      background: rgba(245,184,0,0.05); border: 1px solid rgba(245,184,0,0.15);
-      font-size: 11px; color: var(--muted); line-height: 1.6;
-    }
-    .data-note strong { color: var(--gold); }
-    @media (max-width: 900px) {
-      .funil-steps { grid-template-columns: 1fr; gap: 8px; }
-      .funil-arrow { transform: rotate(90deg); }
-      .job-grid { grid-template-columns: 1fr; }
-      .pipeline-row { grid-template-columns: 1fr; }
-    }
-
     /* ─── UTM SECTION ─── */
     .utm-section {
       background: linear-gradient(135deg, var(--card) 0%, var(--card2) 100%);
@@ -670,9 +538,7 @@
       .header-meta { align-items: flex-start; }
       .brand-text h1 { font-size: 22px; }
       .page { padding: 24px 16px 40px; }
-      .overview-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 28px; }
-      .cpa-strip { margin: 0 20px 16px; }
-      .cpa-strip-value { font-size: 22px; }
+      .overview-grid { grid-template-columns: 1fr; gap: 14px; margin-bottom: 28px; }
       .ov-card .ov-value { font-size: 28px; }
       .invest-bar-section { padding: 20px 18px; margin-bottom: 32px; }
       .invest-legend { flex-direction: column; gap: 10px; }
@@ -707,7 +573,6 @@
       .brand-text h1 { font-size: 19px; }
       .period-badge { font-size: 11px; padding: 5px 13px; }
       .page { padding: 18px 12px 36px; }
-      .overview-grid { grid-template-columns: 1fr; }
       .ov-card { padding: 20px; }
       .ov-card .ov-value { font-size: 24px; }
       .plat-logo { width: 40px; height: 40px; }
@@ -788,18 +653,6 @@
       <div class="ov-value">222</div>
       <div class="ov-sub">Google: 154 &nbsp;&middot;&nbsp; Meta: 68</div>
     </div>
-
-    <div class="ov-card cpl-ov">
-      <div class="ov-icon-wrap">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-          <circle cx="12" cy="12" r="9" stroke="#22d07a" stroke-width="2"/>
-          <path d="M12 7v1.5M12 15.5V17M9.5 10.5a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5" stroke="#22d07a" stroke-width="1.8" stroke-linecap="round"/>
-        </svg>
-      </div>
-      <div class="ov-label">CPL Geral — Ambas as Plataformas</div>
-      <div class="ov-value">A$52,50</div>
-      <div class="ov-sub">222 conversões &middot; Google + Meta &middot; AUD</div>
-    </div>
   </div>
 
   <!-- BARRA DE INVESTIMENTO -->
@@ -863,23 +716,6 @@
         <div class="metric-item">
           <div class="m-label">Conversões Totais</div>
           <div class="m-value" style="color:var(--green)">154</div>
-        </div>
-      </div>
-
-      <div class="cpa-strip">
-        <div class="cpa-strip-icon">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-            <circle cx="12" cy="12" r="9" stroke="#f5b800" stroke-width="2"/>
-            <path d="M12 7v1.5M12 15.5V17M9.5 10.5a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5" stroke="#f5b800" stroke-width="1.8" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <div class="cpa-strip-info">
-          <div class="cpa-strip-label">Custo por Conversão</div>
-          <div class="cpa-strip-sub">154 conversões geradas em abril 2026</div>
-        </div>
-        <div class="cpa-strip-right">
-          <div class="cpa-strip-value">A$64,66</div>
-          <div class="cpa-strip-unit">por conversão</div>
         </div>
       </div>
 
@@ -948,23 +784,6 @@
         <div class="metric-item">
           <div class="m-label">Conversões Totais</div>
           <div class="m-value" style="color:var(--green)">68</div>
-        </div>
-      </div>
-
-      <div class="cpa-strip">
-        <div class="cpa-strip-icon">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-            <circle cx="12" cy="12" r="9" stroke="#22d07a" stroke-width="2"/>
-            <path d="M12 7v1.5M12 15.5V17M9.5 10.5a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5" stroke="#22d07a" stroke-width="1.8" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <div class="cpa-strip-info">
-          <div class="cpa-strip-label">Custo por Conversão</div>
-          <div class="cpa-strip-sub">68 conversões geradas em abril 2026</div>
-        </div>
-        <div class="cpa-strip-right">
-          <div class="cpa-strip-value">A$24,95</div>
-          <div class="cpa-strip-unit">por conversão</div>
         </div>
       </div>
 
@@ -1550,225 +1369,6 @@
           </tr>
         </tfoot>
       </table>
-    </div>
-  </div>
-
-  <!-- ══════════════════════ RESULTADO COMERCIAL ══════════════════════ -->
-  <div class="section-title">Resultado Comercial</div>
-  <div class="comercial-section">
-
-    <div class="com-header">
-      <div>
-        <div class="com-header-title">Funil de Conversão Comercial</div>
-        <div class="com-header-sub">Do lead gerado pelo tráfego pago ao trabalho executado &middot; Abril 2026</div>
-      </div>
-      <div class="com-pending-badge">Aguarda dados da equipe Vaz</div>
-    </div>
-
-    <div class="com-body">
-
-      <!-- ── Funil ── -->
-      <div class="funil-steps">
-        <div class="funil-step fs-active">
-          <div class="funil-step-label">Leads Gerados</div>
-          <div class="funil-step-value">222</div>
-          <div class="funil-step-sub">Forms + Ligações</div>
-        </div>
-        <div class="funil-arrow">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="#6b7fa3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="funil-step fs-pending">
-          <div class="funil-step-label">Respondidos</div>
-          <div class="funil-step-value">—</div>
-          <div class="funil-rate fr-pending">—%</div>
-        </div>
-        <div class="funil-arrow">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="#6b7fa3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="funil-step fs-pending">
-          <div class="funil-step-label">Orçamentos Enviados</div>
-          <div class="funil-step-value">—</div>
-          <div class="funil-rate fr-pending">—%</div>
-        </div>
-        <div class="funil-arrow">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="#6b7fa3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="funil-step fs-pending">
-          <div class="funil-step-label">Fechamentos</div>
-          <div class="funil-step-value">—</div>
-          <div class="funil-rate fr-pending">—% conv.</div>
-        </div>
-      </div>
-
-      <!-- ── Custo por Tipo de Trabalho ── -->
-      <div class="job-grid">
-
-        <div class="job-card jc-local">
-          <div class="job-card-top">
-            <div class="job-card-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke="#4285F4" stroke-width="2" stroke-linejoin="round"/>
-                <polyline points="9 22 9 12 15 12 15 22" stroke="#4285F4" stroke-width="2" stroke-linejoin="round"/>
-              </svg>
-            </div>
-            <div>
-              <div class="job-card-type">Local Move</div>
-              <div class="job-card-desc">Mudanças dentro de Brisbane</div>
-            </div>
-          </div>
-          <div class="job-metrics">
-            <div class="job-metric">
-              <div class="jm-label">Trabalhos</div>
-              <div class="jm-value">—</div>
-            </div>
-            <div class="job-metric">
-              <div class="jm-label">Custo / Job</div>
-              <div class="jm-cost">A$—</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="job-card jc-interstate">
-          <div class="job-card-top">
-            <div class="job-card-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                <rect x="1" y="3" width="15" height="13" rx="2" stroke="#f5b800" stroke-width="2"/>
-                <path d="M16 8h4l3 4v5h-7V8z" stroke="#f5b800" stroke-width="2" stroke-linejoin="round"/>
-                <circle cx="5.5" cy="18.5" r="2.5" stroke="#f5b800" stroke-width="2"/>
-                <circle cx="18.5" cy="18.5" r="2.5" stroke="#f5b800" stroke-width="2"/>
-              </svg>
-            </div>
-            <div>
-              <div class="job-card-type">Interstate</div>
-              <div class="job-card-desc">Mudanças interestaduais</div>
-            </div>
-          </div>
-          <div class="job-metrics">
-            <div class="job-metric">
-              <div class="jm-label">Trabalhos</div>
-              <div class="jm-value">—</div>
-            </div>
-            <div class="job-metric">
-              <div class="jm-label">Custo / Job</div>
-              <div class="jm-cost">A$—</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="job-card jc-storage">
-          <div class="job-card-top">
-            <div class="job-card-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke="#a78bfa" stroke-width="2" stroke-linejoin="round"/>
-                <polyline points="3.27 6.96 12 12.01 20.73 6.96" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
-                <line x1="12" y1="22.08" x2="12" y2="12" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
-              </svg>
-            </div>
-            <div>
-              <div class="job-card-type">Storage</div>
-              <div class="job-card-desc">Armazenamento contratado</div>
-            </div>
-          </div>
-          <div class="job-metrics">
-            <div class="job-metric">
-              <div class="jm-label">Contratos</div>
-              <div class="jm-value">—</div>
-            </div>
-            <div class="job-metric">
-              <div class="jm-label">Custo / Contrato</div>
-              <div class="jm-cost">A$—</div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- ── Pipeline Status + Motivos de Perda ── -->
-      <div class="pipeline-row">
-
-        <div class="pipeline-box">
-          <div class="pipeline-box-title">Status do Pipeline — Abril</div>
-          <div class="status-list">
-            <div>
-              <div class="status-item">
-                <div class="status-dot" style="background:#22d07a"></div>
-                <div class="status-label">Fechados</div>
-                <div class="status-count">—</div>
-              </div>
-              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#22d07a;width:0%"></div></div>
-            </div>
-            <div>
-              <div class="status-item">
-                <div class="status-dot" style="background:#4285F4"></div>
-                <div class="status-label">Orçamento Enviado</div>
-                <div class="status-count">—</div>
-              </div>
-              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#4285F4;width:0%"></div></div>
-            </div>
-            <div>
-              <div class="status-item">
-                <div class="status-dot" style="background:#f5b800"></div>
-                <div class="status-label">Em Negociação / Shadow</div>
-                <div class="status-count">—</div>
-              </div>
-              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#f5b800;width:0%"></div></div>
-            </div>
-            <div>
-              <div class="status-item">
-                <div class="status-dot" style="background:#EA4335"></div>
-                <div class="status-label">Perdidos</div>
-                <div class="status-count">—</div>
-              </div>
-              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#EA4335;width:0%"></div></div>
-            </div>
-            <div>
-              <div class="status-item">
-                <div class="status-dot" style="background:#6b7fa3"></div>
-                <div class="status-label">Sem Resposta</div>
-                <div class="status-count">—</div>
-              </div>
-              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#6b7fa3;width:0%"></div></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pipeline-box">
-          <div class="pipeline-box-title">Motivos de Perda</div>
-          <div class="loss-list">
-            <div class="loss-item">
-              <div class="loss-label">Preço acima do esperado</div>
-              <div class="loss-count">—</div>
-            </div>
-            <div class="loss-item">
-              <div class="loss-label">Data / timing incompatível</div>
-              <div class="loss-count">—</div>
-            </div>
-            <div class="loss-item">
-              <div class="loss-label">Escolheu concorrente</div>
-              <div class="loss-count">—</div>
-            </div>
-            <div class="loss-item">
-              <div class="loss-label">Lead não qualificado</div>
-              <div class="loss-count">—</div>
-            </div>
-            <div class="loss-item">
-              <div class="loss-label">Sem retorno após contato</div>
-              <div class="loss-count">—</div>
-            </div>
-            <div class="loss-item">
-              <div class="loss-label">Outros / Não identificado</div>
-              <div class="loss-count">—</div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="data-note">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;margin-top:1px"><circle cx="12" cy="12" r="9" stroke="#f5b800" stroke-width="2"/><path d="M12 8v4M12 16h.01" stroke="#f5b800" stroke-width="2" stroke-linecap="round"/></svg>
-        Seção aguardando dados comerciais reportados pela equipe Vaz Power &mdash; alimentar mensalmente com <strong>fechamentos por tipo, status do pipeline e motivos de perda</strong>. O custo por job é calculado automaticamente quando os fechamentos forem informados.
-      </div>
-
     </div>
   </div>
 
