@@ -1,0 +1,1936 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaz Power | Dashboard de Performance | Abril 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #07091a;
+      --bg2:      #0d1225;
+      --card:     #0f1730;
+      --card2:    #131d35;
+      --border:   rgba(255,255,255,0.07);
+      --border-g: rgba(66,133,244,0.35);
+      --border-m: rgba(24,119,242,0.35);
+      --text:     #f0f4ff;
+      --muted:    #6b7fa3;
+      --google:   #4285F4;
+      --g-green:  #34A853;
+      --g-yellow: #FBBC05;
+      --g-red:    #EA4335;
+      --meta:     #1877F2;
+      --gold:     #f5b800;
+      --glow-g:   rgba(66,133,244,0.18);
+      --glow-m:   rgba(24,119,242,0.18);
+      --green:    #22d07a;
+      --amber:    #f5b800;
+      --purple:   #a78bfa;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ─── HEADER ─── */
+    .header {
+      background: linear-gradient(135deg, #07091a 0%, #0b122a 60%, #07091a 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 36px 48px 32px;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      content: '';
+      position: absolute; top: -80px; right: -60px;
+      width: 380px; height: 380px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(245,184,0,0.07) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .header::after {
+      content: '';
+      position: absolute; bottom: -100px; left: 30%;
+      width: 500px; height: 280px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(66,133,244,0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .header-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 20px; position: relative; z-index: 1;
+    }
+    .brand { display: flex; align-items: center; gap: 16px; }
+    .brand-icon {
+      width: 56px; height: 56px;
+      background: linear-gradient(135deg, #f5b800, #e89e00);
+      border-radius: 14px; display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 0 30px rgba(245,184,0,0.4);
+    }
+    .brand-icon svg { width: 30px; height: 30px; }
+    .brand-text h1 { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; color: #fff; }
+    .brand-text h1 span { color: var(--gold); }
+    .brand-text p { font-size: 13px; color: var(--muted); font-weight: 400; margin-top: 2px; }
+    .header-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+    .period-badge {
+      background: rgba(245,184,0,0.12);
+      border: 1px solid rgba(245,184,0,0.3);
+      color: var(--gold); padding: 6px 16px; border-radius: 100px;
+      font-size: 12px; font-weight: 600; letter-spacing: 0.5px;
+    }
+    .generated { font-size: 11px; color: var(--muted); }
+
+    /* ─── LAYOUT ─── */
+    .page { max-width: 1320px; margin: 0 auto; padding: 40px 32px 64px; }
+
+    .section-title {
+      font-size: 11px; font-weight: 700; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--muted);
+      margin-bottom: 20px; display: flex; align-items: center; gap: 10px;
+    }
+    .section-title::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+    /* ─── OVERVIEW CARDS ─── */
+    .overview-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 44px; }
+    .ov-card {
+      background: linear-gradient(135deg, var(--card) 0%, var(--card2) 100%);
+      border: 1px solid var(--border); border-radius: 20px; padding: 28px;
+      position: relative; overflow: hidden;
+    }
+    .ov-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0;
+      height: 3px; border-radius: 20px 20px 0 0;
+    }
+    .ov-card.combined::before  { background: linear-gradient(90deg, var(--gold), #e89e00); }
+    .ov-card.google-ov::before { background: linear-gradient(90deg, var(--google), var(--g-green)); }
+    .ov-card.meta-ov::before   { background: linear-gradient(90deg, var(--meta), #5b9af7); }
+    .ov-card.cpl-ov::before    { background: linear-gradient(90deg, var(--green), #16a34a); }
+    .ov-card .ov-label {
+      font-size: 11px; color: var(--muted); font-weight: 600;
+      letter-spacing: 1px; text-transform: uppercase; margin-bottom: 10px;
+    }
+    .ov-card .ov-icon-wrap {
+      width: 36px; height: 36px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 14px; flex-shrink: 0;
+    }
+    .ov-card.combined  .ov-icon-wrap { background: rgba(245,184,0,0.12); border: 1px solid rgba(245,184,0,0.25); }
+    .ov-card.google-ov .ov-icon-wrap { background: rgba(66,133,244,0.12); border: 1px solid rgba(66,133,244,0.25); }
+    .ov-card.meta-ov   .ov-icon-wrap { background: rgba(24,119,242,0.12); border: 1px solid rgba(24,119,242,0.25); }
+    .ov-card.cpl-ov    .ov-icon-wrap { background: rgba(34,208,122,0.12); border: 1px solid rgba(34,208,122,0.25); }
+    .ov-card .ov-value { font-size: 34px; font-weight: 800; letter-spacing: -1px; line-height: 1; }
+    .ov-card.combined  .ov-value { color: var(--gold); }
+    .ov-card.google-ov .ov-value { color: #7ab3ff; }
+    .ov-card.meta-ov   .ov-value { color: #7ab3ff; }
+    .ov-card.cpl-ov    .ov-value { color: var(--green); }
+    .ov-card .ov-sub { font-size: 12px; color: var(--muted); margin-top: 8px; }
+
+    /* ─── INVESTMENT BAR ─── */
+    .invest-bar-section {
+      background: linear-gradient(135deg, var(--card) 0%, var(--card2) 100%);
+      border: 1px solid var(--border); border-radius: 20px;
+      padding: 28px 32px; margin-bottom: 48px;
+    }
+    .invest-bar-section .bar-title {
+      font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 18px;
+    }
+    .invest-bar {
+      width: 100%; height: 14px; border-radius: 100px;
+      overflow: hidden; background: rgba(255,255,255,0.05); display: flex;
+    }
+    .bar-g {
+      height: 100%; background: linear-gradient(90deg, #4285F4, #34A853);
+      border-radius: 100px 0 0 100px;
+    }
+    .bar-m {
+      height: 100%; background: linear-gradient(90deg, #1877F2, #5b9af7);
+      border-radius: 0 100px 100px 0;
+    }
+    .invest-legend { display: flex; gap: 28px; margin-top: 14px; flex-wrap: wrap; }
+    .legend-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); }
+    .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+    .legend-dot.g { background: #4285F4; }
+    .legend-dot.m { background: #1877F2; }
+
+    /* ─── PLATFORM CARDS ─── */
+    .platforms-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 48px; }
+    .plat-card {
+      background: linear-gradient(140deg, var(--card) 0%, var(--card2) 100%);
+      border-radius: 24px; overflow: hidden; border: 1px solid var(--border);
+    }
+    .plat-card.google { border-color: var(--border-g); }
+    .plat-card.meta   { border-color: var(--border-m); }
+
+    .plat-header {
+      padding: 28px 30px 22px; display: flex; align-items: center; gap: 16px;
+      border-bottom: 1px solid var(--border); position: relative; overflow: hidden;
+    }
+    .plat-card.google .plat-header { background: linear-gradient(135deg, rgba(66,133,244,0.12) 0%, transparent 80%); }
+    .plat-card.meta   .plat-header { background: linear-gradient(135deg, rgba(24,119,242,0.12) 0%, transparent 80%); }
+
+    .plat-logo {
+      width: 52px; height: 52px; border-radius: 14px;
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .plat-card.google .plat-logo { background: rgba(66,133,244,0.15); border: 1px solid rgba(66,133,244,0.3); }
+    .plat-card.meta   .plat-logo { background: rgba(24,119,242,0.15); border: 1px solid rgba(24,119,242,0.3); }
+
+    .plat-name { font-size: 20px; font-weight: 700; }
+    .plat-card.google .plat-name { color: #7ab3ff; }
+    .plat-card.meta   .plat-name { color: #7ab3ff; }
+    .plat-sub { font-size: 12px; color: var(--muted); margin-top: 3px; }
+
+    .plat-invest { margin-left: auto; text-align: right; }
+    .plat-invest .invest-label { font-size: 10px; color: var(--muted); font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
+    .plat-invest .invest-value { font-size: 24px; font-weight: 800; letter-spacing: -0.5px; margin-top: 2px; }
+    .plat-card.google .invest-value { color: var(--gold); }
+    .plat-card.meta   .invest-value { color: var(--gold); }
+    .plat-invest .invest-currency { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+    .plat-metrics { padding: 24px 30px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .metric-item {
+      background: rgba(255,255,255,0.03); border: 1px solid var(--border);
+      border-radius: 14px; padding: 16px 18px;
+    }
+    .metric-item .m-label { font-size: 10px; color: var(--muted); font-weight: 600; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; }
+    .metric-item .m-value { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
+    .metric-item .m-sub { font-size: 11px; color: var(--muted); margin-top: 3px; }
+    .plat-card.google .metric-item .m-value { color: #c5d8ff; }
+    .plat-card.meta   .metric-item .m-value { color: #c5d8ff; }
+
+    /* ─── CPA STRIP (custo por conversão dentro do platform card) ─── */
+    .cpa-strip {
+      margin: 0 30px 20px;
+      padding: 14px 20px;
+      border-radius: 14px;
+      display: flex; align-items: center; gap: 16px;
+    }
+    .plat-card.google .cpa-strip { background: rgba(245,184,0,0.07); border: 1px solid rgba(245,184,0,0.2); }
+    .plat-card.meta   .cpa-strip { background: rgba(34,208,122,0.07); border: 1px solid rgba(34,208,122,0.2); }
+    .cpa-strip-icon {
+      width: 38px; height: 38px; border-radius: 10px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .plat-card.google .cpa-strip-icon { background: rgba(245,184,0,0.13); border: 1px solid rgba(245,184,0,0.22); }
+    .plat-card.meta   .cpa-strip-icon { background: rgba(34,208,122,0.13); border: 1px solid rgba(34,208,122,0.22); }
+    .cpa-strip-info { flex: 1; }
+    .cpa-strip-label { font-size: 10px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+    .cpa-strip-sub { font-size: 11px; color: var(--muted); }
+    .cpa-strip-right { text-align: right; flex-shrink: 0; }
+    .cpa-strip-value { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; line-height: 1; }
+    .plat-card.google .cpa-strip-value { color: var(--gold); }
+    .plat-card.meta   .cpa-strip-value { color: var(--green); }
+    .cpa-strip-unit { font-size: 11px; color: var(--muted); margin-top: 2px; font-weight: 500; }
+
+    .conv-row { padding: 0 30px 26px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .conv-item {
+      border-radius: 12px; padding: 14px 18px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .conv-item.forms { background: rgba(34,208,122,0.08); border: 1px solid rgba(34,208,122,0.2); }
+    .conv-item.calls { background: rgba(251,188,5,0.08);  border: 1px solid rgba(251,188,5,0.2); }
+    .conv-svg { flex-shrink: 0; }
+    .conv-text .c-label { font-size: 10px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
+    .conv-item.forms .c-label { color: var(--green); }
+    .conv-item.calls .c-label { color: var(--g-yellow); }
+    .conv-text .c-value { font-size: 20px; font-weight: 800; line-height: 1.1; }
+    .conv-item.forms .c-value { color: var(--green); }
+    .conv-item.calls .c-value { color: var(--g-yellow); }
+    .conv-text .c-cost {
+      font-size: 11px; font-weight: 700; margin-top: 4px;
+      padding: 2px 7px; border-radius: 6px; width: fit-content;
+    }
+    .conv-item.forms .c-cost { color: var(--green); background: rgba(34,208,122,0.1); }
+    .conv-item.calls .c-cost { color: var(--g-yellow); background: rgba(251,188,5,0.1); }
+
+    /* ─── SPOTLIGHT / DESTAQUE ─── */
+    .spotlight-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 52px; }
+    .spotlight-card { border-radius: 24px; padding: 0; overflow: hidden; position: relative; }
+    .spotlight-card.sg {
+      background: linear-gradient(140deg, #0a1428 0%, #0d1a36 100%);
+      border: 1.5px solid rgba(66,133,244,0.45);
+      box-shadow: 0 0 60px rgba(66,133,244,0.12), 0 0 0 1px rgba(66,133,244,0.08);
+    }
+    .spotlight-card.sm {
+      background: linear-gradient(140deg, #090f28 0%, #0b1530 100%);
+      border: 1.5px solid rgba(24,119,242,0.45);
+      box-shadow: 0 0 60px rgba(24,119,242,0.12), 0 0 0 1px rgba(24,119,242,0.08);
+    }
+    .sp-ribbon {
+      width: 100%; padding: 10px 24px; display: flex; align-items: center; gap: 10px;
+      font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+    }
+    .spotlight-card.sg .sp-ribbon { background: linear-gradient(90deg,rgba(66,133,244,0.25),rgba(52,168,83,0.15)); color: #a8c8ff; border-bottom: 1px solid rgba(66,133,244,0.2); }
+    .spotlight-card.sm .sp-ribbon { background: linear-gradient(90deg,rgba(24,119,242,0.25),rgba(91,154,247,0.15)); color: #a8c8ff; border-bottom: 1px solid rgba(24,119,242,0.2); }
+
+    .sp-medal {
+      width: 22px; height: 22px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: 900;
+    }
+    .spotlight-card.sg .sp-medal { background: linear-gradient(135deg,#FBBC05,#e89e00); color: #07091a; }
+    .spotlight-card.sm .sp-medal { background: linear-gradient(135deg,#FBBC05,#e89e00); color: #07091a; }
+
+    .sp-body { padding: 26px 28px 28px; }
+    .sp-top { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 22px; }
+    .sp-plat-logo {
+      width: 44px; height: 44px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .spotlight-card.sg .sp-plat-logo { background: rgba(66,133,244,0.15); border: 1px solid rgba(66,133,244,0.3); }
+    .spotlight-card.sm .sp-plat-logo { background: rgba(24,119,242,0.15); border: 1px solid rgba(24,119,242,0.3); }
+
+    .sp-title-wrap { flex: 1; }
+    .sp-platform { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 4px; }
+    .spotlight-card.sg .sp-platform { color: #7ab3ff; }
+    .spotlight-card.sm .sp-platform { color: #7ab3ff; }
+    .sp-camp-name { font-size: 18px; font-weight: 800; color: #fff; letter-spacing: -0.3px; line-height: 1.25; }
+    .sp-camp-sub { font-size: 11px; color: var(--muted); margin-top: 5px; }
+
+    .sp-cpa-box { margin-left: auto; text-align: right; flex-shrink: 0; }
+    .sp-cpa-box .cpa-label { font-size: 9px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
+    .sp-cpa-box .cpa-val { font-size: 26px; font-weight: 900; letter-spacing: -1px; line-height: 1; margin-top: 3px; }
+    .spotlight-card.sg .cpa-val { color: var(--gold); }
+    .spotlight-card.sm .cpa-val { color: var(--gold); }
+    .sp-cpa-box .cpa-sub { font-size: 10px; color: var(--muted); margin-top: 2px; }
+
+    .sp-metrics { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; margin-bottom: 18px; }
+    .sp-metric {
+      background: rgba(255,255,255,0.04); border-radius: 12px;
+      padding: 13px 14px; border: 1px solid var(--border);
+    }
+    .sp-metric .sm-label { font-size: 9px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); margin-bottom: 5px; }
+    .sp-metric .sm-val { font-size: 20px; font-weight: 800; color: #e8edff; letter-spacing: -0.5px; }
+
+    .sp-share-bar { background: rgba(255,255,255,0.05); border-radius: 100px; height: 6px; overflow: hidden; margin-top: 6px; }
+    .sp-share-fill { height: 100%; border-radius: 100px; }
+    .spotlight-card.sg .sp-share-fill { background: linear-gradient(90deg,#4285F4,#34A853); }
+    .spotlight-card.sm .sp-share-fill { background: linear-gradient(90deg,#1877F2,#5b9af7); }
+    .sp-share-label { display: flex; justify-content: space-between; font-size: 10px; color: var(--muted); margin-top: 6px; }
+    .sp-share-label strong { color: var(--green); font-size: 11px; }
+
+    .sp-conv-pills { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+    .sp-pill {
+      display: flex; align-items: center; gap: 6px;
+      padding: 5px 12px; border-radius: 100px; font-size: 12px; font-weight: 700;
+    }
+    .sp-pill.forms { background: rgba(34,208,122,0.12); border: 1px solid rgba(34,208,122,0.25); color: var(--green); }
+    .sp-pill.calls { background: rgba(251,188,5,0.12);  border: 1px solid rgba(251,188,5,0.25);  color: var(--gold); }
+
+    /* ─── TABLES ─── */
+    .table-section { margin-bottom: 52px; }
+    .table-header { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
+    .table-platform-badge {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 18px; border-radius: 12px; font-size: 14px; font-weight: 700;
+    }
+    .table-platform-badge.google { background: rgba(66,133,244,0.12); border: 1px solid rgba(66,133,244,0.3); color: #7ab3ff; }
+    .table-platform-badge.meta   { background: rgba(24,119,242,0.12); border: 1px solid rgba(24,119,242,0.3); color: #7ab3ff; }
+    .table-note { font-size: 12px; color: var(--muted); margin-left: auto; }
+
+    .table-wrap { border-radius: 18px; overflow: hidden; overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    thead th {
+      background: rgba(255,255,255,0.04); padding: 14px 18px;
+      text-align: left; font-size: 10px; font-weight: 700;
+      letter-spacing: 1px; text-transform: uppercase; color: var(--muted); white-space: nowrap;
+    }
+    thead th:not(:first-child) { text-align: right; }
+    tbody tr { border-top: 1px solid var(--border); transition: background 0.15s; }
+    tbody tr:hover { background: rgba(255,255,255,0.025); }
+    tbody td { padding: 15px 18px; color: var(--text); vertical-align: middle; }
+    tbody td:not(:first-child) { text-align: right; }
+
+    .camp-name { display: flex; flex-direction: column; gap: 3px; }
+    .camp-name .cn-main { font-weight: 600; font-size: 13px; color: #e8edff; }
+    .camp-name .cn-tag  { font-size: 10px; color: var(--muted); font-weight: 500; }
+
+    .badge-type { display: inline-block; padding: 2px 8px; border-radius: 100px; font-size: 10px; font-weight: 600; }
+    .badge-search { background: rgba(66,133,244,0.15); color: #7ab3ff; }
+    .badge-leads  { background: rgba(34,208,122,0.12); color: #22d07a; }
+    .badge-calls  { background: rgba(251,188,5,0.12);  color: #f5b800; }
+    .badge-rmkt   { background: rgba(167,139,250,0.12);color: #a78bfa; }
+    .badge-brand  { background: rgba(234,67,53,0.12);  color: #f77; }
+    .badge-star   {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 2px 8px; border-radius: 100px; font-size: 10px; font-weight: 700;
+      background: rgba(245,184,0,0.14); color: var(--gold); border: 1px solid rgba(245,184,0,0.25);
+    }
+
+    .val-invest { color: var(--gold); font-weight: 700; }
+    .val-conv   { color: var(--green); font-weight: 700; }
+    .val-ctr    { color: #c5d8ff; font-weight: 600; }
+
+    tfoot td {
+      padding: 16px 18px; background: rgba(255,255,255,0.035);
+      font-weight: 700; font-size: 13px; color: #fff; border-top: 1px solid rgba(255,255,255,0.12);
+    }
+    tfoot td:not(:first-child) { text-align: right; }
+    tfoot .total-label { color: var(--muted); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
+
+    .conv-split { font-size: 11px; color: var(--muted); margin-top: 2px; }
+    .conv-split .f { color: var(--green); }
+    .conv-split .c { color: var(--g-yellow); }
+
+    .row-highlight { background: rgba(66,133,244,0.04); }
+    .row-highlight-m { background: rgba(24,119,242,0.03); }
+
+    /* Status badges */
+    .badge-active {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 2px 8px; border-radius: 100px; font-size: 10px; font-weight: 700;
+      background: rgba(34,208,122,0.12); color: #22d07a; border: 1px solid rgba(34,208,122,0.25);
+    }
+    .badge-active::before {
+      content: ''; display: inline-block; width: 5px; height: 5px;
+      border-radius: 50%; background: #22d07a;
+      box-shadow: 0 0 0 2px rgba(34,208,122,0.3);
+    }
+    .badge-paused {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 2px 8px; border-radius: 100px; font-size: 10px; font-weight: 600;
+      background: rgba(107,127,163,0.1); color: #6b7fa3; border: 1px solid rgba(107,127,163,0.2);
+    }
+    .badge-paused::before {
+      content: ''; display: inline-block; width: 5px; height: 5px;
+      border-radius: 50%; background: #6b7fa3;
+    }
+    .row-paused td { opacity: 0.65; }
+    .row-paused:hover td { opacity: 0.85; }
+
+    /* ─── RESULTADO COMERCIAL ─── */
+    .comercial-section {
+      background: linear-gradient(135deg, var(--card) 0%, var(--card2) 100%);
+      border: 1px solid var(--border); border-radius: 24px;
+      overflow: hidden; margin-bottom: 52px;
+    }
+    .com-header {
+      padding: 24px 30px 20px; border-bottom: 1px solid var(--border);
+      background: linear-gradient(90deg, rgba(245,184,0,0.05) 0%, transparent 60%);
+      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+    }
+    .com-header-title { font-size: 16px; font-weight: 700; color: #fff; }
+    .com-header-sub { font-size: 12px; color: var(--muted); margin-top: 3px; }
+    .com-pending-badge {
+      font-size: 10px; font-weight: 700; padding: 4px 14px; border-radius: 100px;
+      background: rgba(245,184,0,0.1); border: 1px solid rgba(245,184,0,0.25); color: var(--gold);
+    }
+    .com-body { padding: 28px 30px; }
+
+    /* Funil */
+    .funil-steps {
+      display: grid;
+      grid-template-columns: 1fr 24px 1fr 24px 1fr 24px 1fr;
+      align-items: center; gap: 0; margin-bottom: 28px;
+    }
+    .funil-step {
+      background: rgba(255,255,255,0.03); border: 1px solid var(--border);
+      border-radius: 16px; padding: 18px 16px; text-align: center;
+    }
+    .funil-step.fs-active { border-color: rgba(66,133,244,0.35); background: rgba(66,133,244,0.06); }
+    .funil-step.fs-pending { opacity: 0.55; }
+    .funil-step-label { font-size: 9px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+    .funil-step-value { font-size: 30px; font-weight: 800; letter-spacing: -1px; line-height: 1; }
+    .funil-step.fs-active  .funil-step-value { color: #7ab3ff; }
+    .funil-step.fs-pending .funil-step-value { color: var(--muted); }
+    .funil-step-sub { font-size: 10px; color: var(--muted); margin-top: 5px; }
+    .funil-rate {
+      display: inline-block; margin-top: 6px;
+      font-size: 10px; font-weight: 700; padding: 2px 9px; border-radius: 100px;
+      background: rgba(34,208,122,0.1); border: 1px solid rgba(34,208,122,0.2); color: var(--green);
+    }
+    .funil-rate.fr-pending { background: transparent; border-color: transparent; color: var(--muted); }
+    .funil-arrow { display: flex; align-items: center; justify-content: center; }
+    .funil-arrow svg { opacity: 0.25; }
+
+    /* Cards por tipo de trabalho */
+    .job-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+    .job-card { border-radius: 16px; padding: 20px 22px; border: 1px solid var(--border); }
+    .job-card.jc-local     { background: rgba(66,133,244,0.06); border-color: rgba(66,133,244,0.25); }
+    .job-card.jc-interstate{ background: rgba(245,184,0,0.06);  border-color: rgba(245,184,0,0.25); }
+    .job-card.jc-storage   { background: rgba(167,139,250,0.06);border-color: rgba(167,139,250,0.25);}
+    .job-card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+    .job-card-icon {
+      width: 36px; height: 36px; border-radius: 10px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .jc-local     .job-card-icon { background: rgba(66,133,244,0.15); }
+    .jc-interstate.job-card-icon { background: rgba(245,184,0,0.15); }
+    .jc-storage   .job-card-icon { background: rgba(167,139,250,0.15); }
+    .job-card-type { font-size: 13px; font-weight: 700; }
+    .jc-local     .job-card-type { color: #7ab3ff; }
+    .jc-interstate .job-card-type{ color: var(--gold); }
+    .jc-storage   .job-card-type { color: #a78bfa; }
+    .job-card-desc { font-size: 11px; color: var(--muted); }
+    .job-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .job-metric { background: rgba(0,0,0,0.2); border-radius: 10px; padding: 10px 13px; }
+    .jm-label { font-size: 9px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+    .jm-value { font-size: 20px; font-weight: 800; color: var(--muted); }
+    .jm-cost { font-size: 17px; font-weight: 800; }
+    .jc-local      .jm-cost { color: #7ab3ff; }
+    .jc-interstate .jm-cost { color: var(--gold); }
+    .jc-storage    .jm-cost { color: #a78bfa; }
+
+    /* Pipeline status + motivos de perda */
+    .pipeline-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .pipeline-box {
+      background: rgba(0,0,0,0.2); border: 1px solid var(--border);
+      border-radius: 16px; padding: 20px 22px;
+    }
+    .pipeline-box-title { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 16px; }
+    .status-list { display: flex; flex-direction: column; gap: 12px; }
+    .status-item { display: flex; align-items: center; gap: 10px; }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .status-label { font-size: 12px; color: var(--text); flex: 1; }
+    .status-count { font-size: 13px; font-weight: 700; color: var(--muted); min-width: 28px; text-align: right; }
+    .status-bar-wrap { height: 3px; background: rgba(255,255,255,0.05); border-radius: 100px; margin-top: 3px; }
+    .status-bar-fill { height: 100%; border-radius: 100px; transition: width 0.6s ease; }
+    .loss-list { display: flex; flex-direction: column; gap: 11px; }
+    .loss-item { display: flex; align-items: center; gap: 10px; }
+    .loss-label { font-size: 12px; color: var(--text); flex: 1; }
+    .loss-count { font-size: 12px; font-weight: 700; color: var(--muted); min-width: 24px; text-align: right; }
+    .data-note {
+      display: flex; align-items: flex-start; gap: 9px; margin-top: 22px;
+      padding: 12px 16px; border-radius: 12px;
+      background: rgba(245,184,0,0.05); border: 1px solid rgba(245,184,0,0.15);
+      font-size: 11px; color: var(--muted); line-height: 1.6;
+    }
+    .data-note strong { color: var(--gold); }
+    @media (max-width: 900px) {
+      .funil-steps { grid-template-columns: 1fr; gap: 8px; }
+      .funil-arrow { transform: rotate(90deg); }
+      .job-grid { grid-template-columns: 1fr; }
+      .pipeline-row { grid-template-columns: 1fr; }
+    }
+
+    /* ─── UTM SECTION ─── */
+    .utm-section {
+      background: linear-gradient(135deg, var(--card) 0%, var(--card2) 100%);
+      border: 1px solid var(--border); border-radius: 24px;
+      overflow: hidden; margin-bottom: 52px;
+    }
+    .utm-section-head {
+      padding: 28px 32px 24px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(90deg, rgba(245,184,0,0.06) 0%, transparent 60%);
+      display: flex; align-items: flex-start; gap: 16px;
+    }
+    .utm-head-icon {
+      width: 48px; height: 48px; border-radius: 12px; flex-shrink: 0;
+      background: rgba(245,184,0,0.12); border: 1px solid rgba(245,184,0,0.25);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .utm-section-title {
+      font-size: 18px; font-weight: 800; color: #fff; letter-spacing: -0.3px;
+    }
+    .utm-section-sub { font-size: 13px; color: var(--muted); margin-top: 5px; line-height: 1.6; }
+
+    .utm-body { padding: 28px 32px; }
+
+    /* URL anatomy */
+    .utm-anatomy {
+      background: rgba(0,0,0,0.25); border: 1px solid var(--border);
+      border-radius: 14px; padding: 20px 24px; margin-bottom: 24px; overflow-x: auto;
+    }
+    .utm-anatomy-label {
+      font-size: 10px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; color: var(--muted); margin-bottom: 12px;
+    }
+    .utm-url-wrap { font-family: 'Courier New', monospace; font-size: 12px; line-height: 2; white-space: nowrap; }
+    .utm-url-base { color: #7ab3ff; }
+    .utm-p-source   { color: #22d07a; }
+    .utm-p-medium   { color: #7ab3ff; }
+    .utm-p-campaign { color: var(--gold); }
+    .utm-p-term     { color: #a78bfa; }
+    .utm-p-content  { color: #f472b6; }
+    .utm-p-auto     { color: var(--muted); }
+    .utm-sep        { color: rgba(255,255,255,0.25); }
+
+    .utm-legend {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px;
+    }
+    .utm-leg-item {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 11px; font-weight: 500;
+    }
+    .utm-leg-dot { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; }
+
+    /* Platform UTM examples */
+    .utm-examples { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+
+    .utm-example {
+      border-radius: 16px; overflow: hidden;
+    }
+    .utm-example.ug { border: 1.5px solid rgba(66,133,244,0.35); }
+    .utm-example.um { border: 1.5px solid rgba(24,119,242,0.35); }
+
+    .utm-ex-head {
+      padding: 14px 18px; display: flex; align-items: center; gap: 12px;
+    }
+    .utm-example.ug .utm-ex-head { background: linear-gradient(90deg, rgba(66,133,244,0.18), rgba(66,133,244,0.06)); }
+    .utm-example.um .utm-ex-head { background: linear-gradient(90deg, rgba(24,119,242,0.18), rgba(24,119,242,0.06)); }
+
+    .utm-ex-logo {
+      width: 34px; height: 34px; border-radius: 9px;
+      background: #fff; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .utm-ex-title { font-size: 14px; font-weight: 800; }
+    .utm-example.ug .utm-ex-title { color: #7ab3ff; }
+    .utm-example.um .utm-ex-title { color: #7ab3ff; }
+    .utm-ex-subtitle { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+    /* Simulated lead card inside UTM example */
+    .lead-card {
+      background: #fff; border-radius: 0 0 14px 14px;
+      padding: 18px; color: #1a1a2e;
+    }
+    .lead-card-header {
+      font-size: 13px; font-weight: 700; color: #1a1a2e;
+      margin-bottom: 12px; padding-bottom: 10px;
+      border-bottom: 1px solid #e5e7eb;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .lead-card-header .lc-badge {
+      font-size: 10px; font-weight: 700; padding: 2px 8px;
+      border-radius: 100px;
+    }
+    .lead-card-header .lc-badge.g { background: #e8f0fe; color: #1a73e8; }
+    .lead-card-header .lc-badge.m { background: #e7f0fd; color: #1877F2; }
+
+    .lead-fields { display: flex; flex-direction: column; gap: 5px; }
+    .lead-field { display: flex; gap: 8px; font-size: 11px; }
+    .lf-key { font-weight: 600; color: #6b7280; min-width: 100px; flex-shrink: 0; }
+    .lf-val { color: #1a1a2e; font-weight: 500; }
+
+    .lead-url-block {
+      margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;
+    }
+    .lead-url-label { font-size: 10px; font-weight: 700; color: #6b7280; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+    .lead-url-text {
+      font-family: 'Courier New', monospace; font-size: 10px;
+      word-break: break-all; line-height: 1.8;
+      background: #f9fafb; border-radius: 8px; padding: 8px 10px;
+      border: 1px solid #e5e7eb;
+    }
+    .lu-base   { color: #6b7280; }
+    .lu-source   { color: #16a34a; font-weight: 700; }
+    .lu-medium   { color: #1d4ed8; font-weight: 700; }
+    .lu-campaign { color: #b45309; font-weight: 700; }
+    .lu-term     { color: #7c3aed; font-weight: 700; }
+    .lu-content  { color: #db2777; font-weight: 700; }
+    .lu-auto     { color: #9ca3af; }
+
+    .utm-param-table { margin-top: 12px; width: 100%; font-size: 10px; border-collapse: collapse; }
+    .utm-param-table td { padding: 4px 0; vertical-align: top; }
+    .utm-param-table td:first-child { font-weight: 700; color: #6b7280; min-width: 80px; font-family: 'Courier New', monospace; font-size: 9px; }
+    .utm-param-table td:nth-child(2) { padding: 4px 8px; font-style: italic; color: #4b5563; }
+    .utm-param-table td:last-child { font-weight: 600; color: #1a1a2e; }
+
+    .utm-note {
+      background: rgba(245,184,0,0.06); border: 1px solid rgba(245,184,0,0.18);
+      border-radius: 12px; padding: 16px 20px; margin-top: 20px;
+    }
+    .utm-note p { font-size: 12px; color: #c5d0e8; line-height: 1.7; }
+    .utm-note strong { color: var(--gold); }
+
+    /* ─── FOOTER ─── */
+    .footer {
+      text-align: center; padding: 32px 20px; border-top: 1px solid var(--border);
+      color: var(--muted); font-size: 12px;
+    }
+    .footer strong { color: var(--gold); }
+
+    /* ─── ANIMATIONS ─── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .ov-card, .plat-card, .invest-bar-section, .table-section, .spotlight-card, .utm-section {
+      animation: fadeUp 0.5s ease both;
+    }
+    .ov-card:nth-child(2)        { animation-delay: 0.08s; }
+    .ov-card:nth-child(3)        { animation-delay: 0.16s; }
+    .plat-card:nth-child(2)      { animation-delay: 0.10s; }
+    .spotlight-card:nth-child(2) { animation-delay: 0.10s; }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 1024px) {
+      .utm-examples { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 900px) {
+      .header { padding: 24px 20px 20px; }
+      .header-inner { flex-direction: column; align-items: flex-start; gap: 14px; }
+      .header-meta { align-items: flex-start; }
+      .brand-text h1 { font-size: 22px; }
+      .page { padding: 24px 16px 40px; }
+      .overview-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 28px; }
+      .cpa-strip { margin: 0 20px 16px; }
+      .cpa-strip-value { font-size: 22px; }
+      .ov-card .ov-value { font-size: 28px; }
+      .invest-bar-section { padding: 20px 18px; margin-bottom: 32px; }
+      .invest-legend { flex-direction: column; gap: 10px; }
+      .platforms-grid { grid-template-columns: 1fr; gap: 18px; margin-bottom: 36px; }
+      .plat-header { flex-wrap: wrap; gap: 12px; padding: 20px 20px 16px; }
+      .plat-invest { margin-left: 0; text-align: left; width: 100%; border-top: 1px solid var(--border); padding-top: 12px; }
+      .plat-invest .invest-value { font-size: 22px; }
+      .plat-metrics { grid-template-columns: 1fr 1fr; padding: 18px 20px; gap: 12px; }
+      .conv-row { padding: 0 20px 20px; gap: 10px; }
+      .spotlight-grid { grid-template-columns: 1fr; gap: 18px; margin-bottom: 36px; }
+      .sp-body { padding: 20px 18px 22px; }
+      .sp-top { flex-wrap: wrap; gap: 12px; }
+      .sp-cpa-box { margin-left: 0; text-align: left; width: 100%; border-top: 1px solid var(--border); padding-top: 12px; }
+      .sp-cpa-box .cpa-val { font-size: 22px; }
+      .sp-metrics { grid-template-columns: repeat(2,1fr); gap: 8px; margin-bottom: 14px; }
+      .sp-metric .sm-val { font-size: 17px; }
+      .table-section { margin-bottom: 36px; }
+      .table-header { flex-wrap: wrap; gap: 8px; }
+      .table-note { margin-left: 0; width: 100%; }
+      .table-wrap { overflow-x: auto; }
+      table { min-width: 820px; font-size: 12px; }
+      thead th, tbody td, tfoot td { padding: 12px 13px; }
+      .utm-section-head { padding: 20px 20px 18px; }
+      .utm-body { padding: 20px; }
+      .utm-url-wrap { font-size: 10px; }
+      .utm-examples { grid-template-columns: 1fr; gap: 14px; }
+    }
+
+    @media (max-width: 540px) {
+      .brand-icon { width: 44px; height: 44px; border-radius: 11px; }
+      .brand-icon svg { width: 22px; height: 22px; }
+      .brand-text h1 { font-size: 19px; }
+      .period-badge { font-size: 11px; padding: 5px 13px; }
+      .page { padding: 18px 12px 36px; }
+      .overview-grid { grid-template-columns: 1fr; }
+      .ov-card { padding: 20px; }
+      .ov-card .ov-value { font-size: 24px; }
+      .plat-logo { width: 40px; height: 40px; }
+      .plat-name { font-size: 17px; }
+      .metric-item .m-value { font-size: 19px; }
+      .sp-metrics { grid-template-columns: repeat(2,1fr); }
+      .sp-metric .sm-val { font-size: 16px; }
+      table { min-width: 580px; font-size: 11px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════ HEADER ══════════════════════ -->
+<header class="header">
+  <div class="header-inner">
+    <div class="brand">
+      <div class="brand-icon">
+        <!-- Lightning / truck icon -->
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="10" width="18" height="13" rx="2.5" fill="#07091a"/>
+          <path d="M20 13h5l4 5v5h-9V13Z" fill="#07091a"/>
+          <circle cx="7" cy="25" r="2.5" fill="#07091a"/>
+          <circle cx="25" cy="25" r="2.5" fill="#07091a"/>
+          <path d="M14 4L9 14h5l-2 7 8-10h-5l3-7z" fill="#07091a"/>
+        </svg>
+      </div>
+      <div class="brand-text">
+        <h1>VAZ <span>POWER</span></h1>
+        <p>Dashboard de Performance Digital</p>
+      </div>
+    </div>
+    <div class="header-meta">
+      <div class="period-badge">01 / 04 / 2026 &nbsp;—&nbsp; 30 / 04 / 2026</div>
+      <div class="generated">Gerado em 02/05/2026 &nbsp;&middot;&nbsp; Período: 30 dias</div>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════════════════ PAGE ══════════════════════ -->
+<div class="page">
+
+  <!-- VISÃO GERAL -->
+  <div class="section-title">Visão Geral Combinada</div>
+  <div class="overview-grid">
+
+    <div class="ov-card combined">
+      <div class="ov-icon-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+          <circle cx="12" cy="12" r="9" stroke="#f5b800" stroke-width="2"/>
+          <path d="M12 7v1.5M12 15.5V17M9.5 10.5a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5" stroke="#f5b800" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="ov-label">Total Investido — Ambas as Plataformas</div>
+      <div class="ov-value">A$11.654,80</div>
+      <div class="ov-sub">Google Ads + Meta Ads &middot; Dólares Australianos</div>
+    </div>
+
+    <div class="ov-card google-ov">
+      <div class="ov-icon-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+          <path d="M1 12s3-7 11-7 11 7 11 7-3 7-11 7-11-7-11-7z" stroke="#4285F4" stroke-width="2"/>
+          <circle cx="12" cy="12" r="3" stroke="#4285F4" stroke-width="2"/>
+        </svg>
+      </div>
+      <div class="ov-label">Total de Impressões</div>
+      <div class="ov-value">145.183</div>
+      <div class="ov-sub">Google: 27.096 &nbsp;&middot;&nbsp; Meta: 118.087</div>
+    </div>
+
+    <div class="ov-card meta-ov">
+      <div class="ov-icon-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+          <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" stroke="#1877F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="ov-label">Total de Conversões</div>
+      <div class="ov-value">222</div>
+      <div class="ov-sub">Google: 154 &nbsp;&middot;&nbsp; Meta: 68</div>
+    </div>
+
+    <div class="ov-card cpl-ov">
+      <div class="ov-icon-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+          <circle cx="12" cy="12" r="9" stroke="#22d07a" stroke-width="2"/>
+          <path d="M12 7v1.5M12 15.5V17M9.5 10.5a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5" stroke="#22d07a" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="ov-label">CPL Geral — Ambas as Plataformas</div>
+      <div class="ov-value">A$52,50</div>
+      <div class="ov-sub">222 conversões &middot; Google + Meta &middot; AUD</div>
+    </div>
+  </div>
+
+  <!-- BARRA DE INVESTIMENTO -->
+  <div class="invest-bar-section">
+    <div class="bar-title">Distribuição do Investimento &nbsp;&middot;&nbsp; A$11.654,80</div>
+    <div class="invest-bar">
+      <div class="bar-g" style="width:85.4%"></div>
+      <div class="bar-m" style="width:14.6%"></div>
+    </div>
+    <div class="invest-legend">
+      <div class="legend-item">
+        <div class="legend-dot g"></div>
+        Google Ads: <strong style="color:#7ab3ff;margin-left:4px">A$9.958,26 &nbsp;(85,4%)</strong>
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot m"></div>
+        Meta Ads: <strong style="color:#7ab3ff;margin-left:4px">A$1.696,54 &nbsp;(14,6%)</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- MÉTRICAS POR PLATAFORMA -->
+  <div class="section-title">Métricas por Plataforma</div>
+  <div class="platforms-grid">
+
+    <!-- GOOGLE ADS -->
+    <div class="plat-card google">
+      <div class="plat-header">
+        <div class="plat-logo">
+          <svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+          </svg>
+        </div>
+        <div>
+          <div class="plat-name">Google Ads</div>
+          <div class="plat-sub">Search · RickMarketingCo</div>
+        </div>
+        <div class="plat-invest">
+          <div class="invest-label">Investimento</div>
+          <div class="invest-value">A$9.958,26</div>
+          <div class="invest-currency">Dólares Australianos</div>
+        </div>
+      </div>
+
+      <div class="plat-metrics">
+        <div class="metric-item">
+          <div class="m-label">Impressões</div>
+          <div class="m-value">27.096</div>
+        </div>
+        <div class="metric-item">
+          <div class="m-label">Cliques</div>
+          <div class="m-value">722</div>
+        </div>
+        <div class="metric-item">
+          <div class="m-label">CTR</div>
+          <div class="m-value">2,66%</div>
+        </div>
+        <div class="metric-item">
+          <div class="m-label">Conversões Totais</div>
+          <div class="m-value" style="color:var(--green)">154</div>
+        </div>
+      </div>
+
+      <div class="cpa-strip">
+        <div class="cpa-strip-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="12" r="9" stroke="#f5b800" stroke-width="2"/>
+            <path d="M12 7v1.5M12 15.5V17M9.5 10.5a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5" stroke="#f5b800" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="cpa-strip-info">
+          <div class="cpa-strip-label">Custo por Conversão</div>
+          <div class="cpa-strip-sub">154 conversões geradas em abril 2026</div>
+        </div>
+        <div class="cpa-strip-right">
+          <div class="cpa-strip-value">A$64,66</div>
+          <div class="cpa-strip-unit">por conversão</div>
+        </div>
+      </div>
+
+      <div class="conv-row">
+        <div class="conv-item forms">
+          <div class="conv-svg">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <rect x="4" y="3" width="16" height="18" rx="2" stroke="#22d07a" stroke-width="1.8"/>
+              <path d="M8 8h8M8 12h8M8 16h5" stroke="#22d07a" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="conv-text">
+            <div class="c-label">Formulários</div>
+            <div class="c-value">126</div>
+            <div class="c-cost">A$79,03 / form</div>
+          </div>
+        </div>
+        <div class="conv-item calls">
+          <div class="conv-svg">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <path d="M5.1 4.4C5.6 7.9 7.1 11.1 9.4 13.7c2.4 2.6 5.4 4.5 8.7 5.5l2.2-2.2c.4-.4.9-.5 1.4-.3 1.5.5 3.1.8 4.8.8.8 0 1.5.7 1.5 1.5v4.5c0 .8-.7 1.5-1.5 1.5C11.3 25 1 14.7 1 2c0-.8.7-1.5 1.5-1.5H7c.8 0 1.5.7 1.5 1.5 0 1.7.3 3.3.8 4.8.1.5 0 1-.3 1.4L5.1 4.4z" stroke="#f5b800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" transform="scale(0.85) translate(1.5,1.5)"/>
+            </svg>
+          </div>
+          <div class="conv-text">
+            <div class="c-label">Ligações</div>
+            <div class="c-value">10</div>
+            <div class="c-cost">A$78,33 / ligação</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- META ADS -->
+    <div class="plat-card meta">
+      <div class="plat-header">
+        <div class="plat-logo">
+          <svg width="30" height="30" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 3C10.611 3 3 10.611 3 20s7.611 17 17 17 17-7.611 17-17S29.389 3 20 3z" fill="#1877F2"/>
+            <path d="M9 20c0-3.037 1.42-5.5 3.5-5.5 1.033 0 1.906.582 2.729 1.666L20 21.75l4.771-5.584C25.594 15.082 26.467 14.5 27.5 14.5c2.08 0 3.5 2.463 3.5 5.5s-1.42 5.5-3.5 5.5c-1.033 0-1.906-.582-2.729-1.666L20 18.25l-4.771 5.584C14.406 24.918 13.533 25.5 12.5 25.5 10.42 25.5 9 23.037 9 20z" fill="white"/>
+          </svg>
+        </div>
+        <div>
+          <div class="plat-name">Meta Ads</div>
+          <div class="plat-sub">Facebook &middot; Instagram &middot; Brisbane</div>
+        </div>
+        <div class="plat-invest">
+          <div class="invest-label">Investimento</div>
+          <div class="invest-value">A$1.696,54</div>
+          <div class="invest-currency">Dólares Australianos</div>
+        </div>
+      </div>
+
+      <div class="plat-metrics">
+        <div class="metric-item">
+          <div class="m-label">Impressões</div>
+          <div class="m-value">118.087</div>
+        </div>
+        <div class="metric-item">
+          <div class="m-label">Cliques no Link</div>
+          <div class="m-value">638</div>
+        </div>
+        <div class="metric-item">
+          <div class="m-label">CTR</div>
+          <div class="m-value">0,54%</div>
+        </div>
+        <div class="metric-item">
+          <div class="m-label">Conversões Totais</div>
+          <div class="m-value" style="color:var(--green)">68</div>
+        </div>
+      </div>
+
+      <div class="cpa-strip">
+        <div class="cpa-strip-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="12" r="9" stroke="#22d07a" stroke-width="2"/>
+            <path d="M12 7v1.5M12 15.5V17M9.5 10.5a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5" stroke="#22d07a" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="cpa-strip-info">
+          <div class="cpa-strip-label">Custo por Conversão</div>
+          <div class="cpa-strip-sub">68 conversões geradas em abril 2026</div>
+        </div>
+        <div class="cpa-strip-right">
+          <div class="cpa-strip-value">A$24,95</div>
+          <div class="cpa-strip-unit">por conversão</div>
+        </div>
+      </div>
+
+      <div class="conv-row">
+        <div class="conv-item forms">
+          <div class="conv-svg">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <rect x="4" y="3" width="16" height="18" rx="2" stroke="#22d07a" stroke-width="1.8"/>
+              <path d="M8 8h8M8 12h8M8 16h5" stroke="#22d07a" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="conv-text">
+            <div class="c-label">Formulários</div>
+            <div class="c-value">52</div>
+            <div class="c-cost">A$20,77 / form</div>
+          </div>
+        </div>
+        <div class="conv-item calls">
+          <div class="conv-svg">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <path d="M5.1 4.4C5.6 7.9 7.1 11.1 9.4 13.7c2.4 2.6 5.4 4.5 8.7 5.5l2.2-2.2c.4-.4.9-.5 1.4-.3 1.5.5 3.1.8 4.8.8.8 0 1.5.7 1.5 1.5v4.5c0 .8-.7 1.5-1.5 1.5C11.3 25 1 14.7 1 2c0-.8.7-1.5 1.5-1.5H7c.8 0 1.5.7 1.5 1.5 0 1.7.3 3.3.8 4.8.1.5 0 1-.3 1.4L5.1 4.4z" stroke="#f5b800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" transform="scale(0.85) translate(1.5,1.5)"/>
+            </svg>
+          </div>
+          <div class="conv-text">
+            <div class="c-label">Ligações</div>
+            <div class="c-value">16</div>
+            <div class="c-cost">A$30,09 / ligação</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════ CAMPANHAS EM DESTAQUE ══════════════════════ -->
+  <div class="section-title">Campanhas em Destaque</div>
+  <div class="spotlight-grid">
+
+    <!-- DESTAQUE GOOGLE -->
+    <div class="spotlight-card sg">
+      <div class="sp-ribbon">
+        <div class="sp-medal">1</div>
+        Melhor Campanha &nbsp;&middot;&nbsp; Google Ads
+      </div>
+      <div class="sp-body">
+        <div class="sp-top">
+          <div class="sp-plat-logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+              <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+              <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+              <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+            </svg>
+          </div>
+          <div class="sp-title-wrap">
+            <div class="sp-platform">Google Ads &middot; Search</div>
+            <div class="sp-camp-name">Core A &mdash; LP Form</div>
+            <div class="sp-camp-sub">Search &middot; Maximizar conversões &middot; CPA desejado &middot; A$400/dia</div>
+          </div>
+          <div class="sp-cpa-box">
+            <div class="cpa-label">Custo por Conversão</div>
+            <div class="cpa-val">A$60,73</div>
+            <div class="cpa-sub">por conversão</div>
+          </div>
+        </div>
+
+        <div class="sp-metrics">
+          <div class="sp-metric">
+            <div class="sm-label">Investido</div>
+            <div class="sm-val" style="color:var(--gold)">A$5.830</div>
+          </div>
+          <div class="sp-metric">
+            <div class="sm-label">Impressões</div>
+            <div class="sm-val">5.044</div>
+          </div>
+          <div class="sp-metric">
+            <div class="sm-label">Cliques</div>
+            <div class="sm-val">319</div>
+          </div>
+          <div class="sp-metric">
+            <div class="sm-label">CTR</div>
+            <div class="sm-val" style="color:#c5d8ff">6,32%</div>
+          </div>
+          <div class="sp-metric">
+            <div class="sm-label">Conversões</div>
+            <div class="sm-val" style="color:var(--green)">96</div>
+          </div>
+          <div class="sp-metric">
+            <div class="sm-label">Taxa de Conv.</div>
+            <div class="sm-val" style="color:var(--green)">30,09%</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="sp-share-bar">
+            <div class="sp-share-fill" style="width:62.3%"></div>
+          </div>
+          <div class="sp-share-label">
+            <span>Participação nas conversões Google</span>
+            <strong>62,3% &nbsp;(96 / 154)</strong>
+          </div>
+        </div>
+
+        <div class="sp-conv-pills">
+          <div class="sp-pill forms">96 Formulários</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DESTAQUE META -->
+    <div class="spotlight-card sm">
+      <div class="sp-ribbon">
+        <div class="sp-medal">1</div>
+        Melhor Campanha &nbsp;&middot;&nbsp; Meta Ads
+      </div>
+      <div class="sp-body">
+        <div class="sp-top">
+          <div class="sp-plat-logo">
+            <svg width="24" height="24" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 3C10.611 3 3 10.611 3 20s7.611 17 17 17 17-7.611 17-17S29.389 3 20 3z" fill="#1877F2"/>
+              <path d="M9 20c0-3.037 1.42-5.5 3.5-5.5 1.033 0 1.906.582 2.729 1.666L20 21.75l4.771-5.584C25.594 15.082 26.467 14.5 27.5 14.5c2.08 0 3.5 2.463 3.5 5.5s-1.42 5.5-3.5 5.5c-1.033 0-1.906-.582-2.729-1.666L20 18.25l-4.771 5.584C14.406 24.918 13.533 25.5 12.5 25.5 10.42 25.5 9 23.037 9 20z" fill="white"/>
+            </svg>
+          </div>
+          <div class="sp-title-wrap">
+            <div class="sp-platform">Meta Ads &middot; Facebook + Instagram</div>
+            <div class="sp-camp-name">[LFC] Brisbane &mdash; Forms LP</div>
+            <div class="sp-camp-sub">Landing page &middot; fb_pixel_lead &middot; A$25/dia &middot; Campanha principal</div>
+          </div>
+          <div class="sp-cpa-box">
+            <div class="cpa-label">Custo por Conversão</div>
+            <div class="cpa-val">A$18,11</div>
+            <div class="cpa-sub">por lead</div>
+          </div>
+        </div>
+
+        <div class="sp-metrics">
+          <div class="sp-metric">
+            <div class="sm-label">Investido</div>
+            <div class="sm-val" style="color:var(--gold)">A$815</div>
+          </div>
+          <div class="sp-metric">
+            <div class="sm-label">Impressões</div>
+            <div class="sm-val">34.145</div>
+          </div>
+          <div class="sp-metric">
+            <div class="sm-label">Cliques</div>
+            <div class="sm-val">316</div>
+          </div>
+          <div class="sp-metric">
+            <div class="sm-label">CTR</div>
+            <div class="sm-val" style="color:#c5d8ff">0,93%</div>
+          </div>
+          <div class="sp-metric">
+            <div class="sm-label">Conversões</div>
+            <div class="sm-val" style="color:var(--green)">45</div>
+          </div>
+          <div class="sp-metric">
+            <div class="sm-label">Frequência</div>
+            <div class="sm-val" style="color:#c5d8ff">2,25</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="sp-share-bar">
+            <div class="sp-share-fill" style="width:66.2%"></div>
+          </div>
+          <div class="sp-share-label">
+            <span>Participação nas conversões Meta</span>
+            <strong>66,2% &nbsp;(45 / 68)</strong>
+          </div>
+        </div>
+
+        <div class="sp-conv-pills">
+          <div class="sp-pill forms">45 Formulários</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════ CAMPANHAS GOOGLE ══════════════════════ -->
+  <div class="table-section">
+    <div class="table-header">
+      <div class="table-platform-badge google">
+        <svg width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+          <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+          <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+          <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+        </svg>
+        Google Ads &mdash; Campanhas
+      </div>
+      <div class="table-note">01/04 – 30/04/2026 &middot; Moeda: AUD</div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align:left;min-width:240px">Campanha</th>
+            <th>Investido</th>
+            <th>Impressões</th>
+            <th>Cliques</th>
+            <th>CTR</th>
+            <th>Formulários</th>
+            <th>Custo/Form.</th>
+            <th>Ligações</th>
+            <th>Custo/Lig.</th>
+            <th>Total Conv.</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr class="row-highlight">
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">Core A &mdash; LP Form</span>
+                <span class="cn-tag">
+                  <span class="badge-active">Ativa</span>
+                  &nbsp;<span class="badge-type badge-search">Search</span>
+                  &nbsp;<span class="badge-type badge-star">Campanha Principal</span>
+                  &nbsp;Maximizar conversões
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$5.830,04</span></td>
+            <td>5.044</td>
+            <td>319</td>
+            <td><span class="val-ctr">6,32%</span></td>
+            <td style="color:var(--green);font-weight:700">96</td>
+            <td style="color:var(--green);font-weight:700">A$60,73</td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td><span class="val-conv">96</span></td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">Core C &mdash; LP Mix</span>
+                <span class="cn-tag">
+                  <span class="badge-active">Ativa</span>
+                  &nbsp;<span class="badge-type badge-search">Search</span>
+                  &nbsp;06h–13h &middot; Form + Ligação
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$1.678,87</span></td>
+            <td>20.301</td>
+            <td>224</td>
+            <td><span class="val-ctr">1,10%</span></td>
+            <td>4</td>
+            <td style="color:var(--green);font-weight:700">A$419,72</td>
+            <td>2</td>
+            <td style="color:var(--g-yellow);font-weight:700">A$839,44</td>
+            <td><span class="val-conv">20</span></td>
+          </tr>
+
+          <tr class="row-paused">
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">Call LP &mdash; RickMarketingCo</span>
+                <span class="cn-tag">
+                  <span class="badge-paused">Pausada</span>
+                  &nbsp;<span class="badge-type badge-calls">Ligações</span>
+                  &nbsp;Campanha focada em chamadas
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$996,21</span></td>
+            <td>777</td>
+            <td>43</td>
+            <td><span class="val-ctr">5,53%</span></td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td>4</td>
+            <td style="color:var(--g-yellow);font-weight:700">A$249,05</td>
+            <td><span class="val-conv">8</span></td>
+          </tr>
+
+          <tr class="row-paused">
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">Interstate A/B &mdash; 13h–00h</span>
+                <span class="cn-tag">
+                  <span class="badge-paused">Pausada</span>
+                  &nbsp;<span class="badge-type badge-search">Search</span>
+                  &nbsp;Horário noite &middot; Interestadual
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$392,29</span></td>
+            <td>211</td>
+            <td>19</td>
+            <td><span class="val-ctr">9,00%</span></td>
+            <td>11</td>
+            <td style="color:var(--green);font-weight:700">A$35,66</td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td><span class="val-conv">11</span></td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">Brand &mdash; Vaz Power</span>
+                <span class="cn-tag">
+                  <span class="badge-active">Ativa</span>
+                  &nbsp;<span class="badge-type badge-brand">Brand</span>
+                  &nbsp;Palavras-chave de marca
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$381,10</span></td>
+            <td>359</td>
+            <td>84</td>
+            <td><span class="val-ctr">23,40%</span></td>
+            <td>9</td>
+            <td style="color:var(--green);font-weight:700">A$42,34</td>
+            <td>4</td>
+            <td style="color:var(--g-yellow);font-weight:700">A$95,28</td>
+            <td><span class="val-conv">13</span></td>
+          </tr>
+
+          <tr class="row-paused">
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">Core B &mdash; Tarde &middot; LP Form</span>
+                <span class="cn-tag">
+                  <span class="badge-paused">Pausada</span>
+                  &nbsp;<span class="badge-type badge-search">Search</span>
+                  &nbsp;Horário tarde
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$505,98</span></td>
+            <td>284</td>
+            <td>23</td>
+            <td><span class="val-ctr">8,10%</span></td>
+            <td>6</td>
+            <td style="color:var(--green);font-weight:700">A$84,33</td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td><span class="val-conv">6</span></td>
+          </tr>
+
+          <tr class="row-paused">
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">Core + Residential A/B &mdash; Manhã</span>
+                <span class="cn-tag">
+                  <span class="badge-paused">Pausada</span>
+                  &nbsp;<span class="badge-type badge-search">Search</span>
+                  &nbsp;Residencial
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$74,68</span></td>
+            <td>48</td>
+            <td>5</td>
+            <td><span class="val-ctr">10,42%</span></td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td><span class="val-conv">0</span></td>
+          </tr>
+
+          <tr class="row-paused">
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">Interstate &mdash; Brisbane (Em construção)</span>
+                <span class="cn-tag">
+                  <span class="badge-paused">Pausada</span>
+                  &nbsp;<span class="badge-type badge-search">Search</span>
+                  &nbsp;Interestadual
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$33,06</span></td>
+            <td>42</td>
+            <td>2</td>
+            <td><span class="val-ctr">4,76%</span></td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td><span class="val-conv">0</span></td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">Core A/B &mdash; Noite / Madrugada</span>
+                <span class="cn-tag">
+                  <span class="badge-active">Ativa</span>
+                  &nbsp;<span class="badge-type badge-search">Search</span>
+                  &nbsp;00h–03h
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$66,02</span></td>
+            <td>20</td>
+            <td>3</td>
+            <td><span class="val-ctr">15,00%</span></td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td><span class="val-conv">0</span></td>
+          </tr>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td><span class="total-label">Total da Conta</span></td>
+            <td class="val-invest">A$9.958,26</td>
+            <td>27.096</td>
+            <td>722</td>
+            <td class="val-ctr">2,66%</td>
+            <td style="color:var(--green)">126</td>
+            <td style="color:var(--green);font-weight:700">A$78,99</td>
+            <td style="color:var(--g-yellow)">10</td>
+            <td style="color:var(--g-yellow);font-weight:700">A$78,33</td>
+            <td style="color:var(--green);font-size:15px">154</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+
+  <!-- ══════════════════════ CAMPANHAS META ══════════════════════ -->
+  <div class="table-section">
+    <div class="table-header">
+      <div class="table-platform-badge meta">
+        <svg width="18" height="18" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 3C10.611 3 3 10.611 3 20s7.611 17 17 17 17-7.611 17-17S29.389 3 20 3z" fill="#1877F2"/>
+          <path d="M9 20c0-3.037 1.42-5.5 3.5-5.5 1.033 0 1.906.582 2.729 1.666L20 21.75l4.771-5.584C25.594 15.082 26.467 14.5 27.5 14.5c2.08 0 3.5 2.463 3.5 5.5s-1.42 5.5-3.5 5.5c-1.033 0-1.906-.582-2.729-1.666L20 18.25l-4.771 5.584C14.406 24.918 13.533 25.5 12.5 25.5 10.42 25.5 9 23.037 9 20z" fill="white"/>
+        </svg>
+        Meta Ads &mdash; Campanhas
+      </div>
+      <div class="table-note">01/04 – 30/04/2026 &middot; Moeda: AUD</div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align:left;min-width:240px">Campanha</th>
+            <th>Investido</th>
+            <th>Impressões</th>
+            <th>Cliques no Link</th>
+            <th>CTR</th>
+            <th>Formulários</th>
+            <th>Custo/Form.</th>
+            <th>Ligações</th>
+            <th>Custo/Lig.</th>
+            <th>Total Conv.</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr class="row-highlight-m row-paused">
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">[LFC] Brisbane &mdash; Forms LP</span>
+                <span class="cn-tag">
+                  <span class="badge-paused">Inativa</span>
+                  &nbsp;<span class="badge-type badge-leads">Leads</span>
+                  &nbsp;<span class="badge-type badge-star">Campanha Principal</span>
+                  &nbsp;Landing page &middot; fb_pixel_lead
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$815,11</span></td>
+            <td>34.145</td>
+            <td>316</td>
+            <td><span class="val-ctr">0,93%</span></td>
+            <td style="color:var(--green);font-weight:700">45</td>
+            <td style="color:var(--green);font-weight:700">A$18,11</td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td><span class="val-conv">45</span></td>
+          </tr>
+
+          <tr class="row-paused">
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">[LFC] Brisbane &mdash; Calls</span>
+                <span class="cn-tag">
+                  <span class="badge-paused">Inativa</span>
+                  &nbsp;<span class="badge-type badge-calls">Ligações</span>
+                  &nbsp;Click-to-call &middot; Geração de chamadas
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$451,54</span></td>
+            <td>22.983</td>
+            <td>142</td>
+            <td><span class="val-ctr">0,62%</span></td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td>14</td>
+            <td style="color:var(--g-yellow);font-weight:700">A$32,25</td>
+            <td><span class="val-conv">14</span></td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">260407 &mdash; Leads &middot; Forms &middot; Brisbane &middot; LP</span>
+                <span class="cn-tag">
+                  <span class="badge-active">Ativa</span>
+                  &nbsp;<span class="badge-type badge-leads">Leads</span>
+                  &nbsp;A$50/dia
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$265,08</span></td>
+            <td>10.768</td>
+            <td>110</td>
+            <td><span class="val-ctr">1,02%</span></td>
+            <td>7</td>
+            <td style="color:var(--green);font-weight:700">A$37,87</td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td><span class="val-conv">7</span></td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">260423 &mdash; RMKT &middot; LP</span>
+                <span class="cn-tag">
+                  <span class="badge-active">Ativa</span>
+                  &nbsp;<span class="badge-type badge-rmkt">Remarketing</span>
+                  &nbsp;Alcance &middot; Reimpacto de visitantes
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$134,90</span></td>
+            <td>48.408</td>
+            <td>60</td>
+            <td><span class="val-ctr">0,12%</span></td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td><span class="val-conv">—</span></td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="camp-name">
+                <span class="cn-main">260429 &mdash; Leads &middot; Call &middot; Brisbane &middot; LP</span>
+                <span class="cn-tag">
+                  <span class="badge-active">Ativa</span>
+                  &nbsp;<span class="badge-type badge-calls">Ligações</span>
+                  &nbsp;Iniciada em 29/04
+                </span>
+              </div>
+            </td>
+            <td><span class="val-invest">A$29,91</span></td>
+            <td>1.783</td>
+            <td>10</td>
+            <td><span class="val-ctr">0,56%</span></td>
+            <td>0</td>
+            <td style="color:var(--muted)">—</td>
+            <td>2</td>
+            <td style="color:var(--g-yellow);font-weight:700">A$14,96</td>
+            <td><span class="val-conv">2</span></td>
+          </tr>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td><span class="total-label">Total da Conta</span></td>
+            <td class="val-invest">A$1.696,54</td>
+            <td>118.087</td>
+            <td>638</td>
+            <td class="val-ctr">0,54%</td>
+            <td style="color:var(--green)">52</td>
+            <td style="color:var(--green);font-weight:700">A$20,77</td>
+            <td style="color:var(--g-yellow)">16</td>
+            <td style="color:var(--g-yellow);font-weight:700">A$30,09</td>
+            <td style="color:var(--green);font-size:15px">68</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+
+  <!-- ══════════════════════ RESULTADO COMERCIAL ══════════════════════ -->
+  <div class="section-title">Resultado Comercial</div>
+  <div class="comercial-section">
+
+    <div class="com-header">
+      <div>
+        <div class="com-header-title">Funil de Conversão Comercial</div>
+        <div class="com-header-sub">Do lead gerado pelo tráfego pago ao trabalho executado &middot; Abril 2026</div>
+      </div>
+      <div class="com-pending-badge">Aguarda dados da equipe Vaz</div>
+    </div>
+
+    <div class="com-body">
+
+      <!-- ── Funil ── -->
+      <div class="funil-steps">
+        <div class="funil-step fs-active">
+          <div class="funil-step-label">Leads Gerados</div>
+          <div class="funil-step-value">222</div>
+          <div class="funil-step-sub">Forms + Ligações</div>
+        </div>
+        <div class="funil-arrow">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="#6b7fa3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="funil-step fs-pending">
+          <div class="funil-step-label">Respondidos</div>
+          <div class="funil-step-value">—</div>
+          <div class="funil-rate fr-pending">—%</div>
+        </div>
+        <div class="funil-arrow">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="#6b7fa3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="funil-step fs-pending">
+          <div class="funil-step-label">Orçamentos Enviados</div>
+          <div class="funil-step-value">—</div>
+          <div class="funil-rate fr-pending">—%</div>
+        </div>
+        <div class="funil-arrow">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="#6b7fa3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="funil-step fs-pending">
+          <div class="funil-step-label">Fechamentos</div>
+          <div class="funil-step-value">—</div>
+          <div class="funil-rate fr-pending">—% conv.</div>
+        </div>
+      </div>
+
+      <!-- ── Custo por Tipo de Trabalho ── -->
+      <div class="job-grid">
+
+        <div class="job-card jc-local">
+          <div class="job-card-top">
+            <div class="job-card-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke="#4285F4" stroke-width="2" stroke-linejoin="round"/>
+                <polyline points="9 22 9 12 15 12 15 22" stroke="#4285F4" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div>
+              <div class="job-card-type">Local Move</div>
+              <div class="job-card-desc">Mudanças dentro de Brisbane</div>
+            </div>
+          </div>
+          <div class="job-metrics">
+            <div class="job-metric">
+              <div class="jm-label">Trabalhos</div>
+              <div class="jm-value">—</div>
+            </div>
+            <div class="job-metric">
+              <div class="jm-label">Custo / Job</div>
+              <div class="jm-cost">A$—</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="job-card jc-interstate">
+          <div class="job-card-top">
+            <div class="job-card-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <rect x="1" y="3" width="15" height="13" rx="2" stroke="#f5b800" stroke-width="2"/>
+                <path d="M16 8h4l3 4v5h-7V8z" stroke="#f5b800" stroke-width="2" stroke-linejoin="round"/>
+                <circle cx="5.5" cy="18.5" r="2.5" stroke="#f5b800" stroke-width="2"/>
+                <circle cx="18.5" cy="18.5" r="2.5" stroke="#f5b800" stroke-width="2"/>
+              </svg>
+            </div>
+            <div>
+              <div class="job-card-type">Interstate</div>
+              <div class="job-card-desc">Mudanças interestaduais</div>
+            </div>
+          </div>
+          <div class="job-metrics">
+            <div class="job-metric">
+              <div class="jm-label">Trabalhos</div>
+              <div class="jm-value">—</div>
+            </div>
+            <div class="job-metric">
+              <div class="jm-label">Custo / Job</div>
+              <div class="jm-cost">A$—</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="job-card jc-storage">
+          <div class="job-card-top">
+            <div class="job-card-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke="#a78bfa" stroke-width="2" stroke-linejoin="round"/>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
+                <line x1="12" y1="22.08" x2="12" y2="12" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <div class="job-card-type">Storage</div>
+              <div class="job-card-desc">Armazenamento contratado</div>
+            </div>
+          </div>
+          <div class="job-metrics">
+            <div class="job-metric">
+              <div class="jm-label">Contratos</div>
+              <div class="jm-value">—</div>
+            </div>
+            <div class="job-metric">
+              <div class="jm-label">Custo / Contrato</div>
+              <div class="jm-cost">A$—</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ── Pipeline Status + Motivos de Perda ── -->
+      <div class="pipeline-row">
+
+        <div class="pipeline-box">
+          <div class="pipeline-box-title">Status do Pipeline — Abril</div>
+          <div class="status-list">
+            <div>
+              <div class="status-item">
+                <div class="status-dot" style="background:#22d07a"></div>
+                <div class="status-label">Fechados</div>
+                <div class="status-count">—</div>
+              </div>
+              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#22d07a;width:0%"></div></div>
+            </div>
+            <div>
+              <div class="status-item">
+                <div class="status-dot" style="background:#4285F4"></div>
+                <div class="status-label">Orçamento Enviado</div>
+                <div class="status-count">—</div>
+              </div>
+              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#4285F4;width:0%"></div></div>
+            </div>
+            <div>
+              <div class="status-item">
+                <div class="status-dot" style="background:#f5b800"></div>
+                <div class="status-label">Em Negociação / Shadow</div>
+                <div class="status-count">—</div>
+              </div>
+              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#f5b800;width:0%"></div></div>
+            </div>
+            <div>
+              <div class="status-item">
+                <div class="status-dot" style="background:#EA4335"></div>
+                <div class="status-label">Perdidos</div>
+                <div class="status-count">—</div>
+              </div>
+              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#EA4335;width:0%"></div></div>
+            </div>
+            <div>
+              <div class="status-item">
+                <div class="status-dot" style="background:#6b7fa3"></div>
+                <div class="status-label">Sem Resposta</div>
+                <div class="status-count">—</div>
+              </div>
+              <div class="status-bar-wrap"><div class="status-bar-fill" style="background:#6b7fa3;width:0%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pipeline-box">
+          <div class="pipeline-box-title">Motivos de Perda</div>
+          <div class="loss-list">
+            <div class="loss-item">
+              <div class="loss-label">Preço acima do esperado</div>
+              <div class="loss-count">—</div>
+            </div>
+            <div class="loss-item">
+              <div class="loss-label">Data / timing incompatível</div>
+              <div class="loss-count">—</div>
+            </div>
+            <div class="loss-item">
+              <div class="loss-label">Escolheu concorrente</div>
+              <div class="loss-count">—</div>
+            </div>
+            <div class="loss-item">
+              <div class="loss-label">Lead não qualificado</div>
+              <div class="loss-count">—</div>
+            </div>
+            <div class="loss-item">
+              <div class="loss-label">Sem retorno após contato</div>
+              <div class="loss-count">—</div>
+            </div>
+            <div class="loss-item">
+              <div class="loss-label">Outros / Não identificado</div>
+              <div class="loss-count">—</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="data-note">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;margin-top:1px"><circle cx="12" cy="12" r="9" stroke="#f5b800" stroke-width="2"/><path d="M12 8v4M12 16h.01" stroke="#f5b800" stroke-width="2" stroke-linecap="round"/></svg>
+        Seção aguardando dados comerciais reportados pela equipe Vaz Power &mdash; alimentar mensalmente com <strong>fechamentos por tipo, status do pipeline e motivos de perda</strong>. O custo por job é calculado automaticamente quando os fechamentos forem informados.
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════ UTM SECTION ══════════════════════ -->
+  <div class="section-title">Rastreamento de Origem</div>
+  <div class="utm-section">
+
+    <div class="utm-section-head">
+      <div class="utm-head-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" stroke="#f5b800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" stroke="#f5b800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div>
+        <div class="utm-section-title">Rastreamento por UTM Parameters</div>
+        <div class="utm-section-sub">
+          Cada lead recebida chega carregando parâmetros UTM reais na URL de origem. Esses parâmetros identificam com precisão a plataforma, campanha, conjunto de anúncios e criativo de origem &mdash; permitindo atribuição exata de cada contato. No Meta, os parâmetros são dinâmicos (<strong style="color:var(--gold)">&#123;&#123;variável&#125;&#125;</strong>) e preenchidos automaticamente pelo próprio Meta no momento do clique.
+        </div>
+      </div>
+    </div>
+
+    <div class="utm-body">
+
+      <!-- Anatomia da URL -->
+      <div class="utm-anatomy">
+        <div class="utm-anatomy-label">Estrutura real dos UTM Parameters utilizados</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px">
+          <div>
+            <div style="font-size:10px;font-weight:700;color:#7ab3ff;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px">Google Ads</div>
+            <div class="utm-url-wrap"><span class="utm-p-source">utm_source</span><span class="utm-sep">=</span><span class="utm-p-source">google</span><span class="utm-sep"> &amp; </span><span class="utm-p-medium">utm_medium</span><span class="utm-sep">=</span><span class="utm-p-medium">cpc</span><span class="utm-sep"> &amp; </span><span class="utm-p-campaign">utm_campaign</span><span class="utm-sep">=</span><span class="utm-p-campaign">campaign.name</span><span class="utm-sep"> &amp; </span><span class="utm-p-content">utm_content</span><span class="utm-sep">=</span><span class="utm-p-content">adset.name</span></div>
+          </div>
+          <div>
+            <div style="font-size:10px;font-weight:700;color:#7ab3ff;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px">Meta Ads — parâmetros dinâmicos</div>
+            <div class="utm-url-wrap"><span class="utm-p-source">utm_source</span><span class="utm-sep">=</span><span class="utm-p-source">metaads</span><span class="utm-sep"> &amp; </span><span class="utm-p-medium">utm_medium</span><span class="utm-sep">=</span><span class="utm-p-medium">&#123;&#123;adset.name&#125;&#125;</span><span class="utm-sep"> &amp; </span><span class="utm-p-campaign">utm_campaign</span><span class="utm-sep">=</span><span class="utm-p-campaign">&#123;&#123;campaign.name&#125;&#125;</span><span class="utm-sep"> &amp; </span><span class="utm-p-content">utm_content</span><span class="utm-sep">=</span><span class="utm-p-content">&#123;&#123;ad.name&#125;&#125;</span></div>
+          </div>
+        </div>
+        <div class="utm-legend">
+          <div class="utm-leg-item"><div class="utm-leg-dot" style="background:#22d07a"></div><span style="color:#22d07a">utm_source</span>&nbsp;— Plataforma de origem</div>
+          <div class="utm-leg-item"><div class="utm-leg-dot" style="background:#7ab3ff"></div><span style="color:#7ab3ff">utm_medium</span>&nbsp;— Canal / formato</div>
+          <div class="utm-leg-item"><div class="utm-leg-dot" style="background:#f5b800"></div><span style="color:#f5b800">utm_campaign</span>&nbsp;— Nome da campanha</div>
+          <div class="utm-leg-item"><div class="utm-leg-dot" style="background:#f472b6"></div><span style="color:#f472b6">utm_content</span>&nbsp;— Conjunto de anúncios / criativo</div>
+          <div class="utm-leg-item"><div class="utm-leg-dot" style="background:var(--muted)"></div><span style="color:var(--muted)">&#123;&#123;variável&#125;&#125;</span>&nbsp;— Macro dinâmica preenchida pelo Meta no clique</div>
+        </div>
+      </div>
+
+      <!-- Dois exemplos lado a lado -->
+      <div class="utm-examples">
+
+        <!-- EXEMPLO GOOGLE -->
+        <div class="utm-example ug">
+          <div class="utm-ex-head">
+            <div class="utm-ex-logo">
+              <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+              </svg>
+            </div>
+            <div>
+              <div class="utm-ex-title">Exemplo &mdash; Google Ads</div>
+              <div class="utm-ex-subtitle">Lead recebida via campanha de pesquisa</div>
+            </div>
+          </div>
+
+          <div class="lead-card">
+            <div class="lead-card-header">
+              New Message from Website
+              <span class="lc-badge g">Google Ads</span>
+            </div>
+            <div class="lead-fields">
+              <div class="lead-field"><span class="lf-key">Name:</span><span class="lf-val">Julie Bruce</span></div>
+              <div class="lead-field"><span class="lf-key">Phone:</span><span class="lf-val">0407 934 639</span></div>
+              <div class="lead-field"><span class="lf-key">Email:</span><span class="lf-val">julie.bruce123@outlook.com</span></div>
+              <div class="lead-field"><span class="lf-key">Pickup:</span><span class="lf-val">Woolloomooloo</span></div>
+              <div class="lead-field"><span class="lf-key">Drop Off:</span><span class="lf-val">Mudgeeraba</span></div>
+              <div class="lead-field"><span class="lf-key">Move Date:</span><span class="lf-val">11 May 2026</span></div>
+            </div>
+
+            <div class="lead-url-block">
+              <div class="lead-url-label">Page URL (origem rastreada)</div>
+              <div class="lead-url-text">
+                <span class="lu-base">https://moving-quote.vazpower.com.au/?</span><span class="lu-source">utm_source=google</span><span class="lu-base">&amp;</span><span class="lu-medium">utm_medium=cpc</span><span class="lu-base">&amp;</span><span class="lu-campaign">utm_campaign=Search_CoreA_LP_Form</span><span class="lu-base">&amp;</span><span class="lu-content">utm_content=AdGroup_Removalists_Brisbane</span><span class="lu-base">&amp;</span><span class="lu-auto">gclid=Tiz2H25953S5aiJd9...</span>
+              </div>
+              <table class="utm-param-table">
+                <tr><td>utm_source</td><td>=</td><td style="color:#16a34a">google — Origem: Google Ads</td></tr>
+                <tr><td>utm_medium</td><td>=</td><td style="color:#1d4ed8">cpc — Custo por clique (Search)</td></tr>
+                <tr><td>utm_campaign</td><td>=</td><td style="color:#b45309">campaign.name — Nome exato da campanha</td></tr>
+                <tr><td>utm_content</td><td>=</td><td style="color:#db2777">adset.name — Grupo de anúncio / ad set</td></tr>
+                <tr><td>gclid</td><td>=</td><td style="color:#9ca3af">ID automático do Google (rastreamento de conversão)</td></tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- EXEMPLO META -->
+        <div class="utm-example um">
+          <div class="utm-ex-head">
+            <div class="utm-ex-logo">
+              <svg width="20" height="20" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 3C10.611 3 3 10.611 3 20s7.611 17 17 17 17-7.611 17-17S29.389 3 20 3z" fill="#1877F2"/>
+                <path d="M9 20c0-3.037 1.42-5.5 3.5-5.5 1.033 0 1.906.582 2.729 1.666L20 21.75l4.771-5.584C25.594 15.082 26.467 14.5 27.5 14.5c2.08 0 3.5 2.463 3.5 5.5s-1.42 5.5-3.5 5.5c-1.033 0-1.906-.582-2.729-1.666L20 18.25l-4.771 5.584C14.406 24.918 13.533 25.5 12.5 25.5 10.42 25.5 9 23.037 9 20z" fill="white"/>
+              </svg>
+            </div>
+            <div>
+              <div class="utm-ex-title">Exemplo &mdash; Meta Ads</div>
+              <div class="utm-ex-subtitle">Parâmetros dinâmicos preenchidos automaticamente pelo Meta</div>
+            </div>
+          </div>
+
+          <div class="lead-card">
+            <div class="lead-card-header">
+              New Message from Website
+              <span class="lc-badge m">Meta Ads</span>
+            </div>
+            <div class="lead-fields">
+              <div class="lead-field"><span class="lf-key">Name:</span><span class="lf-val">Daniel Nguyen</span></div>
+              <div class="lead-field"><span class="lf-key">Phone:</span><span class="lf-val">0413 287 501</span></div>
+              <div class="lead-field"><span class="lf-key">Email:</span><span class="lf-val">d.nguyen.brisbane@gmail.com</span></div>
+              <div class="lead-field"><span class="lf-key">Pickup:</span><span class="lf-val">Chermside</span></div>
+              <div class="lead-field"><span class="lf-key">Drop Off:</span><span class="lf-val">Newstead</span></div>
+              <div class="lead-field"><span class="lf-key">Move Date:</span><span class="lf-val">18 May 2026</span></div>
+            </div>
+
+            <div class="lead-url-block">
+              <div class="lead-url-label">Page URL (origem rastreada)</div>
+              <div class="lead-url-text">
+                <span class="lu-base">https://moving-quote.vazpower.com.au/?</span><span class="lu-source">utm_source=metaads</span><span class="lu-base">&amp;</span><span class="lu-medium">utm_medium=</span><span class="lu-medium" style="background:rgba(29,78,216,0.12);border-radius:3px;padding:0 3px">&#123;&#123;adset.name&#125;&#125;</span><span class="lu-base">&amp;</span><span class="lu-campaign">utm_campaign=</span><span class="lu-campaign" style="background:rgba(180,83,9,0.12);border-radius:3px;padding:0 3px">&#123;&#123;campaign.name&#125;&#125;</span><span class="lu-base">&amp;</span><span class="lu-content">utm_content=</span><span class="lu-content" style="background:rgba(219,39,119,0.12);border-radius:3px;padding:0 3px">&#123;&#123;ad.name&#125;&#125;</span><span class="lu-base">&amp;</span><span class="lu-auto">fbclid=IwAR2xNpQm7G...</span>
+              </div>
+              <table class="utm-param-table">
+                <tr><td>utm_source</td><td>=</td><td style="color:#16a34a">metaads — Origem: Meta Ads</td></tr>
+                <tr><td>utm_medium</td><td>=</td><td style="color:#1d4ed8">&#123;&#123;adset.name&#125;&#125; → preenchido com nome do conjunto de anúncios</td></tr>
+                <tr><td>utm_campaign</td><td>=</td><td style="color:#b45309">&#123;&#123;campaign.name&#125;&#125; → preenchido com nome da campanha</td></tr>
+                <tr><td>utm_content</td><td>=</td><td style="color:#db2777">&#123;&#123;ad.name&#125;&#125; → preenchido com nome do criativo/anúncio</td></tr>
+                <tr><td>fbclid</td><td>=</td><td style="color:#9ca3af">ID automático do Facebook (rastreamento de conversão)</td></tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /utm-examples -->
+
+      <div class="utm-note">
+        <p>
+          <strong>Como identificar a origem de cada lead na prática:</strong> ao receber uma notificação de lead pelo formulário do site, verifique o campo <strong>Page URL</strong> no e-mail. As leads do Google terão <strong style="color:var(--gold)">utm_source=google</strong> e o parâmetro <strong style="color:var(--gold)">gclid</strong>. As leads do Meta terão <strong style="color:var(--gold)">utm_source=metaads</strong> e o parâmetro <strong style="color:var(--gold)">fbclid</strong>, além dos nomes reais da campanha, conjunto de anúncios e criativo preenchidos automaticamente nas variáveis dinâmicas. Isso elimina qualquer dúvida sobre qual campanha originou cada contato.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>
+      <strong>Vaz Power Removals &amp; Storage</strong> &nbsp;&middot;&nbsp;
+      Dashboard de Performance Digital &nbsp;&middot;&nbsp;
+      Período: 01 a 29 de Abril de 2026 &nbsp;&middot;&nbsp;
+      Produzido por <strong>Kaempf Business</strong>
+    </p>
+  </div>
+
+</div><!-- /page -->
+</body>
+</html>
