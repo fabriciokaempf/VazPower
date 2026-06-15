@@ -99,6 +99,18 @@
     .card-cta svg { transition: transform .18s ease; }
     .dash-card:hover .card-cta svg { transform: translateX(4px); }
 
+    /* JUNHO (semanal) + COMPARATIVO */
+    .dash-card.junho::before { background: linear-gradient(90deg, var(--green), #16a34a); }
+    .dash-card.junho:hover { border-color: rgba(34,208,122,0.4); }
+    .dash-card.junho .card-cta span { color: var(--green); }
+    .dash-card.compare::before { background: linear-gradient(90deg, #a78bfa, var(--gold)); }
+    .dash-card.compare:hover { border-color: rgba(167,139,250,0.45); }
+    .dash-card.compare .card-cta span { color: #a78bfa; }
+    .cm-value.up   { color: var(--green); }
+    .cm-value.down { color: var(--green); }
+    .pill.week    { background: rgba(34,208,122,0.12); border: 1px solid rgba(34,208,122,0.28); color: var(--green); }
+    .pill.compare { background: rgba(167,139,250,0.12); border: 1px solid rgba(167,139,250,0.3); color: #a78bfa; }
+
     /* FOOTER */
     .footer { text-align: center; padding: 32px 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; margin-top: 24px; }
     .footer strong { color: var(--gold); }
@@ -150,6 +162,68 @@
   <div class="intro">
     <h2>Dashboards de Performance</h2>
     <p>Relatórios de tráfego pago da Vaz Power Removals &amp; Storage. Selecione um período abaixo para abrir o dashboard completo com Google Ads + Meta Ads.</p>
+  </div>
+
+  <!-- JUNHO -->
+  <div class="section-title">Junho 2026 · Relatórios Semanais</div>
+  <div class="grid">
+    <a class="dash-card junho" href="./junho-08-14/">
+      <div class="card-top">
+        <div>
+          <div class="card-month">Junho 2026</div>
+          <div class="card-period">08 a 14/06 · Semana 2</div>
+        </div>
+        <span class="pill week">Semana 2</span>
+      </div>
+      <div class="card-metrics">
+        <div><div class="cm-label">Investimento</div><div class="cm-value invest">A$2.890</div></div>
+        <div><div class="cm-label">Leads</div><div class="cm-value leads">49</div></div>
+        <div><div class="cm-label">CPL Geral</div><div class="cm-value cpl">A$58,97</div></div>
+        <div><div class="cm-label">Impressões</div><div class="cm-value impr">102.576</div></div>
+      </div>
+      <div class="card-cta">
+        <span>Ver dashboard</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#22d07a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+    </a>
+    <a class="dash-card junho" href="./junho-01-07/">
+      <div class="card-top">
+        <div>
+          <div class="card-month">Junho 2026</div>
+          <div class="card-period">01 a 07/06 · Semana 1</div>
+        </div>
+        <span class="pill week">Semana 1</span>
+      </div>
+      <div class="card-metrics">
+        <div><div class="cm-label">Investimento</div><div class="cm-value invest">A$2.941</div></div>
+        <div><div class="cm-label">Leads</div><div class="cm-value leads">36</div></div>
+        <div><div class="cm-label">CPL Geral</div><div class="cm-value cpl">A$81,71</div></div>
+        <div><div class="cm-label">Impressões</div><div class="cm-value impr">106.681</div></div>
+      </div>
+      <div class="card-cta">
+        <span>Ver dashboard</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#22d07a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+    </a>
+    <a class="dash-card compare" href="./junho-comparativo/">
+      <div class="card-top">
+        <div>
+          <div class="card-month">Comparativo</div>
+          <div class="card-period">Semana 1 vs Semana 2 · Junho</div>
+        </div>
+        <span class="pill compare">Análise</span>
+      </div>
+      <div class="card-metrics">
+        <div><div class="cm-label">Leads</div><div class="cm-value up">▲ +36%</div></div>
+        <div><div class="cm-label">CPL Geral</div><div class="cm-value down">▼ −28%</div></div>
+        <div><div class="cm-label">Formulários</div><div class="cm-value up">▲ +67%</div></div>
+        <div><div class="cm-label">CPL Meta</div><div class="cm-value down">▼ −32%</div></div>
+      </div>
+      <div class="card-cta">
+        <span>Ver comparativo</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+    </a>
   </div>
 
   <!-- ABRIL -->
