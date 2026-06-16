@@ -4,20 +4,39 @@ Dashboards de performance de tráfego pago para **Vaz Power Removals & Storage**
 
 Produzido por **Kaempf Business** | Fabricio Nascimento
 
+🌐 **No ar:** https://fabriciokaempf.github.io/VazPower/
+
 ---
 
 ## Central de Dashboards
 
 A página inicial (`index.html`) é um hub que linka todos os períodos disponíveis.
 
+### Junho 2026 — Relatórios semanais
+
 | Período | Status | Link |
 |---|---|---|
-| Abril 2026 (01–30) | Mês completo | [Ver dashboard](./abril-01-30/) |
+| Junho 2026 (08–14) | Semana 2 | [Ver dashboard](./junho-08-14/) |
+| Junho 2026 (01–07) | Semana 1 | [Ver dashboard](./junho-01-07/) |
+| Comparativo Semana 1 × Semana 2 | Análise | [Ver comparativo](./junho-comparativo/) |
+
+### Meses anteriores
+
+| Período | Status | Link |
+|---|---|---|
 | Maio 2026 (01–31) | Mês completo | [Ver dashboard](./maio-01-31/) |
 | Maio 2026 (01–11) | Parcial | [Ver dashboard](./maio-01-11/) |
 | Maio 2026 (01–05) | Parcial | [Ver dashboard](./maio-01-05/) |
+| Abril 2026 (01–30) | Mês completo | [Ver dashboard](./abril-01-30/) |
 
-> Junho 2026 ainda não publicado — aguardando os dados de Google/Meta Ads do período.
+---
+
+## Estrutura do repositório
+
+- `index.html` — hub de navegação
+- `junho-08-14/`, `junho-01-07/`, `junho-comparativo/` — relatórios de junho
+- `maio-01-31/`, `maio-01-11/`, `maio-01-05/`, `abril-01-30/` — relatórios anteriores
+- `planilhas/` — templates de resultado comercial para a equipe Vaz preencher
 
 ---
 
