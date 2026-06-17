@@ -25,8 +25,6 @@ A página inicial (`index.html`) é um hub que linka todos os períodos disponí
 | Período | Status | Link |
 |---|---|---|
 | Maio 2026 (01–31) | Mês completo | [Ver dashboard](./maio-01-31/) |
-| Maio 2026 (01–11) | Parcial | [Ver dashboard](./maio-01-11/) |
-| Maio 2026 (01–05) | Parcial | [Ver dashboard](./maio-01-05/) |
 | Abril 2026 (01–30) | Mês completo | [Ver dashboard](./abril-01-30/) |
 
 ---
@@ -35,7 +33,7 @@ A página inicial (`index.html`) é um hub que linka todos os períodos disponí
 
 - `index.html` — hub de navegação
 - `junho-08-14/`, `junho-01-07/`, `junho-comparativo/` — relatórios de junho
-- `maio-01-31/`, `maio-01-11/`, `maio-01-05/`, `abril-01-30/` — relatórios anteriores
+- `maio-01-31/`, `abril-01-30/` — relatórios anteriores (mês fechado)
 - `planilhas/` — templates de resultado comercial para a equipe Vaz preencher
 
 ---
