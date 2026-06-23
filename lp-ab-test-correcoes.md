@@ -14,7 +14,6 @@
 - [ ] **Remover ou ocultar o número de telefone** de qualquer área visível acima da dobra (header, hero, sticky bar)
 - [ ] **Corrigir `type="number"` → `type="tel"`** no campo de telefone do form — sem teclado de discagem no mobile, abandono aumenta
 - [ ] **Corrigir `name="form_fields[email]"`** no campo de telefone — dado de telefone está caindo no slot de e-mail no CRM
-- [ ] **Confirmar no GTM** que o evento `form_submit` está disparando corretamente para esta LP (tag separada ou com parâmetro de origem)
 
 ### P1 — Melhora a qualidade do dado sem mudar a variável
 
@@ -32,7 +31,6 @@
 - [ ] **Remover `elementor-hidden-tablet elementor-hidden-mobile`** do botão de ligar no header — o CTA principal está oculto na maioria das sessões
 - [ ] **Adicionar barra fixa no rodapé (mobile)** com botão `tel:1300875197` full-width — elemento essencial para LP de ligação, não existe no DOM
 - [ ] **Aumentar tamanho do botão de ligar**: `elementor-size-sm` → `elementor-size-lg` ou largura customizada — visualmente igualado ao "Get a Quote", sem hierarquia
-- [ ] **Confirmar no GTM** que o evento de clique em `tel:1300875197` está configurado como conversão — sem isso a ligação não é contabilizada no Google Ads
 
 ### P1 — Melhora a qualidade do dado
 
@@ -42,11 +40,9 @@
 
 ---
 
-## Rastreamento (vale para as duas LPs)
+## Período do teste
 
-- [ ] Confirmar que GTM-TVL5NMMF tem **duas conversões separadas**: `form_submit` e `call_click`
-- [ ] No Google Ads: criar **colunas de conversão separadas** por tipo (form vs. ligação) para leitura do teste
-- [ ] Período mínimo de teste: **3 semanas ou 50 conversões por LP** — o que vier primeiro
+- [ ] Período mínimo: **3 semanas ou 50 conversões por LP** — o que vier primeiro
 
 ---
 
