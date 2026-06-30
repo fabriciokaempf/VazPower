@@ -35,6 +35,7 @@ A página inicial (`index.html`) é um hub que linka todos os períodos disponí
 
 - `index.html` — hub de navegação
 - `junho-22-28/`, `junho-15-21/`, `junho-08-14/`, `junho-01-07/`, `junho-comparativo/` — relatórios de junho
+- `remarketing/` — estratégia/funil de remarketing (Meta premium + branding)
 - `maio-01-31/`, `abril-01-30/` — relatórios anteriores (mês fechado)
 - `planilhas/` — templates de resultado comercial para a equipe Vaz preencher
 
