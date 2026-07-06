@@ -16,6 +16,7 @@ A página inicial (`index.html`) é um hub que linka todos os períodos disponí
 
 | Período | Status | Link |
 |---|---|---|
+| Junho 2026 (01–30) | **Mês completo** | [Ver dashboard](./junho-01-30/) |
 | Junho 2026 (22–28) | Semana 4 | [Ver dashboard](./junho-22-28/) |
 | Junho 2026 (15–21) | Semana 3 | [Ver dashboard](./junho-15-21/) |
 | Junho 2026 (08–14) | Semana 2 | [Ver dashboard](./junho-08-14/) |
@@ -34,6 +35,7 @@ A página inicial (`index.html`) é um hub que linka todos os períodos disponí
 ## Estrutura do repositório
 
 - `index.html` — hub de navegação
+- `junho-01-30/` — fechamento do mês (consolidado dos CSVs mensais)
 - `junho-22-28/`, `junho-15-21/`, `junho-08-14/`, `junho-01-07/`, `junho-comparativo/` — relatórios de junho
 - `remarketing/` — estratégia/funil de remarketing (Meta premium + branding)
 - `maio-01-31/`, `abril-01-30/` — relatórios anteriores (mês fechado)
