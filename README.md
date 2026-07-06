@@ -12,6 +12,12 @@ Produzido por **Kaempf Business** | Fabricio Nascimento
 
 A página inicial (`index.html`) é um hub que linka todos os períodos disponíveis.
 
+### Julho 2026 — Relatórios semanais
+
+| Período | Status | Link |
+|---|---|---|
+| Semana 29/06 a 05/07 (virada de mês) | Semana 5 | [Ver dashboard](./junho29-julho05/) |
+
 ### Junho 2026 — Relatórios semanais
 
 | Período | Status | Link |
@@ -35,6 +41,7 @@ A página inicial (`index.html`) é um hub que linka todos os períodos disponí
 ## Estrutura do repositório
 
 - `index.html` — hub de navegação
+- `junho29-julho05/` — relatório semanal da virada de mês (29/06 a 05/07)
 - `junho-01-30/` — fechamento do mês (consolidado dos CSVs mensais)
 - `junho-22-28/`, `junho-15-21/`, `junho-08-14/`, `junho-01-07/`, `junho-comparativo/` — relatórios de junho
 - `remarketing/` — estratégia/funil de remarketing (Meta premium + branding)
