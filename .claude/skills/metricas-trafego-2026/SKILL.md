@@ -40,9 +40,27 @@ GitHub Pages + planilha comercial para o cliente preencher.
   script), mudando so o `<title>`. Validar: balanco de `<div>`, 5 `<table>`, termina
   em `</html>`.
 - Pasta por periodo: `junho-08-14/`, `junho-15-21/` etc. (padrao `mes-DD-DD`).
-- Secoes: overview, distribuicao, por plataforma, destaques (melhor CPL), tabelas de
-  campanha, investimento diario (implementado vs praticado), resultado comercial
-  (pendente ate o cliente preencher) e rastreamento UTM.
+- Secoes: overview, **analise & acoes** (ver abaixo), distribuicao, por plataforma,
+  destaques (melhor CPL), tabelas de campanha, investimento diario (implementado vs
+  praticado) e rastreamento UTM.
+- **NAO** incluir a secao "Resultado Comercial" (funil/pipeline que dependia do cliente
+  reportar) — foi removida em jul/2026 porque virava um "pendente" e um entrave. O CSS
+  antigo (`.comercial-section` etc.) segue no `<head>` so porque o remarketing reaproveita
+  a classe no funil estrategico; nao renderizar bloco comercial pendente nos dashboards.
+
+## Secao "Analise & Acoes da Semana"
+- Fica logo apos a overview (antes da barra de investimento). Traduz numero em valor:
+  mostra ao cliente a gestao ativa da conta.
+- 4 cards (grid 2x2, CSS injetado antes de `</style>` — classes `.analysis-grid`,
+  `.an-card` + `.an-diag/.an-did/.an-watch/.an-next`, borda colorida a esquerda):
+  1. **Diagnostico** (azul) — o que os dados da semana mostraram.
+  2. **O que fizemos** (verde) — acoes REAIS na conta.
+  3. **Monitorando** (dourado) — o que esta sendo vigiado.
+  4. **Proximos passos** (roxo) — o que vem.
+- **CRITICO:** o bloco "O que fizemos" sao acoes que o gestor EXECUTOU de fato — nunca
+  inventar (lembrar do episodio "reset de aprendizado" que ficou ruim perante o cliente).
+  Fluxo: eu proponho um rascunho com base nos dados/estrategia e o gestor valida/ajusta
+  antes de publicar. Os outros 3 blocos derivam dos numeros (sem risco).
 
 ## Comparativo
 - Estrutura: semana atual vs anterior (deltas %), evolucao S1->S2->S3 e **acumulado do
