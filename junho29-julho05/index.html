@@ -459,6 +459,26 @@
       .sp-top { flex-direction: column; }
       .sp-cpa-box { margin-left: 0; text-align: left; }
     }
+
+    /* ANALISE & ACOES */
+    .analysis-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 44px; }
+    .an-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px 22px 22px; position: relative; overflow: hidden; }
+    .an-card::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; }
+    .an-diag::before  { background: #7ab3ff; }
+    .an-did::before   { background: var(--green); }
+    .an-watch::before { background: var(--gold); }
+    .an-next::before  { background: #a78bfa; }
+    .an-head { display: flex; align-items: center; gap: 9px; font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 14px; }
+    .an-head .an-ico { font-size: 17px; line-height: 1; }
+    .an-diag  .an-head { color: #7ab3ff; }
+    .an-did   .an-head { color: var(--green); }
+    .an-watch .an-head { color: var(--gold); }
+    .an-next  .an-head { color: #a78bfa; }
+    .an-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .an-list li { position: relative; padding-left: 18px; font-size: 13px; line-height: 1.55; color: #cbd5f0; }
+    .an-list li::before { content: '\25B8'; position: absolute; left: 0; color: var(--muted); }
+    .an-list li strong { color: var(--text); font-weight: 700; }
+    @media (max-width: 900px) { .analysis-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
@@ -528,6 +548,50 @@
       <div class="ov-value">43</div>
       <div class="ov-sub">31 formulários + 12 ligações<br>CPL geral A$61,28</div>
     </div>
+  </div>
+
+  <!-- ANALISE & ACOES -->
+  <div class="section-title">Análise &amp; Ações da Semana</div>
+  <div class="analysis-grid">
+
+    <div class="an-card an-diag">
+      <div class="an-head"><span class="an-ico">&#128269;</span> Diagnóstico — o que os dados mostraram</div>
+      <ul class="an-list">
+        <li>O <strong>Google entregou ~26% menos verba</strong>: campanhas Core em "volume de pesquisa limitado" e a Noite/Madrugada sem entrega (0% do teto).</li>
+        <li>Mesmo com menos verba, o <strong>CPL geral caiu 17%</strong> (A$61,28 vs A$74,06) — leads mais baratas.</li>
+        <li>A <strong>campanha de Brand foi o destaque</strong>: CPL A$19,69 e CTR 22% — o menor custo da conta.</li>
+        <li>No <strong>Meta</strong>, o CPL subiu para ~A$38 (vs ~A$32 em junho); o remarketing premium impactou <strong>30 mil pessoas</strong>.</li>
+      </ul>
+    </div>
+
+    <div class="an-card an-did">
+      <div class="an-head"><span class="an-ico">&#9989;</span> O que fizemos — ações na conta</div>
+      <ul class="an-list">
+        <li><strong>Refino das palavras-chave negativas</strong> para cortar lead fraca/fora de perfil e proteger o orçamento.</li>
+        <li><strong>Ajuste de lances</strong> nas campanhas de Search em busca de eficiência de CPL.</li>
+        <li><strong>Troca de criativo</strong> para renovar a comunicação e a performance dos anúncios.</li>
+        <li><strong>Reposicionamento do Meta</strong> para front e remarketing com <strong>criativos premium</strong> (novo branding, confiança e marca).</li>
+      </ul>
+    </div>
+
+    <div class="an-card an-watch">
+      <div class="an-head"><span class="an-ico">&#128065;</span> Monitorando — de olho de perto</div>
+      <ul class="an-list">
+        <li>O <strong>volume travado do Google</strong> ("limitado por pesquisa") — há verba na mesa para destravar sem perder qualidade.</li>
+        <li>O <strong>CPL do Meta subindo</strong> — acompanhar criativo e segmentação de Forms e Calls.</li>
+        <li>A <strong>frequência do remarketing</strong> para não saturar o público impactado.</li>
+      </ul>
+    </div>
+
+    <div class="an-card an-next">
+      <div class="an-head"><span class="an-ico">&#127919;</span> Próximos passos — o que vem</div>
+      <ul class="an-list">
+        <li><strong>Destravar as campanhas Core</strong> (revisar lances, termos e segmentação) para recuperar volume.</li>
+        <li><strong>Reduzir o CPL do Meta</strong> — testar novos criativos e migrar verba de Call para Forms se o custo seguir alto.</li>
+        <li><strong>Sustentar a Brand forte</strong> e escalar o que está com CPL baixo.</li>
+      </ul>
+    </div>
+
   </div>
 
   <!-- INVEST BAR -->
