@@ -459,6 +459,26 @@
       .sp-top { flex-direction: column; }
       .sp-cpa-box { margin-left: 0; text-align: left; }
     }
+
+    /* ANALISE & ACOES */
+    .analysis-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 44px; }
+    .an-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px 22px 22px; position: relative; overflow: hidden; }
+    .an-card::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; }
+    .an-diag::before  { background: #7ab3ff; }
+    .an-did::before   { background: var(--green); }
+    .an-watch::before { background: var(--gold); }
+    .an-next::before  { background: #a78bfa; }
+    .an-head { display: flex; align-items: center; gap: 9px; font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 14px; }
+    .an-head .an-ico { font-size: 17px; line-height: 1; }
+    .an-diag  .an-head { color: #7ab3ff; }
+    .an-did   .an-head { color: var(--green); }
+    .an-watch .an-head { color: var(--gold); }
+    .an-next  .an-head { color: #a78bfa; }
+    .an-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .an-list li { position: relative; padding-left: 18px; font-size: 13px; line-height: 1.55; color: #cbd5f0; }
+    .an-list li::before { content: '\25B8'; position: absolute; left: 0; color: var(--muted); }
+    .an-list li strong { color: var(--text); font-weight: 700; }
+    @media (max-width: 900px) { .analysis-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
@@ -528,6 +548,49 @@
       <div class="ov-value">49</div>
       <div class="ov-sub">45 formulários + 4 ligações<br>CPL geral A$58,97</div>
     </div>
+  </div>
+
+  <!-- ANALISE & ACOES -->
+  <div class="section-title">Análise &amp; Ações da Semana</div>
+  <div class="analysis-grid">
+
+    <div class="an-card an-diag">
+      <div class="an-head"><span class="an-ico">&#128269;</span> Diagnóstico — o que os dados mostraram</div>
+      <ul class="an-list">
+        <li><strong>Melhor semana do mês</strong>: CPL geral caiu para <strong>A$58,97</strong> e 49 leads (pico).</li>
+        <li>A <strong>Brand disparou</strong>: CPL A$18,99 — o menor da conta.</li>
+        <li>Meta muito eficiente: 18 resultados a CPL A$40,99.</li>
+        <li>Google segue limitado por volume de buscas (~27% do teto).</li>
+      </ul>
+    </div>
+
+    <div class="an-card an-did">
+      <div class="an-head"><span class="an-ico">&#9989;</span> O que fizemos — ações na conta</div>
+      <ul class="an-list">
+        <li><strong>Refino das negativas</strong>.</li>
+        <li><strong>Ajuste de lances</strong> — ganho de eficiência.</li>
+        <li><strong>Otimização de criativo</strong>.</li>
+      </ul>
+    </div>
+
+    <div class="an-card an-watch">
+      <div class="an-head"><span class="an-ico">&#128065;</span> Monitorando — de olho de perto</div>
+      <ul class="an-list">
+        <li><strong>Sustentar o CPL baixo</strong> conquistado.</li>
+        <li>O volume limitado do Google.</li>
+        <li>Noite/Madrugada ainda sem entrega relevante.</li>
+      </ul>
+    </div>
+
+    <div class="an-card an-next">
+      <div class="an-head"><span class="an-ico">&#127919;</span> Próximos passos — o que vem</div>
+      <ul class="an-list">
+        <li><strong>Manter o padrão de eficiência</strong> da semana.</li>
+        <li><strong>Escalar o que está com CPL baixo</strong> (Brand, Meta).</li>
+        <li>Seguir destravando volume no Google.</li>
+      </ul>
+    </div>
+
   </div>
 
   <!-- INVEST BAR -->
