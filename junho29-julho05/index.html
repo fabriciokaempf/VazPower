@@ -461,23 +461,29 @@
     }
 
     /* ANALISE & ACOES */
-    .analysis-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 44px; }
+    .analysis-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 16px; }
     .an-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px 22px 22px; position: relative; overflow: hidden; }
     .an-card::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; }
-    .an-diag::before  { background: #7ab3ff; }
-    .an-did::before   { background: var(--green); }
-    .an-watch::before { background: var(--gold); }
-    .an-next::before  { background: #a78bfa; }
+    .an-diag::before   { background: #7ab3ff; }
+    .an-action::before { background: var(--green); }
+    .an-watch::before  { background: var(--gold); }
+    .an-next::before   { background: #a78bfa; }
+    .an-action { background: linear-gradient(135deg, rgba(34,208,122,0.10), rgba(34,208,122,0.02)); border-color: rgba(34,208,122,0.28); }
     .an-head { display: flex; align-items: center; gap: 9px; font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 14px; }
     .an-head .an-ico { font-size: 17px; line-height: 1; }
-    .an-diag  .an-head { color: #7ab3ff; }
-    .an-did   .an-head { color: var(--green); }
-    .an-watch .an-head { color: var(--gold); }
-    .an-next  .an-head { color: #a78bfa; }
+    .an-diag   .an-head { color: #7ab3ff; }
+    .an-action .an-head { color: var(--green); }
+    .an-watch  .an-head { color: var(--gold); }
+    .an-next   .an-head { color: #a78bfa; }
     .an-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
     .an-list li { position: relative; padding-left: 18px; font-size: 13px; line-height: 1.55; color: #cbd5f0; }
     .an-list li::before { content: '\25B8'; position: absolute; left: 0; color: var(--muted); }
-    .an-list li strong { color: var(--text); font-weight: 700; }
+    .an-list li strong, .an-card p strong { color: var(--text); font-weight: 700; }
+    .an-action p { margin: 0; font-size: 13.5px; line-height: 1.6; color: #dbe6ff; }
+    .mgmt-strip { display: flex; align-items: center; flex-wrap: wrap; gap: 9px; background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 13px 16px; margin-bottom: 44px; }
+    .mgmt-label { display: flex; align-items: center; gap: 7px; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+    .mgmt-label .an-ico { font-size: 14px; }
+    .mgmt-chip { font-size: 12px; color: #cbd5f0; background: var(--card); border: 1px solid var(--border); border-radius: 100px; padding: 6px 13px; }
     @media (max-width: 900px) { .analysis-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
@@ -564,14 +570,9 @@
       </ul>
     </div>
 
-    <div class="an-card an-did">
-      <div class="an-head"><span class="an-ico">&#9989;</span> O que fizemos — ações na conta</div>
-      <ul class="an-list">
-        <li><strong>Refino das palavras-chave negativas</strong> para cortar lead fraca/fora de perfil e proteger o orçamento.</li>
-        <li><strong>Ajuste de lances</strong> nas campanhas de Search em busca de eficiência de CPL.</li>
-        <li><strong>Troca de criativo</strong> para renovar a comunicação e a performance dos anúncios.</li>
-        <li><strong>Reposicionamento do Meta</strong> para front e remarketing com <strong>criativos premium</strong> (novo branding, confiança e marca).</li>
-      </ul>
+    <div class="an-card an-action">
+      <div class="an-head"><span class="an-ico">&#9889;</span> Ação da semana — a decisão sobre os dados</div>
+      <p>Com o Google limitado por volume, priorizamos <strong>eficiência</strong>: troca de criativo, ajuste de lances e o Meta já rodando no <strong>novo posicionamento premium</strong> — o CPL geral caiu para <strong>A$61,28</strong> mantendo a Brand forte.</p>
     </div>
 
     <div class="an-card an-watch">
@@ -588,10 +589,19 @@
       <ul class="an-list">
         <li><strong>Destravar as campanhas Core</strong> (revisar lances, termos e segmentação) para recuperar volume.</li>
         <li><strong>Reduzir o CPL do Meta</strong> — testar novos criativos e migrar verba de Call para Forms se o custo seguir alto.</li>
-        <li><strong>Sustentar a Brand forte</strong> e escalar o que está com CPL baixo.</li>
+        <li><strong>Sustentar a Brand forte</strong> e escalar o que rende.</li>
       </ul>
     </div>
 
+  </div>
+
+  <div class="mgmt-strip">
+    <span class="mgmt-label"><span class="an-ico">&#9881;</span> Gestão contínua · toda semana</span>
+    <span class="mgmt-chip">Monitoramento diário de CPL &amp; orçamento</span>
+    <span class="mgmt-chip">Refino de palavras-chave negativas</span>
+    <span class="mgmt-chip">Ajuste de lances</span>
+    <span class="mgmt-chip">Gestão de criativos</span>
+    <span class="mgmt-chip">Gestão do remarketing</span>
   </div>
 
   <!-- INVEST BAR -->
