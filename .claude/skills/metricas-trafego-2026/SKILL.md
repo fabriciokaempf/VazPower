@@ -52,15 +52,26 @@ GitHub Pages + planilha comercial para o cliente preencher.
 - Fica logo apos a overview (antes da barra de investimento). Traduz numero em valor:
   mostra ao cliente a gestao ativa da conta.
 - 4 cards (grid 2x2, CSS injetado antes de `</style>` — classes `.analysis-grid`,
-  `.an-card` + `.an-diag/.an-did/.an-watch/.an-next`, borda colorida a esquerda):
+  `.an-card` + `.an-diag/.an-action/.an-watch/.an-next`, borda colorida a esquerda) +
+  1 faixa `.mgmt-strip` (chips) logo abaixo do grid:
   1. **Diagnostico** (azul) — o que os dados da semana mostraram.
-  2. **O que fizemos** (verde) — acoes REAIS na conta.
+  2. **Acao da semana** (verde, card em destaque) — a decisao ESPECIFICA daquela semana
+     em resposta ao diagnostico. Texto em `<p>`, 1 paragrafo narrativo (nao bullets).
   3. **Monitorando** (dourado) — o que esta sendo vigiado.
   4. **Proximos passos** (roxo) — o que vem.
-- **CRITICO:** o bloco "O que fizemos" sao acoes que o gestor EXECUTOU de fato — nunca
+  5. **Gestao continua** (faixa de chips, `.mgmt-strip`) — o trabalho recorrente que roda
+     TODA semana (monitoramento diario, refino de negativas, ajuste de lances, gestao de
+     criativos, gestao do remarketing). E fixo e igual em todas as semanas.
+- **POR QUE separar:** as acoes recorrentes se repetiam toda semana e viravam texto
+  padrao (o cliente le como copia-e-cola, perde credibilidade). Entao a rotina vai na
+  faixa "Gestao continua" (assumida como rotina) e o card "Acao da semana" carrega so o
+  movimento especifico daquela semana — muda a cada relatorio e conta a historia.
+- **CRITICO:** a "Acao da semana" e uma acao que o gestor EXECUTOU de fato — nunca
   inventar (lembrar do episodio "reset de aprendizado" que ficou ruim perante o cliente).
   Fluxo: eu proponho um rascunho com base nos dados/estrategia e o gestor valida/ajusta
-  antes de publicar. Os outros 3 blocos derivam dos numeros (sem risco).
+  antes de publicar. Diagnostico/Monitorando/Proximos derivam dos numeros (sem risco).
+- **Tom premium:** evitar "barato/barata" e "lixo" no texto voltado ao cliente — usar
+  "eficiencia de CPL / custo por lead / de baixo valor".
 
 ## Comparativo
 - Estrutura: semana atual vs anterior (deltas %), evolucao S1->S2->S3 e **acumulado do
