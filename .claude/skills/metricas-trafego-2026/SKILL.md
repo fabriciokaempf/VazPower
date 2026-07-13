@@ -70,8 +70,11 @@ GitHub Pages + planilha comercial para o cliente preencher.
   inventar (lembrar do episodio "reset de aprendizado" que ficou ruim perante o cliente).
   Fluxo: eu proponho um rascunho com base nos dados/estrategia e o gestor valida/ajusta
   antes de publicar. Diagnostico/Monitorando/Proximos derivam dos numeros (sem risco).
-- **Tom premium:** evitar "barato/barata" e "lixo" no texto voltado ao cliente — usar
+- **Tom premium:** evitar "barato/barata" e "lixo" no texto voltado ao cliente; usar
   "eficiencia de CPL / custo por lead / de baixo valor".
+- **SEM TRAVESSAO:** nao usar travessao (em-dash) em nenhum lugar dos dashboards. Trocar
+  por "·" (separador, no padrao da marca), ":" ou virgula; e usar hifen "-" para faixas
+  (datas, S1-S4) e sinais negativos ("-19%"). Nada de em-dash nem "&mdash;".
 
 ## Comparativo
 - Estrutura: semana atual vs anterior (deltas %), evolucao S1->S2->S3 e **acumulado do
