@@ -16,6 +16,7 @@ A página inicial (`index.html`) é um hub que linka todos os períodos disponí
 
 | Período | Status | Link |
 |---|---|---|
+| Semana 06 a 12/07 | Semana 6 | [Ver dashboard](./julho-06-12/) |
 | Semana 29/06 a 05/07 (virada de mês) | Semana 5 | [Ver dashboard](./junho29-julho05/) |
 
 ### Junho 2026 — Relatórios semanais
