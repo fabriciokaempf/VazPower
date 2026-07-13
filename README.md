@@ -4,7 +4,7 @@ Dashboards de performance de tráfego pago para **Vaz Power Removals & Storage**
 
 Produzido por **Kaempf Business** | Fabricio Nascimento
 
-🌐 **No ar:** https://fabriciokaempf.github.io/VazPower/
+**No ar:** https://fabriciokaempf.github.io/VazPower/
 
 ---
 

@@ -75,6 +75,11 @@ GitHub Pages + planilha comercial para o cliente preencher.
 - **SEM TRAVESSAO:** nao usar travessao (em-dash) em nenhum lugar dos dashboards. Trocar
   por "·" (separador, no padrao da marca), ":" ou virgula; e usar hifen "-" para faixas
   (datas, S1-S4) e sinais negativos ("-19%"). Nada de em-dash nem "&mdash;".
+- **SEM EMOJI (regra do cliente Vaz):** nunca usar emoji em nada que va pro Vaz (dashboards
+  E mensagens). No lugar dos icones, usar SVG de linha monocromatico com `stroke="currentColor"`
+  (herda a cor do card) - ex.: os icones da secao Analise (lupa/raio/olho/alvo/engrenagem).
+  Simbolos geometricos monocromaticos (·, •, ▸, ★, ->) NAO sao emoji e podem ser usados.
+  Nas mensagens de WhatsApp: texto limpo com bullets "•", sem emoji.
 
 ## Comparativo
 - Estrutura: semana atual vs anterior (deltas %), evolucao S1->S2->S3 e **acumulado do
