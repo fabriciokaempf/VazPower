@@ -470,7 +470,7 @@
     .an-next::before   { background: #a78bfa; }
     .an-action { background: linear-gradient(135deg, rgba(34,208,122,0.10), rgba(34,208,122,0.02)); border-color: rgba(34,208,122,0.28); }
     .an-head { display: flex; align-items: center; gap: 9px; font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 14px; }
-    .an-head .an-ico { font-size: 17px; line-height: 1; }
+    .an-head .an-ico { width: 16px; height: 16px; flex-shrink: 0; }
     .an-diag   .an-head { color: #7ab3ff; }
     .an-action .an-head { color: var(--green); }
     .an-watch  .an-head { color: var(--gold); }
@@ -482,7 +482,7 @@
     .an-action p { margin: 0; font-size: 13.5px; line-height: 1.6; color: #dbe6ff; }
     .mgmt-strip { display: flex; align-items: center; flex-wrap: wrap; gap: 9px; background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 13px 16px; margin-bottom: 44px; }
     .mgmt-label { display: flex; align-items: center; gap: 7px; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
-    .mgmt-label .an-ico { font-size: 14px; }
+    .mgmt-label .an-ico { width: 14px; height: 14px; flex-shrink: 0; }
     .mgmt-chip { font-size: 12px; color: #cbd5f0; background: var(--card); border: 1px solid var(--border); border-radius: 100px; padding: 6px 13px; }
     @media (max-width: 900px) { .analysis-grid { grid-template-columns: 1fr; } }
   </style>
@@ -561,7 +561,7 @@
   <div class="analysis-grid">
 
     <div class="an-card an-diag">
-      <div class="an-head"><span class="an-ico">&#128269;</span> Diagnóstico · o que os dados mostraram</div>
+      <div class="an-head"><svg class="an-ico" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> Diagnóstico · o que os dados mostraram</div>
       <ul class="an-list">
         <li><strong>Semana estável</strong>: CPL geral A$63,62, 46 leads.</li>
         <li>Google mantém boa eficiência (34 conv, CPL A$60,66), mas ainda limitado (~28% do teto).</li>
@@ -571,12 +571,12 @@
     </div>
 
     <div class="an-card an-action">
-      <div class="an-head"><span class="an-ico">&#9889;</span> Ação da semana · a decisão sobre os dados</div>
+      <div class="an-head"><svg class="an-ico" viewBox="0 0 24 24" fill="none"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg> Ação da semana · a decisão sobre os dados</div>
       <p>Sustentamos o refino de negativas e o ajuste de lances para manter a eficiência da semana, monitorando de perto a leve alta no custo da Brand (A$34,80).</p>
     </div>
 
     <div class="an-card an-watch">
-      <div class="an-head"><span class="an-ico">&#128065;</span> Monitorando · de olho de perto</div>
+      <div class="an-head"><svg class="an-ico" viewBox="0 0 24 24" fill="none"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/></svg> Monitorando · de olho de perto</div>
       <ul class="an-list">
         <li>A <strong>oscilação do custo da Brand</strong>.</li>
         <li>O volume travado do Google.</li>
@@ -585,7 +585,7 @@
     </div>
 
     <div class="an-card an-next">
-      <div class="an-head"><span class="an-ico">&#127919;</span> Próximos passos · o que vem</div>
+      <div class="an-head"><svg class="an-ico" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/></svg> Próximos passos · o que vem</div>
       <ul class="an-list">
         <li><strong>Recuperar o CPL da Brand</strong> para o patamar da S2.</li>
         <li>Continuar destravando volume.</li>
@@ -596,7 +596,7 @@
   </div>
 
   <div class="mgmt-strip">
-    <span class="mgmt-label"><span class="an-ico">&#9881;</span> Gestão contínua · toda semana</span>
+    <span class="mgmt-label"><svg class="an-ico" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg> Gestão contínua · toda semana</span>
     <span class="mgmt-chip">Monitoramento diário de CPL &amp; orçamento</span>
     <span class="mgmt-chip">Refino de palavras-chave negativas</span>
     <span class="mgmt-chip">Ajuste de lances</span>
