@@ -80,6 +80,10 @@ GitHub Pages + planilha comercial para o cliente preencher.
   (herda a cor do card) - ex.: os icones da secao Analise (lupa/raio/olho/alvo/engrenagem).
   Simbolos geometricos monocromaticos (·, •, ▸, ★, ->) NAO sao emoji e podem ser usados.
   Nas mensagens de WhatsApp: texto limpo com bullets "•", sem emoji.
+- **TOM (nem formal, nem informal demais):** no texto narrativo e nas mensagens, evitar
+  termos juridicos/burocraticos como "do contrato" (usar "da operacao", "do periodo",
+  "ate aqui") e tambem girias/informalidade excessiva. O selo do header ("Semana X do
+  Novo Contrato") e o footer sao padrao historico e ficam como estao, salvo pedido.
 
 ## Comparativo
 - Estrutura: semana atual vs anterior (deltas %), evolucao S1->S2->S3 e **acumulado do
