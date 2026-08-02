@@ -12,6 +12,12 @@ Produzido por **Kaempf Business** | Fabricio Nascimento
 
 A página inicial (`index.html`) é um hub que linka todos os períodos disponíveis.
 
+### Agosto 2026 · Relatórios semanais
+
+| Período | Status | Link |
+|---|---|---|
+| Semana 27/07 a 02/08 (virada de mês) | Semana 9 | [Ver dashboard](./julho27-agosto02/) |
+
 ### Julho 2026 · Relatórios semanais
 
 | Período | Status | Link |
