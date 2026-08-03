@@ -27,6 +27,13 @@ Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & 
 - Após publicar, o build "pages build and deployment" leva ~1 min. Se o cliente vir a
   versão antiga, é cache: Ctrl+Shift+R.
 
+## Pendências combinadas
+
+- **Fechamento de agosto/2026 (início de setembro): pedir os exports de PLATAFORMA e
+  POSICIONAMENTO do Meta** (Facebook vs Instagram; Feed vs Stories vs Reels). Combinado
+  em 03/08: o Fabricio puxa "só no mês que vem" e pediu para ser lembrado. Detalhes no
+  skill `metricas-trafego-2026`.
+
 ## Skills do projeto
 
 - `metricas-trafego-2026` — playbook do dashboard semanal e comparativos.
