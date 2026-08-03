@@ -51,10 +51,23 @@ Leads" para alinhar os dois numeros. Numero final a definir pelo Fabricio: opcao
 (mantem a metrica de mudancas, acima das avaliacoes) ou opcao B focar nas 2.299 avaliacoes reais do
 Google.
 
-### Proximo passo tecnico
+### Tracking de ligacao: FEITO e publicado (24/07)
 
-Tracking de ligacao no GTM (conversao de chamada). Instrucao completa passo a passo em
-`INSTRUCAO-TRACKING-LP-CALL.md`.
+O tracking de chamada foi montado, validado no Tag Assistant e publicado no mesmo dia. Como ficou:
+- Google Ads (conta AW-11125805827): acao `Click to Call LP Call Quote`, categoria Contato,
+  contagem Uma, janela 30 dias, valor fixo 1 AUD, enhanced conversions OFF. ID `11125805827`,
+  rotulo `sUbyCKSHqNscEIOmmbkp`.
+- GTM container GTM-TVL5NMMF (o do Vaz, GA4 G-L9MY62LFGY): acionador `CL - Click to Call
+  (call-quote)` (Clique Apenas links, Click URL contem tel:1300875197 E Page Hostname contem
+  call-quote.vazpower.com.au) e tag `GADS | Click to Call | LP Call Quote` disparando nesse
+  acionador.
+- Contagem dupla resolvida: havia uma tag legada do contrato anterior, `GADS | Click to Call
+  (Website/LP)` (mesmo ID, rotulo antigo `Qn0hCKeVwsQbEIOmmbkp`, acionador `Trigger Click - Phone
+  Call` sem filtro de hostname), disparando junto no call-quote. Foi adicionada uma EXCECAO nela
+  com o acionador `CL - Click to Call (call-quote)`, entao nao conta mais em dobro na LP (segue
+  rodando no resto do site).
+
+Detalhes e passo a passo em `INSTRUCAO-TRACKING-LP-CALL.md`.
 
 ## O projeto (visao geral)
 
@@ -193,14 +206,20 @@ brisbane" ja coberto por `truck hire`.
 - Fabricio: avisar equipe do Vaz para descartar 2 leads de teste (nome "teste"/"TESTE 2", tel
   9999999).
 
-## Quando a LP de Call for validada e aprovada: proximo passo de tracking
+## Tracking da LP de Call: CONCLUIDO em 24/07
 
-LP ja validada em 24/07 (ver ATUALIZACAO no topo). O passo a passo completo do tracking esta em
-`INSTRUCAO-TRACKING-LP-CALL.md`.
+LP validada e tracking de ligacao publicado no mesmo dia (ver "Tracking de ligacao: FEITO" na
+ATUALIZACAO do topo, e o passo a passo em `INSTRUCAO-TRACKING-LP-CALL.md`). Link do botao:
+tel:1300875197.
 
-Resumo: repetir a receita do GTM, mas na chave de LIGACAO (oposto da LP de formulario): conversao
-de chamada Google Ads, recurso de telefone e tag Click to Call (que foram mantidos FORA da LP de
-formulario) entram aqui. Link do botao: tel:1300875197.
+Pendente (nao bloqueia): dar 1 clique real na LP publicada e conferir no dia seguinte se a acao
+`Click to Call LP Call Quote` no Google Ads saiu de "Nao verificada" para gravando conversoes.
+Depois, duplicar a campanha de Search para o objetivo de ligacao usando essa acao como meta
+(config de rede/local/lances espelha a campanha de formulario ja no ar).
+
+Limpeza futura (quando revisar o tracking do site, nao urgente): a tag legada `GADS | Click to
+Call (Website/LP)` do contrato anterior ainda roda no resto do site, mal configurada (dispara em
+qualquer tel: sem escopo). Hoje so foi neutralizada no call-quote via excecao.
 
 ## Regras de estilo do Fabricio (sempre)
 

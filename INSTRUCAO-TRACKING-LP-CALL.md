@@ -1,5 +1,38 @@
 # Instrucao de tracking da LP de Ligacao (call-quote): conversao de chamada
 
+## STATUS: EXECUTADO E PUBLICADO em 24/07/2026
+
+Montado, validado no Tag Assistant e publicado no mesmo dia. Resumo do que ficou no ar (o passo a
+passo abaixo fica como referencia do que foi feito):
+
+- Google Ads (conta AW-11125805827): acao `Click to Call LP Call Quote`, categoria Contato,
+  contagem Uma, janela por clique 30 dias, valor fixo 1 AUD, enhanced conversions OFF. ID de
+  conversao `11125805827`, ROTULO `sUbyCKSHqNscEIOmmbkp`.
+- Container GTM-TVL5NMMF (o do Vaz, GA4 G-L9MY62LFGY). ATENCAO: no comeco a estrutura foi montada
+  por engano no container da BSS (GA4 `G-CFMT8QT...`, outra conta) e teve que ser refeita no
+  container certo. Antes de montar, sempre conferir o ID `GTM-TVL5NMMF` e o GA4 `G-L9MY62LFGY`.
+- Acionador `CL - Click to Call (call-quote)`: Clique Apenas links, `Click URL` contem
+  `tel:1300875197` E `Page Hostname` contem `call-quote.vazpower.com.au`.
+- Tag `GADS | Click to Call | LP Call Quote`: conversao Google Ads, ID `11125805827`, rotulo
+  `sUbyCKSHqNscEIOmmbkp`, no acionador acima. Valor e moeda deixados vazios na tag (o valor de 1 AUD
+  ja esta fixado na acao do Google Ads). O container ja tem a tag base do Google Ads e o Conversion
+  Linker, entao o aviso "nenhuma tag do Google" nao apareceu aqui (diferente da BSS).
+- CONTAGEM DUPLA RESOLVIDA: o container ja tinha uma tag legada do contrato anterior,
+  `GADS | Click to Call (Website/LP)` (mesmo ID `11125805827`, rotulo antigo `Qn0hCKeVwsQbEIOmmbkp`,
+  acionador `Trigger Click - Phone Call` SEM filtro de hostname), disparando junto no call-quote.
+  Solucao aplicada: adicionada uma EXCECAO nessa tag legada com o acionador
+  `CL - Click to Call (call-quote)`. Assim ela nao dispara mais no call-quote (segue rodando no
+  resto do site). Ela e mal feita e do contratante anterior; limpar de vez quando revisar o
+  tracking do site (nao urgente).
+- Validado no Tag Assistant: no clique do botao de ligar do call-quote, dispara so a nossa tag (1
+  vez), a legada foi para "nao disparadas", e nenhuma tag de formulario/thank-you disparou.
+
+Pendente (nao bloqueia): dar 1 clique real na LP publicada e conferir no dia seguinte se a acao no
+Google Ads saiu de "Nao verificada" para gravando conversoes. Depois, duplicar a campanha de Search
+para o objetivo de ligacao usando essa acao como meta.
+
+---
+
 Espelho do tracking ja feito e validado na LP de formulario (moving-quote), mas na chave de
 LIGACAO. Mesmo container GTM, mesma conta Google Ads, mesma propriedade GA4. A diferenca central:
 na LP de formulario a conversao e o envio do formulario; aqui a conversao e o clique no link de
