@@ -214,12 +214,44 @@ tel:1300875197.
 
 Pendente (nao bloqueia): dar 1 clique real na LP publicada e conferir no dia seguinte se a acao
 `Click to Call LP Call Quote` no Google Ads saiu de "Nao verificada" para gravando conversoes.
-Depois, duplicar a campanha de Search para o objetivo de ligacao usando essa acao como meta
-(config de rede/local/lances espelha a campanha de formulario ja no ar).
+A campanha de Search para o objetivo de ligacao ja foi criada e ativada (ver secao "Campanha de
+teste da LP de Call" abaixo).
 
 Limpeza futura (quando revisar o tracking do site, nao urgente): a tag legada `GADS | Click to
 Call (Website/LP)` do contrato anterior ainda roda no resto do site, mal configurada (dispara em
 qualquer tel: sem escopo). Hoje so foi neutralizada no call-quote via excecao.
+
+## Campanha de teste da LP de Call: NO AR
+
+Campanha `[Search] Removals Brisbane | LP Call A/B`, duplicada da campanha de formulario e ativada
+na sessao de continuacao (mesma da validacao da LP e do tracking). E o lado "ligacao" do teste A/B
+(a outra ponta e a `LP Form A/B`, que ficou intacta).
+
+Config:
+- Orcamento AU$ 53,98/dia (a form esta em 67,98/dia; o teste roda com verba um pouco menor, decisao
+  do Fabricio).
+- Meta: Contatos > Site (acao `Click to Call LP Call Quote`). Lance Maximizar conversoes SEM tCPA
+  (a copia veio com tCPA de AU$65, removido porque a conversao e nova, zero historico). IA Max OFF.
+  Brisbane cidade / Presenca. Idiomas EN + ES + PT. Correspondencia ampla OFF.
+- 3 grupos (Core, Premium Intent, House Moving). RSAs reescritos para intencao de LIGACAO, URL final
+  `call-quote.vazpower.com.au` em todos, cada grupo com titulos da sua keyword (Core: removalists
+  brisbane; Premium: premium/professional; House: house movers / home removals). Ad strength
+  Excelente nos 3.
+- Sitelinks proprios da campanha apontando pro call-quote: Call Now for a Quote (/), Pricing
+  (/#pricing), Moving FAQs (/#faq), Why Vaz Power (/). Os sitelinks antigos (form) foram
+  desvinculados so da Call; a Form seguiu com os originais (Get A Free Quote / Fill the form).
+- Sem call asset: o recurso de chamada da conta ("1300 875 197", nivel conta) nao herda nessas
+  campanhas, entao todas as conversoes vem pelo clique na LP (A/B limpo).
+
+Benchmark a bater: a campanha de formulario esta com CPL AU$ 68,14 no periodo.
+
+Cuidados / pendencias:
+- Primeiros 3 a 5 dias sao de aprendizado (conversao nova). NAO mexer em lance nem orcamento nesse
+  comeco.
+- Depois de juntar termos de pesquisa (~3-5 dias), rodar negativacao com base nos termos reais
+  (skill google-ads-2026).
+- O RSA do grupo Core ainda tem o titulo "Full Service From $399". Alinhar o preco quando o Vaz
+  confirmar 396 vs 399.
 
 ## Regras de estilo do Fabricio (sempre)
 
