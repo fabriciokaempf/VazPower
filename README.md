@@ -22,6 +22,7 @@ A página inicial (`index.html`) é um hub que linka todos os períodos disponí
 
 | Período | Status | Link |
 |---|---|---|
+| Julho 2026 (01–31) | **Mês completo** | [Ver dashboard](./julho-01-31/) |
 | Semana 20 a 26/07 | Semana 8 | [Ver dashboard](./julho-20-26/) |
 | Semana 13 a 19/07 | Semana 7 | [Ver dashboard](./julho-13-19/) |
 | Semana 06 a 12/07 | Semana 6 | [Ver dashboard](./julho-06-12/) |
