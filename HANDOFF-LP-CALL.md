@@ -212,10 +212,15 @@ LP validada e tracking de ligacao publicado no mesmo dia (ver "Tracking de ligac
 ATUALIZACAO do topo, e o passo a passo em `INSTRUCAO-TRACKING-LP-CALL.md`). Link do botao:
 tel:1300875197.
 
-Pendente (nao bloqueia): dar 1 clique real na LP publicada e conferir no dia seguinte se a acao
-`Click to Call LP Call Quote` no Google Ads saiu de "Nao verificada" para gravando conversoes.
-A campanha de Search para o objetivo de ligacao ja foi criada e ativada (ver secao "Campanha de
-teste da LP de Call" abaixo).
+Confirmado (conferido no dia seguinte): a acao `Click to Call LP Call Quote` esta ATIVA no Google
+Ads e ja gravou conversoes (2 conv registradas), origem Site, otimizacao Principal. Tracking
+validado ponta a ponta (clique no botao -> GTM -> conversao). A campanha de Search para o objetivo
+de ligacao ja foi criada e ativada (ver secao "Campanha de teste da LP de Call" abaixo).
+
+Nota (limpeza futura): no resumo de conversoes do Google Ads ha varias acoes secundarias do
+contrato anterior com "Requer atencao"/"Inativo" (Call Click Website/LP, Click - Phone Call
+(Website), WhatsApp Click etc.), todas com 0 conversao. Nao afetam a campanha (que usa so a
+`Click to Call LP Call Quote` como meta). Limpar quando revisar o tracking do site.
 
 Limpeza futura (quando revisar o tracking do site, nao urgente): a tag legada `GADS | Click to
 Call (Website/LP)` do contrato anterior ainda roda no resto do site, mal configurada (dispara em
