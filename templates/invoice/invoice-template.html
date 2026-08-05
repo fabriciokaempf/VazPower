@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{INVOICE_NO}} - {{TO_NAME}}</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root{
+    --ink:#1a1a1a; --muted:#8a8a8a; --line:#e6e6e6; --line-strong:#111;
+    --gold:#e0a100; --gold-soft:#f5b800;
+  }
+  html,body{ background:#f2f2f2; }
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    color:var(--ink); font-size:14px; line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .sheet{
+    width:210mm; min-height:297mm; margin:16px auto; background:#fff;
+    padding:26mm 20mm; position:relative;
+  }
+  .muted{ color:var(--muted); }
+  .lbl{ font-size:10px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--muted); }
+
+  /* ---- header ---- */
+  .top{ display:flex; justify-content:space-between; align-items:flex-start; }
+  .top h1{ font-size:40px; font-weight:800; letter-spacing:-1px; line-height:1; }
+  .top .subtitle{ color:var(--muted); font-size:13px; margin-top:6px; }
+  .top-right{ text-align:right; }
+  .inv-no{ font-size:17px; font-weight:800; }
+  .meta-line{ color:var(--muted); font-size:12.5px; margin-top:3px; }
+  .badge{
+    display:inline-block; margin-top:12px; border:1.5px solid var(--gold);
+    color:var(--gold); font-size:10px; font-weight:800; letter-spacing:1.5px;
+    text-transform:uppercase; padding:5px 14px; border-radius:100px;
+  }
+
+  .rule{ height:3px; background:var(--line-strong); margin:22px 0 26px; }
+
+  /* ---- from / to ---- */
+  .parties{ display:grid; grid-template-columns:1fr 1fr; gap:40px; padding-bottom:26px; border-bottom:1px solid var(--line); }
+  .party .name{ font-size:15px; font-weight:800; margin:10px 0 4px; }
+  .party .row{ color:#3a3a3a; font-size:13px; }
+
+  /* ---- services ---- */
+  .services{ margin-top:28px; }
+  table{ width:100%; border-collapse:collapse; margin-top:14px; }
+  thead th{
+    text-align:left; font-size:10px; font-weight:700; letter-spacing:1.5px;
+    text-transform:uppercase; color:var(--muted); padding-bottom:14px;
+    border-bottom:1px solid var(--line);
+  }
+  thead th.r{ text-align:right; }
+  td{ padding:20px 0; vertical-align:top; }
+  td.r{ text-align:right; }
+  .desc-title{ font-weight:800; font-size:14px; }
+  .desc-sub{ color:var(--muted); font-size:12.5px; margin-top:5px; max-width:330px; }
+  .amount{ font-weight:800; white-space:nowrap; }
+
+  .totals{ margin-top:2px; }
+  .totals .trow{ display:flex; justify-content:flex-end; gap:60px; align-items:center;
+    padding:13px 0; border-top:1px solid var(--line); }
+  .totals .tlabel{ color:#555; font-size:13px; }
+  .totals .tval{ font-weight:800; min-width:120px; text-align:right; }
+  .totals .grand{ border-top:2px solid var(--line-strong); margin-top:2px; }
+  .totals .grand .tlabel{ font-size:18px; font-weight:800; color:#222; }
+  .totals .grand .tval{ font-size:18px; color:#333; }
+
+  /* ---- boxes ---- */
+  .boxes{ display:grid; grid-template-columns:1fr 1fr; gap:22px; margin-top:40px; }
+  .box{ border:1px solid var(--line); border-radius:10px; padding:20px 22px; }
+  .box .bhead{ margin-bottom:12px; }
+  .box .bstrong{ font-weight:800; }
+  .box .brow{ color:#3a3a3a; font-size:13px; margin-top:3px; }
+
+  /* ---- footer ---- */
+  .foot{ display:flex; justify-content:space-between; align-items:flex-end; gap:30px;
+    margin-top:44px; padding-top:20px; border-top:1px solid var(--line); }
+  .foot .fine{ color:var(--muted); font-size:11px; max-width:520px; line-height:1.5; }
+  .foot .thanks{ font-weight:800; font-size:13px; text-align:right; min-width:140px; }
+
+  @media print{
+    html,body{ background:#fff; }
+    .sheet{ width:auto; min-height:auto; margin:0; padding:16mm 15mm; }
+    @page{ size:A4; margin:0; }
+  }
+</style>
+</head>
+<body>
+  <div class="sheet">
+
+    <div class="top">
+      <div>
+        <h1>INVOICE</h1>
+        <div class="subtitle">Paid Traffic Management Services</div>
+      </div>
+      <div class="top-right">
+        <div class="inv-no">{{INVOICE_NO}}</div>
+        <div class="meta-line">Issue Date: {{ISSUE_DATE}}</div>
+        <div class="meta-line">Due Date: {{DUE_DATE}}</div>
+        <div class="meta-line">Service Period: {{SERVICE_PERIOD}}</div>
+        <div class="badge">Due Today</div>
+      </div>
+    </div>
+
+    <div class="rule"></div>
+
+    <div class="parties">
+      <div class="party">
+        <div class="lbl">From</div>
+        <div class="name">{{FROM_NAME}}</div>
+        <div class="row">{{FROM_DOC}}</div>
+        <div class="row">{{FROM_COUNTRY}}</div>
+        <div class="row">{{FROM_EMAIL}}</div>
+      </div>
+      <div class="party">
+        <div class="lbl">To</div>
+        <div class="name">{{TO_NAME}}</div>
+        <div class="row">{{TO_ABN}}</div>
+        <div class="row">{{TO_ADDRESS}}</div>
+        <div class="row">{{TO_CITY}}</div>
+        <div class="row">{{TO_EMAIL}}</div>
+      </div>
+    </div>
+
+    <div class="services">
+      <div class="lbl">Services Rendered</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Period</th>
+            <th>Qty</th>
+            <th class="r">Amount (AUD)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="desc-title">Paid Traffic Management Services</div>
+              <div class="desc-sub">Google Ads and Meta Ads: strategy, campaign management, monitoring, optimisation and monthly performance reporting.</div>
+            </td>
+            <td>{{SERVICE_PERIOD}}</td>
+            <td>1 month</td>
+            <td class="r amount">{{AMOUNT}}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="totals">
+        <div class="trow"><div class="tlabel">Subtotal</div><div class="tval">{{AMOUNT}}</div></div>
+        <div class="trow"><div class="tlabel">GST (0% - overseas supplier)</div><div class="tval">A$0.00</div></div>
+        <div class="trow grand"><div class="tlabel">Total Due</div><div class="tval">{{AMOUNT}}</div></div>
+      </div>
+    </div>
+
+    <div class="boxes">
+      <div class="box">
+        <div class="bhead lbl">Payment Method</div>
+        <div class="bstrong">{{PAYMENT_METHOD}}</div>
+        <div class="brow">Email: {{PAYMENT_EMAIL}}</div>
+        <div class="brow">Currency: {{CURRENCY}}</div>
+      </div>
+      <div class="box">
+        <div class="bhead lbl">Payment Terms</div>
+        <div class="bstrong">Due on receipt.</div>
+        <div class="brow">Reference: <strong>{{INVOICE_NO}}</strong></div>
+        <div class="brow">Late payment may result in service suspension.</div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <div class="fine">{{FROM_NAME}} - {{FROM_DOC}} - {{FROM_COUNTRY}} | As an overseas supplier, GST does not apply (GSTR 2003/4).</div>
+      <div class="thanks">Thank you for your trust.</div>
+    </div>
+
+  </div>
+</body>
+</html>

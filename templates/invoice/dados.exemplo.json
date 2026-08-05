@@ -1,0 +1,17 @@
+{
+  "FROM_NAME": "Nome completo do prestador",
+  "FROM_DOC": "CPF: 000.000.000-00",
+  "FROM_COUNTRY": "Brazil",
+  "FROM_EMAIL": "seu@email.com",
+
+  "TO_NAME": "Cliente Pty Ltd",
+  "TO_ABN": "ABN: 00 000 000 000",
+  "TO_ADDRESS": "Rua e numero, Suburbio ESTADO 0000",
+  "TO_CITY": "Cidade, Pais",
+  "TO_EMAIL": "contato@cliente.com",
+
+  "AMOUNT": "A$0,000.00",
+  "PAYMENT_METHOD": "Wise",
+  "PAYMENT_EMAIL": "seu@email.com",
+  "CURRENCY": "AUD"
+}
