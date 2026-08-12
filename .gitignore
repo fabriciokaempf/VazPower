@@ -1,0 +1,9 @@
+# Dados sensiveis da invoice (documento, pagamento, valor) - NUNCA commitar
+templates/invoice/dados.local.json
+templates/invoice/*.pdf
+
+# Temporarios do gerador
+_invoice_tmp.*
+
+# SVGs intermediarios dos avatares (o script regenera)
+marca/grupo-*.svg

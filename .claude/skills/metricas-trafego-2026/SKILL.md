@@ -109,6 +109,27 @@ GitHub Pages + planilha comercial para o cliente preencher.
   maiusculas no caminho -> `https://fabriciokaempf.github.io/VazPower/junho-08-14/`.
   Minusculo da "There isn't a GitHub Pages site here".
 
+## Fechamento mensal
+- Pasta `mes-01-DD` (ex.: `junho-01-30`, `julho-01-31`). Usa o export MENSAL, que e a
+  fonte autoritativa (da diferenca contra a soma das semanas).
+- **Reconciliar "Total: Campanhas" vs "Total: Conta"**: se diferirem, a conta inclui
+  campanhas pausadas/removidas da lista filtrada. Usar o **Total: Conta** e incluir a
+  campanha faltante na tabela para tudo fechar (em julho/2026 era A$102,48 de um teste
+  pausado no meio do mes).
+- Secoes extras do mensal (alem das do semanal): **comparativo mes anterior vs atual**
+  e **desempenho por dispositivo**.
+- **Dispositivo**: pedir os exports segmentados (GADS "Dispositivo" e META "Dispositivo
+  de impressao"). No META agrupar iPhone + Smartphone Android = celular, iPad + Tablet
+  Android = tablets. Alcance NAO soma entre dispositivos (mesma pessoa em mais de um):
+  usar "--" no total.
+
+## PENDENCIA ABERTA (proximo fechamento mensal)
+- **No fechamento de AGOSTO/2026 (a fazer no inicio de setembro), pedir ao Fabricio os
+  exports de PLATAFORMA e POSICIONAMENTO do Meta** (Facebook vs Instagram; Feed vs
+  Stories vs Reels). Ele confirmou em 03/08 que puxaria "so no mes que vem" e pediu
+  para ser lembrado. Com ~A$3,2 mil/mes nas campanhas de lead, esse corte tende a
+  render mais que o de dispositivo.
+
 ## Boas praticas
 - Validar todos os numeros com um script (parsear CSV + conferir contra o esperado)
   antes de escrever o HTML.
