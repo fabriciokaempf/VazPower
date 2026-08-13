@@ -121,5 +121,6 @@ Emitidas até aqui: 06-001 (serviço de maio), 07-001, 08-001. Próxima: **INV-2
 Template em `templates/invoice/`, dados sensíveis fora do git.
 
 **Branches:** trabalho em `claude/adoring-curie-qww6u5`, publicação por commit direto no
-`master`. Manter as duas idênticas para evitar divergência silenciosa (em 09/08 os
-dashboards de abril e maio tinham sumido do master por causa disso).
+`master`. Antes de "restaurar" algo que parece faltando, **conferir o histórico**: em
+21/07 os dashboards de abril e maio foram removidos de propósito (são pré-contrato, que
+começou em junho) e as skills saíram do repo por serem metodologia interna.
