@@ -3,6 +3,10 @@
 Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & Storage**
 (Brisbane, AU), publicados no GitHub Pages. Gestor: **Fabricio Kaempf** (Kaempf Business).
 
+> **Comece por `ESTADO.md`.** Ele traz o estado vivo da operação: próxima ação, histórico
+> de métricas semana a semana, situação de cada campanha, pontos abertos e pendências.
+> Este arquivo aqui guarda as regras que não mudam.
+
 ## Preferências do Fabricio (seguir sempre)
 
 - **FUSO HORÁRIO: sempre horário de Brasília (BRT, UTC-3).** Todo horário combinado,
@@ -27,18 +31,15 @@ Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & 
 - Após publicar, o build "pages build and deployment" leva ~1 min. Se o cliente vir a
   versão antiga, é cache: Ctrl+Shift+R.
 
-## Contexto operacional (ago/2026)
+## Contexto operacional
 
-- **TETO DE ORÇAMENTO REDUZIDO: A$2.500 por semana**, pedido do Vaz em 09/08. O praticado
-  na semana 03 a 09/08 foi A$4.012,89, então é corte de ~38%, a valer da otimização de
-  10/08 em diante.
-- **Motivo:** capacidade de atendimento reduzida no período. O objetivo é **menos volume
-  com mais qualidade**, não apenas gastar menos. Isso muda o critério do corte: sacrificar
-  as fontes de pior CPL e preservar as de melhor intenção (marca, ligações), em vez de
-  cortar proporcional.
-- **Consequência para o relatório:** a queda de leads nas próximas semanas é **decisão do
-  cliente**, não perda de performance. O dashboard precisa deixar isso explícito para
-  não parecer piora de resultado.
+- **Teto de orçamento vigente e plano de corte: ver `ESTADO.md`.** Em ago/2026 o cliente
+  reduziu para A$2.500/semana por capacidade de atendimento reduzida.
+- Quando o cliente pedir redução, o critério é **menos volume com mais qualidade**:
+  sacrificar as fontes de pior CPL e preservar as de melhor intenção (marca, ligações),
+  nunca cortar proporcional.
+- **No relatório:** queda de leads por decisão do cliente precisa aparecer como decisão,
+  não como perda de performance.
 
 ## Pendências combinadas
 
