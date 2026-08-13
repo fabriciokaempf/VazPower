@@ -7,3 +7,6 @@ _invoice_tmp.*
 
 # SVGs intermediarios dos avatares (o script regenera)
 marca/grupo-*.svg
+
+# Skills vivem em ~/.claude/skills (fonte unica, fora do repo)
+.claude/
