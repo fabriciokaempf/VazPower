@@ -1,40 +1,49 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **09/08/2026** (fecha a Semana 10).
+Atualizado em **16/08/2026** (Semana 11 validada, dashboard EM ANDAMENTO).
 
 ---
 
-## 1. Próxima ação: otimização com teto novo
+## 0. TRABALHO EM ANDAMENTO (retomar daqui)
 
-**O Vaz pediu teto de A$2.500 por semana** (praticado na Semana 10 foi A$4.012,89,
-então é corte de ~38%). Motivo: capacidade de atendimento reduzida no período. O
-objetivo é **menos volume com mais qualidade**, então o corte sacrifica pior CPL e
-preserva melhor intenção, em vez de cortar proporcional.
+**Dashboard da Semana 11 (10 a 16/08)**: números já validados contra os CSVs
+(uploads `408c038b-GADS`, `7d5319fc-META`, + dispositivos e termos de pesquisa).
+Falta: montar o body, mesclar com head de `agosto-03-09/index.html`, hub, README,
+publicar. **Ação da semana = redução e controle de investimento a pedido do Vaz**
+(teto A$2.500, capacidade de atendimento reduzida; queda de leads é DECISÃO DO
+CLIENTE, dizer isso explícito no dashboard).
 
-Plano montado a partir dos dados da Semana 10:
+### Números validados da Semana 11
+- **Invest A$3.188,58** (Google A$2.737,08 = 86% | Meta A$451,50 = 14%)
+- **53 leads** (27 forms + 26 ligações) | **CPL geral A$60,16**
+- vs S10: invest -20,5%, leads -26%, CPL +8%
+- Teto A$2.500: praticado ficou A$688 acima (corte aplicado no meio da semana,
+  efeito integral só na S12)
 
-| Ação | Campanha | Gasto semanal | CPL |
-|---|---|---|---|
-| Cortar | Teste LP Call | A$373,01 | A$186,51 |
-| Cortar | Formulários Meta | A$359,56 | A$119,85 |
-| Cortar | Teste LP Form | A$497,16 | A$82,86 |
-| Reduzir ~29% | SUPORTE | A$985,64 | A$65,71 |
-| Preservar | PMax | A$967,83 | A$56,93 |
-| Preservar | Ligações Meta | A$371,13 | A$20,62 |
-| Preservar | BRAND | A$238,46 | A$29,81 |
+### Otimização visível nos exports (confirmada nos dados)
+- **SUPORTE: orçamento -86%** (A$328,98 -> A$45,98/dia)
+- **Meta FORMS e RMKT pausadas** (aparecem inactive); só Ligações ativa
+- **Meta Ligações: 22 calls a A$16,71 — NOVO RECORDE de custo da operação**
+- FRONT retomou parcialmente: A$348,81 gastos (era A$96,83), 209 impr, 17% do orç
+- Demais orçamentos mantidos (FRONT, BRAND, MADRUGA, PMax, LP Form, LP Call)
 
-**Cenário estimado:** A$2.500/semana, ~57 leads, CPL ~A$43,86. Ou seja, 79% do volume
-com 62% da verba, e o CPL 21% melhor.
+### Atenções da Semana 11
+- **PMax despencou: CPL A$193,91 (era A$56,93), só 5 conv** — semana ruim dela;
+  investigar se o corte geral afetou os sinais
+- Teste LP Call segue caro: A$313,59/conv
+- BRAND estável e boa: 9 conv a A$32,24, CTR 12,74%, 3 ligações
+- MADRUGA: zero entrega na semana
+- **Gotcha do export**: o GADS desta semana NÃO traz a coluna "Enviar formulário
+  de lead" (só ligações). Forms = conversões - ligações.
+- Meta por dispositivo: 100% celular de novo (iPhone 11 calls a A$11,06 mais
+  barato que Android 11 a A$22,35 na campanha de call)
 
-Também na fila: **excluir tablets** (3 semanas sem conversão nas duas plataformas) e
-**revisar o CPA alvo da FRONT** (ver seção 4).
-
-> **No relatório:** a queda de leads das próximas semanas é decisão do cliente, não
-> perda de performance. O dashboard precisa dizer isso de forma explícita.
+### Termos de pesquisa (pendência de julho ATENDIDA, análise a fazer)
+Export `4fddd051-...Termos_de_Pesquisa.csv` na pasta de uploads cobre 10-16/08.
+Analisar com o skill google-ads-2026 e devolver incremento de negativas.
 
 ---
-
 ## 2. Histórico semanal
 
 | Semana | Período | Investimento | Leads | CPL geral |
@@ -49,7 +58,9 @@ Também na fila: **excluir tablets** (3 semanas sem conversão nas duas platafor
 | 8 | 20-26/07 | A$3.527 | 53 | A$66,54 |
 | 9 | 27/07-02/08 | A$2.956 | 50 | A$59,11 |
 | 10 | 03-09/08 | A$4.013 | **72** | A$55,73 |
+| 11 | 10-16/08 | A$3.189 | 53 | A$60,16 |
 
+Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Recorde de volume: **72 leads** na Semana 10. Melhor CPL: A$49,37 na Semana 6.
 
 ## Meses fechados
