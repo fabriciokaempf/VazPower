@@ -1,47 +1,34 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **16/08/2026** (Semana 11 validada, dashboard EM ANDAMENTO).
+Atualizado em **17/08/2026** (Semana 11 PUBLICADA, incremento de negativas entregue).
 
 ---
 
-## 0. TRABALHO EM ANDAMENTO (retomar daqui)
+## 0. ESTADO ATUAL (retomar daqui)
 
-**Dashboard da Semana 11 (10 a 16/08)**: números já validados contra os CSVs
-(uploads `408c038b-GADS`, `7d5319fc-META`, + dispositivos e termos de pesquisa).
-Falta: montar o body, mesclar com head de `agosto-03-09/index.html`, hub, README,
-publicar. **Ação da semana = redução e controle de investimento a pedido do Vaz**
-(teto A$2.500, capacidade de atendimento reduzida; queda de leads é DECISÃO DO
-CLIENTE, dizer isso explícito no dashboard).
+**Semana 11 (10 a 16/08) publicada** em `agosto-10-16/` (hub e README atualizados,
+mensagem enviada ao Vaz em 17/08). Ação da semana registrada: redução e controle de
+investimento a pedido do Vaz (teto A$2.500/semana), queda de leads apresentada como
+decisão do cliente. Números: A$3.188,58 | 53 leads (27 forms + 26 lig) | CPL A$60,16.
 
-### Números validados da Semana 11
-- **Invest A$3.188,58** (Google A$2.737,08 = 86% | Meta A$451,50 = 14%)
-- **53 leads** (27 forms + 26 ligações) | **CPL geral A$60,16**
-- vs S10: invest -20,5%, leads -26%, CPL +8%
-- Teto A$2.500: praticado ficou A$688 acima (corte aplicado no meio da semana,
-  efeito integral só na S12)
+**Incremento de negativas entregue em 17/08** (análise dos termos de 10-16/08 com o
+skill google-ads-2026): ~45 termos PRONTO PRA COLAR (concorrentes, aluguel/DIY,
+container, Townsville) que teriam evitado ~A$229 na semana, + bloco REVISAR ANTES
+(família de custo com 1 conversão, [gantic removals & storage] e [removalists in
+adelaide] que converteram, Gold Coast/Sunshine Coast conforme raio). **Aguardando o
+Fabricio aplicar na lista compartilhada** (a mesma das 41 de julho). Pendência de
+relatório de termos de julho: ATENDIDA.
 
-### Otimização visível nos exports (confirmada nos dados)
-- **SUPORTE: orçamento -86%** (A$328,98 -> A$45,98/dia)
-- **Meta FORMS e RMKT pausadas** (aparecem inactive); só Ligações ativa
-- **Meta Ligações: 22 calls a A$16,71 — NOVO RECORDE de custo da operação**
-- FRONT retomou parcialmente: A$348,81 gastos (era A$96,83), 209 impr, 17% do orç
-- Demais orçamentos mantidos (FRONT, BRAND, MADRUGA, PMax, LP Form, LP Call)
-
-### Atenções da Semana 11
-- **PMax despencou: CPL A$193,91 (era A$56,93), só 5 conv** — semana ruim dela;
-  investigar se o corte geral afetou os sinais
-- Teste LP Call segue caro: A$313,59/conv
-- BRAND estável e boa: 9 conv a A$32,24, CTR 12,74%, 3 ligações
-- MADRUGA: zero entrega na semana
-- **Gotcha do export**: o GADS desta semana NÃO traz a coluna "Enviar formulário
-  de lead" (só ligações). Forms = conversões - ligações.
-- Meta por dispositivo: 100% celular de novo (iPhone 11 calls a A$11,06 mais
-  barato que Android 11 a A$22,35 na campanha de call)
-
-### Termos de pesquisa (pendência de julho ATENDIDA, análise a fazer)
-Export `4fddd051-...Termos_de_Pesquisa.csv` na pasta de uploads cobre 10-16/08.
-Analisar com o skill google-ads-2026 e devolver incremento de negativas.
+### Para a Semana 12 (17-23/08, dashboard ~24/08)
+- **Primeira semana INTEIRA sob o teto A$2.500** (~A$357/dia). Conferir aderência.
+- **PMax**: despencou na S11 (CPL A$193,91, era A$56,93, só 5 conv). Se seguir fora
+  do padrão, revisar (sinais podem ter sido afetados pelo corte geral).
+- Teste LP Call segue com custo alto (A$313,59/conv na S11); MADRUGA teve zero entrega.
+- Gotcha que pode repetir: export GADS da S11 veio SEM a coluna "Enviar formulário
+  de lead". Forms = conversões - ligações.
+- Config vigente: Google A$852,96/dia implementado (SUPORTE reduzida para A$45,98);
+  Meta só Ligações ativa (A$52,98/dia); Meta Forms e RMKT pausadas.
 
 ---
 ## 2. Histórico semanal
@@ -75,20 +62,22 @@ Julho superou junho em 35% de leads com 6,5% mais verba. O salto veio das **liga
 
 ---
 
-## 3. Situação das campanhas (Semana 10)
+## 3. Situação das campanhas (Semana 11, pós-corte)
 
 | Campanha | Orç./dia | Uso | CPL | Observação |
 |---|---|---|---|---|
-| PMax | A$139,08 | 99% | A$56,93 | Motor da conta, **travada no teto** |
-| SUPORTE | A$328,98 | 43% | A$65,71 | Espaço para reduzir |
-| Teste LP Form | A$67,98 | 104% | A$82,86 | No teto |
-| Teste LP Call | A$53,98 | 99% | A$186,51 | Estreou na S10, caro |
-| BRAND | A$128,98 | 26% | A$29,81 | Melhor intenção, sobra verba |
-| FRONT | A$287,98 | **5%** | A$48,41 | **Travada há 2 semanas** |
-| MADRUGA | A$128,98 | 5% | A$23,14 | Quase sem entrega |
-| Meta Ligações | A$52,98 | 100% | A$20,62 | Melhor CPL da operação |
-| Meta Formulários | A$50,98 | 101% | A$119,85 | Pior CPL, candidato a corte |
-| Meta Remarketing | ~A$11 | 100% | alcance | Marca premium |
+| PMax | A$139,08 | 100% | A$193,91 | **Semana ruim** (era A$56,93), vigiar |
+| SUPORTE | A$45,98 | 106%* | A$85,29 | **Reduzida em 86%** no corte |
+| Teste LP Form | A$67,98 | 100% | A$78,98 | No teto |
+| Teste LP Call | A$53,98 | 83% | A$313,59 | Segue com custo alto |
+| BRAND | A$128,98 | 32% | A$32,24 | Melhor CPL Google, 9 conv |
+| FRONT | A$287,98 | 17% | A$87,20 | Retomou parcial (4 conv) |
+| MADRUGA | A$128,98 | 0% | - | Zero entrega na S11 |
+| Meta Ligações | A$52,98 | 99% | A$16,71 | **Recorde da operação** |
+| Meta Formulários | pausada | - | A$28,71 | Pausada no corte (rodou 2 dias) |
+| Meta Remarketing | pausada | - | alcance | Pausado no corte |
+
+*Uso acima de 100% porque o gasto da semana inclui os dias antes do corte.
 
 ---
 
@@ -112,12 +101,12 @@ não reverter sozinho o que for ajustado.
 
 ## 5. Pendências combinadas
 
-- **Relatório de termos de pesquisa**: pendente desde julho. As 41 negativas subidas em
-  ~12/07 já têm mais de um mês de dados para avaliar.
+- **Aplicar o incremento de negativas** entregue em 17/08 na lista compartilhada
+  (Fabricio executa; itens REVISAR ANTES dependem de decisão dele sobre raio e custo).
 - **Plataforma e posicionamento do Meta**: pedir no **fechamento de agosto** (início de
   setembro). Combinado em 03/08.
-- **Ação da semana 10**: a otimização de 03/08 não foi registrada a tempo, então o
-  dashboard da Semana 10 descreve apenas o que é verificável no export.
+- **Fechamento de agosto** (início de setembro) e **invoice INV-2026-09-001** via
+  `templates/invoice/`.
 
 ---
 
