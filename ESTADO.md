@@ -13,12 +13,80 @@ investimento a pedido do Vaz (teto A$2.500/semana), queda de leads apresentada c
 decisão do cliente. Números: A$3.188,58 | 53 leads (27 forms + 26 lig) | CPL A$60,16.
 
 **Incremento de negativas entregue em 17/08** (análise dos termos de 10-16/08 com o
-skill google-ads-2026): ~45 termos PRONTO PRA COLAR (concorrentes, aluguel/DIY,
-container, Townsville) que teriam evitado ~A$229 na semana, + bloco REVISAR ANTES
-(família de custo com 1 conversão, [gantic removals & storage] e [removalists in
-adelaide] que converteram, Gold Coast/Sunshine Coast conforme raio). **Aguardando o
-Fabricio aplicar na lista compartilhada** (a mesma das 41 de julho). Pendência de
-relatório de termos de julho: ATENDIDA.
+skill google-ads-2026). Lista completa na seção 0.1 abaixo, para a **sessão de
+otimização aplicar na lista compartilhada** (a mesma das 41 de julho; duplicado o
+Google ignora). Teria evitado ~A$229 na semana (PRONTO) + ~A$80 nos itens de revisão,
+11% do investimento Google. Pendência de relatório de termos de julho: ATENDIDA.
+
+### 0.1 Incremento de negativas (17/08, termos de 10-16/08) · APLICAR
+
+**PRONTO PRA COLAR (45):**
+
+```
+[move me in]
+[ss removals]
+[ss removals and rentals]
+[one stop movers]
+[toucan removals]
+[knights force removals]
+[wecube removals]
+[easy little moves]
+[redcliffe furniture relocations and storage]
+[2 men and a truck]
+[2 men and a truck removalists]
+[two men with a truck]
+[two guys and a truck]
+[abel truck]
+[mover truck]
+[townsville removals]
+[townsville mini moves]
+taxibox
+container
+containers
+uber
+trailer
+trailers
+rent
+renting
+rental
+rentals
+supercheap
+hourly
+"per hour"
+"truck hire"
+"truck hires"
+"truck rental"
+"rental trucks"
+"truck movers"
+"for hire"
+"hire movers"
+"hire a mover"
+"labour hire"
+"small job"
+"free removalist"
+"free furniture removal"
+"packing box"
+"storage box"
+"best way"
+```
+
+**REVISAR ANTES (decisão do Fabricio):**
+- Família de custo (`cost`, `costs`, `price`, `prices`, `"how much"`): A$29,85 na
+  semana, MAS 1 conversão veio de "how much do packers and movers cost" (A$10,57).
+- `[gantic removals & storage]`: concorrente, mas converteu 1 vez (A$21,84).
+- `[removalists in adelaide]`: fora de área, mas converteu 1 vez (A$28,75); pode ser
+  mudança Adelaide -> Brisbane.
+- Gold Coast / Sunshine Coast em exata, se o raio não cobre: `[removalists gold coast]`
+  `[removalist gold coast]` `[removals gold coast]` `[gold coast removalists]`
+  `[furniture removalists gold coast]` `[removalists on the gold coast]`
+  `[removalist sunshine coast]` `[best removalists sunshine coast]`
+  `[hope island removalists]`
+- `truck` em ampla: corta tudo de uma vez, mas pode pegar busca legítima (por isso
+  só as frases estão no bloco pronto).
+
+**PROTEGIDOS (não negativar):** corredores "brisbane to X" / "X to brisbane"
+(interestadual = premium, inclui "moving to perth"), tudo de piano, "packers and
+movers", "near me", marca Vaz Power.
 
 ### Para a Semana 12 (17-23/08, dashboard ~24/08)
 - **Primeira semana INTEIRA sob o teto A$2.500** (~A$357/dia). Conferir aderência.
