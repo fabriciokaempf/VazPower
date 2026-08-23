@@ -33,13 +33,15 @@ Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & 
 
 ## Contexto operacional
 
-- **Teto de orçamento vigente e plano de corte: ver `ESTADO.md`.** Em ago/2026 o cliente
-  reduziu para A$2.500/semana por capacidade de atendimento reduzida.
+- **Teto de orçamento vigente: ver `ESTADO.md`.** Em ago/2026 o cliente reduziu para
+  A$2.500/semana por capacidade de atendimento reduzida, e em 24/08 decidiu encerrar
+  o corte com a normalização do atendimento.
 - Quando o cliente pedir redução, o critério é **menos volume com mais qualidade**:
   sacrificar as fontes de pior CPL e preservar as de melhor intenção (marca, ligações),
-  nunca cortar proporcional.
-- **No relatório:** queda de leads por decisão do cliente precisa aparecer como decisão,
-  não como perda de performance.
+  nunca cortar proporcional. Na retomada, o caminho inverso: **devolver orçamento
+  primeiro para o melhor custo**, e só depois para o que estiver fora do padrão.
+- **No relatório:** variação de leads por decisão do cliente precisa aparecer como
+  decisão, tanto na queda quanto na retomada, nunca como performance.
 
 ## Pendências combinadas
 

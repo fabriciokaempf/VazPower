@@ -1,11 +1,46 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **17/08/2026** (Semana 11 PUBLICADA, incremento de negativas entregue).
+Atualizado em **24/08/2026** (Semana 12 montada; **fim do corte decidido**).
 
 ---
 
 ## 0. ESTADO ATUAL (retomar daqui)
+
+### VIRADA: o corte de orçamento ACABA na Semana 13 (24-30/08)
+
+Decidido pelo Fabricio em 24/08: **o teto de A$2.500/semana deixa de valer**. O Vaz
+voltou e a capacidade de atendimento é normalizada no início de setembro (o reforço
+entra até 03/09). A conta precisa estar de volta ao patamar de volume quando isso
+acontecer, então a **retomada começa nesta semana, de forma gradual**.
+
+**Plano de retomada proposto (validar com o Fabricio na sessão de otimização):**
+
+*Fase 1, imediata: devolve o que foi cortado, começando pelo melhor custo*
+| Campanha | De | Para | Por quê |
+|---|---|---|---|
+| Meta Ligações | A$52,98 | A$70 | Melhor CPL da operação (A$17,15) e travada no teto |
+| Meta Formulários | pausada | A$50,98 | Reativar (estava pausada no corte) |
+| Meta Remarketing | pausado | ~A$11 | Reativar marca premium |
+| SUPORTE | A$45,98 | ~A$150 | Foi a mais cortada (-86%); CPL A$81,46 |
+| LP Form | A$67,98 | A$90 | Melhor CPL do Google (A$69,95) |
+
+Só a Fase 1 recoloca a conta em ~A$3.900-4.000/semana, o patamar pré-corte da S10
+(A$4.013, 72 leads, CPL A$55,73).
+
+*Fase 2, condicional: PMax e BRAND só quando o custo normalizar*
+Ambas estão fora do padrão (PMax A$120,88 contra A$56,93; BRAND A$92,53 contra
+A$32,24). Subir orçamento nelas agora multiplicaria o custo ruim.
+
+*Não é questão de orçamento:* FRONT (14% de uso, limitada por lances/volume) e
+MADRUGA (sem entrega). Nessas o ajuste é de lance/estrutura.
+
+### Semana 12 (17-23/08) montada em `agosto-17-23/`, AGUARDANDO OK PARA PUBLICAR
+A$2.887,89 | 46 leads (22 forms + 24 lig) | CPL A$62,78 | A$388 acima do teto.
+Ação da semana: semana cheia sob o teto + encerramento do teste de LP Call.
+**Duas perguntas pendentes ao Fabricio:** (1) a LP Call foi mesmo encerrada na
+otimização? (sumiu das ativas, deixou resíduo de A$79,67); (2) a lista de negativas
+foi aplicada? (se sim, entra na Ação da semana).
 
 **Semana 11 (10 a 16/08) publicada** em `agosto-10-16/` (hub e README atualizados,
 mensagem enviada ao Vaz em 17/08). Ação da semana registrada: redução e controle de
@@ -88,15 +123,23 @@ hourly
 (interestadual = premium, inclui "moving to perth"), tudo de piano, "packers and
 movers", "near me", marca Vaz Power.
 
-### Para a Semana 12 (17-23/08, dashboard ~24/08)
-- **Primeira semana INTEIRA sob o teto A$2.500** (~A$357/dia). Conferir aderência.
-- **PMax**: despencou na S11 (CPL A$193,91, era A$56,93, só 5 conv). Se seguir fora
-  do padrão, revisar (sinais podem ter sido afetados pelo corte geral).
-- Teste LP Call segue com custo alto (A$313,59/conv na S11); MADRUGA teve zero entrega.
-- Gotcha que pode repetir: export GADS da S11 veio SEM a coluna "Enviar formulário
-  de lead". Forms = conversões - ligações.
-- Config vigente: Google A$852,96/dia implementado (SUPORTE reduzida para A$45,98);
-  Meta só Ligações ativa (A$52,98/dia); Meta Forms e RMKT pausadas.
+### Para a Semana 13 (24-30/08, dashboard ~31/08) e o fechado de agosto
+- **Semana da retomada**: executar a Fase 1 acima e registrar as datas de cada
+  aumento, porque a S13 vai ser meia cortada, meia retomada (igual à S11 ao contrário).
+  No dashboard, a subida de leads é **decisão do cliente**, não mérito de otimização.
+- **PMax e BRAND**: as duas seguem fora do padrão. É o que precisa normalizar antes
+  de receber orçamento. BRAND com CPC de A$14,32 (era A$8,79) sugere leilão de marca
+  mais disputado; vale checar quem está anunciando sobre "Vaz Power".
+- **MADRUGA**: três semanas sem entrega. Decidir se mantém, reestrutura ou encerra.
+- **FRONT**: status voltou a acusar limitação de lances. É tCPA, não orçamento.
+- **Fechamento de agosto** (dashboard do mês, início de setembro): pedir ao Fabricio
+  os exports de **PLATAFORMA e POSICIONAMENTO do Meta** (combinado desde 03/08).
+- Gotchas dos exports recentes: o GADS pode vir SEM a coluna "Enviar formulário de
+  lead" (forms = conversões - ligações); campanha encerrada no meio da semana some
+  de "Total: Campanhas" mas continua em "Total: Conta" (foi assim com a LP Call na
+  S12: resíduo de A$79,67, 132 impressões).
+- Config no fim da S12: Google A$798,98/dia implementado (SUPORTE em A$45,98, LP Call
+  encerrada); Meta só Ligações ativa (A$52,98/dia); Meta Forms e RMKT pausadas.
 
 ---
 ## 2. Histórico semanal
