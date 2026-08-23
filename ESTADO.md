@@ -14,26 +14,37 @@ voltou e a capacidade de atendimento é normalizada no início de setembro (o re
 entra até 03/09). A conta precisa estar de volta ao patamar de volume quando isso
 acontecer, então a **retomada começa nesta semana, de forma gradual**.
 
-**Plano de retomada proposto (validar com o Fabricio na sessão de otimização):**
+**REGRA DA RETOMADA (definida pelo Fabricio em 24/08): aumentos GRADUAIS, para não
+perder a inteligência das campanhas.** Saltos grandes de orçamento jogam o Smart
+Bidding de volta ao aprendizado. Degraus de **~25% a cada 3 dias**, uma alavanca por
+vez, chegando ao patamar cheio até 03/09.
 
-*Fase 1, imediata: devolve o que foi cortado, começando pelo melhor custo*
-| Campanha | De | Para | Por quê |
-|---|---|---|---|
-| Meta Ligações | A$52,98 | A$70 | Melhor CPL da operação (A$17,15) e travada no teto |
-| Meta Formulários | pausada | A$50,98 | Reativar (estava pausada no corte) |
-| Meta Remarketing | pausado | ~A$11 | Reativar marca premium |
-| SUPORTE | A$45,98 | ~A$150 | Foi a mais cortada (-86%); CPL A$81,46 |
-| LP Form | A$67,98 | A$90 | Melhor CPL do Google (A$69,95) |
+*Escada de orçamento diário implementado:*
+| Campanha | Hoje | 24/08 | 27/08 | 30/08 | 03/09 | Por quê |
+|---|---|---|---|---|---|---|
+| Meta Ligações | A$52,98 | A$66 | A$82 | A$95 | A$95 | Melhor CPL da operação (A$17,15), travada no teto |
+| SUPORTE | A$45,98 | A$57 | A$71 | A$89 | A$111 | Foi a mais cortada (-86%); CPL A$81,46 |
+| LP Form | A$67,98 | A$85 | A$106 | A$110 | A$110 | Melhor CPL do Google (A$69,95) |
 
-Só a Fase 1 recoloca a conta em ~A$3.900-4.000/semana, o patamar pré-corte da S10
-(A$4.013, 72 leads, CPL A$55,73).
+*Reativações (voltam no orçamento anterior, não reduzido: cortar o orçamento de uma
+campanha que está reiniciando só prolonga o reaprendizado):*
+- Meta Formulários: pausada -> A$50,98
+- Meta Remarketing: pausado -> A$11,00
 
-*Fase 2, condicional: PMax e BRAND só quando o custo normalizar*
+*Projeção de gasto por degrau:* A$509/dia (~A$3.562/semana) -> A$550 -> A$584 ->
+**A$606/dia (~A$4.239/semana)**. Referência pré-corte, S10: A$573,27/dia, A$4.013 na
+semana, 72 leads a A$55,73. Hoje, S12: A$412,56/dia, A$2.888, 46 leads a A$62,78.
+
+*Fora da escada, condicional: PMax e BRAND só quando o custo normalizar.*
 Ambas estão fora do padrão (PMax A$120,88 contra A$56,93; BRAND A$92,53 contra
 A$32,24). Subir orçamento nelas agora multiplicaria o custo ruim.
 
 *Não é questão de orçamento:* FRONT (14% de uso, limitada por lances/volume) e
 MADRUGA (sem entrega). Nessas o ajuste é de lance/estrutura.
+
+*Junto com a escada:* nova rodada de **negativas** a partir dos termos de pesquisa
+da semana (o Fabricio envia). Negativar enquanto sobe orçamento protege o gasto novo
+de ir para busca ruim.
 
 ### Semana 12 (17-23/08) montada em `agosto-17-23/`, AGUARDANDO OK PARA PUBLICAR
 A$2.887,89 | 46 leads (22 forms + 24 lig) | CPL A$62,78 | A$388 acima do teto.
