@@ -46,12 +46,13 @@ MADRUGA (sem entrega). Nessas o ajuste é de lance/estrutura.
 da semana (o Fabricio envia). Negativar enquanto sobe orçamento protege o gasto novo
 de ir para busca ruim.
 
-### Semana 12 (17-23/08) montada em `agosto-17-23/`, AGUARDANDO OK PARA PUBLICAR
+### Semana 12 (17-23/08) PUBLICADA em `agosto-17-23/` (24/08)
 A$2.887,89 | 46 leads (22 forms + 24 lig) | CPL A$62,78 | A$388 acima do teto.
 Ação da semana: semana cheia sob o teto + encerramento do teste de LP Call.
-**Duas perguntas pendentes ao Fabricio:** (1) a LP Call foi mesmo encerrada na
+Próximos passos do dashboard já anunciam o fim do teto e a retomada gradual.
+**Segue pendente confirmar com o Fabricio:** (1) a LP Call foi mesmo encerrada na
 otimização? (sumiu das ativas, deixou resíduo de A$79,67); (2) a lista de negativas
-foi aplicada? (se sim, entra na Ação da semana).
+da seção 0.1 chegou a ser aplicada?
 
 **Semana 11 (10 a 16/08) publicada** em `agosto-10-16/` (hub e README atualizados,
 mensagem enviada ao Vaz em 17/08). Ação da semana registrada: redução e controle de
