@@ -114,8 +114,10 @@ movers", "near me", marca Vaz Power.
 | 9 | 27/07-02/08 | A$2.956 | 50 | A$59,11 |
 | 10 | 03-09/08 | A$4.013 | **72** | A$55,73 |
 | 11 | 10-16/08 | A$3.189 | 53 | A$60,16 |
+| 12 | 17-23/08 | A$2.888 | 46 | A$62,78 |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
+Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).
 Recorde de volume: **72 leads** na Semana 10. Melhor CPL: A$49,37 na Semana 6.
 
 ## Meses fechados

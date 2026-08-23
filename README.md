@@ -16,6 +16,7 @@ A página inicial (`index.html`) é um hub que linka todos os períodos disponí
 
 | Período | Status | Link |
 |---|---|---|
+| Semana 17 a 23/08 | Semana 12 | [Ver dashboard](./agosto-17-23/) |
 | Semana 10 a 16/08 | Semana 11 | [Ver dashboard](./agosto-10-16/) |
 | Semana 03 a 09/08 | Semana 10 | [Ver dashboard](./agosto-03-09/) |
 | Semana 27/07 a 02/08 (virada de mês) | Semana 9 | [Ver dashboard](./julho27-agosto02/) |
