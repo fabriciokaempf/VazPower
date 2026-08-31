@@ -207,6 +207,31 @@ para o Fabricio subir no Google Agenda. Foi pedida a pauta com antecedencia.
 Pauta provavel: queda de entrega e o site fora do ar, veredito do congelamento,
 fechado de agosto. **Ao criar o evento, usar 20h BRT e deixar o Google converter.**
 
+### AGOSTO FECHADO e publicado em `agosto-01-31/` (31/08)
+A$12.581,76 | 245 leads (121 forms + 124 lig) | **CPL A$51,35, o melhor da operacao**.
+Terceiro mes seguido de queda: A$70,90 -> A$55,81 -> A$51,35. Agosto bateu julho com
+5,3% menos verba e 2,9% mais leads, no mes do corte e do site fora do ar.
+- **A virada veio do Meta**: 111 resultados (+22%) com 30% menos verba. O Google foi ao
+  contrario: 134 conv (-18) e CPL de A$63,64 para A$75,09.
+- Dashboard ja incorpora o veredito (a entrega nao voltou com o site; a causa da
+  permanencia e o limite de CPA; ajuste em 01/09).
+- **PENDENCIA DE 03/08 ATENDIDA**: secao de plataforma e posicionamento do Meta.
+  Reels 72 resultados a A$17,16 contra Feed 39 a A$29,52, com verba quase igual.
+  Ligacoes vao melhor no Reels (A$15,99 x A$21,47), formularios no Feed (A$79,49 x
+  A$99,74). Instagram levou 1% da verba e zero resultado, so no remarketing.
+
+### PROXIMOS PASSOS COMBINADOS (01 a 04/09)
+- **01/09 de manha (BRT): o Fabricio ajusta o limite de CPA no Google.** Como Brisbane
+  esta 13h a frente, isso cai no fim do dia 01/09 la: **o primeiro dia inteiro com a
+  config nova e 02/09 australiano.**
+- **04/09 (sexta): compromisso assumido com o cliente no e-mail de fechamento** de
+  escrever dizendo se a entrega voltou, com numero. Puxar o export **depois das 11h BRT**
+  para ter o 04/09 completo. Referencia prometida: 50 a 70 leads/semana (historico real
+  de julho ao inicio de agosto).
+- **Se nao reagir ate 04/09**, o passo seguinte combinado e trocar a estrategia de lances.
+- Redistribuir o Meta por formato (ligacao no Reels, formulario no Feed) e testar
+  Instagram fora do remarketing.
+
 ### Semana 13 (24-30/08) PUBLICADA em `agosto-24-30/` (31/08)
 A$1.436,25 | 48 leads (17 forms + 31 lig) | CPL A$29,92. Montada com a memoria de
 27/08: encara a queda de entrega de frente, com a tabela de gasto por dia
