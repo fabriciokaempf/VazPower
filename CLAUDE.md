@@ -28,6 +28,7 @@ Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & 
   faixas e negativos.
 - **Nunca usar "barato/barata"** nem variações. Falar em eficiência de CPL / custo por
   lead / de baixo valor.
+- **Nunca usar "dinheiro".** Falar sempre em **investimento**, verba ou orçamento.
 - **Tom: nem formal, nem informal demais.** Evitar termos burocráticos como "do contrato"
   (usar "da operação", "do período", "até aqui") e também gírias.
 - **Nunca apontar culpado externo nas mensagens ao cliente.** Quando o problema veio do
