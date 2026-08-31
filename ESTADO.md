@@ -42,6 +42,18 @@ removido na BRAND), não é campanha parada (a FRONT teve impressão, logo está
 
 **O teste é de graça: se for o site, a entrega volta sozinha. Se for o teto, fica parada.**
 
+> **LEITURA PARCIAL DE 31/08, feita pela sessão do dashboard.** Só com as impressões
+> diárias do export de agosto (não tenho custo nem conversões de 31/08), o quadro
+> aponta para o **cenário B: a entrega NÃO voltou sozinha**.
+> - Média de dia útil: **712 antes do site cair (10 a 19/08) contra 252 depois de
+>   voltar (26 a 31/08)**, ou seja, 35% do patamar, com o site no ar há seis dias.
+> - Segunda contra segunda: 680 (10/08), 1.574 (17/08), **348 (31/08)**. Esta segunda
+>   entregou metade da segunda mais fraca do período.
+> - Cuidado com o falso positivo: 31/08 subiu 84% sobre domingo, mas isso é
+>   sazonalidade de segunda-feira, não recuperação.
+> - **O que fecha o veredito:** o status atual da FRONT. Se seguir em "Limitada pela
+>   meta de lance" gastando A$0,00, é o teto de CPA e a ação é subir o tCPA.
+
 **Ponto de observação: a FRONT.** Carrega A$287,98/dia, 34% do orçamento, status literal
 "Limitada pela meta de lance", tCPA A$65, gastando A$0,00. Isso confirma o que a seção 4
 já suspeitava: é tCPA, não orçamento.
