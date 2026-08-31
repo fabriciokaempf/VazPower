@@ -12,6 +12,10 @@ Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & 
 - **FUSO HORÁRIO: sempre horário de Brasília (BRT, UTC-3).** Todo horário combinado,
   citado ou agendado é BR. O container roda em UTC, então ao usar CronCreate/agendamentos
   é preciso **somar 3 horas** (ex.: 18h BR = 21h UTC no cron). Nunca falar em UTC com ele.
+  **A data do sistema tambem esta em UTC e pode estar um dia à frente do Brasil.** Antes
+  de escrever qualquer data (agenda, dashboard, invoice), confirmar o dia com o Fabricio.
+  Brisbane e **UTC+10 o ano todo** (Queensland nao tem horario de verao): **13 horas à
+  frente do BRT**, entao 20h BRT vira 9h do dia seguinte em Brisbane.
 - **O cliente é o Rodrigo, mas o Fabricio o chama de "Vaz".** Usar "Vaz" em mensagens
   e e-mails, que é como ele sempre tratou. "Vaz Power" é a empresa.
 - **Sem emoji com o cliente Vaz** (dashboards e mensagens de WhatsApp). Usar ícones SVG

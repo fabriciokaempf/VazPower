@@ -177,6 +177,12 @@ MADRUGA (sem entrega). Nessas o ajuste é de lance/estrutura.
 da semana (o Fabricio envia). Negativar enquanto sobe orçamento protege o gasto novo
 de ir para busca ruim.
 
+### CALL COM O VAZ: segunda 31/08, 20h BRT = terca 01/09, 9h AEST (Brisbane)
+Pedida pelo Vaz. Convite proposto por e-mail em 30/08, aguardando a confirmacao dele
+para o Fabricio subir no Google Agenda. Foi pedida a pauta com antecedencia.
+Pauta provavel: queda de entrega e o site fora do ar, veredito do congelamento,
+fechado de agosto. **Ao criar o evento, usar 20h BRT e deixar o Google converter.**
+
 ### Semana 13 (24-30/08) PUBLICADA em `agosto-24-30/` (31/08)
 A$1.436,25 | 48 leads (17 forms + 31 lig) | CPL A$29,92. Montada com a memoria de
 27/08: encara a queda de entrega de frente, com a tabela de gasto por dia
