@@ -1,13 +1,144 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **24/08/2026** (Semana 12 montada; **fim do corte decidido**).
+Atualizado em **27/08/2026** (queda de entrega em diagnóstico; tracking do /book/ no ar).
 
 ---
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+### ATUALIZAÇÃO DE 27/08, ESCRITA PELA SESSÃO DE OTIMIZAÇÃO · LEIA ANTES DE TUDO
+
+Quatro coisas aconteceram entre 24 e 27/08 que mudam o que está escrito abaixo nesta
+mesma seção. A escada de retomada foi executada em parte e **mesmo assim o gasto
+despencou**. Não é falta de orçamento.
+
+#### 1. QUEDA DE ENTREGA: a conta caiu para ~A$70/dia
+
+| Dia | Custo total |
+|---|---|
+| 24/08 | A$580,10 |
+| 25/08 | A$270,98 |
+| 26/08 | A$74,10 |
+| 27/08 | A$70,70 |
+
+A projeção da escada para este ponto era **A$584/dia**. O realizado foi A$70,70, ou seja,
+**12% do previsto**. E o orçamento estava lá: SUPORTE foi para A$80,98 (a escada pedia
+A$71), acima do plano.
+
+**Orçamento não é o gargalo.** Repetir a escada não resolve.
+
+#### 2. AS DUAS HIPÓTESES E O TESTE QUE AS SEPARA
+
+Já descartado: não é a mudança de tracking (a queda começou antes), não é anúncio
+reprovado (sete "Qualificada", zero reprovação, os dois "Em análise" são resíduo de grupo
+removido na BRAND), não é campanha parada (a FRONT teve impressão, logo está apta).
+
+- **A)** Sequela do site fora do ar de 20 a 25/08. O PHP do vazpower.com.au ficou em erro
+  fatal, mascarado pelo cache do WP Rocket. Página de destino quebrada derruba Ad Rank sem
+  gerar reprovação formal. O site voltou em 26/08
+- **B)** O teto de CPA de A$60 apertou demais. A regra é de 30/07, quando o problema era o
+  oposto: CPA A$109 com volume alto
+
+**O teste é de graça: se for o site, a entrega volta sozinha. Se for o teto, fica parada.**
+
+**Ponto de observação: a FRONT.** Carrega A$287,98/dia, 34% do orçamento, status literal
+"Limitada pela meta de lance", tCPA A$65, gastando A$0,00. Isso confirma o que a seção 4
+já suspeitava: é tCPA, não orçamento.
+
+#### 3. REGRA ATIVA ATÉ 31/08: CONGELAR O GOOGLE, NÃO A META
+
+**Google congelado.** Nem orçamento, nem alvo de CPA, nem correspondência. Qualquer
+mudança destrói o teste.
+
+**A Meta segue a escada normalmente.** O diagnóstico é de entrega do Google e a Meta não
+tem relação com ele. Congelar a Meta não produz informação e custa lead: Ligações está no
+melhor CPL da operação e travada no teto.
+
+Veredito marcado para **31/08**. As ações ficam para **01/09**, junto do fechado de agosto.
+
+#### 4. O /book/ PASSOU A SER MEDIDO (26/08, container Versão 21)
+
+O formulário de reserva do site nunca teve ação própria no Google Ads. Agora tem.
+
+| Item | Valor |
+|---|---|
+| Ação | `Book Form Submit (Site)` |
+| Código do tipo de conversão | 7735227297 |
+| Valor | A$100 |
+| Otimização | Principal |
+
+**O achado que valeu o trabalho:** o `/book/` **redireciona para
+`/cost-estimator-thank-you/`**, onde a `Quote Form Conversion` dispara por URL. Ou seja,
+ele nunca foi invisível, era contado com o nome errado. Sem correção, a ação nova teria
+criado **contagem dupla** em todo envio. Resolvido com exceção no GTM e validado em dois
+testes reais.
+
+No primeiro dia registrou **2 reservas reais**, uma pela BRAND e uma pela SUPORTE. As 6
+campanhas ativas usam a meta "Enviar formulários de lead", então a conversão alcança o
+lance de todas.
+
+#### 5. A QUEDA DA SEMANA 13 NÃO É DECISÃO DO CLIENTE
+
+O `CLAUDE.md` deste repositório está correto e atualizado desde 23/08: ele diz que variação
+por decisão do cliente aparece como decisão, "tanto na queda quanto na retomada". A regra é
+condicional e continua valendo.
+
+**O ponto é que a queda da S13 não se encaixa nela.** Ela não foi pedida pelo cliente. É
+queda de entrega sem causa confirmada, com diagnóstico em curso.
+
+E tem um agravante de comunicação: em 23/08 o Fabricio escreveu ao Rodrigo *"essa foi a
+última semana do teto: já começamos a retomada gradual do investimento"*. Ele leu que ia
+subir e vai ver caindo. Apresentar como decisão dele contradiz a mensagem de dois dias
+antes.
+
+**O dashboard da S13 precisa encarar a queda de frente, com a causa determinada em 31/08.**
+
+#### 5b. ONDE A ESCADA DA META PAROU
+
+Meta Ligações está em **A$80,98/dia**, rodando a **102% do orçamento**. A escada previa
+A$52,98 -> A$66 -> A$82 -> A$95. Ou seja, ela pegou o degrau de 27/08 e ainda não pegou o
+de 30/08.
+
+**Como está batendo no teto, subir para A$95 tende a render volume direto.** E a Meta não
+está congelada: o congelamento vale só para o Google.
+
+#### 6. CUIDADOS DE NÚMERO NO RELATÓRIO
+
+- **Não escrever "a conta usa 8% do orçamento".** O cálculo inclui a MADRUGA, que roda das
+  00h às 03h somente em computador e nunca teve como gastar os A$128,98/dia dela. O
+  orçamento realmente alcançável é **~A$720 a A$730**, não A$846,98
+- **Não vender o CPA de ~A$18** dos dias 26 e 27. É amostra de dois dias com a conta em
+  fração da verba. Se sobreviver ao retorno do volume, aí vira número
+- A Semana 13 não fecha conclusão sozinha: site fora do ar até 25/08, escada de orçamento
+  a partir de 24/08, PMax recalibrando desde 23/08, mudança de tracking em 26/08 e a queda
+  de entrega ainda sem causa
+
+#### 7. RESPOSTAS ÀS PENDÊNCIAS QUE ESTE ARQUIVO PERGUNTAVA
+
+- **"A LP Call foi mesmo encerrada?"** Sim. Pausada em 17/08. Perdeu o teste A/B para a de
+  formulário: A$971,03 e 12 conversões (CPA A$80,92) contra A$686,60 e 3 conversões
+  (CPA A$228,87). O resíduo de A$79,67 é consistente com pausa no meio da semana
+- **"O incremento de negativas de 17/08 foi aplicado?"** **Não confirmado.** Houve rodadas
+  de negativas depois disso, mas não dá para afirmar que foi esta lista de 45. Verificar
+  antes de dar como feito
+
+#### 8. ONDE MORA O RESTO DO CONTEXTO
+
+A frente de otimização trabalha em `Jobs 2026/Vaz Power/`, que tem memória de projeto
+própria (17 arquivos) e um `CLAUDE.md` reescrito em 27/08. **Aquela memória não é visível
+aqui**, e esta não é visível lá. Este arquivo é o canal entre as duas.
+
+Documento mais detalhado do tracking: `Jobs 2026/Vaz Power/Plano de Tracking - Vaz Power -
+26.08.2026.md`.
+
+---
+
 ### VIRADA: o corte de orçamento ACABA na Semana 13 (24-30/08)
+
+> **NOTA DE 27/08:** o plano abaixo segue válido em intenção, mas a execução esbarrou na
+> queda de entrega descrita acima. A parte Google está congelada até 31/08. A parte Meta
+> segue normalmente.
 
 Decidido pelo Fabricio em 24/08: **o teto de A$2.500/semana deixa de valer**. O Vaz
 voltou e a capacidade de atendimento é normalizada no início de setembro (o reforço
@@ -136,9 +267,12 @@ hourly
 movers", "near me", marca Vaz Power.
 
 ### Para a Semana 13 (24-30/08, dashboard ~31/08) e o fechado de agosto
-- **Semana da retomada**: executar a Fase 1 acima e registrar as datas de cada
+- ~~**Semana da retomada**: executar a Fase 1 acima e registrar as datas de cada
   aumento, porque a S13 vai ser meia cortada, meia retomada (igual à S11 ao contrário).
-  No dashboard, a subida de leads é **decisão do cliente**, não mérito de otimização.
+  No dashboard, a subida de leads é **decisão do cliente**, não mérito de otimização.~~
+  **VENCIDO EM 27/08.** A previsão era subida de leads e o que houve foi queda de entrega,
+  no Google. A escada da Meta seguiu e parou no segundo degrau. Ver os itens 5 e 5b da
+  atualização no topo desta seção
 - **PMax e BRAND**: as duas seguem fora do padrão. É o que precisa normalizar antes
   de receber orçamento. BRAND com CPC de A$14,32 (era A$8,79) sugere leilão de marca
   mais disputado; vale checar quem está anunciando sobre "Vaz Power".
