@@ -42,27 +42,29 @@ removido na BRAND), não é campanha parada (a FRONT teve impressão, logo está
 
 **O teste é de graça: se for o site, a entrega volta sozinha. Se for o teto, fica parada.**
 
-> **LEITURA DE 31/08 pela sessão do dashboard: O VEREDITO NÃO FECHA com os dados
-> disponíveis.** Só tenho as impressões diárias do export de agosto.
+> **VEREDITO DE 31/08, lido pela sessão do dashboard: cenário B. A ENTREGA NÃO VOLTOU.**
 >
-> **ARMADILHA DE FUSO, registrar para não repetir:** a conta do Google roda no fuso de
-> **Brisbane**, então cada linha do export é um dia australiano. O export foi puxado
-> quando no Brasil era 30/08 à noite, ou seja, em Brisbane o **31/08 estava pela
-> metade e sem a tarde comercial**. Comparar essa linha com dias inteiros dá leitura
-> falsa. Vale para qualquer análise diária: **o último dia do export é sempre parcial.**
+> **Fuso, para ler certo:** a conta roda em **Brisbane, 13h à frente do BRT**. O dia da
+> conta **fecha às ~11h da manhã (BRT) da mesma data**. Puxando depois disso, aquele dia
+> está completo. É por isso que dá para fechar o mês australiano ainda no dia 31 aqui.
+> Os dias abaixo são todos completos.
 >
 > - Média de dia útil ANTES do site cair (10 a 19/08): **712**
-> - Dias úteis COMPLETOS depois de voltar (26, 27, 28): **220**, ou 31% do patamar
-> - 31/08 parcial: **348**. Se estava ~50% do dia, o dia inteiro projeta ~700,
->   praticamente o patamar anterior, o que seria **recuperação (cenário A, o site)**
+> - Média de dia útil DEPOIS de voltar (26, 27, 28 e 31/08): **252**, ou **35% do
+>   patamar**, com o site no ar há seis dias
+> - Segunda contra segunda: 680 (10/08), 1.574 (17/08), **348 (31/08)**. A última
+>   segunda entregou **metade da segunda mais fraca** do período
 >
-> **Os dois cenários seguem abertos.** O que decide: o **31/08 fechado**, ou melhor,
-> o **01/09**. Somar a isso o status atual da FRONT: se seguir em "Limitada pela meta
-> de lance" gastando A$0,00 com o volume já recuperado, aí sim é o teto de CPA.
+> Seis dias com o site no ar e a entrega parada em um terço: **não é sequela do site.**
+> Aponta para o **teto de CPA de A$60**, e a ação de 01/09 é subir o tCPA. Fecha com o
+> que a FRONT já mostrava: "Limitada pela meta de lance" gastando A$0,00.
 >
-> **A conferir também:** a janela "site fora do ar de 20 a 25/08" foi registrada em
-> data brasileira ou australiana? Com 13h de diferença a janela pode deslocar um dia,
-> o que muda quantos dias de cada semana foram atingidos.
+> **A confirmar na conta antes de agir:** parcela de impressões perdida por classificação
+> e o status atual de cada campanha. Aqui só tenho as impressões diárias.
+>
+> **A conferir também:** a janela "site fora do ar de 20 a 25/08" está em data brasileira
+> ou australiana? Com 13h de diferença ela pode deslocar um dia, o que muda quantos dias
+> de cada semana foram atingidos.
 
 **Ponto de observação: a FRONT.** Carrega A$287,98/dia, 34% do orçamento, status literal
 "Limitada pela meta de lance", tCPA A$65, gastando A$0,00. Isso confirma o que a seção 4
