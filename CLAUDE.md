@@ -22,6 +22,9 @@ Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & 
   lead / de baixo valor.
 - **Tom: nem formal, nem informal demais.** Evitar termos burocráticos como "do contrato"
   (usar "da operação", "do período", "até aqui") e também gírias.
+- **Nunca apontar culpado externo nas mensagens ao cliente.** Quando o problema veio do
+  lado de um parceiro (site, hospedagem, dev), descrever o fato e propor a prevenção,
+  sem mandar o cliente cobrar ninguém. O Fabricio trabalha com essas pessoas.
 - **Ações reais, nunca inventadas.** O bloco "Ação da semana" do dashboard descreve o que
   o Fabricio executou de fato: eu proponho um rascunho e ele valida antes de publicar.
 
