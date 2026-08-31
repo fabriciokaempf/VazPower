@@ -12,6 +12,8 @@ Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & 
 - **FUSO HORÁRIO: sempre horário de Brasília (BRT, UTC-3).** Todo horário combinado,
   citado ou agendado é BR. O container roda em UTC, então ao usar CronCreate/agendamentos
   é preciso **somar 3 horas** (ex.: 18h BR = 21h UTC no cron). Nunca falar em UTC com ele.
+- **O cliente é o Rodrigo, mas o Fabricio o chama de "Vaz".** Usar "Vaz" em mensagens
+  e e-mails, que é como ele sempre tratou. "Vaz Power" é a empresa.
 - **Sem emoji com o cliente Vaz** (dashboards e mensagens de WhatsApp). Usar ícones SVG
   de linha (`stroke="currentColor"`). Símbolos geométricos (·, •, ▸, ★) são permitidos.
 - **Sem travessão (em-dash)** em nenhum lugar. Usar "·", ":" ou vírgula; hífen para

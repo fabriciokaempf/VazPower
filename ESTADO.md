@@ -184,7 +184,12 @@ A$1.436,25 | 48 leads (17 forms + 31 lig) | CPL A$29,92. Montada com a memoria d
 (nao confirmadas) e NAO vende o CPL como recorde (conta rodou em fracao da verba).
 Utilizacao calculada sobre o teto alcancavel (A$718, sem a MADRUGA) = 17%.
 Traz bloco proprio para a medicao do /book/ e a contagem dupla evitada.
-Entrega ao cliente foi por E-MAIL: o WhatsApp business e o comercial do Fabricio cairam.
+Entrega ao cliente foi por E-MAIL.
+
+**CANAL DE ENTREGA (31/08): o WhatsApp do Fabricio esta instavel.** O business esta fora
+do ar ha dias; o pessoal voltou e caiu de novo em 31/08. Enquanto durar, **o e-mail e o
+canal** para mandar dashboard e invoice. E-mail pede outro registro que o WhatsApp:
+assunto, saudacao e assinatura, mas o mesmo tom de sempre.
 
 ### Semana 12 (17-23/08) CORRIGIDA e republicada em 31/08
 A leitura da BRAND atribuia o estouro de CPL a "leilao de marca mais disputado".
