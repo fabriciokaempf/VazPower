@@ -16,6 +16,9 @@ Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & 
   de escrever qualquer data (agenda, dashboard, invoice), confirmar o dia com o Fabricio.
   Brisbane e **UTC+10 o ano todo** (Queensland nao tem horario de verao): **13 horas à
   frente do BRT**, entao 20h BRT vira 9h do dia seguinte em Brisbane.
+  **As contas de anuncio rodam no fuso de Brisbane**: cada linha de um export diario e
+  um dia australiano, e o **ultimo dia do export e quase sempre parcial**. Nunca
+  comparar esse ultimo dia com dias inteiros.
 - **O cliente é o Rodrigo, mas o Fabricio o chama de "Vaz".** Usar "Vaz" em mensagens
   e e-mails, que é como ele sempre tratou. "Vaz Power" é a empresa.
 - **Sem emoji com o cliente Vaz** (dashboards e mensagens de WhatsApp). Usar ícones SVG
