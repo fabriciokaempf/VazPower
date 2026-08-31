@@ -344,6 +344,7 @@ Recorde de volume: **72 leads** na Semana 10. Melhor CPL: A$49,37 na Semana 6.
 |---|---|---|---|---|---|
 | Junho | A$12.478,20 | 176 | A$70,90 | A$8.737,42 · 137 conv | A$3.740,78 · 59 result |
 | Julho | A$13.283,97 | 238 | A$55,81 | A$9.673,82 · 152 conv | A$3.610,15 · 91 result |
+| Agosto | A$12.581,76 | 245 | **A$51,35** | A$10.062,52 · 134 conv | A$2.519,24 · 111 result |
 
 Julho superou junho em 35% de leads com 6,5% mais verba. O salto veio das **ligações**
 (12 em junho para 76 em julho), efeito do reposicionamento do Meta para marca premium.
