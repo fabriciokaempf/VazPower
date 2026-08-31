@@ -177,7 +177,23 @@ MADRUGA (sem entrega). Nessas o ajuste é de lance/estrutura.
 da semana (o Fabricio envia). Negativar enquanto sobe orçamento protege o gasto novo
 de ir para busca ruim.
 
-### Semana 12 (17-23/08) PUBLICADA em `agosto-17-23/`, mensagem enviada ao Vaz (24/08)
+### Semana 13 (24-30/08) PUBLICADA em `agosto-24-30/` (31/08)
+A$1.436,25 | 48 leads (17 forms + 31 lig) | CPL A$29,92. Montada com a memoria de
+27/08: encara a queda de entrega de frente, com a tabela de gasto por dia
+(A$580 -> A$271 -> A$74 -> A$71) contra o previsto. NAO atribui a queda as negativas
+(nao confirmadas) e NAO vende o CPL como recorde (conta rodou em fracao da verba).
+Utilizacao calculada sobre o teto alcancavel (A$718, sem a MADRUGA) = 17%.
+Traz bloco proprio para a medicao do /book/ e a contagem dupla evitada.
+Entrega ao cliente foi por E-MAIL: o WhatsApp business e o comercial do Fabricio cairam.
+
+### Semana 12 (17-23/08) CORRIGIDA e republicada em 31/08
+A leitura da BRAND atribuia o estouro de CPL a "leilao de marca mais disputado".
+Com o achado do site fora do ar de 20 a 25/08 (quatro dos sete dias da S12, contra
+dois da S13), a causa provavel e a pagina de destino quebrada. Correcao marcada de
+forma VISIVEL no dashboard, com nota de "Atualizacao de 31/08", porque a versao
+anterior ja tinha sido enviada ao cliente. Numeros inalterados, so a leitura mudou.
+
+### Semana 12 (17-23/08) publicada em `agosto-17-23/`, mensagem enviada ao Vaz (24/08)
 A$2.887,89 | 46 leads (22 forms + 24 lig) | CPL A$62,78 | A$388 acima do teto.
 Ação da semana: semana cheia sob o teto + encerramento do teste de LP Call.
 Próximos passos do dashboard já anunciam o fim do teto e a retomada gradual.
