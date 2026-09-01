@@ -1,7 +1,7 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **27/08/2026** (queda de entrega em diagnóstico; tracking do /book/ no ar).
+Atualizado em **31/08/2026 à noite** (verificação adversarial: as três hipóteses caíram; base numérica corrigida).
 
 ---
 
@@ -13,20 +13,30 @@ Quatro coisas aconteceram entre 24 e 27/08 que mudam o que está escrito abaixo 
 mesma seção. A escada de retomada foi executada em parte e **mesmo assim o gasto
 despencou**. Não é falta de orçamento.
 
-#### 1. QUEDA DE ENTREGA: a conta caiu para ~A$70/dia
+#### 1. QUEDA DE ENTREGA
 
-| Dia | Custo total |
+> **CORRIGIDO EM 31/08 À NOITE. A tabela abaixo estava com os valores de 24 e 25/08
+> DOBRADOS.** O script somava as linhas de subtotal do CSV (`Total: Pesquisa` e
+> `Total: Performance Max`) junto de `Total: Conta`, que já contém as duas. Fator exato
+> de 2,00x. **Regra: ler sempre a linha `Total: Conta`, nunca somar.**
+>
+> **E "A$720 a A$730/dia alcançável" nunca existiu em nenhum dia de agosto.** A série
+> real de entrega por dia foi A$457,89 (03 a 09/08, melhor do mês), A$391,01, A$358,67,
+> A$122,59 e A$88,58. Comparar gasto contra soma de orçamento infla qualquer diagnóstico.
+
+| Dia | Custo total (corrigido) |
 |---|---|
-| 24/08 | A$580,10 |
-| 25/08 | A$270,98 |
+| 24/08 | **A$290,05** |
+| 25/08 | **A$135,49** |
 | 26/08 | A$74,10 |
 | 27/08 | A$70,70 |
+| 26 a 31/08 | A$88,58/dia |
 
-A projeção da escada para este ponto era **A$584/dia**. O realizado foi A$70,70, ou seja,
-**12% do previsto**. E o orçamento estava lá: SUPORTE foi para A$80,98 (a escada pedia
-A$71), acima do plano.
+A queda real é de **A$358,67/dia** (semana 17 a 23/08) para **A$88,58/dia**, ou 75%.
+Contra o pico do mês (A$457,89/dia) são 81%.
 
-**Orçamento não é o gargalo.** Repetir a escada não resolve.
+**Orçamento não é o gargalo**, e isso ficou confirmado por dado em 31/08: a perda de
+parcela de impressões por orçamento é **0,00% nas seis campanhas ativas**.
 
 #### 2. AS DUAS HIPÓTESES E O TESTE QUE AS SEPARA
 
@@ -56,8 +66,10 @@ removido na BRAND), não é campanha parada (a FRONT teve impressão, logo está
 >   segunda entregou **metade da segunda mais fraca** do período
 >
 > Seis dias com o site no ar e a entrega parada em um terço: **não é sequela do site.**
-> Aponta para o **teto de CPA de A$60**, e a ação de 01/09 é subir o tCPA. Fecha com o
-> que a FRONT já mostrava: "Limitada pela meta de lance" gastando A$0,00.
+>
+> **ATUALIZAÇÃO DE 31/08 À NOITE, APÓS VERIFICAÇÃO ADVERSARIAL: a conclusão de que
+> "aponta para o teto de A$60" também caiu.** As três hipóteses (site, teto, modelo
+> envenenado) foram refutadas. Ver o bloco novo no fim desta seção.
 >
 > **A confirmar na conta antes de agir:** parcela de impressões perdida por classificação
 > e o status atual de cada campanha. Aqui só tenho as impressões diárias.
@@ -129,9 +141,10 @@ está congelada: o congelamento vale só para o Google.
 
 #### 6. CUIDADOS DE NÚMERO NO RELATÓRIO
 
-- **Não escrever "a conta usa 8% do orçamento".** O cálculo inclui a MADRUGA, que roda das
-  00h às 03h somente em computador e nunca teve como gastar os A$128,98/dia dela. O
-  orçamento realmente alcançável é **~A$720 a A$730**, não A$846,98
+- **Não comparar gasto contra soma de orçamento.** A soma dos orçamentos (A$846,98) nunca
+  foi entregue em nenhum dia de agosto, e a MADRUGA sozinha carrega A$128,98/dia que ela
+  nunca teve como gastar (roda 3h por dia, só em computador). A referência honesta é o que
+  a conta realmente entregou: **A$457,89/dia na melhor semana**
 - **Não vender o CPA de ~A$18** dos dias 26 e 27. É amostra de dois dias com a conta em
   fração da verba. Se sobreviver ao retorno do volume, aí vira número
 - A Semana 13 não fecha conclusão sozinha: site fora do ar até 25/08, escada de orçamento
@@ -146,6 +159,78 @@ está congelada: o congelamento vale só para o Google.
 - **"O incremento de negativas de 17/08 foi aplicado?"** **Não confirmado.** Houve rodadas
   de negativas depois disso, mas não dá para afirmar que foi esta lista de 45. Verificar
   antes de dar como feito
+
+#### 7b. VERIFICAÇÃO ADVERSARIAL DE 31/08: AS TRÊS HIPÓTESES CAÍRAM
+
+Oito agentes independentes leram os CSVs originais. Nenhuma das três sobreviveu.
+
+**A) O site derrubou o Ad Rank. REFUTADA.** A entrega não caiu quando o site caiu: site
+fora em 20/08 e os dois maiores gastos da semana são 21 e 22/08 (A$558,86 e A$509,12).
+Página quebrada derruba Ad Rank em horas, não em três dias. E o **CPC CAIU 37%**, de
+A$14,43 para A$9,09; perda de qualidade faz o CPC subir na mesma posição. Além disso o
+WP Rocket ignora `gclid` e `utm_*`, então clique pago recebia cache com HTTP 200 e o
+Google nunca viu página quebrada.
+
+**B) O teto de A$60 apertou demais. REFUTADA pelo histórico.** Com o teto em vigor desde
+30/07 e nenhum alvo alterado, a linha `Total: Pesquisa` entregou CPA de A$63,93 (03 a
+09/08), A$73,65 (10 a 16/08) e A$96,48 (17 a 23/08). FRONT com alvo A$65 entregou
+A$141,75, ou 218% do alvo. Um teto ultrapassado por três semanas seguidas não está
+segurando lance. E a ordem está invertida: a campanha de MENOR alvo (BRAND, A$45) tem a
+MAIOR parcela de impressões (84,62%).
+
+**C) O apagão envenenou o modelo de lance. REFUTADA na forma enunciada.** A premissa era
+"nenhuma conversão chegou". **Chegaram 13** durante o apagão. E a taxa de conversão
+observada não desabou: 15,84% antes contra 11,43% durante, Fisher p = 0,50.
+
+#### 7c. O QUE O DADO SUSTENTA: dois terços da queda foram decisões nossas
+
+| Causa | Quando | Impacto |
+|---|---|---|
+| SUPORTE cortada de A$328,98 para A$45,98 | ~10/08 | ~A$92/dia |
+| TESTE LP Call pausada | 17/08 | ~A$45/dia |
+| **PMax trocou "Maximizar conversões" por tCPA A$75** | **23/08** | **A$96 a A$117/dia** |
+
+Só a terceira é reversível. O alvo foi fixado **38% abaixo** do CPA realizado (A$120,88),
+em campanha que nunca tivera alvo. No dia seguinte a exploração do aprendizado despejou
+5.427 impressões por A$290,05 e 2 conversões, e a PMax caiu de ~5.245 impressões/dia para
+~130. É onde C sobrevive, localizada, e disparada por ato nosso.
+
+**A FRONT não faz parte da queda.** Nunca passou de 17,3% do próprio orçamento em nenhuma
+semana de agosto, inclusive antes do apagão e com o mesmo alvo de A$65. É crônico.
+
+#### 7d. HISTÓRICO DE ALTERAÇÕES: confundidores que ninguém tinha
+
+Zero alterações automáticas do Google. Todas as 20 entradas são do login do Fabricio.
+
+- **FRONT e MADRUGA ficaram pausadas praticamente o dia 25/08 inteiro** (00:04 às 22:32,
+  fuso da conta). 25/08 vinha sendo usado como prova do colapso
+- **Quatro ações de conversão removidas em 25/08** (WhatsApp x2, Call Click, Phone Call)
+- **22 negativas adicionadas à PMax** em 18 e 24/08, junto com o alvo novo. Parte da queda
+  dela pode ser corte de inventário, não lance
+- **A queda de impressões da BRAND (297 para 76)** vem do pausamento de "vaz power" e
+  "vazpower" em ampla, em 24/08 02:57. **NÃO reativar:** consumiam A$319,50 com 1
+  conversão em julho
+- Os carimbos do histórico de alterações estão em **fuso de Brisbane**
+
+#### 7e. AÇÃO RECOMENDADA PARA 01/09
+
+**Uma mudança só na conta inteira: PMax de tCPA A$75 para A$110.** Orçamento diário de
+A$139,08 intocado como freio (exposição máxima A$695 até o checkpoint).
+
+**NÃO fazer:** não subir tCPA da FRONT (o CPA de A$24,47 dela é 1 conversão em 2 cliques,
+não é amostra), não mexer em SUPORTE nem BRAND, não subir orçamento de nada, não aposentar
+o teto de A$60 (refutado como causa, o que não o torna regra ruim).
+
+As cinco campanhas de Pesquisa ficam como **grupo de controle**. A conta já subiu sozinha
+de A$70,70 em 27/08 para A$98,89 em 31/08, mais 40% em quatro dias sem intervenção. Se a
+Pesquisa subir junto sem ser tocada, a recuperação é espontânea e o crédito da ação é nulo.
+
+Leitura em **06/09**, descartando 01 e 02/09 (queima de aprendizado). Guarda-corpo: se o
+CPA da conta em 02 a 05/09 passar de A$85, voltar a PMax para A$90 na hora.
+
+**Antes do lance, custo zero:** verificar se as 5 conversões da `Book Form Submit (Site)`
+são renomeação do que a `Quote Form Conversion` já contava, ou contagem adicional. Decide
+se o CPA de Pesquisa é A$33,19 ou **A$58,72**.
 
 #### 8. ONDE MORA O RESTO DO CONTEXTO
 
