@@ -220,6 +220,10 @@ Terceiro mes seguido de queda: A$70,90 -> A$55,81 -> A$51,35. Agosto bateu julho
   Ligacoes vao melhor no Reels (A$15,99 x A$21,47), formularios no Feed (A$79,49 x
   A$99,74). Instagram levou 1% da verba e zero resultado, so no remarketing.
 
+**Entrega ao cliente:** mensagem de fechamento **enviada por WhatsApp em 01/09** (do
+numero pessoal do Fabricio; o business segue fora do ar), tambem nos grupos backup.
+Versao por e-mail preparada como registro detalhado, sem o pedido de "recebido".
+
 ### PROXIMOS PASSOS COMBINADOS (01 a 04/09)
 - **01/09 de manha (BRT): o Fabricio ajusta o limite de CPA no Google.** Como Brisbane
   esta 13h a frente, isso cai no fim do dia 01/09 la: **o primeiro dia inteiro com a
