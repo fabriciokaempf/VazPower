@@ -5,7 +5,12 @@ Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & 
 
 > **Comece por `ESTADO.md`.** Ele traz o estado vivo da operação: próxima ação, histórico
 > de métricas semana a semana, situação de cada campanha, pontos abertos e pendências.
+> Para agenda, calls e frente comercial, ver **`REUNIOES.md`**.
 > Este arquivo aqui guarda as regras que não mudam.
+
+> **O REPOSITÓRIO É PÚBLICO.** O cliente pode ler qualquer coisa comitada aqui. Nunca
+> escrever valor de fee, piso de negociação, estratégia de negociação ou leitura de
+> pontos fracos de ninguém. Esse material vive fora do repositório.
 
 ## Preferências do Fabricio (seguir sempre)
 
