@@ -47,6 +47,14 @@ horário de verão, então a diferença nunca muda.
 - **Ponto de atenção aberto em 03/09:** o Vaz propôs adicionar o Fabricio ao **grupo do
   administrativo no WhatsApp**. Com o WhatsApp instável, confirmar antes **por qual número
   ele deve ser adicionado**, para o grupo não cair em uma linha fora do ar.
+- **Encaminhamento de 03/09: o Fabricio vai colocar no ar um número Business paralelo**
+  para tocar o trabalho enquanto o antigo não volta. **É esse o número que deve entrar no
+  grupo do administrativo.** O ideal é ele estar de pé antes de **segunda, 07/09**, que é
+  quando o Vaz retoma o assunto do Vitor: entrar uma vez com o número definitivo evita
+  trocar de linha depois na frente da equipe dele.
+- **Regra ao trocar de número:** avisar o Vaz qual é a linha nova **antes** de ela aparecer
+  em um grupo ou em uma mensagem. Número desconhecido chegando sem aviso, com 13h de
+  diferença de fuso, vira dúvida antes de virar contato.
 
 ## 4. Histórico de calls
 
