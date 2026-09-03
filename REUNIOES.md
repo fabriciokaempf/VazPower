@@ -44,6 +44,9 @@ horário de verão, então a diferença nunca muda.
   de resposta ("recebido") por falta de retorno visível.
 - Em 02/09 o contato voltou a acontecer pelo WhatsApp pessoal.
 - Convite de reunião: Google Meet, enviado por WhatsApp e por e-mail.
+- **Ponto de atenção aberto em 03/09:** o Vaz propôs adicionar o Fabricio ao **grupo do
+  administrativo no WhatsApp**. Com o WhatsApp instável, confirmar antes **por qual número
+  ele deve ser adicionado**, para o grupo não cair em uma linha fora do ar.
 
 ## 4. Histórico de calls
 
@@ -58,20 +61,51 @@ horário de verão, então a diferença nunca muda.
   https://claude.ai/code/artifact/975f2409-b2c8-4a62-90b3-348f26da630c
   Contém a análise comercial, os argumentos e os parâmetros de negociação. **É onde
   mora o que não pode ser escrito aqui.**
-- **RESULTADO DA CALL (registrado com o Fabricio logo depois dela):** foi uma call de
-  escuta. O Vaz quis ouvir como está o andamento do trabalho, e **não ficou definida
-  nenhuma das condições que estavam na pauta**: não entrou o orçamento dos próximos seis
-  meses, não ficou data para a apresentação da proposta de KPI e **a frente de remuneração
-  não foi tratada em nenhum momento**. A proposta de metas segue prevista por ele para o
-  mês seguinte, sem data marcada.
-- **O que saiu de concreto: a conexão com o Vitor.** O Vaz vai apresentar o **Vitor**, que
-  cuida do administrativo da Vaz Power e **tem acesso aos fechamentos no CRM**. O objetivo
-  declarado por ele é permitir o cruzamento entre os leads da operação e os fechamentos,
-  para dar clareza sobre o que vale potencializar no negócio. É o primeiro caminho real
-  para o dado que falta desde julho, e ele partiu do próprio cliente (ver seção 6).
-- **Leitura para as próximas conversas:** a régua do briefing não chegou a ser usada,
-  porque a conversa não foi de negociação. Ela continua valendo inteira para quando a
-  proposta de KPI aparecer.
+#### Resultado da call (revisado contra a transcrição)
+
+Começou 06:53 e durou **13 minutos**. O Vaz tinha voltado de viagem e o tom foi de escuta
+e encaminhamento, não de negociação. **A remuneração e a proposta de KPI não foram
+tratadas em nenhum momento**, e não ficou data para a apresentação dela: segue prevista
+por ele para o mês seguinte. A régua de negociação do briefing não chegou a ser usada e
+continua valendo inteira para quando a proposta aparecer.
+
+**1. Orçamento: setembro e outubro ficaram desenhados.** Os seis meses não foram
+percorridos, mas os dois próximos sim. O Fabricio colocou que a conta está na **faixa de
+A$12 mil/mês**, que **setembro é o último mês de baixa temporada** e que a subida precisa
+ser controlada: **de A$12 mil para no máximo A$13 mil em setembro**, para conseguir ler
+como esse último mês fraco se comporta, e **em outubro chegar perto de A$15 mil**. O Vaz
+seguiu para o assunto seguinte sem objetar, e lembrou que antes da redução a conta rodava
+"mais ou menos 15". **A confirmar com o Fabricio se isso já vale como teto de trabalho**
+(ver `ESTADO.md`).
+
+**2. Dado de fechamento: foi o Vaz quem propôs o mecanismo.** É o resultado que muda a
+operação, e ele partiu do cliente, não de pedido. O desenho, em palavras dele:
+- Adicionar o Fabricio ao **grupo do administrativo no WhatsApp**.
+- Organizar com o **Vitor**, que cuida do administrativo e tem o **CRM**, um relatório
+  **semanal**: toda **segunda-feira**, os fechamentos da semana anterior, com **data de
+  criação do lead e data de fechamento**.
+- O ideal declarado por ele: **data de criação, data de agendamento e valor gerado**.
+- **Ele mesmo levantou o delay:** quando o agendamento é para duas, três ou quatro semanas
+  à frente, o valor só se conhece depois. Nas palavras dele, "vai ser meio que um delay".
+- Sobre o Vitor: vem do marketing, então a conversa técnica tende a fluir.
+
+**3. Encaminhamento do dado, com as datas ditas por ele:** fala com o Vitor na **sexta,
+04/09**; deixa o **fim de semana** para o Vitor pensar em como montar a planilha;
+**conecta os dois na semana seguinte**. Encerrou a call com "a gente se fala na
+segunda-feira" (**07/09**).
+
+**4. Campanha pausada e velocidade de implementação.** O Vaz puxou a campanha que saiu do
+ar por custo alto. O Fabricio respondeu que a análise e a correção já estão prontas e
+passadas para implementação, ainda não aplicadas. Ficou dito na conversa que o ritmo de
+testar e ajustar depende de implementação de terceiros, e o **Vaz ficou de tratar a
+agilidade disso do lado dele e retornar ao Fabricio**.
+
+**5. Frente nova, fora do tráfego: rebranding.** O Vaz está tocando um **rebranding**
+(manual de marca e logos em alta resolução). O Fabricio se colocou como fornecedor
+possível e **o Vaz pediu uma proposta com prazo e valor**, pedindo que parta da ideia de
+identidade que já existe. O Fabricio se comprometeu a levar **um apanhado até segunda ou
+terça (07 ou 08/09)**. **Os parâmetros comerciais dessa frente ficam no briefing privado**,
+fora deste arquivo.
 
 ## 5. O que sustenta a conversa de valor
 
@@ -92,21 +126,41 @@ Números já publicados nos dashboards, seguros para citar:
 
 ## 6. Pontos abertos da frente comercial
 
-- **Dado de fechamento.** Em julho a seção comercial saiu dos dashboards porque o
-  cliente informou que não conseguiria passar esses dados. Qualquer modelo de
-  remuneração atrelado a resultado depende disso voltar. É o principal ponto a resolver.
+- **Dado de fechamento · ENCAMINHADO NA CALL DE 03/09, falta executar.** Em julho a seção
+  comercial saiu dos dashboards porque o cliente informou que não conseguiria passar esses
+  dados. Em 03/09 **foi ele quem propôs a solução**: planilha semanal montada com o Vitor,
+  entregue às segundas, com data de criação do lead, data de fechamento e valor gerado,
+  mais o acesso do Fabricio ao grupo do administrativo. **O ponto deixou de ser convencer
+  e passou a ser fazer acontecer.** Enquanto a planilha não existir, qualquer modelo
+  atrelado a resultado segue sem base de medição.
 - **Sem histórico de novembro a fevereiro.** A operação começou em junho de 2026, e
   junho, julho e agosto são inverno na Austrália. A conta **não tem nenhum dia rodado**
   nos meses da proposta, que são o pico de mudanças por lá. Meta sem base histórica é
-  aposta: vale pedir o histórico comercial da empresa nesses meses.
-- **Ciclo entre lead e fechamento.** Em mudança, o orçamento sai e a reserva fecha
-  semanas depois. Qualquer variável por resultado precisa de **janela de atribuição
-  definida**, senão o primeiro e o último mês do período sempre saem distorcidos.
+  aposta: vale pedir o histórico comercial da empresa nesses meses. **Não foi pedido na
+  call de 03/09, segue em aberto.**
+- **Ciclo entre lead e fechamento · reconhecido pelos dois lados.** Em mudança, o orçamento
+  sai e a reserva fecha semanas depois. Qualquer variável por resultado precisa de
+  **janela de atribuição definida**, senão o primeiro e o último mês do período sempre
+  saem distorcidos. **Em 03/09 o Vaz chegou nisso por conta própria**, falando do
+  agendamento marcado para duas a quatro semanas à frente e do delay no valor gerado.
+- **Rebranding.** Frente nova, aberta por ele na call de 03/09, fora do escopo de tráfego.
+  Proposta com prazo e valor pedida por ele. **Condições comerciais no briefing privado.**
 
 ## 7. Compromissos assumidos com o cliente
 
 - **Sexta, 04/09:** escrever dizendo se a entrega do Google voltou depois do ajuste de
   01/09, com número. **Mandar antes das 11h BRT**, senão chega no sábado dele.
   Referência de volume citada a ele: 50 a 70 leads por semana.
+- **Segunda ou terça, 07 ou 08/09: levar o apanhado de rebranding**, com prazo e valor.
+  Assumido pelo Fabricio na call de 03/09, partindo da identidade visual que já existe.
+- **Segunda, 07/09: retomar o assunto do Vitor.** Foi como o Vaz encerrou a call ("a gente
+  se fala na segunda-feira"). Se a conexão não tiver acontecido, é o dia de puxar.
+- **Quando a conexão com o Vitor acontecer**, o que precisa ficar fechado com ele: formato
+  da planilha, frequência (semanal, às segundas, com a semana anterior) e os três campos
+  que o próprio Vaz listou: **data de criação do lead, data de agendamento e valor gerado**.
+  Vale já combinar como tratar o delay que ele mesmo apontou, para o valor não ficar
+  pendurado em mês errado.
+- **Retorno esperado do Vaz:** ele ficou de tratar do lado dele a agilidade das
+  implementações e voltar ao Fabricio quando evoluir.
 - **Sugestão feita e ainda sem resposta:** colocar monitoramento de disponibilidade no
   site, para avisar por e-mail quando ele sair do ar.

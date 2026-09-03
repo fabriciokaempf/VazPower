@@ -1,11 +1,34 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **31/08/2026 à noite** (verificação adversarial: as três hipóteses caíram; base numérica corrigida).
+Atualizado em **03/09/2026** (call com o Vaz: caminho de orçamento e dado de fechamento).
+Antes disso, 31/08 à noite (verificação adversarial: as três hipóteses caíram; base
+numérica corrigida).
 
 ---
 
 ## 0. ESTADO ATUAL (retomar daqui)
+
+### CALL COM O VAZ EM 03/09: caminho de orçamento novo e o dado de fechamento encaminhado
+
+Registro completo em `REUNIOES.md`, seção 4. O que toca a operação de tráfego:
+
+- **Orçamento, o caminho colocado na call.** A conta está na **faixa de A$12 mil/mês**,
+  sobe para **no máximo A$13 mil em setembro** (último mês de baixa temporada, subida
+  controlada para dar para ler o mês) e **chega perto de A$15 mil em outubro**. O Vaz não
+  objetou e lembrou que antes da redução a conta rodava "mais ou menos 15".
+  **A CONFIRMAR COM O FABRICIO se isso já substitui o patamar atual como teto de
+  trabalho.** Até a confirmação, nada de subir orçamento por causa deste bloco.
+- **Referência para calibrar:** A$15 mil em mês fechado seria o **maior mês da operação**.
+  Junho A$12.478, julho A$13.284, agosto A$12.582. Em ritmo semanal já houve equivalente
+  (S10, A$4.013 na semana), em mês fechado nunca.
+- **Dado de fechamento a caminho.** O Vaz propôs, por conta própria, uma planilha semanal
+  montada com o Vitor (administrativo, acesso ao CRM), entregue às segundas com **data de
+  criação do lead, data de fechamento e valor gerado**. Quando isso chegar, dá para cruzar
+  lead com fechamento e a leitura de campanha deixa de parar no CPL. Ele fala com o Vitor
+  em 04/09 e retoma com o Fabricio em 07/09.
+- **Correção da campanha pausada segue pendente de implementação** do lado do cliente. O
+  Vaz ficou de tratar a agilidade disso e retornar.
 
 ### ATUALIZAÇÃO DE 27/08, ESCRITA PELA SESSÃO DE OTIMIZAÇÃO · LEIA ANTES DE TUDO
 
