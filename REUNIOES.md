@@ -58,8 +58,20 @@ horário de verão, então a diferença nunca muda.
   https://claude.ai/code/artifact/975f2409-b2c8-4a62-90b3-348f26da630c
   Contém a análise comercial, os argumentos e os parâmetros de negociação. **É onde
   mora o que não pode ser escrito aqui.**
-- **RESULTADO DA CALL: a preencher.** A call aconteceu em 03/09 e o desfecho ainda não
-  foi registrado. Perguntar ao Fabricio antes de assumir qualquer coisa.
+- **RESULTADO DA CALL (registrado com o Fabricio logo depois dela):** foi uma call de
+  escuta. O Vaz quis ouvir como está o andamento do trabalho, e **não ficou definida
+  nenhuma das condições que estavam na pauta**: não entrou o orçamento dos próximos seis
+  meses, não ficou data para a apresentação da proposta de KPI e **a frente de remuneração
+  não foi tratada em nenhum momento**. A proposta de metas segue prevista por ele para o
+  mês seguinte, sem data marcada.
+- **O que saiu de concreto: a conexão com o Vitor.** O Vaz vai apresentar o **Vitor**, que
+  cuida do administrativo da Vaz Power e **tem acesso aos fechamentos no CRM**. O objetivo
+  declarado por ele é permitir o cruzamento entre os leads da operação e os fechamentos,
+  para dar clareza sobre o que vale potencializar no negócio. É o primeiro caminho real
+  para o dado que falta desde julho, e ele partiu do próprio cliente (ver seção 6).
+- **Leitura para as próximas conversas:** a régua do briefing não chegou a ser usada,
+  porque a conversa não foi de negociação. Ela continua valendo inteira para quando a
+  proposta de KPI aparecer.
 
 ## 5. O que sustenta a conversa de valor
 
