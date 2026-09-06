@@ -471,6 +471,7 @@ movers", "near me", marca Vaz Power.
 | 11 | 10-16/08 | A$3.189 | 53 | A$60,16 |
 | 12 | 17-23/08 | A$2.888 | 46 | A$62,78 |
 | 13 | 24-30/08 | A$1.436 | 48 | **A$29,92** |
+| 14 | 31/08-06/09 | A$2.481 | **78** | A$31,81 |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).
