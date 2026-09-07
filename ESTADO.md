@@ -49,10 +49,13 @@ Registro completo em `REUNIOES.md`, seção 4. O que toca a operação de tráfe
   leitura separa **PMax, que pede verba** (perde 25,55% por orçamento) de **LP Form,
   que pede qualidade** (perde 89,05% por posição, com orçamento sobrando).
 
-> **INVOICE DE SETEMBRO: JÁ RESOLVIDA, NÃO REFAZER.** A INV-2026-09-001 foi gerada na
-> sessão de otimização em 07/09, com o item de tracking creditado, e a mensagem de envio
-> já está escrita lá. Valor e dados ficam fora deste arquivo porque o repositório é
-> público. Registrado aqui só para nenhuma sessão gerar de novo.
+> **INVOICE DE SETEMBRO: ENVIADA EM 07/09. NÃO REFAZER.** A INV-2026-09-001 foi gerada
+> na sessão de otimização, com o item de tracking creditado, e **entregue ao cliente em
+> 07/09** junto do dashboard da Semana 14. Valor e dados ficam fora deste arquivo porque
+> o repositório é público. Registrado aqui só para nenhuma sessão gerar de novo.
+>
+> **Ciclo de setembro fechado do lado da entrega:** dashboard S14 publicado e enviado,
+> invoice enviada. Próxima invoice: **INV-2026-10-001**, antecipada, no início de outubro.
 
 ### BRIEF PARA A OTIMIZAÇÃO (bloco de 07/09, 08h às 10h BRT), na ordem de impacto
 
