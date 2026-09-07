@@ -30,6 +30,28 @@ Registro completo em `REUNIOES.md`, seção 4. O que toca a operação de tráfe
 - **Correção da campanha pausada segue pendente de implementação** do lado do cliente. O
   Vaz ficou de tratar a agilidade disso e retornar.
 
+### SEMANA 14 (31/08 a 06/09) PUBLICADA e enviada ao Vaz (07/09)
+
+`agosto31-setembro06/` · **A$2.481,06 | 78 leads | CPL A$31,81**
+
+- **RECORDE DE VOLUME da operação**, superando os 72 da S10, com **38% menos
+  investimento** (A$2.481 contra A$4.013).
+- **O ajuste da PMax de 01/09 resolveu.** Ela saiu de "limitada pela estratégia de
+  lances" para **"Qualificado"**: gasto de A$294,11 para A$907,99, conversões de 3,50
+  para 14,50 e CPL de A$84,03 para A$62,62. Google inteiro: A$858 -> A$1.820, 17 -> 34
+  conversões.
+- **Meta: novo recorde de custo por ligação, 44 a A$15,02** (marca anterior A$16,71),
+  já no último degrau da escada (A$94,98/dia, 99% de uso).
+- **Compromisso do e-mail de fechamento CUMPRIDO e superado:** a referência prometida
+  ao cliente era 50 a 70 leads/semana, entregou 78.
+- **Seção nova: parcela de impressões.** O export passou a trazer as colunas. A conta
+  aparece em **10,55%** das buscas disputadas; BRAND domina a marca com 82,35%. A
+  leitura separa **PMax, que pede verba** (perde 25,55% por orçamento) de **LP Form,
+  que pede qualidade** (perde 89,05% por posição, com orçamento sobrando).
+
+**Atenções para a S15:** LP Form gastou A$246,11 para 1 conversão; FRONT usou 2% do
+orçamento; PMax agora esbarra em orçamento, então tem espaço para abrir.
+
 ### ATUALIZAÇÃO DE 27/08, ESCRITA PELA SESSÃO DE OTIMIZAÇÃO · LEIA ANTES DE TUDO
 
 Quatro coisas aconteceram entre 24 e 27/08 que mudam o que está escrito abaixo nesta
