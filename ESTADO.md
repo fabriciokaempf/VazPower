@@ -49,7 +49,16 @@ Registro completo em `REUNIOES.md`, seção 4. O que toca a operação de tráfe
   leitura separa **PMax, que pede verba** (perde 25,55% por orçamento) de **LP Form,
   que pede qualidade** (perde 89,05% por posição, com orçamento sobrando).
 
-### BRIEF PARA A OTIMIZAÇÃO DE 08/09, na ordem de impacto
+> **INVOICE DE SETEMBRO: JÁ RESOLVIDA, NÃO REFAZER.** A INV-2026-09-001 foi gerada na
+> sessão de otimização em 07/09, com o item de tracking creditado, e a mensagem de envio
+> já está escrita lá. Valor e dados ficam fora deste arquivo porque o repositório é
+> público. Registrado aqui só para nenhuma sessão gerar de novo.
+
+### BRIEF PARA A OTIMIZAÇÃO (bloco de 07/09, 08h às 10h BRT), na ordem de impacto
+
+> **NOTA:** o bloco na agenda do Fabricio tem análise mais recente que este brief, com a
+> leitura de 01 a 04/09, guarda-corpo de CPA e o plano de Search. **O que este brief
+> acrescenta é a semana 14 fechada.** Onde divergir, a agenda manda.
 
 Tudo abaixo sai dos números da S14, já conferidos contra o export. A coluna de
 **parcela de impressões** apareceu no export desta semana e é ela que separa quem
