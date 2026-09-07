@@ -49,8 +49,47 @@ Registro completo em `REUNIOES.md`, seção 4. O que toca a operação de tráfe
   leitura separa **PMax, que pede verba** (perde 25,55% por orçamento) de **LP Form,
   que pede qualidade** (perde 89,05% por posição, com orçamento sobrando).
 
-**Atenções para a S15:** LP Form gastou A$246,11 para 1 conversão; FRONT usou 2% do
-orçamento; PMax agora esbarra em orçamento, então tem espaço para abrir.
+### BRIEF PARA A OTIMIZAÇÃO DE 08/09, na ordem de impacto
+
+Tudo abaixo sai dos números da S14, já conferidos contra o export. A coluna de
+**parcela de impressões** apareceu no export desta semana e é ela que separa quem
+precisa de verba de quem precisa de qualidade.
+
+**1. PMax: abrir orçamento. É a jogada mais clara da semana.**
+Perde **25,55% de presença por ORÇAMENTO** e roda a 93% dos A$139,08/dia, entregando a
+A$62,62. Depois do ajuste de 01/09 ela voltou a "Qualificado" e é a única campanha da
+conta cujo freio hoje é verba, não lance. Subir aqui compra volume a custo conhecido.
+**Depende do teto de setembro**: o caminho de até A$13 mil/mês colocado na call de
+03/09 ainda está pendente de confirmação do Fabricio.
+
+**2. LP Form: decidir o destino. É a que mais destoa.**
+A$246,11 para **1 conversão** na semana, e perde **89,05% da presença por posição do
+anúncio**, com o orçamento em 43% de uso. Ou seja, não é falta de verba, é anúncio ou
+página perdendo o leilão. Contexto: em agosto inteiro ela fez 16,50 conversões a
+A$90,39, então esta semana foi fora do padrão dela. Vale olhar se algo mudou antes de
+decidir entre subir o alvo, mexer no criativo e na página, ou encerrar.
+
+**3. FRONT e MADRUGA: acertar o orçamento com a realidade.**
+FRONT usou **2%** de A$287,98/dia; a verificação de 31/08 já tinha mostrado que ela
+nunca passou de 17,3% do próprio orçamento em nenhuma semana de agosto, ou seja, é
+crônico e não é efeito do apagão. MADRUGA teve **100% de parcela de impressões** com 6
+impressões: ela captura tudo o que existe no horário dela, e o problema é não existir
+mais busca das 00h às 03h em computador. **As duas juntas seguram A$417/dia que a conta
+nunca teve como gastar**, e isso distorce toda leitura de utilização de orçamento.
+Reduzir os tetos delas ao que entregam de fato limpa o diagnóstico.
+
+**4. Meta: dois movimentos prontos, ambos já analisados.**
+- **Reels contra Feed**: no fechado de agosto, ligação sai a A$15,99 no Reels contra
+  A$21,47 no Feed, e formulário sai a A$79,49 no Feed contra A$99,74 no Reels. Mandar
+  cada objetivo para onde ele rende.
+- **Formulários e remarketing seguem pausados** desde o ajuste de agosto. A escada de
+  ligações terminou (A$94,98/dia, 99% de uso, recorde de custo em A$15,02).
+
+**5. Instagram: espaço inexplorado.** Levou 1% do investimento de agosto e zero
+resultado, aparecendo só no remarketing.
+
+**Não mexer sem motivo novo:** BRAND (82,35% de presença na própria marca, CPL A$17,18,
+o melhor da conta) e SUPORTE (A$51,98, 83% de uso).
 
 ### ATUALIZAÇÃO DE 27/08, ESCRITA PELA SESSÃO DE OTIMIZAÇÃO · LEIA ANTES DE TUDO
 
