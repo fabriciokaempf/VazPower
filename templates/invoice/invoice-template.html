@@ -57,6 +57,15 @@
   .desc-sub{ color:var(--muted); font-size:12.5px; margin-top:5px; max-width:330px; }
   .amount{ font-weight:800; white-space:nowrap; }
 
+  /* linha de servico entregue sem cobranca */
+  tr.gift td{ border-top:1px solid var(--line); }
+  .amount.struck{ color:var(--muted); text-decoration:line-through; font-weight:700; }
+  .nocharge{ display:block; margin-top:5px; font-size:10px; font-weight:800;
+    letter-spacing:1.2px; text-transform:uppercase; color:var(--gold); }
+  .tag-gift{ display:inline-block; margin-left:8px; vertical-align:2px;
+    border:1px solid var(--gold); color:var(--gold); font-size:9px; font-weight:800;
+    letter-spacing:1px; text-transform:uppercase; padding:2px 7px; border-radius:100px; }
+
   .totals{ margin-top:2px; }
   .totals .trow{ display:flex; justify-content:flex-end; gap:60px; align-items:center;
     padding:13px 0; border-top:1px solid var(--line); }
@@ -81,8 +90,22 @@
 
   @media print{
     html,body{ background:#fff; }
-    .sheet{ width:auto; min-height:auto; margin:0; padding:16mm 15mm; }
+    .sheet{ width:auto; min-height:auto; margin:0; padding:13mm 15mm; }
     @page{ size:A4; margin:0; }
+
+    /* Aperta o miolo para caber em uma folha mesmo com linha extra de servico. */
+    .top h1{ font-size:32px; }
+    .rule{ height:2px; margin:13px 0 15px; }
+    .parties{ padding-bottom:15px; gap:30px; }
+    .services{ margin-top:16px; }
+    thead th{ padding-bottom:9px; }
+    td{ padding:10px 0; }
+    .desc-sub{ max-width:400px; margin-top:3px; }
+    .totals .trow{ padding:7px 0; }
+    .boxes{ margin-top:18px; gap:16px; }
+    .box{ padding:13px 16px; }
+    .foot{ margin-top:16px; padding-top:12px; }
+    tr, .trow, .box, .foot{ break-inside:avoid; page-break-inside:avoid; }
   }
 </style>
 </head>
@@ -144,11 +167,13 @@
             <td>1 month</td>
             <td class="r amount">{{AMOUNT}}</td>
           </tr>
+{{EXTRA_ROWS}}
         </tbody>
       </table>
 
       <div class="totals">
         <div class="trow"><div class="tlabel">Subtotal</div><div class="tval">{{AMOUNT}}</div></div>
+{{EXTRA_TOTALS}}
         <div class="trow"><div class="tlabel">GST (0% - overseas supplier)</div><div class="tval">A$0.00</div></div>
         <div class="trow grand"><div class="tlabel">Total Due</div><div class="tval">{{AMOUNT}}</div></div>
       </div>

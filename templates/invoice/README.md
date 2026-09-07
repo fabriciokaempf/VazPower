@@ -34,7 +34,37 @@ deve ser commitado**.
 O `--data` é opcional (usa a data de hoje). O vencimento acompanha a emissão,
 porque a condição é *due on receipt*.
 
-Requer `playwright` disponível para o Node (usa Chromium para imprimir o PDF).
+**PDF:** usa o `playwright` se ele estiver disponível para o Node. Se não estiver,
+cai automaticamente no Chrome ou no Edge em modo headless, que já existem no
+Windows. Não precisa instalar nada.
+
+## Serviço entregue sem cobrança
+
+Trabalho fora do escopo mensal, entregue sem custo, pode aparecer como linha
+própria: o valor de mercado sai riscado, com o selo "no charge", e nos totais
+entra como valor cheio mais crédito de 100%. O total a pagar não muda.
+
+```
+python gerar-invoice.py --numero INV-2026-09-001 \
+                        --periodo "September 2026" \
+                        --extra-titulo "Conversion Tracking Rebuild (Website)" \
+                        --extra-desc "Audit, GTM build and live validation." \
+                        --extra-periodo "August 2026" \
+                        --extra-qtd "6.7 hrs" \
+                        --extra-valor "A\$800.00"
+```
+
+Os rótulos dos totais são configuráveis com `--extra-rotulo` e
+`--extra-rotulo-credito` (padrão: *Additional services delivered* e
+*Partnership credit (100%)*).
+
+**Por que na invoice e não só na mensagem:** a invoice é o documento que o
+cliente arquiva e revê. Ali o número é lido como registro contábil, e não como
+quem está pedindo reconhecimento. Também deixa a âncora pronta para quando o
+escopo aumentar. Na mensagem, uma frase apontando para o documento basta.
+
+Usado pela primeira vez em `INV-2026-09-001` (reconstrução do rastreamento
+de conversão do site, executada de 23 a 26/08/2026).
 
 ## Convenções em uso
 
@@ -56,3 +86,4 @@ Requer `playwright` disponível para o Node (usa Chromium para imprimir o PDF).
 | `{{TO_NAME}}` / `{{TO_ABN}}` / `{{TO_ADDRESS}}` / `{{TO_CITY}}` / `{{TO_EMAIL}}` | Cliente |
 | `{{AMOUNT}}` | Valor (aparece no item, subtotal e total) |
 | `{{PAYMENT_METHOD}}` / `{{PAYMENT_EMAIL}}` / `{{CURRENCY}}` | Pagamento |
+| `{{EXTRA_ROWS}}` / `{{EXTRA_TOTALS}}` | Linha e totais do serviço sem cobrança (o script preenche com vazio quando não há) |
