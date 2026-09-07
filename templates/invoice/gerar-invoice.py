@@ -106,6 +106,14 @@ def montar_html(dados, numero, periodo, data_emissao, extra_linha, extra_totais)
         pagina = f.read()
 
     valores = dict(dados)
+
+    # FROM_DOC e opcional. Vazio, some do bloco "From" e do rodape sem deixar
+    # separador solto. O que sustenta o GST 0% e ser fornecedor no exterior,
+    # nao o documento brasileiro, que nao tem efeito fiscal na Australia.
+    doc = (dados.get("FROM_DOC") or "").strip()
+    valores["FROM_DOC_ROW"] = f'        <div class="row">{html.escape(doc)}</div>' if doc else ""
+    valores["FROM_DOC_INLINE"] = f" - {html.escape(doc)}" if doc else ""
+
     valores.update({
         "INVOICE_NO": numero,
         "ISSUE_DATE": data_emissao,
