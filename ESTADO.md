@@ -1,7 +1,7 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **03/09/2026** (call com o Vaz: caminho de orçamento e dado de fechamento).
+Atualizado em **08/09/2026** (teto de orçamento confirmado em A$15 mil/mês, condicional).
 Antes disso, 31/08 à noite (verificação adversarial: as três hipóteses caíram; base
 numérica corrigida).
 
@@ -13,15 +13,30 @@ numérica corrigida).
 
 Registro completo em `REUNIOES.md`, seção 4. O que toca a operação de tráfego:
 
-- **Orçamento, o caminho colocado na call.** A conta está na **faixa de A$12 mil/mês**,
-  sobe para **no máximo A$13 mil em setembro** (último mês de baixa temporada, subida
-  controlada para dar para ler o mês) e **chega perto de A$15 mil em outubro**. O Vaz não
-  objetou e lembrou que antes da redução a conta rodava "mais ou menos 15".
-  **A CONFIRMAR COM O FABRICIO se isso já substitui o patamar atual como teto de
-  trabalho.** Até a confirmação, nada de subir orçamento por causa deste bloco.
+- **TETO CONFIRMADO PELO FABRICIO EM 08/09: A$15 mil/mês, e ele é condicional.**
+  O teto de trabalho é **A$15 mil/mês**, mas **não é alvo de gasto**: vale enquanto a
+  conta estiver **convertendo de forma saudável, com CPA adequado e bom ROAS**. Se o
+  custo por conversão degradar na subida, o teto não autoriza continuar subindo.
+  **A qualidade da conversão vem antes do teto**, e a escada para no degrau em que ela
+  ceder. Isso substitui o "no máximo A$13 mil em setembro" como regra de trabalho.
+- **Como subir, na prática.** Vale a regra da retomada de agosto: **devolver orçamento
+  primeiro para o melhor custo**, em degraus, uma alavanca por vez, para não jogar o
+  Smart Bidding de volta ao aprendizado. Pela S14 a fila começa na **PMax**, única
+  campanha cujo freio hoje é verba (perde 25,55% de presença por orçamento, entregando a
+  A$62,62). FRONT e MADRUGA ficam fora da fila: o problema delas não é orçamento.
+- **CUIDADO, o "bom ROAS" ainda NÃO é mensurável nesta conta.** ROAS exige receita por
+  lead, que é exatamente o dado de fechamento que só passa a existir quando a planilha do
+  Vitor começar a rodar (ver `REUNIOES.md`). O que a conta tem hoje é **valor atribuído**
+  na ação de conversão (A$100 na `Book Form Submit`), que é premissa, não faturamento.
+  **Até a planilha existir, o critério operacional é CPA e volume**, e o ROAS fica
+  declarado como pendente, nunca inventado a partir do valor atribuído.
+- **Ponto de comunicação, não de operação:** na call de 03/09 o Fabricio disse ao Vaz que
+  setembro não passaria de A$13 mil. Se a saúde da conta permitir passar disso ainda em
+  setembro, **é uma mudança para avisar, não para fazer em silêncio.**
 - **Referência para calibrar:** A$15 mil em mês fechado seria o **maior mês da operação**.
   Junho A$12.478, julho A$13.284, agosto A$12.582. Em ritmo semanal já houve equivalente
-  (S10, A$4.013 na semana), em mês fechado nunca.
+  (S10, A$4.013 na semana), em mês fechado nunca. Setembro começou forte: S14 fez 78
+  leads a A$31,81.
 - **Dado de fechamento a caminho.** O Vaz propôs, por conta própria, uma planilha semanal
   montada com o Vitor (administrativo, acesso ao CRM), entregue às segundas com **data de
   criação do lead, data de fechamento e valor gerado**. Quando isso chegar, dá para cruzar
@@ -71,8 +86,8 @@ precisa de verba de quem precisa de qualidade.
 Perde **25,55% de presença por ORÇAMENTO** e roda a 93% dos A$139,08/dia, entregando a
 A$62,62. Depois do ajuste de 01/09 ela voltou a "Qualificado" e é a única campanha da
 conta cujo freio hoje é verba, não lance. Subir aqui compra volume a custo conhecido.
-**Depende do teto de setembro**: o caminho de até A$13 mil/mês colocado na call de
-03/09 ainda está pendente de confirmação do Fabricio.
+**Teto liberado em 08/09**: A$15 mil/mês, condicionado a CPA adequado (ver o bloco da
+call, no topo). A PMax é a primeira da fila para receber verba.
 
 **2. LP Form: decidir o destino. É a que mais destoa.**
 A$246,11 para **1 conversão** na semana, e perde **89,05% da presença por posição do

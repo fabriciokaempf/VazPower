@@ -83,8 +83,8 @@ A$12 mil/mês**, que **setembro é o último mês de baixa temporada** e que a s
 ser controlada: **de A$12 mil para no máximo A$13 mil em setembro**, para conseguir ler
 como esse último mês fraco se comporta, e **em outubro chegar perto de A$15 mil**. O Vaz
 seguiu para o assunto seguinte sem objetar, e lembrou que antes da redução a conta rodava
-"mais ou menos 15". **A confirmar com o Fabricio se isso já vale como teto de trabalho**
-(ver `ESTADO.md`).
+"mais ou menos 15". **Definido em 08/09: o teto de trabalho é A$15 mil/mês, condicionado
+a a conta seguir convertendo bem, com CPA adequado.** Detalhe operacional em `ESTADO.md`.
 
 **2. Dado de fechamento: foi o Vaz quem propôs o mecanismo.** É o resultado que muda a
 operação, e ele partiu do cliente, não de pedido. O desenho, em palavras dele:
@@ -168,7 +168,7 @@ Números já publicados nos dashboards, seguros para citar:
   que o próprio Vaz listou: **data de criação do lead, data de agendamento e valor gerado**.
   Vale já combinar como tratar o delay que ele mesmo apontou, para o valor não ficar
   pendurado em mês errado.
-- **Retorno esperado do Vaz:** ele ficou de tratar do lado dele a agilidade das
-  implementações e voltar ao Fabricio quando evoluir.
+- **Retorno dado em 08/09:** o Vaz tratou o assunto do lado dele e pediu prioridade para
+  os pedidos do Fabricio nas implementações do site. Loop fechado.
 - **Sugestão feita e ainda sem resposta:** colocar monitoramento de disponibilidade no
   site, para avisar por e-mail quando ele sair do ar.
