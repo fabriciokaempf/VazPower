@@ -176,6 +176,24 @@ Números já publicados nos dashboards, seguros para citar:
   call de 03/09 para "segunda ou terça", reprogramado e comunicado ao Vaz em 09/09.
   Vai em mensagem própria, **sem misturar com o assunto de orçamento**.
 
+### Frente de marca · escopo fechado em 09/09
+
+- **A identidade nova existe e está certa.** Ela foi criada e já está aplicada em parte
+  dos canais. O que não existe é a documentação dela. **O trabalho é registrar o que já
+  foi feito, não criar identidade nova**, e essa é a premissa do documento inteiro.
+- **O que entra:** brandbook e manual de marca, pacote de arquivos, especificação técnica
+  para quem aplica, plano de convergência e call de entrega.
+- **O que NÃO entra: aplicação, de qualquer natureza.** Site e páginas, produção de peça
+  para redes e gestão de conteúdo, papelaria, anúncio, frota, uniforme e sinalização.
+  Cada canal segue com quem já cuida dele. **Está escrito em duas seções da proposta**, na
+  fronteira e nas exclusões, para o projeto somar ao que já roda em vez de substituir.
+- **Sobre comunicar essa frente à equipe: decidido em 09/09 não antecipar nada.** O pedido
+  partiu do próprio cliente, em mensagem de grupo com a equipe presente, então não há
+  novidade a anunciar, e não existe projeto fechado. **Se fechar, conversar com quem criou
+  a identidade é o primeiro passo do trabalho**, para levantar o que já está decidido e
+  não redecidir nada.
+- **Valor e condições comerciais ficam no briefing privado**, fora deste arquivo.
+
 ### Enviado ao Vaz em 09/09, em três mensagens · o que ficou pendente de resposta
 
 Respondendo à mensagem dele de 09/09, que pedia posição sobre o Vitor, apontava que o
