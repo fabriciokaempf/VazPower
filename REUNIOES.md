@@ -140,13 +140,20 @@ Números já publicados nos dashboards, seguros para citar:
   entregue às segundas, com data de criação do lead, data de fechamento e valor gerado,
   mais o acesso do Fabricio ao grupo do administrativo. **O ponto deixou de ser convencer
   e passou a ser fazer acontecer.**
-- **VIRADA EM 09/09: o dado começou a chegar, mesmo sem a planilha.** O Vaz passou por
-  mensagem números de agendamento e definiu uma meta semanal. É a primeira vez que esse
-  dado aparece na relação. **Os números em si ficam no briefing privado**, porque são
-  volume comercial da empresa dele e este repositório é público.
-  **O que muda aqui:** dá para calcular **conversão de lead para agendamento e custo por
-  agendamento**, então a conversa deixa de parar no custo por lead. Enquanto vier por
-  mensagem é foto solta; a planilha do Vitor é o que torna isso série semanal.
+- **O QUE FALTA NÃO É O DADO, É A CADÊNCIA.** Corrigido pelo Fabricio em 09/09: **o Vaz
+  já passa números de agendamento de vez em quando, mas sempre com muito atraso.** Então o
+  dado existe e circula; o que não existe é ele chegar a tempo de virar decisão. Em 09/09
+  ele mandou números e definiu uma meta semanal. **Os números em si ficam no briefing
+  privado**, porque são volume comercial da empresa dele e este repositório é público.
+  **O que a planilha do Vitor acrescenta, e é onde está o valor dela:** frequência semanal
+  fixa e a amarração de cada agendamento ao lead que o gerou, com data. Sem isso dá para
+  calcular ordem de grandeza de custo por agendamento, mas não taxa de conversão real,
+  porque o agendamento entra semanas depois do lead que o originou.
+- **Cuidado ao usar esses números:** dividir agendamentos de uma semana pelos leads da
+  mesma semana mistura períodos, já que parte dos agendamentos vem de leads anteriores.
+  Tratar como ordem de grandeza, nunca como taxa. **E confirmar o que "agendamento"
+  significa na operação dele**, mudança fechada ou visita de orçamento marcada: ainda não
+  está definido e muda a leitura inteira.
 - **Sem histórico de novembro a fevereiro.** A operação começou em junho de 2026, e
   junho, julho e agosto são inverno na Austrália. A conta **não tem nenhum dia rodado**
   nos meses da proposta, que são o pico de mudanças por lá. Meta sem base histórica é
