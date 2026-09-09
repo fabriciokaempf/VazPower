@@ -141,8 +141,8 @@ Números já publicados nos dashboards, seguros para citar:
   mais o acesso do Fabricio ao grupo do administrativo. **O ponto deixou de ser convencer
   e passou a ser fazer acontecer.**
 - **O QUE FALTA NÃO É O DADO, É A CADÊNCIA.** Corrigido pelo Fabricio em 09/09: **o Vaz
-  já passa números de agendamento de vez em quando, mas sempre com muito atraso.** Então o
-  dado existe e circula; o que não existe é ele chegar a tempo de virar decisão. Em 09/09
+  já passa números de agendamento, de forma pontual e fora de uma cadência fixa.** Então o
+  dado existe e circula; o que falta é ele chegar com regularidade para virar decisão. Em 09/09
   ele mandou números e definiu uma meta semanal. **Os números em si ficam no briefing
   privado**, porque são volume comercial da empresa dele e este repositório é público.
   **O que a planilha do Vitor acrescenta, e é onde está o valor dela:** frequência semanal
@@ -195,10 +195,11 @@ resultado final estava fraco e perguntava se o investimento subia 10, 15 ou 20%.
   porque a causa está fora da mídia paga e apontá-la agora não traz ganho; e **qualquer
   promessa de número de agendamento**, porque a proposta de KPI do cliente vem no mês
   seguinte e todo número cravado agora vira régua depois.
-- **Conexão com o Vitor: NÃO ACONTECEU até 09/09.** Na call de 03/09 o Vaz disse que
-  falaria com o Vitor em 04/09 e retomaria na segunda, 07/09. Em **09/09 ele perguntou ao
-  Fabricio se a conversa com o Vitor já estava rolando**, ou seja, a ponte não foi feita e
-  ele pode estar achando que sim. **O Fabricio não tem o contato do Vitor.**
+- **Conexão com o Vitor: ainda em aberto em 09/09.** Na call de 03/09 ficou combinado que
+  o Vaz falaria com o Vitor em 04/09 e retomaria na segunda, 07/09. Em **09/09 ele
+  perguntou ao Fabricio se a conversa com o Vitor já estava rolando**, sinal de que as duas
+  pontas esperavam a iniciativa uma da outra. **O Fabricio ainda não tem o contato do
+  Vitor.**
   Próximo passo: pedir o contato direto, ou lembrar da entrada no grupo do administrativo,
   que foi proposta pelo próprio Vaz na call. **Antes do grupo, definir por qual número**
   (ver seção 3).
