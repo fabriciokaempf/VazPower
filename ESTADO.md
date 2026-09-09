@@ -1,13 +1,39 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **08/09/2026** (teto de orçamento confirmado em A$15 mil/mês, condicional).
+Atualizado em **09/09/2026** (canal orgânico zerado, confundidor para a leitura do aumento).
 Antes disso, 31/08 à noite (verificação adversarial: as três hipóteses caíram; base
 numérica corrigida).
 
 ---
 
 ## 0. ESTADO ATUAL (retomar daqui)
+
+### 09/09: CANAL ORGÂNICO ZERADO · CONFUNDIDOR PARA A PRÓXIMA LEITURA
+
+**O fato:** as chamadas vindas do perfil do Google (GMB) fizeram **33 em agosto** e estão
+em **zero de 01 a 08/09**. É canal orgânico, fora da mídia paga, e **a causa está fora da
+conta de anúncios**. Dimensão: 33 no mês são cerca de **7 a 8 ligações por semana** de
+intenção alta, que caem no mesmo balcão de atendimento que os leads pagos.
+
+**ANTES DE USAR: confirmar se o zero é real ou atraso de relatório do GMB.** Zero cravado
+por oito dias seguidos num perfil que vinha entregando todo dia pode ser dado ainda não
+consolidado. Conferir se o perfil está publicado e com o botão de ligação ativo.
+
+**Isto NÃO explica a mídia paga.** A Semana 14 (31/08 a 06/09) foi a melhor da operação:
+78 leads, recorde de volume, melhor custo por lead. Ou seja, na mesma janela em que o
+orgânico zerou, a conta paga bateu recorde. **Não usar o GMB como causa de nada dentro da
+conta**, sob risco de contradizer o dashboard já enviado ao cliente em 07/09.
+
+**O que ele explica** é a distância entre o recorde de leads pagos e a percepção do cliente
+de que o resultado final está fraco: uma ponta de volume orgânico saiu de cena.
+
+> **CONFUNDIDOR, LEIA ANTES DE CREDITAR O AUMENTO DE ORÇAMENTO.** Está previsto subir o
+> investimento em 20% e ler o efeito em duas semanas. **Se o canal orgânico voltar dentro
+> dessa janela, o resultado melhora por duas razões ao mesmo tempo e as duas se
+> confundem.** É o mesmo erro que a verificação de 31/08 evitou ao deixar campanhas como
+> grupo de controle. **Anotar a data em que o orgânico voltar** e descontar essa parcela
+> antes de atribuir ganho ao orçamento novo.
 
 ### CALL COM O VAZ EM 03/09: caminho de orçamento novo e o dado de fechamento encaminhado
 

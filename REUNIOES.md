@@ -169,11 +169,32 @@ Números já publicados nos dashboards, seguros para citar:
 
 ## 7. Compromissos assumidos com o cliente
 
-- **Sexta, 04/09:** escrever dizendo se a entrega do Google voltou depois do ajuste de
-  01/09, com número. **Mandar antes das 11h BRT**, senão chega no sábado dele.
-  Referência de volume citada a ele: 50 a 70 leads por semana.
-- **Segunda ou terça, 07 ou 08/09: levar o apanhado de rebranding**, com prazo e valor.
-  Assumido pelo Fabricio na call de 03/09, partindo da identidade visual que já existe.
+- ~~**Sexta, 04/09:** escrever dizendo se a entrega do Google voltou, com número.~~
+  **CUMPRIDO E SUPERADO.** A referência prometida era 50 a 70 leads por semana e a S14
+  entregou 78, recorde da operação.
+- **Quinta, 10/09: levar o apanhado de marca**, com escopo, prazo e valor. Assumido na
+  call de 03/09 para "segunda ou terça", reprogramado e comunicado ao Vaz em 09/09.
+  Vai em mensagem própria, **sem misturar com o assunto de orçamento**.
+
+### Enviado ao Vaz em 09/09, em três mensagens · o que ficou pendente de resposta
+
+Respondendo à mensagem dele de 09/09, que pedia posição sobre o Vitor, apontava que o
+resultado final estava fraco e perguntava se o investimento subia 10, 15 ou 20%.
+
+- **Aumento de 20% no investimento**, aplicado **melhor custo primeiro** e depois na
+  campanha limitada por orçamento. **Leitura combinada em duas semanas, com número na
+  mão: por volta de quarta, 23/09.** Foi dito a ele, na frente, que a faixa de meta dele
+  não se compra num passo só e que ela pede perto do teto de A$15 mil/mês.
+- **AGUARDANDO RESPOSTA, e as duas mudam a leitura dos números:**
+  1. O que **"agendamento"** significa na operação dele: mudança fechada ou visita de
+     orçamento marcada?
+  2. A **semana comercial dele fecha domingo ou segunda?** Disso depende se o ritmo da
+     semana corrente está dentro ou fora da faixa que ele pediu.
+- **Pedido o contato do Vitor**, com a alternativa do grupo do administrativo.
+- **Deliberadamente fora dessas mensagens:** a queda do canal orgânico (ver `ESTADO.md`),
+  porque a causa está fora da mídia paga e apontá-la agora não traz ganho; e **qualquer
+  promessa de número de agendamento**, porque a proposta de KPI do cliente vem no mês
+  seguinte e todo número cravado agora vira régua depois.
 - **Conexão com o Vitor: NÃO ACONTECEU até 09/09.** Na call de 03/09 o Vaz disse que
   falaria com o Vitor em 04/09 e retomaria na segunda, 07/09. Em **09/09 ele perguntou ao
   Fabricio se a conversa com o Vitor já estava rolando**, ou seja, a ponte não foi feita e
