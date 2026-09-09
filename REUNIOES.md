@@ -84,7 +84,7 @@ ser controlada: **de A$12 mil para no máximo A$13 mil em setembro**, para conse
 como esse último mês fraco se comporta, e **em outubro chegar perto de A$15 mil**. O Vaz
 seguiu para o assunto seguinte sem objetar, e lembrou que antes da redução a conta rodava
 "mais ou menos 15". **Definido em 08/09: o teto de trabalho é A$15 mil/mês, condicionado
-a a conta seguir convertendo bem, com CPA adequado.** Detalhe operacional em `ESTADO.md`.
+a que a conta seguir convertendo bem, com CPA adequado.** Detalhe operacional em `ESTADO.md`.
 
 **2. Dado de fechamento: foi o Vaz quem propôs o mecanismo.** É o resultado que muda a
 operação, e ele partiu do cliente, não de pedido. O desenho, em palavras dele:
@@ -139,8 +139,14 @@ Números já publicados nos dashboards, seguros para citar:
   dados. Em 03/09 **foi ele quem propôs a solução**: planilha semanal montada com o Vitor,
   entregue às segundas, com data de criação do lead, data de fechamento e valor gerado,
   mais o acesso do Fabricio ao grupo do administrativo. **O ponto deixou de ser convencer
-  e passou a ser fazer acontecer.** Enquanto a planilha não existir, qualquer modelo
-  atrelado a resultado segue sem base de medição.
+  e passou a ser fazer acontecer.**
+- **VIRADA EM 09/09: o dado começou a chegar, mesmo sem a planilha.** O Vaz passou por
+  mensagem números de agendamento e definiu uma meta semanal. É a primeira vez que esse
+  dado aparece na relação. **Os números em si ficam no briefing privado**, porque são
+  volume comercial da empresa dele e este repositório é público.
+  **O que muda aqui:** dá para calcular **conversão de lead para agendamento e custo por
+  agendamento**, então a conversa deixa de parar no custo por lead. Enquanto vier por
+  mensagem é foto solta; a planilha do Vitor é o que torna isso série semanal.
 - **Sem histórico de novembro a fevereiro.** A operação começou em junho de 2026, e
   junho, julho e agosto são inverno na Austrália. A conta **não tem nenhum dia rodado**
   nos meses da proposta, que são o pico de mudanças por lá. Meta sem base histórica é
@@ -161,8 +167,13 @@ Números já publicados nos dashboards, seguros para citar:
   Referência de volume citada a ele: 50 a 70 leads por semana.
 - **Segunda ou terça, 07 ou 08/09: levar o apanhado de rebranding**, com prazo e valor.
   Assumido pelo Fabricio na call de 03/09, partindo da identidade visual que já existe.
-- **Segunda, 07/09: retomar o assunto do Vitor.** Foi como o Vaz encerrou a call ("a gente
-  se fala na segunda-feira"). Se a conexão não tiver acontecido, é o dia de puxar.
+- **Conexão com o Vitor: NÃO ACONTECEU até 09/09.** Na call de 03/09 o Vaz disse que
+  falaria com o Vitor em 04/09 e retomaria na segunda, 07/09. Em **09/09 ele perguntou ao
+  Fabricio se a conversa com o Vitor já estava rolando**, ou seja, a ponte não foi feita e
+  ele pode estar achando que sim. **O Fabricio não tem o contato do Vitor.**
+  Próximo passo: pedir o contato direto, ou lembrar da entrada no grupo do administrativo,
+  que foi proposta pelo próprio Vaz na call. **Antes do grupo, definir por qual número**
+  (ver seção 3).
 - **Quando a conexão com o Vitor acontecer**, o que precisa ficar fechado com ele: formato
   da planilha, frequência (semanal, às segundas, com a semana anterior) e os três campos
   que o próprio Vaz listou: **data de criação do lead, data de agendamento e valor gerado**.
