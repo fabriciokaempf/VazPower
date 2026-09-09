@@ -84,7 +84,7 @@ ser controlada: **de A$12 mil para no máximo A$13 mil em setembro**, para conse
 como esse último mês fraco se comporta, e **em outubro chegar perto de A$15 mil**. O Vaz
 seguiu para o assunto seguinte sem objetar, e lembrou que antes da redução a conta rodava
 "mais ou menos 15". **Definido em 08/09: o teto de trabalho é A$15 mil/mês, condicionado
-a que a conta seguir convertendo bem, com CPA adequado.** Detalhe operacional em `ESTADO.md`.
+a que a conta siga convertendo bem, com CPA adequado.** Detalhe operacional em `ESTADO.md`.
 
 **2. Dado de fechamento: foi o Vaz quem propôs o mecanismo.** É o resultado que muda a
 operação, e ele partiu do cliente, não de pedido. O desenho, em palavras dele:
