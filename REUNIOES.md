@@ -199,6 +199,61 @@ Números já publicados nos dashboards, seguros para citar:
 3. O **contato do Vitor**, ou a entrada no grupo do administrativo.
 4. A **decisão sobre a proposta de marca**.
 
+### 10/09, no fim do dia · o Vaz contestou a leitura do canal orgânico
+
+Depois da mensagem de volume, ele respondeu que a explicação não fechava: se SEO é de
+longo prazo, não poderia cair por parar de alimentar, senão viraria curto prazo, e que
+deveria haver outra referência para o zero.
+
+- **A posição tomada foi concordar no ponto estreito e corrigir a premissa larga.**
+  Concedido que parar de alimentar não leva a zero, e que a simplificação foi do lado do
+  Fabricio. Corrigido que **perfil do Google não é SEO de site**: o perfil local pesa
+  sinais de ciclo curto que o SEO clássico não tem, como ritmo de avaliação, publicação,
+  foto e movimentação, e perde posição no mapa em semanas, não em meses. **São duas curvas
+  diferentes, e a lógica de longo prazo não se aplica igual às duas.**
+- **A leitura sustentada: são duas coisas somando, não uma.** O trabalho parado impacta, e
+  mais rápido do que a lógica de SEO sugere, mas dias sem alimentar reduzem, não zeram. O
+  zero cravado é outra coisa por cima, e essa segunda parte ficou declarada como
+  desconhecida, sem chute. **Essa é a posição mais difícil de derrubar**, porque concorda
+  com ele e sustenta a leitura ao mesmo tempo.
+- **Mantida a proporção:** as chamadas do perfil são umas 7 a 8 por semana. Contam, mas
+  não são o que decide o mês dele. O que decide são os 78 leads da semana fechada e o
+  custo por lead caindo de A$70,90 em junho para A$51,35 em agosto.
+- **Sobre a qualidade do lead estar inferior:** dito que pode ser, mas que "com certeza"
+  nenhum dos dois tem, porque ninguém enxerga o que acontece entre o lead entrar e a
+  mudança fechar. Serve de ponte para o cruzamento com o Vitor sem prometer resultado.
+- **Nenhuma linha nomeia ninguém.**
+
+**Protocolo de quatro pontos entregue a ele**, para quem está com o perfil responder:
+
+1. Se o perfil está ativo e verificado.
+2. Se o botão de ligação está no ar, com o número certo.
+3. Se as impressões também zeraram ou se foram só as chamadas.
+4. Se o tráfego orgânico do site caiu junto ou seguiu normal.
+
+O ponto 4 separa os dois sistemas: site recebendo orgânico e só o perfil zerado não é
+decaimento, é algo no perfil. O ponto 3 separa de novo: zerou só chamada é o botão, zerou
+tudo junto é o perfil. Cada caso tem correção diferente.
+
+- **COMPROMISSO EM ABERTO criado nessa mensagem:** ficou dito que, com as quatro respostas
+  na mão, o Fabricio diz qual dos dois pedaços é qual. **É um compromisso que depende de
+  resposta de terceiro para ser cumprido**, e por isso não deve virar padrão: diagnóstico
+  de perfil do Google está fora do escopo da operação de mídia.
+- **O que reduz essa dependência:** os pontos **1 e 2 dão para verificar do lado público do
+  perfil**, de qualquer celular, sem acesso a nada. Só o 3 e o 4 exigem o painel do perfil
+  e o Search Console. Se o retorno demorar, dá para entregar a metade que não depende de
+  ninguém e dizer com clareza o que ficou faltando.
+- **Acesso ao perfil e ao Search Console: o Fabricio não tem e não quer.** Perfil do Google
+  e SEO não são escopo dele nesta operação. **Não pedir esse acesso ao Vaz.**
+- **Se as quatro respostas voltarem e o perfil estiver correto**, a segunda causa continua
+  em aberto, e o caminho honesto é o cruzamento com o Vitor, não uma segunda hipótese
+  inventada no lugar da primeira.
+- **Fechamento da mensagem, deliberado:** divisão de tarefa em vez de tomada de
+  responsabilidade. Do lado do Fabricio entram os leads e as datas, do lado do Vitor
+  entram os fechamentos. **O contato do Vitor não foi cobrado de novo aqui**, para não
+  misturar a cobrança com uma mensagem em que se está discordando dele. Se não vier até
+  domingo, 13/09, pedir em mensagem separada.
+
 ### Frente de marca · escopo fechado em 09/09
 
 - **A identidade nova existe e está certa.** Ela foi criada e já está aplicada em parte
