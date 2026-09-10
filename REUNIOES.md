@@ -176,6 +176,29 @@ Números já publicados nos dashboards, seguros para citar:
   call de 03/09 para "segunda ou terça", reprogramado e comunicado ao Vaz em 09/09.
   Vai em mensagem própria, **sem misturar com o assunto de orçamento**.
 
+### Enviado ao Vaz em 10/09, em duas mensagens
+
+- **Resposta sobre volume de lead, com número.** A entrega não caiu: a semana fechada de
+  **31/08 a 06/09 entregou 78 leads a A$31,81**, recorde da operação e acima da referência
+  de 50 a 70 por semana que tinha sido dada a ele. Dito também que a semana corrente só
+  fecha em **domingo, 13/09**, e que o número dela vai depois.
+- **Levantada a queda do canal orgânico, como observação e não como causa.** As chamadas
+  do perfil do Google fizeram 33 em agosto e estão em zero em setembro. Foi enquadrado
+  como canal fora da mídia paga, e **dito explicitamente que não houve efeito visível na
+  conta paga até aqui**, já que a semana fechada foi recorde. Ficou combinado que o
+  Fabricio acompanha e avisa no primeiro sinal. **Descrito o fato e proposto o
+  destravamento, sem atribuição de causa a ninguém.**
+- **Proposta de marca enviada**, em mensagem própria, sem misturar com orçamento. Escopo
+  de documentação, com a fronteira de aplicação escrita em duas seções do documento.
+  **Valor e condições comerciais no briefing privado.**
+
+**Aguardando resposta dele em quatro pontos:**
+1. O que **"agendamento"** significa na operação: mudança fechada ou visita de orçamento
+   marcada.
+2. Se a **semana comercial dele fecha domingo ou segunda**.
+3. O **contato do Vitor**, ou a entrada no grupo do administrativo.
+4. A **decisão sobre a proposta de marca**.
+
 ### Frente de marca · escopo fechado em 09/09
 
 - **A identidade nova existe e está certa.** Ela foi criada e já está aplicada em parte
