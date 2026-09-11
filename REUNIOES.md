@@ -314,7 +314,10 @@ de trocar o nome neste arquivo.
 - **A pergunta do `Pending` duplo**, com o enquadramento de que lead não contatável é
   problema de origem e portanto do lado do Fabricio. **Assumir a parte que é sua antes de
   apontar qualquer outra** é o que sustenta a conversa.
-- **A confirmação de horário** e o pedido do e-mail para o convite.
+- **A confirmação de horário** e o pedido do e-mail para o convite. **ENVIADO.** O e-mail
+  veio e o convite foi criado. Houve uma correção de fuso no meio do caminho, porque a
+  primeira proposta saiu em horário de Brisbane e caía na noite do dia anterior no Brasil.
+  **Corrigido com o Vitor antes de o convite chegar.**
 
 **Tom combinado com o Vitor: colega, não fornecedor.** O Fabricio abriu a relação dizendo
 "a gente é colega" e falando em chegar a um mínimo denominador comum juntos. As mensagens
