@@ -193,8 +193,9 @@ Números já publicados nos dashboards, seguros para citar:
   **Valor e condições comerciais no briefing privado.**
 
 **Aguardando resposta dele em quatro pontos:**
-1. O que **"agendamento"** significa na operação: mudança fechada ou visita de orçamento
-   marcada.
+1. ~~O que **"agendamento"** significa na operação: mudança fechada ou visita de orçamento
+   marcada.~~ **RESOLVIDO em 11/09, e não foi o Vaz que respondeu, foi o Vitor:**
+   agendamento é **a cobrança do booking fee**, ou seja, venda fechada. Detalhe abaixo.
 2. Se a **semana comercial dele fecha domingo ou segunda**.
 3. ~~O **contato do Vitor**, ou a entrada no grupo do administrativo.~~ **RESOLVIDO em
    10/09:** o Vaz passou o contato e o Fabricio acionou o Vitor no mesmo dia.
@@ -219,14 +220,15 @@ e 18h51. O Vitor respondeu em vinte minutos e mandou mais conteúdo do que foi p
 
 **Encaminhamento combinado deste lado:**
 
-1. **Aceitar a call e marcar antes de domingo, 13/09**, que é quando fecha a semana
-   prometida ao Vaz. Com o cruzamento já em andamento, a conversa deixa de ser sobre
-   volume de lead e passa a ser sobre o funil inteiro.
-2. **Perguntar onde ele está.** Se estiver em Brisbane, o horário que os dois lados já
-   validaram é 07h BRT, que é 20h lá.
-3. **Duas perguntas que precisam ir antes da call**, para ela render: se agendamento no
-   CRM é o booking fee cobrado ou a quote enviada, e se o Movermate exporta por período
-   com bairro ou postcode e número de quartos.
+1. ~~**Aceitar a call e marcar antes de domingo, 13/09.**~~ **SUPERADO em 11/09:** a call
+   ficou para **terça, 15/09, 20h BRT**. O cruzamento não fica pronto a tempo do
+   fechamento de domingo, então **a mensagem de 13/09 ao Vaz continua sendo só sobre
+   volume de lead**, sem promessa de cruzamento.
+2. ~~**Perguntar onde ele está.**~~ **RESPONDIDO: ele está em Brisbane**, e a janela dele
+   é larga, das 17h BRT às 11h BRT. Ver o bloco de 11/09.
+3. ~~**Duas perguntas que precisam ir antes da call.**~~ **RESPONDIDAS em 11/09:**
+   agendamento é o booking fee cobrado, e ele vai tentar exportar do Movermate e, se não
+   conseguir, anotar à mão.
 4. **O que NÃO levar para essa call:** nada comercial, porque o Vitor é operação e não
    decide, e nada da discussão de canal orgânico, que é frente com o Vaz.
 
@@ -234,6 +236,74 @@ e 18h51. O Vitor respondeu em vinte minutos e mandou mais conteúdo do que foi p
 frequência semanal às segundas com a semana anterior, os três campos que o próprio Vaz
 listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
 lançamento atrasado para o valor não cair em mês errado.
+
+### 11/09 · o Vitor descreveu o funil e fechou a definição de agendamento
+
+Respondendo às duas perguntas mandadas em 10/09, o Vitor voltou de manhã cedo no horário
+dele com três mensagens. **Ele respondeu mais do que foi perguntado e desenhou o funil
+inteiro por conta própria.**
+
+**A frase que fecha uma pendência de oito dias**, nas palavras dele: *"a conversão
+definitiva = agendamento vem quando o Rodrigo coleta o booking fee"*. **Agendamento é
+venda fechada, não orçamento enviado.** A pergunta estava aberta desde a call de 03/09 e
+foi respondida pelo administrativo, não pelo cliente.
+
+**Consequência para a leitura dos números:** toda vez que o Vaz citou quantidade de
+agendamento, ele estava citando **job reservado e pago**, não visita marcada nem orçamento
+mandado. A conta de eficiência que já tinha sido feita passa a ter significado, e o
+significado é melhor do que se supunha. **Os números em si ficam fora deste arquivo.**
+
+**O funil, os estágios e as duas rotas de conversão estão em `ESTADO.md`**, no bloco de
+10/09 atualizado, porque são matéria de operação de mídia. **O desenho do funil foi
+publicado como artefato interno:** `claude.ai/code/artifact/30d80401-8596-4ccf-ab68-ada0de2ea55d`
+
+**O achado que saiu do desenho e que o próprio Vitor não tinha notado:** o status
+`Pending` aparece **duas vezes no funil com sentidos diferentes**, uma no topo como
+"ninguém conseguiu contato" e outra no meio como "falou, mas a quote não saiu". Enquanto
+os dois dividirem o mesmo nome, **o indicador de qualidade de lead mais direto que existe
+nesse funil fica escondido**, porque lead não contatável é problema de origem e origem é
+mídia. Virou item de pauta da call.
+
+**Disposição do lado dele, que vale registrar:** ele se ofereceu a futucar o CRM e, **se
+não conseguir exportar, a anotar à mão o último mês de leads detalhado por número de
+quartos e por bairro**. É trabalho manual voluntário e ele avisou que pode demorar.
+
+**Janela de horário dele:** fica acordado até por volta de **10h ou 11h BRT** e começa o
+dia às **6h de Brisbane**, que é 17h BRT do dia anterior. Na prática, quase todo horário
+entre 17h BRT e 11h BRT funciona. **Ele disse preferir se adequar ao melhor horário do
+Fabricio**, então o horário é escolha deste lado.
+
+**Call marcada:** **terça, 15/09, das 20h às 21h BRT**, que é **quarta, 16/09, das 9h às
+10h em Brisbane**. Convite a enviar pelo Google Agenda com a pauta descrita.
+**FALTA O E-MAIL DO VITOR** para criar o convite.
+
+**Pauta aprovada para o convite:**
+
+1. Ver um lead real da semana no Movermate, do `New` até onde ele está.
+2. **Separar os dois `Pending`**, o de sem contato e o de sem orçamento enviado.
+3. Confirmar o registro da conversão, que é a cobrança do booking fee.
+4. Tela de exportação: formato, filtro por período e colunas disponíveis.
+5. Definir a **chave de cruzamento**, telefone ou e-mail, presente nos dois lados.
+6. Combinar a cadência: **segunda-feira, com a semana anterior fechada**.
+7. Tratar o atraso de lançamento, para valor não cair em mês errado.
+
+**Os três blocos preparados para mandar ao Vitor** (confirmar se já foram enviados):
+
+- **A lista de campos, com urgência**, porque ele ia mexer no CRM e sem a lista o trabalho
+  manual dele sai incompleto: telefone ou e-mail, data de entrada do lead, estágio atual,
+  data do booking fee, valor do job, bairro ou postcode e número de quartos. **O telefone
+  ou e-mail é o campo crítico**, e o motivo foi explicado a ele: sem chave, o cruzamento
+  só diz quantos entraram e quantos fecharam, nunca quais.
+- **A pergunta do `Pending` duplo**, com o enquadramento de que lead não contatável é
+  problema de origem e portanto do lado do Fabricio. **Assumir a parte que é sua antes de
+  apontar qualquer outra** é o que sustenta a conversa.
+- **A confirmação de horário** e o pedido do e-mail para o convite.
+
+**Tom combinado com o Vitor: colega, não fornecedor.** O Fabricio abriu a relação dizendo
+"a gente é colega" e falando em chegar a um mínimo denominador comum juntos. As mensagens
+seguem nessa chave, com "irmão" e "a gente", e a expressão dele foi devolvida de
+propósito. **Nada comercial e nada da frente de canal orgânico entra nessa conversa**: o
+Vitor é operação e não decide, e aquela discussão é com o Vaz.
 
 ### 10/09, no fim do dia · o Vaz contestou a leitura do canal orgânico
 
