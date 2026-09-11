@@ -200,6 +200,41 @@ Números já publicados nos dashboards, seguros para citar:
    10/09:** o Vaz passou o contato e o Fabricio acionou o Vitor no mesmo dia.
 4. A **decisão sobre a proposta de marca**.
 
+### Conexão com o Vitor · aberta em 10/09
+
+O Vaz passou o contato e o Fabricio acionou o Vitor no mesmo dia. A troca foi por áudio
+no WhatsApp: **um áudio do Fabricio às 18h16 e três respostas do Vitor**, às 18h26, 18h45
+e 18h51. O Vitor respondeu em vinte minutos e mandou mais conteúdo do que foi perguntado.
+**A cadência com ele não tem o atraso que motivou o pedido.**
+
+- **Papel dele na operação: pós-vendas e follow-up.** Quem faz o primeiro contato e o
+  fechamento é o próprio Rodrigo. O Vitor pega o lead depois que a quote sai.
+- **O CRM é o Movermate**, integrado. Ele ofereceu **call no horário de Brasília para
+  mostrar a tela**, o que vale mais do que qualquer descrição por mensagem: dá para ver
+  quais campos existem antes de pedir uma planilha que talvez não exista daquele jeito.
+- **O funil inteiro e a hipótese de perfil de lead que ele levantou estão em `ESTADO.md`**,
+  no bloco de 10/09, porque são matéria de operação de mídia.
+- **O conteúdo integral dos áudios não está neste arquivo.** Ele traz leitura de terceiros
+  sobre a operação do cliente e fica fora do repositório.
+
+**Encaminhamento combinado deste lado:**
+
+1. **Aceitar a call e marcar antes de domingo, 13/09**, que é quando fecha a semana
+   prometida ao Vaz. Com o cruzamento já em andamento, a conversa deixa de ser sobre
+   volume de lead e passa a ser sobre o funil inteiro.
+2. **Perguntar onde ele está.** Se estiver em Brisbane, o horário que os dois lados já
+   validaram é 07h BRT, que é 20h lá.
+3. **Duas perguntas que precisam ir antes da call**, para ela render: se agendamento no
+   CRM é o booking fee cobrado ou a quote enviada, e se o Movermate exporta por período
+   com bairro ou postcode e número de quartos.
+4. **O que NÃO levar para essa call:** nada comercial, porque o Vitor é operação e não
+   decide, e nada da discussão de canal orgânico, que é frente com o Vaz.
+
+**O que ainda precisa ficar fechado com ele**, do combinado anterior: formato da planilha,
+frequência semanal às segundas com a semana anterior, os três campos que o próprio Vaz
+listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
+lançamento atrasado para o valor não cair em mês errado.
+
 ### 10/09, no fim do dia · o Vaz contestou a leitura do canal orgânico
 
 Depois da mensagem de volume, ele respondeu que a explicação não fechava: se SEO é de

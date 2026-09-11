@@ -9,6 +9,54 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+### 10/09: O FUNIL DO CLIENTE DESCRITO PELO ADMINISTRATIVO · HIPÓTESE DE PERFIL
+
+**A conexão com o Vitor aconteceu em 10/09**, por áudio no WhatsApp. Ele cuida de
+pós-vendas e follow-up na operação. O que ele descreveu, e que a operação de mídia ainda
+não tinha:
+
+**O funil, como ele roda no CRM (Movermate):**
+
+1. O lead entra no CRM com status **New**.
+2. **O Rodrigo contata imediatamente.**
+3. A partir daí o caminho se divide em dois: ou ele **cobra o booking fee na hora**, e a
+   mudança fica reservada, ou ele **envia a quote**.
+4. Quote enviada joga o lead na **esteira de follow-up**, que é onde o Vitor trabalha.
+5. Retorno positivo move o lead adiante e gera novo follow-up em cima.
+
+Segundo ele, o estágio do lead fica visível e limpo dentro do CRM.
+
+**ISSO QUASE FECHA A DEFINIÇÃO DE "AGENDAMENTO".** São dois eventos distintos, booking fee
+cobrado e quote enviada. Quando o Vaz fala em agendamento, a leitura mais provável é o
+primeiro. **Falta confirmar com o Vitor, mas virou pergunta de sim ou não.**
+
+**UMA HIPÓTESE SAIU DA MESA, e quem tirou foi o próprio administrativo:** velocidade de
+contato não é gargalo. O Rodrigo pega o lead assim que ele entra.
+
+**A HIPÓTESE QUE ENTROU: perfil socioeconômico do lead.** A leitura do Vitor é que o preço
+vem aparecendo como objeção forte, que **lead de imóvel maior e com mais quartos fecha com
+mais facilidade**, e que **quanto mais simples a casa e o bairro, mais difícil fechar o
+job**. É a primeira explicação da queixa de qualidade que tem mecanismo e que é acionável
+do lado de mídia: bairro é segmentação geográfica e tamanho de imóvel é qualificação de
+formulário e de palavra-chave.
+
+> **NÃO MEXER EM SEGMENTAÇÃO ANTES DE 23/09.** A hipótese do Vitor é impressão declarada,
+> ele mesmo disse "estou sentindo", e não medição. Vem de quem está mais perto do lead, o
+> que a torna a melhor hipótese disponível, e continua sendo hipótese. Além disso,
+> **aumento de orçamento empurra volume e aperto de alvo corta volume**: aplicar os dois
+> na mesma janela embaralha a leitura combinada para quarta, 23/09. É o mesmo erro que o
+> bloco do canal orgânico já evita. **Testar pelo cruzamento com o CRM primeiro, agir
+> depois.**
+
+> **QUANDO FOR APERTAR O ALVO, DECLARAR ANTES.** Mirar bairro melhor e imóvel maior
+> **reduz volume de lead e sobe o custo por lead**, e o cliente vem pressionando volume.
+> Vale a mesma regra do corte de agosto: variação por decisão aparece como decisão, nunca
+> como performance. Combinar o trade-off na frente, antes de executar.
+
+**A confirmar com o Vitor para viabilizar o cruzamento:** se o Movermate exporta por
+período, e se o registro carrega **bairro ou postcode** e **número de quartos**. Se
+carregar, a hipótese dele vira medição em duas semanas.
+
 ### 09/09: CANAL ORGÂNICO ZERADO · CONFUNDIDOR PARA A PRÓXIMA LEITURA
 
 **O fato:** as chamadas vindas do perfil do Google (GMB) fizeram **33 em agosto** e estão
