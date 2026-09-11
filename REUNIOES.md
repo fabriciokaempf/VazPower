@@ -274,8 +274,14 @@ entre 17h BRT e 11h BRT funciona. **Ele disse preferir se adequar ao melhor hor�
 Fabricio**, então o horário é escolha deste lado.
 
 **Call marcada:** **terça, 15/09, das 8h às 9h BRT**, que é **terça, 15/09, das 21h às 22h
-em Brisbane**. Convite a enviar pelo Google Agenda com a pauta descrita.
-**FALTA O E-MAIL DO VITOR** para criar o convite.
+em Brisbane**. **Convite criado e enviado em 11/09** pelo Google Agenda, com a pauta de
+sete itens na descrição e sala do Google Meet. **O e-mail dele e o link da sala ficam fora
+deste arquivo**, porque o repositório é público: e-mail de terceiro é dado pessoal e link
+de sala é porta de entrada.
+
+**Ele assina o próprio e-mail como "Victor", com C**, e não "Vitor" como estava no contato
+que veio do Vaz. Usar Victor em tudo que chegar nele. **Confirmar a grafia na call** antes
+de trocar o nome neste arquivo.
 
 > **ATENÇÃO À CONVERSÃO, ELA MUDA DE DIA CONFORME O TURNO.** Manhã no Brasil cai na
 > **noite do MESMO dia** em Brisbane, porque 8h mais 13h dá 21h. Fim de tarde no Brasil é
