@@ -304,13 +304,14 @@ de trocar o nome neste arquivo.
 6. Combinar a cadência: **segunda-feira, com a semana anterior fechada**.
 7. Tratar o atraso de lançamento, para valor não cair em mês errado.
 
-**Os três blocos preparados para mandar ao Vitor** (confirmar se já foram enviados):
+**Os três blocos ENVIADOS ao Vitor em 11/09:**
 
 - **A lista de campos, com urgência**, porque ele ia mexer no CRM e sem a lista o trabalho
   manual dele sai incompleto: telefone ou e-mail, data de entrada do lead, estágio atual,
   data do booking fee, valor do job, bairro ou postcode e número de quartos. **O telefone
   ou e-mail é o campo crítico**, e o motivo foi explicado a ele: sem chave, o cruzamento
-  só diz quantos entraram e quantos fecharam, nunca quais.
+  só diz quantos entraram e quantos fecharam, nunca quais. **Chegou nele antes de começar
+  o trabalho manual**, que era o risco real do dia.
 - **A pergunta do `Pending` duplo**, com o enquadramento de que lead não contatável é
   problema de origem e portanto do lado do Fabricio. **Assumir a parte que é sua antes de
   apontar qualquer outra** é o que sustenta a conversa.
