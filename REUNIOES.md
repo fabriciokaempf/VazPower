@@ -196,7 +196,8 @@ Números já publicados nos dashboards, seguros para citar:
 1. O que **"agendamento"** significa na operação: mudança fechada ou visita de orçamento
    marcada.
 2. Se a **semana comercial dele fecha domingo ou segunda**.
-3. O **contato do Vitor**, ou a entrada no grupo do administrativo.
+3. ~~O **contato do Vitor**, ou a entrada no grupo do administrativo.~~ **RESOLVIDO em
+   10/09:** o Vaz passou o contato e o Fabricio acionou o Vitor no mesmo dia.
 4. A **decisão sobre a proposta de marca**.
 
 ### 10/09, no fim do dia · o Vaz contestou a leitura do canal orgânico
@@ -291,14 +292,13 @@ resultado final estava fraco e perguntava se o investimento subia 10, 15 ou 20%.
   porque a causa está fora da mídia paga e apontá-la agora não traz ganho; e **qualquer
   promessa de número de agendamento**, porque a proposta de KPI do cliente vem no mês
   seguinte e todo número cravado agora vira régua depois.
-- **Conexão com o Vitor: ainda em aberto em 09/09.** Na call de 03/09 ficou combinado que
-  o Vaz falaria com o Vitor em 04/09 e retomaria na segunda, 07/09. Em **09/09 ele
-  perguntou ao Fabricio se a conversa com o Vitor já estava rolando**, sinal de que as duas
-  pontas esperavam a iniciativa uma da outra. **O Fabricio ainda não tem o contato do
-  Vitor.**
-  Próximo passo: pedir o contato direto, ou lembrar da entrada no grupo do administrativo,
-  que foi proposta pelo próprio Vaz na call. **Antes do grupo, definir por qual número**
-  (ver seção 3).
+- **Conexão com o Vitor: estava em aberto em 09/09 e RESOLVIDA em 10/09.** Na call de
+  03/09 ficou combinado que o Vaz falaria com o Vitor em 04/09 e retomaria na segunda,
+  07/09. Em **09/09 ele perguntou ao Fabricio se a conversa com o Vitor já estava
+  rolando**, sinal de que as duas pontas esperavam a iniciativa uma da outra. **Em 10/09 o
+  Vaz passou o contato e o Fabricio acionou o Vitor no mesmo dia** (ver seção própria
+  abaixo). A entrada no grupo do administrativo deixou de ser necessária para destravar
+  esse ponto.
 - **Quando a conexão com o Vitor acontecer**, o que precisa ficar fechado com ele: formato
   da planilha, frequência (semanal, às segundas, com a semana anterior) e os três campos
   que o próprio Vaz listou: **data de criação do lead, data de agendamento e valor gerado**.
