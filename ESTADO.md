@@ -763,6 +763,15 @@ não reverter sozinho o que for ajustado.
 
 ## 6. Convenções
 
+**Puxada semanal do export: domingo, por volta das 19h BRT.** É o hábito do Fabricio e
+funciona, porque **19h de domingo no Brasil já é 8h de segunda em Brisbane**: o domingo da
+conta fechou às 11h BRT e vem completo.
+
+> **PEGADINHA DESSE HORÁRIO: para a conta, "hoje" já é SEGUNDA**, com cerca de oito horas
+> de dados dentro. **Preset relativo escorrega a janela um dia inteiro**, porque "últimos 7
+> dias" e "esta semana" são calculados a partir da segunda australiana. **Puxar sempre com
+> data fixa**, de segunda a domingo, nunca por preset.
+
 **Pastas dos dashboards:** `mes-DD-DD` para semanas dentro do mês (`agosto-03-09`),
 `mesA-DD-mesB-DD` quando cruza o mês (`julho27-agosto02`), `mes-01-DD` para mês fechado
 (`julho-01-31`).
