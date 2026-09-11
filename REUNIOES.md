@@ -326,6 +326,52 @@ seguem nessa chave, com "irmão" e "a gente", e a expressão dele foi devolvida 
 propósito. **Nada comercial e nada da frente de canal orgânico entra nessa conversa**: o
 Vitor é operação e não decide, e aquela discussão é com o Vaz.
 
+### Enviado ao Vaz em 11/09, em duas mensagens · retorno sobre o Victor
+
+Mensagem própria, separada do fechamento de semana e separada da frente de marca.
+
+- **Loop fechado.** Em 09/09 o Vaz perguntou se a conversa com o Victor já estava rolando,
+  num momento em que cada lado esperava a iniciativa do outro. O retorno agora é "feito,
+  e com data": conexão estabelecida, funil explicado de ponta a ponta e **primeira call
+  marcada para terça, 15/09, com agenda ajustada e confirmada dos dois lados**.
+- **Entregue uma prova concreta em vez de uma promessa:** a definição do agendamento como
+  cobrança do booking fee, que é verificável com o próprio funcionário dele. Mostra que a
+  conversa produziu resultado no primeiro dia.
+- **O erro de leitura foi assumido, não terceirizado.** A frase usada foi "eu estava
+  tratando os dois como a mesma coisa", e não uma explicação de que o termo nunca tinha
+  sido definido. **Assumir pega melhor e é verdade.**
+- **O compromisso de domingo, 13/09, foi mantido vivo em uma linha**, sem prometer nada
+  além do que já estava combinado.
+
+**O que ficou deliberadamente de fora:**
+
+- **O horário da call.** Só a data. Ele cai às 21h em Brisbane, e dizer isso abre uma
+  conversa lateral sobre horário de trabalho da equipe dele, sem ganho nenhum. O Victor se
+  ofereceu e o combinado é entre os dois.
+- **Que o Victor se ofereceu a levantar um mês de leads à mão**, caso não consiga exportar.
+  Antecipar isso pode virar um "não gasta tempo com isso" antes de se saber se é
+  necessário. **Se depois da call o levantamento manual for mesmo o caminho, aí o pedido
+  vai com o motivo já demonstrado.**
+- **Qualquer coisa da proposta de marca.** Frente separada, mensagem separada, como ficou
+  combinado em 09/09.
+
+**DECISÃO SOBRE O FECHAMENTO DE DOMINGO, 13/09: o número de lead NÃO espera o cruzamento.**
+Ele sai da conta de anúncios, não depende de CRM, e o compromisso está registrado. A call
+é só na terça e o export pode não sair no fim de semana. **Segurar um compromisso por causa
+de um dado que não o bloqueia é furo sem ganho**, ainda mais na semana em que o cliente já
+veio discordar uma vez.
+
+> **NÃO PUBLICAR TAXA DE CONVERSÃO ANTES DA CALL DE 15/09.** Se o export chegar no fim de
+> semana, serve para preparação, não para envio. **A separação dos dois `Pending` e a chave
+> de cruzamento ainda não estão fechadas**, e cruzamento feito às pressas pode sair errado.
+> Número enviado e depois corrigido custa mais do que número que chega dois dias depois.
+> A leitura cruzada merece mensagem própria, não rodapé de relatório semanal.
+
+> **COMO PEDIR CONFERÊNCIA DE NÚMERO AO VICTOR.** Nunca no formato "o Vaz me disse X,
+> confere?", que o coloca conferindo número de quem o dirige. O enquadramento é **"me ajuda
+> a contar do mesmo jeito que vocês contam"**, que é exatamente o que ele já se ofereceu a
+> fazer. O resultado sai igual e ninguém fica em posição ruim.
+
 ### 10/09, no fim do dia · o Vaz contestou a leitura do canal orgânico
 
 Depois da mensagem de volume, ele respondeu que a explicação não fechava: se SEO é de
