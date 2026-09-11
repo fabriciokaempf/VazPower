@@ -221,7 +221,7 @@ e 18h51. O Vitor respondeu em vinte minutos e mandou mais conteúdo do que foi p
 **Encaminhamento combinado deste lado:**
 
 1. ~~**Aceitar a call e marcar antes de domingo, 13/09.**~~ **SUPERADO em 11/09:** a call
-   ficou para **terça, 15/09, 20h BRT**. O cruzamento não fica pronto a tempo do
+   ficou para **terça, 15/09, 8h BRT**. O cruzamento não fica pronto a tempo do
    fechamento de domingo, então **a mensagem de 13/09 ao Vaz continua sendo só sobre
    volume de lead**, sem promessa de cruzamento.
 2. ~~**Perguntar onde ele está.**~~ **RESPONDIDO: ele está em Brisbane**, e a janela dele
@@ -273,9 +273,20 @@ dia às **6h de Brisbane**, que é 17h BRT do dia anterior. Na prática, quase t
 entre 17h BRT e 11h BRT funciona. **Ele disse preferir se adequar ao melhor horário do
 Fabricio**, então o horário é escolha deste lado.
 
-**Call marcada:** **terça, 15/09, das 20h às 21h BRT**, que é **quarta, 16/09, das 9h às
-10h em Brisbane**. Convite a enviar pelo Google Agenda com a pauta descrita.
+**Call marcada:** **terça, 15/09, das 8h às 9h BRT**, que é **terça, 15/09, das 21h às 22h
+em Brisbane**. Convite a enviar pelo Google Agenda com a pauta descrita.
 **FALTA O E-MAIL DO VITOR** para criar o convite.
+
+> **ATENÇÃO À CONVERSÃO, ELA MUDA DE DIA CONFORME O TURNO.** Manhã no Brasil cai na
+> **noite do MESMO dia** em Brisbane, porque 8h mais 13h dá 21h. Fim de tarde no Brasil é
+> que cai na manhã do **dia seguinte** lá. O Fabricio pediu manhã no horário dele, então a
+> call é terça para os dois.
+>
+> **Por que 8h e não 10h:** o Vitor declarou que fica acordado até por volta de 10h ou 11h
+> BRT, que é 23h ou meia-noite no fuso dele. Marcar 10h aqui faria a call terminar à
+> meia-noite cravada na casa dele, no limite exato do que ele mesmo declarou. Às 8h ela
+> termina às 22h lá. **Ele está fazendo trabalho manual voluntário para esta operação**, e
+> a hora a mais sai do lado do Fabricio.
 
 **Pauta aprovada para o convite:**
 
