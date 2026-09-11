@@ -26,9 +26,37 @@ não tinha:
 
 Segundo ele, o estágio do lead fica visível e limpo dentro do CRM.
 
-**ISSO QUASE FECHA A DEFINIÇÃO DE "AGENDAMENTO".** São dois eventos distintos, booking fee
-cobrado e quote enviada. Quando o Vaz fala em agendamento, a leitura mais provável é o
-primeiro. **Falta confirmar com o Vitor, mas virou pergunta de sim ou não.**
+**A DEFINIÇÃO DE "AGENDAMENTO" ESTÁ FECHADA, confirmada pelo Vitor em 11/09**, com estas
+palavras: *"a conversão definitiva = agendamento vem quando o Rodrigo coleta o booking
+fee"*. **Agendamento é venda fechada, não orçamento enviado.** A pergunta estava aberta
+desde a call de 03/09.
+
+**Os estágios do funil, com os nomes que o CRM usa:**
+
+| Etapa | Status | O que significa |
+|---|---|---|
+| Topo | `New` | lead entrou, sem contato ainda |
+| Topo | `Pending` | **não conseguiram contato com o lead** |
+| Meio | `Pending` | contato feito, mas não deu para enviar a quote |
+| Meio | `Quoted` | quote enviada e não fechou, qualquer que seja a objeção |
+| Fundo | Conversão | **booking fee cobrado** |
+
+São **duas rotas de conversão**, e o Vitor separa as duas: `New` direto para conversão, que
+é fechar no primeiro contato, e `Quoted` para conversão por follow-up, que é recuperação.
+Vale medir separado: fechamento imediato costuma vir de fonte de intenção mais alta.
+
+> **ATENÇÃO, O `Pending` APARECE DUAS VEZES COM SENTIDOS DIFERENTES.** No topo ele é "não
+> conseguimos contato" e no meio é "falamos, mas não deu para mandar a quote". **Se o CRM
+> usar um status só para os dois casos, a medição sai contaminada.** Confirmar com o Vitor
+> se dá para separar, porque a diferença decide de quem é o problema:
+> **lead não contatável é problema de origem, e origem é mídia.** É o indicador de
+> qualidade de lead mais direto que existe nesse funil.
+
+**São duas hipóteses de qualidade, e o dado do CRM separa as duas:**
+1. **Lead não contatável** (número errado, não atende, sem intenção). Problema de origem,
+   corrigível com qualificação de formulário, negativação e fonte de tráfego.
+2. **Lead contatável que trava no preço.** É a hipótese de perfil socioeconômico do Vitor,
+   corrigível com segmentação de bairro e qualificação por tamanho de imóvel.
 
 **UMA HIPÓTESE SAIU DA MESA, e quem tirou foi o próprio administrativo:** velocidade de
 contato não é gargalo. O Rodrigo pega o lead assim que ele entra.
@@ -53,9 +81,19 @@ formulário e de palavra-chave.
 > Vale a mesma regra do corte de agosto: variação por decisão aparece como decisão, nunca
 > como performance. Combinar o trade-off na frente, antes de executar.
 
-**A confirmar com o Vitor para viabilizar o cruzamento:** se o Movermate exporta por
-período, e se o registro carrega **bairro ou postcode** e **número de quartos**. Se
-carregar, a hipótese dele vira medição em duas semanas.
+**Situação do dado em 11/09:** o Vitor vai tentar exportar do Movermate e, **se não
+conseguir, se ofereceu a anotar à mão o último mês de leads detalhado por número de
+quartos e por bairro**. Disposição total do lado dele.
+
+> **A CHAVE DE CRUZAMENTO É O CAMPO CRÍTICO E QUASE FICOU DE FORA.** Sem **telefone ou
+> e-mail** vindo nos dois lados, o cruzamento só funciona no agregado: dá para saber que
+> entraram X e fecharam Y, nunca **quais**. Com a chave, dá para dizer qual campanha e
+> qual palavra gerou o job que fechou. **Campos a pedir:** telefone ou e-mail, data de
+> entrada do lead, estágio atual, data do booking fee, valor do job, bairro ou postcode e
+> número de quartos.
+
+**A planilha do cruzamento nunca entra neste repositório.** Ela carrega telefone e e-mail
+de cliente final do Vaz e o repositório é público.
 
 ### 09/09: CANAL ORGÂNICO ZERADO · CONFUNDIDOR PARA A PRÓXIMA LEITURA
 
