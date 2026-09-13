@@ -777,6 +777,7 @@ conta fechou às 11h BRT e vem completo.
 (`julho-01-31`).
 
 **Invoices:** `INV-AAAA-MM-001`, faturamento antecipado (a de agosto cobre agosto).
+**Vencimento combinado: até o dia 10 do mês.**
 Emitidas até aqui: 06-001 (serviço de maio), 07-001, 08-001. Próxima: **INV-2026-09-001**.
 Template em `templates/invoice/`, dados sensíveis fora do git.
 
