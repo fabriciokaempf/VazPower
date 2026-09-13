@@ -210,15 +210,28 @@ conta de A$2.776"). Seções novas nesta edição: **comparativo S15 contra S14*
    porque tirou da conta um teto que nunca teve como ser usado. A verba ainda parada está
    em **MADRUGA e BRAND, A$257,96/dia juntas**, com 0% e 10% de uso.
 
-**AÇÃO DA SEMANA PUBLICADA, validada pelo Fabricio em 13/09: DOIS movimentos.**
-1. **Teto da FRONT de A$287,98 para A$125,00.** Único ajuste de orçamento da semana;
-   todos os outros orçamentos conferidos contra a S14 e estão idênticos.
-2. **Rodada de negativação mais a fundo que a de costume.** O Fabricio corrigiu o
-   enquadramento: **negativar é trabalho de praxe toda semana**, o que muda é a
-   intensidade, e esta foi uma das semanas de trabalho mais específico. **NÃO atribuir
-   número da queda de leads à negativação**: o mecanismo tira volume antes de entregar
-   qualidade, mas não há como medir a fatia. A primeira versão do texto fazia essa
-   atribuição e foi corrigida.
+**AÇÃO DA SEMANA PUBLICADA: UM movimento só, o teto da FRONT de A$287,98 para
+A$125,00.** Único ajuste de orçamento da semana; todos os outros orçamentos conferidos
+contra a S14 e estão idênticos.
+
+> **REGRA NOVA, DADA PELO FABRICIO EM 13/09. VALE PARA TODO DASHBOARD DAQUI PRA FRENTE:**
+> *"nas ações da semana está explícito que há um trabalho rotineiro de otimizações,
+> negativas, etc. logo, as ações destacadas são justamente as que diferem da rotina"*.
+>
+> **O bloco "Ação da semana" é só para o que SAIU da rotina.** A faixa "Gestão contínua ·
+> toda semana" já declara monitoramento de CPL e orçamento, refino de negativas, ajuste
+> de lances, gestão de criativos e medição. **Repetir qualquer um desses itens no bloco
+> destacado é redundância**, e numa semana de queda lê como justificativa.
+>
+> **Como eu errei nesta edição, para não repetir:** o Fabricio mencionou que trabalhou
+> bastante nas negativas, eu transformei isso num segundo "movimento" destacado e ainda
+> atribuí a ele uma fatia da queda de leads que não tinha como medir. Rotina
+> intensificada **não é ação destacada**. Removido do bloco, do diagnóstico e da nota do
+> comparativo; segue só na faixa de gestão contínua, onde sempre esteve.
+>
+> **Teste antes de escrever o bloco:** isto aparece na faixa de gestão contínua? Se sim,
+> não entra. Isso mudou uma configuração da conta que dá para apontar no export? Se sim,
+> entra.
 
 > **POSICIONAMENTO FICOU DE FORA DO DASHBOARD, por decisão do Fabricio em 13/09:**
 > *"posicionamento deixa de fora, vou trabalhar melhor essa questão"*. **Não é uma ação
