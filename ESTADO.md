@@ -157,7 +157,7 @@ Registro completo em `REUNIOES.md`, seção 4. O que toca a operação de tráfe
 - **Correção da campanha pausada segue pendente de implementação** do lado do cliente. O
   Vaz ficou de tratar a agilidade disso e retornar.
 
-### SEMANA 15 (07 a 13/09) · NÚMEROS VALIDADOS, DASHBOARD POR MONTAR
+### SEMANA 15 (07 a 13/09) PUBLICADA em `setembro-07-13/` (13/09)
 
 **A$2.775,67 | 53 leads (20 formulários + 33 ligações) | CPL A$52,37**
 Google A$2.111,17 · 25 conv · CPL A$84,45 | Meta A$664,50 · 28 ligações · CPL A$23,73
@@ -182,7 +182,12 @@ CPL +64,6%. Os dois motores pioraram ao mesmo tempo, e por motivos diferentes.
   perdendo **48,72% por orçamento** e rodou a 106% do teto. O padrão de gangorra dela
   já apareceu na S11 e na S13.
 - **Meta piorou forte**: 28 ligações a A$23,73, contra 44 a A$15,02. Orçamento igual
-  (A$94,98, 100% de uso), então não é verba: é leilão ou criativo.
+  (A$94,98, 100% de uso), então não é verba. **E NÃO É LEILÃO: o CPM CAIU**, de A$18,79
+  para A$17,56, e a entrega cresceu 7,6% (37.833 impressões contra 35.168). O que mudou
+  foi **alcance menor com frequência maior** (8.613 pessoas a 4,39x, contra 8.961 a
+  3,92x) e queda na resposta por clique (28 ligações em 164 cliques, contra 44 em 175).
+  **O diagnóstico é desgaste de criativo, não leilão.** A nota anterior dizia "leilão ou
+  criativo"; o dado de CPM elimina o leilão.
 - Posicionamento Meta: **Reels 20 a A$19,85, Feed 8 a A$33,06.** Reels segue melhor,
   mas os dois subiram muito de custo.
 - Ações de conversão: Submit Form 9, **Book Form 6**, Lead Form LP 5, Click to call 4,
@@ -190,9 +195,22 @@ CPL +64,6%. Os dois motores pioraram ao mesmo tempo, e por motivos diferentes.
 - Dispositivo Meta: Android 17 a A$26,90, iPhone 11 a A$18,70.
 - Gasto/dia Google: 417,45 · 367,50 · 262,51 · 311,25 · 285,42 · 297,75 · 169,29.
 
-**PARA O DASHBOARD:** pasta `setembro-07-13`, Semana 15. A narrativa honesta é que a
-S14 foi pico e esta é correção, com um ganho real no meio (FRONT) e dois pontos a
-resolver (PMax e custo do Meta). **Não vender a FRONT como se compensasse a queda.**
+**DASHBOARD PUBLICADO em 13/09** em `setembro-07-13/`, com card no hub e linha no
+README. A narrativa usada: S14 foi pico e esta é correção, com um ganho real no meio
+(FRONT) e dois pontos a resolver (PMax e desgaste de criativo no Meta). A FRONT aparece
+como ganho real e explicitamente **não** como compensação da queda ("vale A$491 de uma
+conta de A$2.776"). Seções novas nesta edição: **comparativo S15 contra S14**,
+**posicionamento do Meta** (Reels contra Feed com CPM) e **gasto dia a dia**.
+
+**DOIS ACHADOS QUE SÓ APARECERAM NA MONTAGEM:**
+1. **A segunda-feira 07/09 fez 10 das 25 conversões do Google.** Nenhum outro dia passou
+   de 5. Do meio da semana em diante as impressões subiram e a conversão não acompanhou.
+   Mesmo desenho da PMax: a veiculação ficou firme, a resposta caiu.
+2. **A utilização de orçamento do Google subiu de 31% para 44% só pelo ajuste da FRONT**,
+   porque tirou da conta um teto que nunca teve como ser usado. A verba ainda parada está
+   em **MADRUGA e BRAND, A$257,96/dia juntas**, com 0% e 10% de uso.
+
+**MENSAGEM AO VAZ: ainda NÃO escrita nem enviada.**
 
 ### SEMANA 14 (31/08 a 06/09) PUBLICADA e enviada ao Vaz (07/09)
 
@@ -732,6 +750,7 @@ movers", "near me", marca Vaz Power.
 | 12 | 17-23/08 | A$2.888 | 46 | A$62,78 |
 | 13 | 24-30/08 | A$1.436 | 48 | **A$29,92** |
 | 14 | 31/08-06/09 | A$2.481 | **78** | A$31,81 |
+| 15 | 07-13/09 | A$2.776 | 53 | A$52,37 |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).
