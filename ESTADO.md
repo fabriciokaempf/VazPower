@@ -882,7 +882,10 @@ conta fechou às 11h BRT e vem completo.
 (`julho-01-31`).
 
 **Invoices:** `INV-AAAA-MM-001`, faturamento antecipado (a de agosto cobre agosto).
-**Vencimento combinado: até o dia 10 do mês.**
+**Vencimento combinado: até o dia 10 do mês.** **O vencimento tem de aparecer escrito na
+própria invoice e na mensagem que a acompanha**, para ser informação de rotina e não
+precisar ser invocado depois. Prazo lembrado de memória, trazido no meio de uma cobrança,
+vira discussão sobre o que foi combinado em vez de pagamento.
 Emitidas até aqui: 06-001 (serviço de maio), 07-001, 08-001. Próxima: **INV-2026-09-001**.
 Template em `templates/invoice/`, dados sensíveis fora do git.
 
