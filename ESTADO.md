@@ -157,6 +157,110 @@ Registro completo em `REUNIOES.md`, seção 4. O que toca a operação de tráfe
 - **Correção da campanha pausada segue pendente de implementação** do lado do cliente. O
   Vaz ficou de tratar a agilidade disso e retornar.
 
+### SEMANA 15 (07 a 13/09) PUBLICADA em `setembro-07-13/` (13/09)
+
+**A$2.775,67 | 53 leads (20 formulários + 33 ligações) | CPL A$52,37**
+Google A$2.111,17 · 25 conv · CPL A$84,45 | Meta A$664,50 · 28 ligações · CPL A$23,73
+
+**Semana de queda depois do recorde.** vs S14: investimento +11,9%, leads -32,1%,
+CPL +64,6%. Os dois motores pioraram ao mesmo tempo, e por motivos diferentes.
+
+| Campanha | Gasto | Conv | CPL | Orç/dia | Parcela | Perda por orç |
+|---|---|---|---|---|---|---|
+| PMAX | A$1.030,32 | 6 | **A$171,72** | A$139,08 | < 10% | **48,72%** |
+| FRONT | A$491,06 | 7 | A$70,15 | **A$125,00** | 37,14% | 2,86% |
+| SUPORTE | A$259,00 | 5 | A$51,80 | A$80,98 | 33,15% | 0% |
+| LP Form | A$239,24 | 3 | A$79,75 | A$80,98 | 11,94% | 0% |
+| BRAND | A$91,55 | 4 | **A$22,89** | A$128,98 | 69,74% | 0% |
+| MADRUGA | A$0,00 | 0 | - | A$128,98 | 100% | 0% |
+
+**O QUE MUDOU NA CONTA (efeito da otimização de 07/09):**
+- **FRONT teve o orçamento cortado de A$287,98 para A$125,00** e virou a melhor
+  surpresa: de A$43,95 gastos e 1 conversão na S14 para **A$491,06 e 7 conversões a
+  A$70,15**. Passou a aparecer como "limitado pelo orçamento", ou seja, destravou.
+- **PMax voltou a derrapar**: 6 conversões a A$171,72 (era 14,50 a A$62,62). Segue
+  perdendo **48,72% por orçamento** e rodou a 106% do teto. O padrão de gangorra dela
+  já apareceu na S11 e na S13.
+- **Meta piorou forte**: 28 ligações a A$23,73, contra 44 a A$15,02. Orçamento igual
+  (A$94,98, 100% de uso), então não é verba. **E NÃO É LEILÃO: o CPM CAIU**, de A$18,79
+  para A$17,56, e a entrega cresceu 7,6% (37.833 impressões contra 35.168). O que mudou
+  foi **alcance menor com frequência maior** (8.613 pessoas a 4,39x, contra 8.961 a
+  3,92x) e queda na resposta por clique (28 ligações em 164 cliques, contra 44 em 175).
+  **O diagnóstico é desgaste de criativo, não leilão.** A nota anterior dizia "leilão ou
+  criativo"; o dado de CPM elimina o leilão.
+- Posicionamento Meta: **Reels 20 a A$19,85, Feed 8 a A$33,06.** Reels segue melhor,
+  mas os dois subiram muito de custo.
+- Ações de conversão: Submit Form 9, **Book Form 6**, Lead Form LP 5, Click to call 4,
+  Calls From Ads 1.
+- Dispositivo Meta: Android 17 a A$26,90, iPhone 11 a A$18,70.
+- Gasto/dia Google: 417,45 · 367,50 · 262,51 · 311,25 · 285,42 · 297,75 · 169,29.
+
+**DASHBOARD PUBLICADO em 13/09** em `setembro-07-13/`, com card no hub e linha no
+README. A narrativa usada: S14 foi pico e esta é correção, com um ganho real no meio
+(FRONT) e dois pontos a resolver (PMax e desgaste de criativo no Meta). A FRONT aparece
+como ganho real e explicitamente **não** como compensação da queda ("vale A$491 de uma
+conta de A$2.776"). Seções novas nesta edição: **comparativo S15 contra S14**,
+**posicionamento do Meta** (Reels contra Feed com CPM) e **gasto dia a dia**.
+
+**DOIS ACHADOS QUE SÓ APARECERAM NA MONTAGEM:**
+1. **A segunda-feira 07/09 fez 10 das 25 conversões do Google.** Nenhum outro dia passou
+   de 5. Do meio da semana em diante as impressões subiram e a conversão não acompanhou.
+   Mesmo desenho da PMax: a veiculação ficou firme, a resposta caiu.
+2. **A utilização de orçamento do Google subiu de 31% para 44% só pelo ajuste da FRONT**,
+   porque tirou da conta um teto que nunca teve como ser usado. A verba ainda parada está
+   em **MADRUGA e BRAND, A$257,96/dia juntas**, com 0% e 10% de uso.
+
+**AÇÃO DA SEMANA PUBLICADA: UM movimento só, o teto da FRONT de A$287,98 para
+A$125,00.** Único ajuste de orçamento da semana; todos os outros orçamentos conferidos
+contra a S14 e estão idênticos.
+
+> **REGRA NOVA, DADA PELO FABRICIO EM 13/09. VALE PARA TODO DASHBOARD DAQUI PRA FRENTE:**
+> *"nas ações da semana está explícito que há um trabalho rotineiro de otimizações,
+> negativas, etc. logo, as ações destacadas são justamente as que diferem da rotina"*.
+>
+> **O bloco "Ação da semana" é só para o que SAIU da rotina.** A faixa "Gestão contínua ·
+> toda semana" já declara monitoramento de CPL e orçamento, refino de negativas, ajuste
+> de lances, gestão de criativos e medição. **Repetir qualquer um desses itens no bloco
+> destacado é redundância**, e numa semana de queda lê como justificativa.
+>
+> **Como eu errei nesta edição, para não repetir:** o Fabricio mencionou que trabalhou
+> bastante nas negativas, eu transformei isso num segundo "movimento" destacado e ainda
+> atribuí a ele uma fatia da queda de leads que não tinha como medir. Rotina
+> intensificada **não é ação destacada**. Removido do bloco, do diagnóstico e da nota do
+> comparativo; segue só na faixa de gestão contínua, onde sempre esteve.
+>
+> **Teste antes de escrever o bloco:** isto aparece na faixa de gestão contínua? Se sim,
+> não entra. Isso mudou uma configuração da conta que dá para apontar no export? Se sim,
+> entra.
+
+> **POSICIONAMENTO FICOU DE FORA DO DASHBOARD, por decisão do Fabricio em 13/09:**
+> *"posicionamento deixa de fora, vou trabalhar melhor essa questão"*. **Não é uma ação
+> executada e não pode ser citada como tal** em dashboard, mensagem ou fechamento de mês.
+> A **seção de dados** de posicionamento do Meta permanece no dashboard (é export, não
+> ação) e é a base para quando ele atacar a frente. Ponto em aberto para a S16.
+
+**MENSAGEM AO VAZ ENVIADA EM 13/09. Ciclo da S15 fechado.**
+
+> **O QUE FOI DITO AO CLIENTE SOBRE ORÇAMENTO NESTA MENSAGEM. Não contradizer depois.**
+> O plano foi reafirmado com a linha do tempo da call de 03/09: **subida controlada até
+> A$13 mil em setembro e perto de A$15 mil em outubro, com o custo por conversão mandando
+> no ritmo de cada degrau.** O teto de A$15 mil **não** foi apresentado como número de
+> setembro. Foi dito também que **o próximo degrau seria a PMax e que ele fica segurado**
+> até fechar a leitura de duas semanas.
+>
+> **O enquadramento que resolveu o problema, vale reusar:** o plano em execução não é o
+> gasto subindo, é o critério funcionando. Numa semana em que o CPA mandou segurar, isso
+> é o plano rodando, não parado. Sem isso a mensagem afirmaria um aumento que o extrato
+> não mostra.
+>
+> **ROAS não foi citado**, porque não é mensurável até a planilha do Vitor rodar. Só custo
+> por conversão.
+>
+> **Nenhum acumulado de setembro foi enviado.** A S14 cruza a virada de agosto, então
+> acumulado calculado daqui é estimativa. **Estimativa interna, NÃO enviada ao cliente:
+> setembro está andando na faixa de A$12 mil/mês, ou seja, na base e não acima dela.**
+> O degrau de aumento ainda não foi dado. Para número exato, pedir o export de 01 a 13/09.
+
 ### SEMANA 14 (31/08 a 06/09) PUBLICADA e enviada ao Vaz (07/09)
 
 `agosto31-setembro06/` · **A$2.481,06 | 78 leads | CPL A$31,81**
@@ -695,6 +799,7 @@ movers", "near me", marca Vaz Power.
 | 12 | 17-23/08 | A$2.888 | 46 | A$62,78 |
 | 13 | 24-30/08 | A$1.436 | 48 | **A$29,92** |
 | 14 | 31/08-06/09 | A$2.481 | **78** | A$31,81 |
+| 15 | 07-13/09 | A$2.776 | 53 | A$52,37 |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).
