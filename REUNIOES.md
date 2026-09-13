@@ -355,6 +355,13 @@ Mensagem própria, separada do fechamento de semana e separada da frente de marc
 - **Qualquer coisa da proposta de marca.** Frente separada, mensagem separada, como ficou
   combinado em 09/09.
 
+> **COMPROMISSO DE DOMINGO, 13/09: CUMPRIDO.** Dashboard da Semana 15 publicado em
+> `setembro-07-13/` e mensagem enviada ao Vaz no mesmo dia, só sobre volume de lead, sem
+> promessa de cruzamento, como estava combinado. O que foi dito sobre orçamento está
+> registrado em `ESTADO.md`, no bloco da S15: **A$13 mil em setembro, perto de A$15 mil em
+> outubro, CPA mandando no ritmo**. Próximo compromisso: **call com o Vitor, terça 15/09,
+> 8h BRT**.
+
 **DECISÃO SOBRE O FECHAMENTO DE DOMINGO, 13/09: o número de lead NÃO espera o cruzamento.**
 Ele sai da conta de anúncios, não depende de CRM, e o compromisso está registrado. A call
 é só na terça e o export pode não sair no fim de semana. **Segurar um compromisso por causa

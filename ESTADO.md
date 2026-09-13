@@ -239,7 +239,27 @@ contra a S14 e estão idênticos.
 > A **seção de dados** de posicionamento do Meta permanece no dashboard (é export, não
 > ação) e é a base para quando ele atacar a frente. Ponto em aberto para a S16.
 
-**MENSAGEM AO VAZ: escrita em 13/09, aguardando envio.**
+**MENSAGEM AO VAZ ENVIADA EM 13/09. Ciclo da S15 fechado.**
+
+> **O QUE FOI DITO AO CLIENTE SOBRE ORÇAMENTO NESTA MENSAGEM. Não contradizer depois.**
+> O plano foi reafirmado com a linha do tempo da call de 03/09: **subida controlada até
+> A$13 mil em setembro e perto de A$15 mil em outubro, com o custo por conversão mandando
+> no ritmo de cada degrau.** O teto de A$15 mil **não** foi apresentado como número de
+> setembro. Foi dito também que **o próximo degrau seria a PMax e que ele fica segurado**
+> até fechar a leitura de duas semanas.
+>
+> **O enquadramento que resolveu o problema, vale reusar:** o plano em execução não é o
+> gasto subindo, é o critério funcionando. Numa semana em que o CPA mandou segurar, isso
+> é o plano rodando, não parado. Sem isso a mensagem afirmaria um aumento que o extrato
+> não mostra.
+>
+> **ROAS não foi citado**, porque não é mensurável até a planilha do Vitor rodar. Só custo
+> por conversão.
+>
+> **Nenhum acumulado de setembro foi enviado.** A S14 cruza a virada de agosto, então
+> acumulado calculado daqui é estimativa. **Estimativa interna, NÃO enviada ao cliente:
+> setembro está andando na faixa de A$12 mil/mês, ou seja, na base e não acima dela.**
+> O degrau de aumento ainda não foi dado. Para número exato, pedir o export de 01 a 13/09.
 
 ### SEMANA 14 (31/08 a 06/09) PUBLICADA e enviada ao Vaz (07/09)
 
