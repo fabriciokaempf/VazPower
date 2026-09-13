@@ -157,6 +157,43 @@ Registro completo em `REUNIOES.md`, seção 4. O que toca a operação de tráfe
 - **Correção da campanha pausada segue pendente de implementação** do lado do cliente. O
   Vaz ficou de tratar a agilidade disso e retornar.
 
+### SEMANA 15 (07 a 13/09) · NÚMEROS VALIDADOS, DASHBOARD POR MONTAR
+
+**A$2.775,67 | 53 leads (20 formulários + 33 ligações) | CPL A$52,37**
+Google A$2.111,17 · 25 conv · CPL A$84,45 | Meta A$664,50 · 28 ligações · CPL A$23,73
+
+**Semana de queda depois do recorde.** vs S14: investimento +11,9%, leads -32,1%,
+CPL +64,6%. Os dois motores pioraram ao mesmo tempo, e por motivos diferentes.
+
+| Campanha | Gasto | Conv | CPL | Orç/dia | Parcela | Perda por orç |
+|---|---|---|---|---|---|---|
+| PMAX | A$1.030,32 | 6 | **A$171,72** | A$139,08 | < 10% | **48,72%** |
+| FRONT | A$491,06 | 7 | A$70,15 | **A$125,00** | 37,14% | 2,86% |
+| SUPORTE | A$259,00 | 5 | A$51,80 | A$80,98 | 33,15% | 0% |
+| LP Form | A$239,24 | 3 | A$79,75 | A$80,98 | 11,94% | 0% |
+| BRAND | A$91,55 | 4 | **A$22,89** | A$128,98 | 69,74% | 0% |
+| MADRUGA | A$0,00 | 0 | - | A$128,98 | 100% | 0% |
+
+**O QUE MUDOU NA CONTA (efeito da otimização de 07/09):**
+- **FRONT teve o orçamento cortado de A$287,98 para A$125,00** e virou a melhor
+  surpresa: de A$43,95 gastos e 1 conversão na S14 para **A$491,06 e 7 conversões a
+  A$70,15**. Passou a aparecer como "limitado pelo orçamento", ou seja, destravou.
+- **PMax voltou a derrapar**: 6 conversões a A$171,72 (era 14,50 a A$62,62). Segue
+  perdendo **48,72% por orçamento** e rodou a 106% do teto. O padrão de gangorra dela
+  já apareceu na S11 e na S13.
+- **Meta piorou forte**: 28 ligações a A$23,73, contra 44 a A$15,02. Orçamento igual
+  (A$94,98, 100% de uso), então não é verba: é leilão ou criativo.
+- Posicionamento Meta: **Reels 20 a A$19,85, Feed 8 a A$33,06.** Reels segue melhor,
+  mas os dois subiram muito de custo.
+- Ações de conversão: Submit Form 9, **Book Form 6**, Lead Form LP 5, Click to call 4,
+  Calls From Ads 1.
+- Dispositivo Meta: Android 17 a A$26,90, iPhone 11 a A$18,70.
+- Gasto/dia Google: 417,45 · 367,50 · 262,51 · 311,25 · 285,42 · 297,75 · 169,29.
+
+**PARA O DASHBOARD:** pasta `setembro-07-13`, Semana 15. A narrativa honesta é que a
+S14 foi pico e esta é correção, com um ganho real no meio (FRONT) e dois pontos a
+resolver (PMax e custo do Meta). **Não vender a FRONT como se compensasse a queda.**
+
 ### SEMANA 14 (31/08 a 06/09) PUBLICADA e enviada ao Vaz (07/09)
 
 `agosto31-setembro06/` · **A$2.481,06 | 78 leads | CPL A$31,81**
