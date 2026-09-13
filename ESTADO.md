@@ -210,7 +210,23 @@ conta de A$2.776"). Seções novas nesta edição: **comparativo S15 contra S14*
    porque tirou da conta um teto que nunca teve como ser usado. A verba ainda parada está
    em **MADRUGA e BRAND, A$257,96/dia juntas**, com 0% e 10% de uso.
 
-**MENSAGEM AO VAZ: ainda NÃO escrita nem enviada.**
+**AÇÃO DA SEMANA PUBLICADA, validada pelo Fabricio em 13/09: DOIS movimentos.**
+1. **Teto da FRONT de A$287,98 para A$125,00.** Único ajuste de orçamento da semana;
+   todos os outros orçamentos conferidos contra a S14 e estão idênticos.
+2. **Rodada de negativação mais a fundo que a de costume.** O Fabricio corrigiu o
+   enquadramento: **negativar é trabalho de praxe toda semana**, o que muda é a
+   intensidade, e esta foi uma das semanas de trabalho mais específico. **NÃO atribuir
+   número da queda de leads à negativação**: o mecanismo tira volume antes de entregar
+   qualidade, mas não há como medir a fatia. A primeira versão do texto fazia essa
+   atribuição e foi corrigida.
+
+> **POSICIONAMENTO FICOU DE FORA DO DASHBOARD, por decisão do Fabricio em 13/09:**
+> *"posicionamento deixa de fora, vou trabalhar melhor essa questão"*. **Não é uma ação
+> executada e não pode ser citada como tal** em dashboard, mensagem ou fechamento de mês.
+> A **seção de dados** de posicionamento do Meta permanece no dashboard (é export, não
+> ação) e é a base para quando ele atacar a frente. Ponto em aberto para a S16.
+
+**MENSAGEM AO VAZ: escrita em 13/09, aguardando envio.**
 
 ### SEMANA 14 (31/08 a 06/09) PUBLICADA e enviada ao Vaz (07/09)
 
