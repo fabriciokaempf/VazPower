@@ -283,16 +283,22 @@ de sala é porta de entrada.
 que veio do Vaz. Usar Victor em tudo que chegar nele. **Confirmar a grafia na call** antes
 de trocar o nome neste arquivo.
 
-> **A CALL DE 15/09 NÃO ACONTECEU NO HORÁRIO MARCADO, e a causa foi o horário.** Ela caía
-> às 21h de terça em Brisbane. **Estar acordado não é estar disponível:** 21h é hora de
-> jantar e de estar em casa. **Remarcada para o horário comercial dele**, que é quando ele
-> está na frente do CRM, que é exatamente o que a call precisa.
+> **A CALL DE 15/09 NÃO ACONTECEU, E A FALHA FOI DESTE LADO.** O Victor **entrou e ficou
+> esperando**, às 21h de uma terça à noite no fuso dele. Quem não conseguiu entrar foi o
+> Fabricio. **Pedido de desculpas enviado no mesmo dia** e call remarcada.
+>
+> **Isso não é detalhe de agenda, é capital de relação.** Ele nunca tinha aceitado o
+> convite no Google, e mesmo assim apareceu no horário, fora do expediente, para ajudar
+> numa frente que não é obrigação dele. **Não testar essa boa vontade uma segunda vez.**
 >
 > **REGRA DAQUI PARA A FRENTE: call com quem está em Brisbane vai no horário comercial de
 > lá, não no daqui.** Manhã no Brasil é sempre noite em Brisbane, então a preferência por
-> manhã aqui empurra o outro lado para fora do expediente. **Com quem está fazendo trabalho
-> voluntário para esta operação, confiabilidade vale mais que conforto de horário.** O
-> encaixe bom é **20h BRT, que é 9h da manhã do dia seguinte lá.**
+> manhã aqui empurra o outro lado para fora do expediente. O encaixe bom é **20h BRT, que
+> é 9h da manhã do DIA SEGUINTE lá.** A remarcação ficou em **quinta, 17/09, 20h BRT, que
+> é sexta, 18/09, 9h da manhã em Brisbane.**
+>
+> **O convite do Google não é o canal de confirmação dele.** O RSVP ficou em `needsAction`
+> o tempo todo. **Confirmação vale quando vem escrita no WhatsApp**, não pelo calendário.
 
 > **ATENÇÃO À CONVERSÃO, ELA MUDA DE DIA CONFORME O TURNO.** Manhã no Brasil cai na
 > **noite do MESMO dia** em Brisbane, porque 8h mais 13h dá 21h. Fim de tarde no Brasil é
