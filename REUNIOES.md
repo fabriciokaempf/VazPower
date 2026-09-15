@@ -283,6 +283,17 @@ de sala é porta de entrada.
 que veio do Vaz. Usar Victor em tudo que chegar nele. **Confirmar a grafia na call** antes
 de trocar o nome neste arquivo.
 
+> **A CALL DE 15/09 NÃO ACONTECEU NO HORÁRIO MARCADO, e a causa foi o horário.** Ela caía
+> às 21h de terça em Brisbane. **Estar acordado não é estar disponível:** 21h é hora de
+> jantar e de estar em casa. **Remarcada para o horário comercial dele**, que é quando ele
+> está na frente do CRM, que é exatamente o que a call precisa.
+>
+> **REGRA DAQUI PARA A FRENTE: call com quem está em Brisbane vai no horário comercial de
+> lá, não no daqui.** Manhã no Brasil é sempre noite em Brisbane, então a preferência por
+> manhã aqui empurra o outro lado para fora do expediente. **Com quem está fazendo trabalho
+> voluntário para esta operação, confiabilidade vale mais que conforto de horário.** O
+> encaixe bom é **20h BRT, que é 9h da manhã do dia seguinte lá.**
+
 > **ATENÇÃO À CONVERSÃO, ELA MUDA DE DIA CONFORME O TURNO.** Manhã no Brasil cai na
 > **noite do MESMO dia** em Brisbane, porque 8h mais 13h dá 21h. Fim de tarde no Brasil é
 > que cai na manhã do **dia seguinte** lá. O Fabricio pediu manhã no horário dele, então a
