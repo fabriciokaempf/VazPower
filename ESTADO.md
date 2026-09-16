@@ -9,6 +9,76 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+### 16/09: CALL COM O CLIENTE E DECISÃO DE REENGENHARIA DA CONTA
+
+**Call de 16/09, 7h BRT, oito minutos, só macro.** O cliente estava dirigindo no fim do
+dia dele, então não houve espaço para número em detalhe. **PMax, piano e qualquer
+métrica fina não foram mencionados na call**, e isso está certo: **os movimentos de conta
+são decisão da gestão de mídia, o cliente precisa entender, não homologar.**
+
+> **O ALVO MUDOU DE LUGAR, E ISSO REORGANIZA TUDO.** Nas palavras dele: *"preciso garantir
+> que no final de novembro a gente esteja com tudo alinhado para dar o pontapé inicial em
+> dezembro"*. **Dezembro é a temporada de mudanças na Austrália**, verão e fim do ano
+> letivo. **O prazo real do cliente é o fim de novembro, cerca de dez semanas.**
+>
+> Esse é o enquadramento de todas as decisões daqui para frente: **limpar agora para
+> escalar limpo na temporada.** E é o que transforma uma semana ruim de setembro em etapa
+> de um projeto com data, em vez de queda de performance.
+
+**O que ficou endossado por ele na call:**
+
+- **O diagnóstico de perda de impressão.** Foi assim que a conversa abriu, com a perda de
+  80 a 85% de impressão, e ele respondeu "eu já sabia".
+- **A volta do Search para o site.** Ele reforçou duas vezes que a marca é forte com o
+  site. O site já foi revertido para a versão anterior, o que **remove o risco de alvo
+  móvel**: a página está estável para receber as campanhas.
+- **O repasse dos acessos do site**, que ele se comprometeu a providenciar. **É ampliação
+  de escopo e aconteceu sem nenhuma conversa comercial.** Registrado para não passar em
+  branco depois.
+- **Compromisso de prazo assumido na call: 7 a 10 dias para acertar e voltar ao patamar de
+  A$15 mil por mês com volume e qualidade.** Virou data escrita na mensagem de
+  acompanhamento: **sexta, 26/09**.
+
+### A REENGENHARIA · decidida em 16/09
+
+**Sai a landing page, sai a Performance Max.** Os dois são ruins por conta própria, então
+**não há motivo para escalonar o corte**: escalonamento serve para quando há dúvida sobre
+qual é o culpado. Números da janela de 02 a 15/09:
+
+| Tipo | Custo | Conversões | Custo/conv |
+|---|---|---|---|
+| Pesquisa | A$2.315,97 | 40,50 | **A$57,18** |
+| Performance Max | A$1.780,74 | 16,83 | **A$105,79** |
+| LP Form (agosto) | | | **A$90,39** |
+
+**A PMax levava 43,5% da verba.** Pausada, ela **libera cerca de A$127 por dia**.
+
+> **REGISTRAR A DATA EXATA DE CADA CORTE.** Sem a ordem dos movimentos anotada, a leitura
+> do resultado daqui a duas semanas fica impossível de atribuir.
+
+**A base limpa, para referência:** sem PMax e sem piano, a conta fica em torno de
+**A$60,21 por conversão**, com 34,5 conversões em 14 dias. **Esse é o número novo**, não o
+A$51,35 de agosto nem o A$71,46 de agora.
+
+### O ACORDO DE LEITURA · enviado por escrito em 16/09
+
+A call não fixou a régua, e a execução já começou, então o alinhamento foi por mensagem,
+**antes de o número cair**. O que ficou dito ao cliente:
+
+- **Menos lead e custo maior são o efeito esperado** de parar de comprar o que não fecha,
+  não sinal de piora.
+- **As duas coisas a olhar nas próximas semanas: quantos agendaram e a proporção de
+  formulário sobre ligação.** Volume de lead e custo por lead saem do centro.
+- **Posição do ajuste completo até sexta, 26/09.**
+
+**Pedido ao cliente, um só:** o acesso do site. Pedir pouco, e pedir o que ele já
+prometeu, comunica condução em vez de necessidade.
+
+**Deliberadamente fora da mensagem e da call:** valor médio de um job fechado. **Pedir isso
+agora entregaria a ele uma calculadora de ROI justamente na janela em que o número vai
+parecer ruim.** O pedido volta **depois da call com o administrativo**, quando já se souber
+o que conta como fechamento e a que taxa. Fora também: invoice e frente de marca.
+
 ### 16/09: DIAGNÓSTICO DE COMPOSIÇÃO E PLANO DE VIRADA · LER ANTES DE MEXER NA CONTA
 
 **Página de preparação da call**, com a série, o desenho da cadeia causal e o plano:
