@@ -9,6 +9,44 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+### 15/09: LEAD DE PIANO · PRIMEIRO CASO RASTREÁVEL DE LEAD SEM ENCAIXE
+
+**O cliente relatou por áudio, em 15/09:** está recebendo **ligações pedindo transporte de
+piano**, inclusive piano de cauda e com escada. Contou **quatro nos últimos dez dias**.
+**A empresa não faz item avulso.** Nas palavras dele, o foco é **mudança completa**, que é
+onde está a receita. Piano dentro de uma mudança, tudo bem. Piano sozinho, não.
+
+**Por que isso importa além do incômodo:** é o **primeiro exemplo concreto e rastreável de
+lead com zero encaixe comercial** que aparece na operação. Ligação real, pessoa real,
+nenhuma chance de fechar. Sustenta com caso a leitura de que o problema não é volume nem
+custo por lead, e sim **composição do que está sendo comprado**.
+
+> **ANTES DE AGIR, DESCOBRIR A ORIGEM. O conserto é diferente em cada caso.**
+>
+> **Se vier do Google ou da PMax:** é consulta de busca e se resolve com **palavra
+> negativa**. Conferir no **relatório de termos de pesquisa** procurando "piano", e no
+> **relatório de chamadas**, que identifica a campanha de cada ligação.
+>
+> **Se vier do Meta: negativa não existe.** Não há consulta para negativar. A pessoa viu
+> anúncio de mudanças, tocou em ligar e perguntou do item dela. O conserto ali é
+> **criativo que diga o que a empresa faz e não faz**, ou qualificação antes da ligação.
+> Pelo volume, é plausível: o Meta fez 105 das ligações de agosto e 28 das 33 da S15.
+
+**AÇÃO, na ordem:**
+
+1. Rodar o relatório de termos de pesquisa e o de chamadas atrás de "piano" e afins.
+2. Se for busca: negativar a família de piano **em nível de conta, não só nas campanhas de
+   pesquisa**. Atenção, a lista mestre de 41 negativas subida em julho foi aplicada "em
+   todas as campanhas de pesquisa", e **PMax não é campanha de pesquisa**: ela só respeita
+   negativa por lista de conta ou pela configuração própria. **Conferir se a lista mestre
+   alcança a PMax.**
+3. Se for Meta: ajustar criativo e qualificação, e registrar que negativa não se aplica.
+4. Confirmar ao cliente o que foi encontrado e o que foi barrado.
+
+**Combinado com o cliente:** ele passa a mandar outros exemplos de lead sem encaixe assim
+que aparecerem, mesmo soltos. **Cada exemplo vira barreira.** Isso transforma a queixa em
+canal de dado e alimenta a leitura de composição.
+
 ### 10/09: O FUNIL DO CLIENTE DESCRITO PELO ADMINISTRATIVO · HIPÓTESE DE PERFIL
 
 **A conexão com o Vitor aconteceu em 10/09**, por áudio no WhatsApp. Ele cuida de
