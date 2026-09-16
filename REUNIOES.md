@@ -237,6 +237,64 @@ frequência semanal às segundas com a semana anterior, os três campos que o pr
 listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
 lançamento atrasado para o valor não cair em mês errado.
 
+### 15 e 16/09 · revisão estratégica levantada pelo cliente, e como ela foi virada
+
+**Em 15/09, à noite, o cliente abriu uma revisão da operação de mídia**, no privado e
+também no grupo, questionando qualidade de lead, o destino das campanhas e pedindo para
+entender o que tinha acontecido nos últimos meses. Chegou a dizer que talvez precisasse
+trocar a operação de marketing inteira. **Em menos de catorze horas a posição dele virou
+para "a gente precisa focar 100 por cento nisso" e "realmente a gente teve essa queda".**
+O que fez a virada está abaixo, porque é método reaproveitável.
+
+**1. A primeira resposta não teve um único número.** Ele estava assustado, não em dúvida.
+Dado entregue naquele momento seria lido como "você está errado", e ele passaria a
+defender a posição em público. A mensagem só reconheceu o tamanho do problema, usou as
+palavras dele, prometeu olhar tudo **"inclusive o que é meu"** e pediu uma call por voz.
+**Resposta dele em um minuto: "Fechado. Obrigado."**
+
+**2. A segunda mensagem abriu pelo erro da própria operação, não pela correção dele.**
+A verba mal alocada veio primeiro, com número. Só depois veio o achado que desmontava o
+diagnóstico dele. **Cumprir o "inclusive o que é meu" na primeira linha compra tudo o que
+vem depois.**
+
+**3. O crédito do dado que virou o jogo foi dado a ele.** Ele mesmo forneceu a quantidade
+de agendamentos por semana, sem saber o que aquilo mostrava. Enquadrar como **"você me
+passou um dado que eu não tinha"** deixa ele mudar de posição sem perder a cara. Dizer
+"os números mostram que você está errado" o obrigaria a defender a versão dele.
+
+**4. Nada foi discutido no grupo.** Ele havia procurado o privado **antes** de escrever no
+grupo, o que dizia onde ele queria resolver. Defesa com plateia obriga o outro lado a
+sustentar a posição em público, e aí recuar fica caro. **Nenhum número foi para o grupo.**
+
+**5. Os movimentos de conta foram comunicados, não submetidos a aprovação.** Otimização é
+decisão da gestão de mídia. **O cliente precisa entender o que muda e por quê, não
+homologar.** O que de fato precisa de alinhamento é outra coisa, e está no ponto 6.
+
+**6. A régua da semana seguinte foi alinhada POR ESCRITO, antes de o número cair.** A call
+não teve espaço para isso, e a execução já tinha começado. **Como a leitura de um
+resultado não é decisão técnica de um lado só, ela foi acordada em mensagem:** menos lead
+e custo maior são o efeito esperado, e o que vale olhar é **agendamento e proporção de
+formulário sobre ligação**. Detalhe técnico em `ESTADO.md`.
+
+**7. Pedido ao cliente: um só, e um que ele já tinha prometido.** O acesso do site. Três
+pedidos comunicam necessidade. Um pedido já combinado comunica condução.
+
+### O que ficou de compromisso
+
+- **Sexta, 26/09: a posição do ajuste completo.** Assumido por escrito, depois de ter sido
+  falado como "7 a 10 dias" na call. **Virou o compromisso mais importante em aberto**, e o
+  cliente declarou que passou a acompanhar de perto. Não pode escorregar em data nem em
+  conteúdo.
+- **Fim de novembro: a conta pronta para a temporada de dezembro.** É o alvo real do
+  cliente e reorganiza as próximas dez semanas. Ver `ESTADO.md`.
+- **O cliente vai repassar os acessos do site.** Reconfirmado por ele em 16/09.
+- **Valor médio de um job fechado: pedido adiado de propósito**, para depois da conversa
+  com o administrativo sobre fechamentos. Pedir antes entregaria uma calculadora de ROI
+  justamente na janela em que o número vai parecer ruim.
+
+**Fora dessas conversas, por serem frentes separadas:** invoice e proposta de marca.
+Nenhuma das duas foi mencionada pelo cliente, e nenhuma melhora sendo levantada agora.
+
 ### 11/09 · o Vitor descreveu o funil e fechou a definição de agendamento
 
 Respondendo às duas perguntas mandadas em 10/09, o Vitor voltou de manhã cedo no horário
