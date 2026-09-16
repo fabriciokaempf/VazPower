@@ -279,6 +279,34 @@ formulário sobre ligação**. Detalhe técnico em `ESTADO.md`.
 **7. Pedido ao cliente: um só, e um que ele já tinha prometido.** O acesso do site. Três
 pedidos comunicam necessidade. Um pedido já combinado comunica condução.
 
+### 16/09 · o canal com o administrativo foi formalizado pelo cliente
+
+**O cliente autorizou o canal direto e definiu a escalação**, por áudio: *"me mantém
+informado, se você precisar de alguma coisa alinha com o Vitor, e se o Vitor não tiver
+condição de ajudar, ele fala comigo"*.
+
+**Isso muda o tom de qualquer pedido ao administrativo.** Até aqui ele estava fazendo
+favor, inclusive se oferecendo a levantar um mês de leads à mão. **Agora ele está
+executando algo que o próprio cliente pediu**, com o cliente como escalação se travar.
+Dá para pedir o dado de forma direta, sem rodeio e sem receio de tomar o tempo dele.
+
+**E o cliente continua enquadrando o período no plural**, "perdemos tempo", "a gente não
+foi muito assertivo". **Não mexer nisso.** É enquadramento de falha compartilhada, e
+qualquer tentativa de detalhar responsabilidade só pode piorar.
+
+### 16/09 · cadência de retorno, definida antes de virar cobrança diária
+
+O cliente pediu **"me mantém informado"**, em aberto. **Pedido de retorno sem ritmo
+definido vira cobrança todo dia**, ainda mais numa semana de execução. A cadência foi
+fixada na resposta, do lado do Fabricio:
+
+- **Aviso pontual quando houver movimento que mude alguma coisa**, não relatório de
+  atividade.
+- **Posição completa na sexta, 26/09.**
+
+**Isso protege a semana de execução** e ainda transforma a ansiedade dele em um
+compromisso com data, que é o que ele responde bem.
+
 ### O que ficou de compromisso
 
 - **Sexta, 26/09: a posição do ajuste completo.** Assumido por escrito, depois de ter sido
