@@ -1063,7 +1063,25 @@ conta fechou às 11h BRT e vem completo.
 (`julho-01-31`).
 
 **Invoices:** `INV-AAAA-MM-001`, faturamento antecipado (a de agosto cobre agosto).
-**Vencimento combinado: até o dia 10 do mês.** **O vencimento tem de aparecer escrito na
+**Vencimento combinado: até o dia 10 do mês.**
+
+> **O CICLO DE CAIXA DO CLIENTE É SEMANAL E CAI NA QUINTA-FEIRA.** Ele mesmo informou em
+> 16/09: recebe do Stripe **toda quinta**. Isso explica o padrão de pagamento muito melhor
+> do que qualquer leitura de comportamento. **Invoice vencendo no dia 10 só é paga se o dia
+> 10 cair perto de uma quinta.** Vale mirar o vencimento na primeira quinta após o dia 10,
+> que é mais eficaz do que cobrar.
+>
+> **A invoice de setembro foi paga sem nova cobrança**, por iniciativa dele, no momento em
+> que a confiança na entrega voltou. **Segurar a segunda cobrança foi o que funcionou.**
+
+> **NÚMERO A CORRIGIR COM FATO, NÃO COM DISCUSSÃO.** Em 16/09 o cliente falou em
+> "A$50.000 para o lixo em 6 semanas". **O investimento em mídia nessas seis semanas foi da
+> ordem de A$17 mil**, somando agosto e as duas primeiras semanas de setembro. Os A$50 mil
+> são o resultado do negócio dele no período, não a conta de anúncios. **Não corrigir no
+> calor da conversa.** O lugar de desfazer isso é a posição de **26/09**, abrindo o
+> investimento real do período. O número fala sozinho e ninguém precisa dizer que o outro
+> errou. **Se esse valor virar a versão aceita, ele volta em novembro como "você queimou
+> 50 mil".** **O vencimento tem de aparecer escrito na
 própria invoice e na mensagem que a acompanha**, para ser informação de rotina e não
 precisar ser invocado depois. Prazo lembrado de memória, trazido no meio de uma cobrança,
 vira discussão sobre o que foi combinado em vez de pagamento.
