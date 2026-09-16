@@ -9,6 +9,65 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+### 16/09 · DECISÕES DA MANHÃ E TRAVAS PARA A SESSÃO DE OTIMIZAÇÃO
+
+**O que já está executado:** PMax pausada e LP Form pausada. **Todas as campanhas de Search
+já apontam para o site** (os nomes das campanhas trazem "SITE"), então o corte da LP não
+deixou buraco de estrutura, e não há nada a reconstruir.
+
+> **A LINHA DE CORTE É 16/09.** Tudo antes é conta velha, tudo depois é conta nova.
+> **Registrar data e hora de cada movimento, um a um.** Sem a ordem anotada, a leitura de
+> duas semanas à frente não tem como atribuir efeito a nada.
+
+**ROTINA POR CAMPANHA, a mesma em todas, na mesma ordem:**
+
+1. Foto: orçamento diário, gasto diário real dos últimos 7 e 14 dias, conversões e CPA.
+2. **Parcela perdida separada entre orçamento e classificação.** É essa linha que diz se o
+   problema é teto ou leilão.
+3. Estratégia de lance e alvo ativo, procurando CPA apertado demais estrangulando entrega.
+4. Destino: confirmar que aponta para o site.
+5. Termos de pesquisa da campanha: item avulso, fora de área, fora de escopo.
+6. Negativas aplicadas: quais listas de fato alcançam a campanha.
+7. Decisão tomada, com data e hora, antes de passar para a próxima.
+
+**Ordem sugerida:** **SUPORTE** primeiro, que é onde está quase todo o piano e a
+correspondência ampla. **FRONT** em seguida, maior orçamento da conta usando 56% dele.
+**BRAND** em terceiro, e ali a pergunta é o oposto: a A$43,96 por conversão ela é a melhor
+da conta, então o que importa é **se ela está perdendo alguma coisa por teto**. **MADRUGA**
+por último, provavelmente para decidir se morre: 10 impressões em 31 dias em agosto.
+
+> **NÃO SUBIR TETO ANTES DE OLHAR A PARCELA PERDIDA.** Na semana de 07 a 13/09, FRONT usava
+> **56%** do teto e SUPORTE **46%**, com perda por orçamento perto de zero. **Se o quadro
+> se repetir, teto não é o gargalo e subir teto não muda nada.** O gargalo é classificação,
+> e as alavancas são lance, índice de qualidade e cobertura de palavra-chave.
+
+**TESTE DE ALVO NA SUPORTE: ADIADO PARA 13/10.** Ele exigia "nenhuma mudança na SUPORTE" e
+congelamento do Search por uma semana, o que é incompatível com a reengenharia e com o
+prazo de 26/09. **Os critérios de entrada dele precisam ser refeitos sobre dado
+pós-reengenharia**, porque foram calculados numa conta que tinha PMax e LP Form no ar.
+
+> **META SEGURADO ATÉ DEPOIS DE 17/09.** O piano **está provado como Google**: o relatório
+> de termos de pesquisa só contém termo de busca, e as 6 conversões estavam todas em
+> campanha de Pesquisa, quase todas na SUPORTE por correspondência ampla, mais uma como
+> palavra-chave exata cadastrada. **A hipótese de que a ligação fria do Meta traz lead de
+> preço e job pequeno é outra coisa, e continua sem medição.** Pausar o Meta agora tiraria
+> perto de metade do volume da conta em cima de suspeita, no mesmo dia dos outros dois
+> cortes. **A call de 17/09 responde isso com dado.** O caminho já previsto no plano é
+> melhor: **Meta vira remarketing, não aquisição fria.**
+
+> **CUIDADO COM A TAXA DE 51%.** Ela sai de 27 agendamentos sobre 53 leads, mas **os 27 são
+> todos os fechamentos da operação do cliente, não só os que vieram dos anúncios.**
+> Indicação, cliente recorrente e orgânico entram ali. **Denominador é da mídia, numerador
+> é da operação inteira.** A comparação entre semanas se sustenta, porque a distorção
+> existe nas duas, mas **o número absoluto não.** Até o cruzamento, falar em "a conversão
+> subiu entre as duas semanas", nunca em 51% como fato. **Não levar esse número para a
+> posição de 26/09.**
+
+**As quatro perguntas decisivas da call de 17/09**, já na pauta do convite: se ligação vira
+registro de lead no CRM; quem fecha melhor na percepção de quem trabalha o follow-up,
+telefone ou formulário; de onde vêm os fechamentos que não vieram de anúncio; e o passo a
+passo de um lead real na tela.
+
 ### 16/09: CALL COM O CLIENTE E DECISÃO DE REENGENHARIA DA CONTA
 
 **Call de 16/09, 7h BRT, oito minutos, só macro.** O cliente estava dirigindo no fim do
