@@ -9,6 +9,79 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+### 16/09: DIAGNÓSTICO DE COMPOSIÇÃO E PLANO DE VIRADA · LER ANTES DE MEXER NA CONTA
+
+**Página de preparação da call**, com a série, o desenho da cadeia causal e o plano:
+`claude.ai/artifact/RBBKMTvENNr4KYXigNvoDf`
+
+**A LEITURA CENTRAL: o custo por lead melhorou o ano inteiro enquanto o negócio piorava.**
+Não é contradição. **A conta trocou o que estava comprando, e o CPL foi justamente o número
+que escondeu a troca**, porque ligação fria é eficiente de comprar.
+
+**Série de 2026** (abril e maio recuperados do histórico do git, via `git show a9bc13e^:`):
+
+| Mês | Investido | Leads | CPL | Formulários | Ligações | % form |
+|---|---|---|---|---|---|---|
+| Abril | A$11.655 | 222 | A$52,50 | ~178 | ~26 | 87% |
+| Maio | A$13.868 | 257 | A$53,96 | 176 | 81 | 68% |
+| Junho | A$12.478 | 176 | **A$70,90** | 164 | 12 | 93% |
+| Julho | A$13.284 | 238 | A$55,81 | 162 | 76 | 68% |
+| Agosto | A$12.582 | 245 | **A$51,35** | 121 | 124 | 49% |
+| 07 a 13/09 | A$2.776 | 53 | A$52,37 | 20 | 33 | **38%** |
+
+*Abril rodava sob gestão anterior e os rótulos de conversão podem não ser idênticos, então
+o volume dali é aproximado.*
+
+- **Junho foi o pior mês do ano e é da operação atual.** Isso vai dito de frente, não
+  descoberto pelo cliente.
+- **A proporção de formulário caiu de 87% para 38%.** A conta trocou de produto sem
+  ninguém ter decidido isso.
+- **O lado Google fechou agosto a A$75,09 por conversão**, pior que o A$70,90 de junho, e
+  entregou 134 contra 152 de julho. O CPL geral só melhorou porque a ligação do Meta a
+  A$17,85 puxou a média.
+
+**AS TRÊS FONTES QUE SUJARAM A ENTRADA:**
+
+1. **LP Form.** A$90,39 por conversão em agosto e **89,05% de parcela perdida por posição**,
+   com orçamento sobrando. Formulário de baixo atrito captura quem não percorreria um site.
+2. **Performance Max.** A$91,95 em agosto e **A$171,72 na S15**, com 37% da verba. Compra
+   em Display e Discover, onde não existe intenção de contratar mudança.
+3. **Ligação fria do Meta.** 105 em agosto, 28 das 53 da S15. Público frio perguntando
+   preço e item avulso, como os quatro pianos em dez dias.
+
+**O PLANO, na ordem:**
+
+1. **Cortar a Performance Max.** E conferir se a lista mestre de negativas alcança ela.
+2. **Devolver o Search para o site.** Recupera índice de qualidade e parcela, e o atrito
+   maior filtra quem só pesquisa preço. Foco em mudança completa, não item avulso.
+3. **Barrar busca fora de escopo** em nível de conta, depois de confirmar a origem.
+4. **Meta vira remarketing forte.** Sai da aquisição fria e trabalha quem já esteve no
+   site. Mesma eficiência de mídia, intenção muito maior, volume menor por natureza.
+
+> **ARMADILHA DA SEMANA SEGUINTE, LEIA ANTES DE EXECUTAR.** Cortar PMax e ligação fria tira
+> volume, e formulário de busca custa mais que ligação. **Menos lead e CPL mais alto são o
+> resultado esperado de um plano que está funcionando.** Quem olhar volume e custo vai
+> concluir que piorou exatamente quando melhorou.
+>
+> **O ACORDO PRECISA SER FEITO ANTES DE MEXER:** a semana seguinte é julgada por
+> **agendamento e composição**, não por volume de lead e custo por lead. Combinado antes,
+> é método. Explicado depois que o número cair, vira desculpa. É a mesma regra do corte de
+> agosto: variação por decisão aparece como decisão, nunca como performance.
+
+**Direção esperada de cada indicador:** leads totais caem, CPL sobe, proporção de
+formulário sobe, ligação fora de escopo cai já nos primeiros dias, e **agendamento fica
+estável ou sobe, que é o único que importa.**
+
+> **O QUE AINDA É HIPÓTESE.** Toda essa leitura depende de uma coisa não medida:
+> **ligação fecha pior que formulário, e PMax fecha pior que busca de marca.** É plausível
+> e coerente com tudo, e continua sem prova. **Quem prova é o cruzamento lead a lead com o
+> CRM**, que começa em 17/09 com o administrativo. Taxa de agendamento por origem encerra a
+> discussão.
+
+**Fora da call, por serem frentes separadas:** invoice e proposta de marca. E **nenhuma
+promessa de número de agendamento**: número prometido sob pressão vira régua semanas
+depois, e a resposta certa é o cruzamento.
+
 ### 15/09: LEAD DE PIANO · PRIMEIRO CASO RASTREÁVEL DE LEAD SEM ENCAIXE
 
 **O cliente relatou por áudio, em 15/09:** está recebendo **ligações pedindo transporte de
