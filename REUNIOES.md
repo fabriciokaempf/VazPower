@@ -237,6 +237,72 @@ frequência semanal às segundas com a semana anterior, os três campos que o pr
 listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
 lançamento atrasado para o valor não cair em mês errado.
 
+### 17/09 · a call com o Victor aconteceu e a relação virou fonte de dado
+
+**1h04, com tela compartilhada do CRM**, quinta 17/09 às 19h BRT, que é sexta 18/09 de
+manhã em Brisbane. **A pauta preparada foi cumprida quase inteira e a call entregou mais do
+que a pauta pedia.** O que é matéria de mídia está em `ESTADO.md`, no bloco de 17/09. Aqui
+fica o que é relação.
+
+**O começo foi tudo menos limpo e não fez diferença nenhuma.** Quase dez minutos de
+conversa pessoal antes de qualquer pauta, a internet travou duas vezes e a tela
+compartilhada caiu. Ele estava num café, puxado para a rua por um job grande que entrou de
+véspera. **Nada disso foi tratado como problema**, e foi justamente isso que soltou a
+conversa. A frase que abriu a porta foi "a gente vai se encontrar mais vezes, mano".
+
+**Ele ofereceu o acesso ao CRM antes de o export ser pedido.** O pedido preparado era a
+lista de campos; a resposta foi passar acesso à ferramenta. **Melhor do que o que se ia
+pedir**, e proposto por ele. Depois disso, a lista de campos foi lida mesmo assim, e serviu
+para ele entender o que o cruzamento precisa.
+
+**O que ele se comprometeu a entregar, tudo por iniciativa própria:**
+
+- **O acesso à ferramenta**, depois de falar com o cliente. Ele mesmo disse que ia levar o
+  assunto e não viu problema.
+- **Um levantamento de julho que ele já tinha pronto**, com os jobs do mês acima de três
+  quartos, bairro e fonte de cada um. Trabalho que ele fez sem ninguém pedir.
+- **A lista de e-mails da base.**
+- **Três ou quatro concorrentes diretos**, com leitura de como cada um opera.
+
+> **A LISTA DE E-MAILS NÃO SE USA SEM AUTORIZAÇÃO DO CLIENTE.** São dados de clientes dele,
+> na Austrália. O administrativo pode passar, mas quem autoriza o uso em plataforma de
+> anúncio é o Vaz. **Pedir a autorização de forma explícita antes de subir qualquer
+> audiência**, e nunca tratar como detalhe técnico.
+
+**Ele levantou sozinho dois pontos que não estavam na pauta e que valem mais do que metade
+dela:** a origem do lead que se perde dentro do CRM e a ligação que não é medida do site
+para dentro. **Os dois estão detalhados em `ESTADO.md`.** Não foram respostas a perguntas,
+foram observações dele.
+
+**O `Pending` duplo se resolveu na prática, sem precisar separar campo.** Ele mostrou na
+tela que cada tentativa de contato vira anotação com data dentro do lead: ligou, não
+atendeu, mandou SMS, não respondeu, tentou de novo. **O histórico inteiro está lá dentro, e
+com acesso dá para reconstruir sozinho quem nunca foi contatável.** A rotina é tentar por
+cerca de três dias e, sem resposta, mandar a cotação mesmo assim com base nos endereços de
+origem e destino.
+
+**A cadência ficou combinada como semanal para começar**, com a possibilidade de incluir o
+cliente nas calls. **A proposta de recorrência partiu dele.** O combinado foi semanal nesse
+início, para pegar contexto rápido, e passar a mensal quando a operação estiver lida.
+**Isso não substitui a cadência com o cliente definida em 16/09**, que segue como aviso
+pontual mais posição completa na sexta 26/09.
+
+**O tom de colega se confirmou e foi retribuído.** Ele se ofereceu para ajudar fora do
+horário, em qualquer coisa, inclusive por interesse próprio de aprender. **A relação passou
+de canal de dado para parceria de leitura da operação**, e é assim que deve ser tratada.
+Nada comercial entrou na conversa, e nada de invoice ou de frente de marca foi mencionado,
+como estava combinado.
+
+**Ele passa a operar do Brasil dentro de alguns meses**, seguindo com o cliente no turno da
+madrugada daqui, que é o horário comercial de Brisbane. **Na prática o fuso deixa de ser
+fricção nas próximas calls**, mas **até lá a regra de 15/09 continua valendo**: call com
+quem está em Brisbane vai no horário comercial de lá, ou seja 19h ou 20h BRT, que é a manhã
+do dia seguinte no fuso dele.
+
+**O que ficou aberto para a próxima:** os estágios do funil serão percorridos ao vivo,
+dentro da ferramenta, com o acesso na mão. **Não faz sentido mapear por descrição aquilo
+que dá para ver na tela.**
+
 ### 15 e 16/09 · revisão estratégica levantada pelo cliente, e como ela foi virada
 
 **Em 15/09, à noite, o cliente abriu uma revisão da operação de mídia**, no privado e
@@ -316,6 +382,10 @@ compromisso com data, que é o que ele responde bem.
 - **Fim de novembro: a conta pronta para a temporada de dezembro.** É o alvo real do
   cliente e reorganiza as próximas dez semanas. Ver `ESTADO.md`.
 - **O cliente vai repassar os acessos do site.** Reconfirmado por ele em 16/09.
+- **Acesso ao CRM: depende de autorização dele**, pedida pelo administrativo em 17/09. Não
+  cobrar direto do cliente antes de o administrativo voltar; ele se ofereceu a levar o
+  assunto no mesmo dia. **Se não vier até sexta 25/09, perguntar uma vez, ao administrativo
+  e não ao cliente.**
 - **Valor médio de um job fechado: pedido adiado de propósito**, para depois da conversa
   com o administrativo sobre fechamentos. Pedir antes entregaria uma calculadora de ROI
   justamente na janela em que o número vai parecer ruim.

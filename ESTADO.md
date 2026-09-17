@@ -1,13 +1,134 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **09/09/2026** (canal orgânico zerado, confundidor para a leitura do aumento).
+Atualizado em **17/09/2026** (call com o administrativo: acesso ao CRM, fonte de melhor lead
+identificada e buraco de rastreio das ligações).
 Antes disso, 31/08 à noite (verificação adversarial: as três hipóteses caíram; base
 numérica corrigida).
 
 ---
 
 ## 0. ESTADO ATUAL (retomar daqui)
+
+### 17/09 · CALL COM O ADMINISTRATIVO · O QUE MUDA NA OPERAÇÃO DE MÍDIA
+
+Call de 1h04 com tela compartilhada do CRM, na quinta 17/09 às 19h BRT, que é sexta 18/09
+de manhã em Brisbane. **Nove achados mexem em decisão de mídia.** O lado de relação e os
+compromissos dele estão em `REUNIOES.md`.
+
+**1 · O ACESSO AO CRM SUBSTITUI O EXPORT.** Ele ofereceu acesso direto à ferramenta em vez
+de planilha, e vai pedir a autorização do cliente antes de passar. **Isso derruba de uma
+vez a pendência de export, de colunas e de chave de cruzamento**, que só existiam porque o
+dado ia atravessar em arquivo. Com acesso, os estágios do funil e as datas se leem na
+fonte. Prometido para o mesmo dia, do lado dele.
+
+> **CUIDADO: o acesso vem pela conta pessoal dele.** Criar usuário novo na ferramenta
+> exige número de registro australiano, então não há login próprio por enquanto.
+> **Enquanto for assim: leitura e integração apenas, nunca editar nada dentro do CRM.**
+> Qualquer alteração aparece como sendo dele e cai no colo dele. **Usuário próprio é item
+> a resolver depois**, com calma, junto do cliente.
+
+**2 · A MELHOR FONTE DE LEAD DO SITE É O VOLUME CALCULATOR**, e a confirmação veio por
+caminho independente. Nas palavras dele, o lead que vem dali **tem qualidade maior do que
+qualquer outra fonte, porque deu mais trabalho para chegar ao fim da cotação**, e costuma
+chegar já com o inventário preenchido. **O cliente tinha sugerido a mesma coisa em 15/09,
+por intuição de quem atende; o administrativo confirmou sem saber da sugestão.** Duas
+fontes independentes apontando para o mesmo lugar é o sinal mais forte que apareceu na
+operação até aqui. A campanha específica para o volume calculator já estava subindo.
+
+**3 · A ORIGEM DO LEAD ESTÁ SENDO PERDIDA DENTRO DO CRM.** O site tem vários pontos de
+captação, e o CRM registra a fonte de cada lead: volume calculator, Google Forms, `Call`,
+cliente repetido e indicação. **Só que o lead que entra pelo volume calculator é
+reclassificado manualmente como Google Forms depois de entrar**, e aí a origem real some.
+**Foi o administrativo quem levantou isso, por conta própria**, dizendo que atrapalha
+saber de onde o lead veio.
+
+> **COMO PEDIR A CORREÇÃO, e é com o cliente, não com o administrativo.** Nunca como
+> conserto de erro. O enquadramento é o ganho: **"para eu conseguir colocar mais
+> investimento na fonte que traz o melhor lead, preciso que a origem fique do jeito que
+> ela entrou"**. É pedido de dois minutos e desbloqueia a leitura por ponto do site.
+
+**4 · LIGAÇÃO NÃO TEM METRIFICAÇÃO AUTOMÁTICA, MAS TEM REGISTRO.** Toda ligação que chega
+é lançada no CRM com a marcação `Call`, então **dá para filtrar e contar**. O que não
+existe é a ponte com o site: ninguém sabe quantas ligações nasceram de um clique no botão
+de ligar. **O administrativo levantou exatamente esse ponto** e sugeriu medir o botão,
+lembrando que a maioria de quem liga está no celular olhando o site.
+
+> **AÇÃO DIRETA E DE CUSTO ZERO: conferir se o clique no botão de ligação do site está
+> registrado como conversão no Google Ads.** Se estiver, o cruzamento com as fichas `Call`
+> do CRM fecha o buraco de rastreio das ligações, que é o maior que existe hoje. Se não
+> estiver, subir a medição é o primeiro item.
+
+**5 · PIANO: CASO ENCERRADO, COM NÚMERO DE DENTRO DA OPERAÇÃO.** Ele atendeu as ligações
+no período e contou **oito a nove ligações pedindo transporte de piano, nenhuma
+convertida**, todas de serviço avulso e específico, do tipo que exige equipamento próprio
+e empresa especializada. **Confirma a negativação feita em 15 e 16/09** e fecha a dúvida
+que estava aberta: o volume era real e o encaixe comercial era zero.
+
+**6 · A TAXA DE CONVERSÃO DO MÊS PASSADO NÃO SERVE DE MÉTRICA, e o aviso veio de dentro da
+operação do cliente.** Houve mudança na rotina de atendimento das ligações no período, e
+foi o próprio administrativo quem contou e pediu que o mês não fosse usado como base de
+comparação. **É confundidor de operação, não de mídia.** Soma ao confundidor de canal
+orgânico de 09/09 e à baixa temporada do item 7.
+
+> **ISSO NÃO VIRA ARGUMENTO COM O CLIENTE, EM NENHUMA HIPÓTESE.** Serve para uma coisa só:
+> não tirar conclusão daquele mês. Se a taxa voltar à mesa, a resposta é **"a leitura limpa
+> começa na semana de 21 a 27/09"**, e para por aí. **Qualquer detalhe além disso devolve o
+> problema para o lado dele e queima quem falou.** O detalhe não está escrito aqui de
+> propósito.
+
+**7 · A SAZONALIDADE DO MERCADO, DITA POR QUEM ATENDE.** De julho até o fim de setembro é
+o vale do ano: menos volume e jobs menores. **Novembro e dezembro são o pico**, porque os
+contratos de aluguel são semestrais ou anuais e as pessoas se mudam antes do Natal e do Ano
+Novo. **Isso valida o alvo de fim de novembro decidido em 16/09**, agora com motivo de
+mercado e não só de calendário, e reorganiza a curva de investimento até dezembro.
+
+> **NÃO USAR SAZONALIDADE COMO EXPLICAÇÃO DE RESULTADO NA CONVERSA COM O CLIENTE.** Ele
+> conhece o ciclo dele melhor do que ninguém e vai ler como desculpa. Serve para planejar,
+> nunca para justificar.
+
+**8 · FACEBOOK CONVERTE MAIS QUE INSTAGRAM, segundo quem fala com o lead.** Ele afirmou que
+a taxa de conversão de quem efetivamente paga vem muito mais do Facebook, e descreveu o
+público que fecha como **26 a 40 anos, saindo da casa dos pais ou comprando a primeira
+casa**, com comunidades de bairro fortes no Facebook.
+
+> **É HIPÓTESE, NÃO DADO.** Ele não enxerga a conta de anúncios; o que ele enxerga é quem
+> fecha. Vale como direção de teste, não como decisão. **Quem decide é o export de
+> PLATAFORMA e POSICIONAMENTO do Meta**, pendente desde 03/08 e atrasado desde o início de
+> setembro. **Agora tem motivo forte para sair.**
+>
+> **E muda a pergunta que estava travada sobre o Meta.** A dúvida de 16/09 era pausar as
+> ligações do Meta. **A resposta não é matar, é separar plataforma**: se o Facebook carrega
+> o fechamento e o Instagram carrega o volume de ligação sem encaixe, o corte é de
+> posicionamento, não de canal. **Sem o export, nenhuma das duas coisas se prova.**
+
+**9 · MATÉRIA-PRIMA DE CRIATIVO QUE ESTÁ PARADA.** A empresa tem muitas avaliações boas no
+Google, com foto de cliente, e **nunca usou nada disso em anúncio**. Prova de terceiro no
+lugar de auto-elogio, e foi ele quem apontou a lacuna.
+
+- **A frente de criativo passou para este lado**, declarada na call: quem fazia os
+  criativos saiu da operação.
+- **Ângulo sazonal para novembro**, sugerido por ele: mudar antes do Natal e do Ano Novo,
+  passar as festas já na casa nova. Ele diz que o costume é forte na Austrália.
+- **Tese do concorrente, avaliada e recusada com motivo registrado.** Os concorrentes
+  diretos batem em criativo estático único com oferta de desconto direta, e ele levantou
+  que isso traria gente para a base para depois ser trabalhada na ligação. **Recusada
+  porque colide com o posicionamento premium** e porque puxa exatamente o perfil que caça
+  preço, que é a origem da reclamação que abriu a crise. **Fica registrada porque a tese
+  vai voltar**, e da próxima vez a resposta já está pronta.
+
+**AÇÕES, na ordem:**
+
+1. **Conferir a medição do botão de ligação do site no Google Ads.** Custo zero, fecha o
+   maior buraco de rastreio da operação.
+2. **Cobrar o export de plataforma e posicionamento do Meta**, que está atrasado e agora
+   tem hipótese para testar.
+3. **Receber o acesso ao CRM e o levantamento de julho**, prometidos para o dia seguinte
+   do lado dele. Se não chegarem até sexta 25/09, perguntar uma vez, sem insistir.
+4. **Levar ao cliente o pedido de manter a origem do lead** como ela entra, enquadrado como
+   ganho de investimento.
+5. **Pautar as avaliações do Google como base de criativo** na substituição que passou para
+   este lado.
 
 ### 16/09 · DECISÕES DA MANHÃ E TRAVAS PARA A SESSÃO DE OTIMIZAÇÃO
 
@@ -1099,8 +1220,10 @@ não reverter sozinho o que for ajustado.
 
 - **Aplicar o incremento de negativas** entregue em 17/08 na lista compartilhada
   (Fabricio executa; itens REVISAR ANTES dependem de decisão dele sobre raio e custo).
-- **Plataforma e posicionamento do Meta**: pedir no **fechamento de agosto** (início de
-  setembro). Combinado em 03/08.
+- **Plataforma e posicionamento do Meta: ATRASADO.** Era para sair no fechamento de agosto,
+  no início de setembro, combinado em 03/08, e não saiu. **Virou prioridade em 17/09**: é o
+  export que decide se o Meta se corta por posicionamento em vez de por canal. Ver o item 8
+  do bloco de 17/09.
 - **Fechamento de agosto** (início de setembro) e **invoice INV-2026-09-001** via
   `templates/invoice/`.
 
