@@ -382,10 +382,11 @@ compromisso com data, que é o que ele responde bem.
 - **Fim de novembro: a conta pronta para a temporada de dezembro.** É o alvo real do
   cliente e reorganiza as próximas dez semanas. Ver `ESTADO.md`.
 - **O cliente vai repassar os acessos do site.** Reconfirmado por ele em 16/09.
-- **Acesso ao CRM: depende de autorização dele**, pedida pelo administrativo em 17/09. Não
-  cobrar direto do cliente antes de o administrativo voltar; ele se ofereceu a levar o
-  assunto no mesmo dia. **Se não vier até sexta 25/09, perguntar uma vez, ao administrativo
-  e não ao cliente.**
+- **Acesso ao CRM: ENTREGUE em 17/09, no mesmo dia da call**, e como usuário próprio dentro
+  do workspace do cliente, não pela conta do administrativo. **Ele pediu a autorização,
+  resolveu e cumpriu em horas.** Vale registrar o padrão: quando o pedido vai com o motivo
+  explicado, esse canal entrega rápido. **Continuam pendentes do lado dele:** o levantamento
+  de julho, a lista de e-mails e os concorrentes.
 - **Valor médio de um job fechado: pedido adiado de propósito**, para depois da conversa
   com o administrativo sobre fechamentos. Pedir antes entregaria uma calculadora de ROI
   justamente na janela em que o número vai parecer ruim.

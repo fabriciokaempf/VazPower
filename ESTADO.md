@@ -22,11 +22,23 @@ vez a pendência de export, de colunas e de chave de cruzamento**, que só exist
 dado ia atravessar em arquivo. Com acesso, os estágios do funil e as datas se leem na
 fonte. Prometido para o mesmo dia, do lado dele.
 
-> **CUIDADO: o acesso vem pela conta pessoal dele.** Criar usuário novo na ferramenta
-> exige número de registro australiano, então não há login próprio por enquanto.
-> **Enquanto for assim: leitura e integração apenas, nunca editar nada dentro do CRM.**
-> Qualquer alteração aparece como sendo dele e cai no colo dele. **Usuário próprio é item
-> a resolver depois**, com calma, junto do cliente.
+> **RESOLVIDO EM 17/09, MELHOR DO QUE O COMBINADO: o acesso saiu como usuário próprio**,
+> dentro do workspace Vaz Power, e não pela conta pessoal do administrativo. **A trava de
+> "só leitura para não cair no colo dele" não se aplica mais.** Ainda assim, nada de editar
+> ficha de lead ou de job: o CRM é a operação viva do cliente e qualquer mexida atrapalha
+> quem trabalha nele.
+
+> **O CRM TEM MUITO MAIS DO QUE LEAD.** Os módulos visíveis são Dashboard, Leads, Jobs,
+> Customers, Calendar, Tracking, Storage, Invoices, Payments e Expenses. **Faturamento,
+> despesa e folha estão ali dentro.** Isso não é matéria de mídia e não há motivo nenhum
+> para entrar: **usar Leads, Jobs, Customers e Calendar, e ficar fora de Invoices, Payments,
+> Expenses e qualquer coisa de folha.** Ter acesso não é o mesmo que ter assunto ali, e
+> distância desse lado protege os dois.
+
+> **O VALOR MÉDIO DE JOB PASSA A SER ALCANÇÁVEL SEM PEDIR, e isso não libera falar em ROI.**
+> Em 16/09 ficou decidido não abrir conversa de ROI com o cliente antes de a conta estar
+> enxuta e performando, e essa decisão continua de pé. **O número agora serve para uso
+> interno: calcular o alvo de CPA de verdade em vez de trabalhar com CPA solto.**
 
 **2 · A MELHOR FONTE DE LEAD DO SITE É O VOLUME CALCULATOR**, e a confirmação veio por
 caminho independente. Nas palavras dele, o lead que vem dali **tem qualidade maior do que
