@@ -1265,8 +1265,12 @@ conta fechou às 11h BRT e vem completo.
 > 10 cair perto de uma quinta.** Vale mirar o vencimento na primeira quinta após o dia 10,
 > que é mais eficaz do que cobrar.
 >
-> **A invoice de setembro foi paga sem nova cobrança**, por iniciativa dele, no momento em
-> que a confiança na entrega voltou. **Segurar a segunda cobrança foi o que funcionou.**
+> **CORREÇÃO DE 18/09: o que houve em 16/09 foi COMPROMISSO, não pagamento.** Por
+> iniciativa dele e sem nova cobrança, no momento em que a confiança na entrega voltou, ele
+> escreveu *"te mandando o $ amanhã que recebo do stripe (toda quinta)"*. **Segurar a
+> segunda cobrança foi o que produziu esse compromisso**, e isso continua valendo como
+> método. **Mas a quinta 17/09 passou sem o pagamento entrar**, e o registro anterior dizia
+> "paga", o que induziria qualquer sessão futura ao erro.
 
 > **NÚMERO A CORRIGIR COM FATO, NÃO COM DISCUSSÃO.** Em 16/09 o cliente falou em
 > "A$50.000 para o lixo em 6 semanas". **O investimento em mídia nessas seis semanas foi da
@@ -1275,10 +1279,12 @@ conta fechou às 11h BRT e vem completo.
 > calor da conversa.** O lugar de desfazer isso é a posição de **26/09**, abrindo o
 > investimento real do período. O número fala sozinho e ninguém precisa dizer que o outro
 > errou. **Se esse valor virar a versão aceita, ele volta em novembro como "você queimou
-> 50 mil".** **O vencimento tem de aparecer escrito na
-própria invoice e na mensagem que a acompanha**, para ser informação de rotina e não
-precisar ser invocado depois. Prazo lembrado de memória, trazido no meio de uma cobrança,
-vira discussão sobre o que foi combinado em vez de pagamento.
+> 50 mil".**
+
+**O vencimento tem de aparecer escrito na própria invoice e na mensagem que a acompanha**,
+para ser informação de rotina e não precisar ser invocado depois. Prazo lembrado de
+memória, trazido no meio de uma cobrança, vira discussão sobre o que foi combinado em vez
+de pagamento.
 Emitidas até aqui: 06-001 (serviço de maio), 07-001, 08-001. Próxima: **INV-2026-09-001**.
 Template em `templates/invoice/`, dados sensíveis fora do git.
 

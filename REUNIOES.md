@@ -237,6 +237,40 @@ frequência semanal às segundas com a semana anterior, os três campos que o pr
 listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
 lançamento atrasado para o valor não cair em mês errado.
 
+### Enviado ao Vaz em 18/09, em duas mensagens · entrega da semana e lembrete da invoice
+
+Em 16/09, por iniciativa própria e sem cobrança, o cliente escreveu que mandaria o
+pagamento na quinta 17/09, junto do recebimento semanal dele. **A quinta passou e o
+pagamento não entrou.** O lembrete foi enviado na sexta 18/09.
+
+**A leitura de fuso que definiu a hora de mandar:** Brisbane está 13 horas à frente, então
+**a quinta-feira 17 terminou lá às 11h da manhã do dia 17 aqui**. O ciclo de caixa dele já
+tinha fechado inteiro antes mesmo do fim da quinta no Brasil. **Lembrar depois disso não é
+antecipar nada**, e essa conta evita tanto cobrar cedo quanto deixar arrastar.
+
+**A construção das duas mensagens:**
+
+- **Entrega primeiro, invoice por último e em mensagem separada.** A primeira mensagem
+  trouxe a call com o administrativo, o acesso ao CRM já resolvido, a confirmação do
+  volume calculator e o caso do piano fechado com a barreira aplicada. **A segunda, curta,
+  tratou da invoice.**
+- **A âncora é a fala dele, não o vencimento.** O texto retoma o que ele mesmo escreveu
+  sobre a quinta. **O combinado do dia 10 ficou de fora de propósito**, porque prazo
+  lembrado de memória no meio de uma cobrança vira discussão sobre o que foi combinado.
+- **Saída sem constrangimento:** "se já saiu, me confirma que eu dou baixa aqui". Abre a
+  possibilidade de o pagamento já ter saído e ninguém fica em posição ruim.
+- **Pedido de data, não de urgência:** "me diz o dia que eu me organizo". Tira um
+  compromisso com data em vez de deixar em aberto.
+- **O crédito do volume calculator voltou para ele**, porque a sugestão foi dele em 15/09 e
+  o administrativo confirmou por caminho independente. **É o movimento que mais funcionou
+  com esse cliente até aqui.**
+
+**SE NÃO HOUVER RESPOSTA, NÃO REPETIR ANTES DE QUINTA 24/09.** O ciclo de caixa é semanal e
+cai na quinta: cobrar no meio do ciclo não muda nada e só gasta a relação. **E a posição
+completa do ajuste cai na sexta 26/09**, dois dias depois dessa quinta. **Se escorregar de
+novo, o lembrete pega carona na entrega de 26/09**, em uma linha no fim, em vez de virar
+mensagem própria de cobrança pela terceira vez.
+
 ### 17/09 · a call com o Victor aconteceu e a relação virou fonte de dado
 
 **1h04, com tela compartilhada do CRM**, quinta 17/09 às 19h BRT, que é sexta 18/09 de
