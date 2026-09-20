@@ -64,10 +64,14 @@ Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & 
 
 ## Pendências combinadas
 
-- **Fechamento de agosto/2026 (início de setembro): pedir os exports de PLATAFORMA e
-  POSICIONAMENTO do Meta** (Facebook vs Instagram; Feed vs Stories vs Reels). Combinado
-  em 03/08: o Fabricio puxa "só no mês que vem" e pediu para ser lembrado. Detalhes no
-  skill `metricas-trafego-2026`.
+- **Export de POSICIONAMENTO do Meta** (Reels vs Feed): entra no pacote semanal. Na
+  exportação, a segmentação precisa ser "Posicionamento", não "Dispositivo" (na S16 veio
+  o arquivo errado com o nome certo).
+- **Export por PLATAFORMA (Facebook vs Instagram) NÃO resolve**: a campanha imprime só no
+  Facebook mesmo com o Instagram selecionado. Testar plataforma exige um conjunto de
+  anúncios por plataforma. Encerrado em 20/09.
+- **Ao cliente vai resultado e decisão.** Nada de teste, negativa, lance, tipo de público
+  ou estrutura nos dashboards e mensagens. Mecânica fica em `ESTADO.md`.
 
 ## Skills do projeto
 

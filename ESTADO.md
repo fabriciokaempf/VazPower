@@ -10,6 +10,54 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+### 20/09 · SEMANA 16 MONTADA · REGISTRO DOS MOVIMENTOS DA REENGENHARIA (datas)
+
+**Dashboard da S16 (14 a 20/09) montado em `setembro-14-20/`, aguardando validação do
+bloco de ação para publicar.** A$1.812,90 | 44 leads (20 formulários + 24 ligações) |
+CPL A$41,20. Google A$1.291,95 · 25 conv · A$51,68 | Meta A$520,95 · 19 lig · A$27,42.
+**Formulários sobre o total: 45,5%, contra 37,7% na S15.** Formulários mantidos em 20 com
+34,7% menos investimento; o que saiu foi ligação (33 -> 24). CPL caiu 21,3%.
+Antes e depois (14-16 vs 17-20/09): A$662,85/13 conv (A$50,99) vs A$629,10/12 (A$52,43).
+
+**DATAS DOS MOVIMENTOS, informadas pelo Fabricio em 20/09 a partir da memória da sessão
+de otimização (não estavam no repositório):**
+
+| Data (BRT) | Movimento |
+|---|---|
+| 13/09 | **PMax pausada** (rastro de A$9,75 e 53 impr em 14/09 Brisbane) |
+| 16/09 | **LP Form A/B pausada** (rodou 14 e 15/09: A$64,01, 276 impr, 2 conv) |
+| 16/09 | **Meta Ligações: A$94,98 -> A$78,98/dia, público virou Advantage+** |
+| 17/09 | **Orçamentos Google:** FRONT A$174,98, SUPORTE A$120,98, BRAND A$148,98, MADRUGA A$148,98 |
+| 19/09, 10h BRT (23h Brisbane) | **ROTAS ativada**: `ROTAS - Search \| Crie@tive \| Brisbane To + Calculadora - SITE` (ID 24266345174), rotas Brisbane -> Gold Coast, Sunshine Coast, Sydney, Melbourne, interestadual e calculadora de volume. A$80/dia, Maximizar conversões sem alvo. Na S16 teve ~1h de 19/09 e o 20/09 inteiro (A$4,25 + A$159,94, 1 conv) |
+
+> A nota da S15 dizia "PMax e LP Form pausadas em 16/09". **Corrigido: a PMax saiu em
+> 13/09.** A linha de corte da reengenharia continua sendo 16/09 (data da decisão).
+
+**Teto da conta:** A$15 mil/mês, condicionado a lead e CPA saudáveis, decisão do Fabricio
+em 07/09 (registrado antes como 08/09; vale 07/09).
+
+> **REGRA DE COMUNICAÇÃO, dada em 20/09:** dashboard e mensagens ao cliente ficam no
+> **nível de resultado e decisão**. Mecânica de conta (testes, negativas, lances, tipo de
+> público, fase de aprendizado, estrutura) fica no registro interno. **O dashboard agora vai
+> no privado do Rodrigo e no grupo de backup com o Vaz e o Victor.** Aplicado na S16: o
+> bloco de ação descreve o que saiu, o que entrou e quando, sem estratégia de lance nem
+> Advantage+. A faixa "Gestão contínua" ainda lista negativas e lances: decisão pendente.
+
+> **META POR PLATAFORMA: PENDÊNCIA ENCERRADA em 20/09.** O export não separa Facebook de
+> Instagram porque **a campanha imprime só no Facebook mesmo com o Instagram selecionado**.
+> Para testar a hipótese do administrativo (Facebook converte mais), seria preciso **isolar
+> cada plataforma em um conjunto de anúncios próprio**. Fica como decisão de estrutura, não
+> de export. O arquivo de **posicionamento** desta semana veio idêntico ao de dispositivos
+> (mesmas colunas), então a S16 sai sem esse quadro.
+
+> **FUSO, DE NOVO, PORQUE APARECEU INVERTIDO NA MEMÓRIA DA OUTRA SESSÃO.** Brisbane está
+> **13h à frente**. O domingo 20/09 de Brisbane vai de 11h BRT de sábado 19/09 a 11h BRT de
+> domingo 20/09. **Fecha às 11h de domingo, não de segunda.** Export puxado às 20h BRT de
+> domingo (9h de segunda em Brisbane) traz o domingo completo. A afirmação "o domingo de lá
+> só fecha às 11h de segunda em Brasília" está errada e precisa ser corrigida na memória
+> da pasta de otimização. A regra certa está em `CLAUDE.md`.
+
+
 ### 17/09 · CALL COM O ADMINISTRATIVO · O QUE MUDA NA OPERAÇÃO DE MÍDIA
 
 Call de 1h04 com tela compartilhada do CRM, na quinta 17/09 às 19h BRT, que é sexta 18/09
@@ -1173,6 +1221,7 @@ movers", "near me", marca Vaz Power.
 | 13 | 24-30/08 | A$1.436 | 48 | **A$29,92** |
 | 14 | 31/08-06/09 | A$2.481 | **78** | A$31,81 |
 | 15 | 07-13/09 | A$2.776 | 53 | A$52,37 |
+| 16 | 14-20/09 | A$1.813 | 44 | A$41,20 |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).
