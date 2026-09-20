@@ -12,8 +12,10 @@ numérica corrigida).
 
 ### 20/09 · SEMANA 16 MONTADA · REGISTRO DOS MOVIMENTOS DA REENGENHARIA (datas)
 
-**Dashboard da S16 (14 a 20/09) montado em `setembro-14-20/`, aguardando validação do
-bloco de ação para publicar.** A$1.812,90 | 44 leads (20 formulários + 24 ligações) |
+**Dashboard da S16 (14 a 20/09) PUBLICADO em `setembro-14-20/` em 20/09**, bloco de ação
+validado pelo Fabricio. Faixa "Gestão contínua" mantida por ser genérica (decisão dele).
+**Mensagem ao Vaz: escrita, aguardando envio.** Vai no privado do Rodrigo e no grupo de
+backup com Vaz e Victor. A$1.812,90 | 44 leads (20 formulários + 24 ligações) |
 CPL A$41,20. Google A$1.291,95 · 25 conv · A$51,68 | Meta A$520,95 · 19 lig · A$27,42.
 **Formulários sobre o total: 45,5%, contra 37,7% na S15.** Formulários mantidos em 20 com
 34,7% menos investimento; o que saiu foi ligação (33 -> 24). CPL caiu 21,3%.
@@ -41,14 +43,19 @@ em 07/09 (registrado antes como 08/09; vale 07/09).
 > público, fase de aprendizado, estrutura) fica no registro interno. **O dashboard agora vai
 > no privado do Rodrigo e no grupo de backup com o Vaz e o Victor.** Aplicado na S16: o
 > bloco de ação descreve o que saiu, o que entrou e quando, sem estratégia de lance nem
-> Advantage+. A faixa "Gestão contínua" ainda lista negativas e lances: decisão pendente.
+> Advantage+. A faixa "Gestão contínua" segue listando negativas e lances: **o Fabricio decidiu manter,
+> por ser genérica.**
 
 > **META POR PLATAFORMA: PENDÊNCIA ENCERRADA em 20/09.** O export não separa Facebook de
 > Instagram porque **a campanha imprime só no Facebook mesmo com o Instagram selecionado**.
 > Para testar a hipótese do administrativo (Facebook converte mais), seria preciso **isolar
 > cada plataforma em um conjunto de anúncios próprio**. Fica como decisão de estrutura, não
-> de export. O arquivo de **posicionamento** desta semana veio idêntico ao de dispositivos
-> (mesmas colunas), então a S16 sai sem esse quadro.
+> de export. O primeiro arquivo de **posicionamento** da semana veio idêntico ao de dispositivos;
+> o Fabricio reexportou e a S16 saiu com o quadro. **Achado: o Meta encareceu no Feed, não
+> no Reels.** Reels 16 lig a A$20,08 (S15: A$19,85), 62% da verba; Feed 3 lig a A$63,96
+> (S15: A$33,06), 37% da verba; Marketplace A$7,85 sem resultado. A razão Feed/Reels abriu
+> de 1,7x para 3,2x com o público novo. Meta por dispositivo: iPhone 14 a A$18,85 (140
+> cliques), Android 5 a A$51,20 (30 cliques).
 
 > **FUSO, DE NOVO, PORQUE APARECEU INVERTIDO NA MEMÓRIA DA OUTRA SESSÃO.** Brisbane está
 > **13h à frente**. O domingo 20/09 de Brisbane vai de 11h BRT de sábado 19/09 a 11h BRT de
