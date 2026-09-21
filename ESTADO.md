@@ -14,8 +14,21 @@ numérica corrigida).
 
 **Dashboard da S16 (14 a 20/09) PUBLICADO em `setembro-14-20/` em 20/09**, bloco de ação
 validado pelo Fabricio. Faixa "Gestão contínua" mantida por ser genérica (decisão dele).
-**Mensagem ao Vaz: escrita, aguardando envio.** Vai no privado do Rodrigo e no grupo de
-backup com Vaz e Victor. A$1.812,90 | 44 leads (20 formulários + 24 ligações) |
+**Mensagem ao Vaz ENVIADA em 20/09**, no privado do Rodrigo e no grupo de backup com Vaz
+e Victor. **Ciclo da S16 fechado.**
+
+> **O QUE FOI DITO AO CLIENTE NA MENSAGEM DA S16 (não contradizer depois):** investimento
+> caiu 35% por decisão; paramos de investir no que trazia lead a custo mais alto e sem
+> fechamento; busca concentrada no site; frente nova para rotas e calculadora, sem leitura
+> ainda; formulários mantidos em 20 com proporção de 38% para 45%; CPL caiu 21% "quando o
+> esperado era subir", com "é uma semana só" na mesma frase; leitura limpa começa em 21/09;
+> no Meta o custo subiu no Feed (A$33 -> A$64) e não no Reels (A$20), e é o ponto a
+> acompanhar; **posição completa na sexta, 26/09**. Nenhuma campanha nomeada na mensagem.
+> Nada de piano, negativa, lance, público ou estrutura.
+
+**Próximos compromissos:** posição completa do ajuste em **26/09** (sexta); dashboard da
+**Semana 17 (21 a 27/09)**, primeira semana inteira na configuração nova, que abre a
+leitura limpa; invoice **INV-2026-10-001** no início de outubro. A$1.812,90 | 44 leads (20 formulários + 24 ligações) |
 CPL A$41,20. Google A$1.291,95 · 25 conv · A$51,68 | Meta A$520,95 · 19 lig · A$27,42.
 **Formulários sobre o total: 45,5%, contra 37,7% na S15.** Formulários mantidos em 20 com
 34,7% menos investimento; o que saiu foi ligação (33 -> 24). CPL caiu 21,3%.

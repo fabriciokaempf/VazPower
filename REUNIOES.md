@@ -563,6 +563,11 @@ Mensagem própria, separada do fechamento de semana e separada da frente de marc
 - **Qualquer coisa da proposta de marca.** Frente separada, mensagem separada, como ficou
   combinado em 09/09.
 
+> **SEMANA 16 (14 a 20/09): dashboard publicado e mensagem enviada em 20/09**, no privado
+> do Rodrigo e no grupo de backup com Vaz e Victor. Nível de resultado e decisão, sem
+> mecânica. Reafirmada a **posição completa de sexta, 26/09**. Registro do que foi dito em
+> `ESTADO.md`, bloco da S16.
+
 > **COMPROMISSO DE DOMINGO, 13/09: CUMPRIDO.** Dashboard da Semana 15 publicado em
 > `setembro-07-13/` e mensagem enviada ao Vaz no mesmo dia, só sobre volume de lead, sem
 > promessa de cruzamento, como estava combinado. O que foi dito sobre orçamento está
