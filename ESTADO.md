@@ -57,6 +57,27 @@ em 07/09 (registrado antes como 08/09; vale 07/09).
 > de 1,7x para 3,2x com o público novo. Meta por dispositivo: iPhone 14 a A$18,85 (140
 > cliques), Android 5 a A$51,20 (30 cliques).
 
+> **PIANO NÃO PAROU. Export de termos de pesquisa de 14 a 20/09, filtrado em "piano":**
+> **18 termos, 75 impressões, 7 cliques, A$122,67, 3 conversões (A$40,89)**, tudo na
+> SUPORTE. É **21% das impressões, 32% do gasto e 3 das 9 conversões da SUPORTE** na semana.
+> Dois sinais de que a negativação de 15 e 16/09 não alcançou a campanha:
+> 1. **Nenhum termo aparece como "Excluído"** na coluna Adicionada/excluída; todos "Nenhum".
+> 2. **`piano movers brisbane` segue como palavra-chave EXATA ATIVA ("Adicionado")** no
+>    grupo `03 - Furniture Removalists`, com 5 impressões na semana. Os outros 17 termos
+>    entram por correspondência ampla, 15 deles no grupo `01 - House Movers Brisbane`.
+>
+> O export é agregado da semana, então **não dá para afirmar se algo rodou depois de 16/09**.
+> Para fechar: (a) o mesmo relatório segmentado por dia, ou (b) conferir na conta se existe
+> negativa "piano" em nível de campanha na SUPORTE e se a exata `[piano movers brisbane]`
+> do grupo 03 está pausada. Se a negativa existir em campanha e a exata estiver pausada, as
+> 75 impressões são todas de 14 e 15/09 e o caso está encerrado. Se não, o piano segue.
+>
+> **Leitura interna da S16 sem piano** (não vai ao cliente): Google A$1.169,28 / 22 conv /
+> **A$53,15**; SUPORTE A$262,74 / 6 conv / A$43,79 (ainda melhor que a S15); conta inteira
+> A$1.690,23 / 41 leads / A$41,23. A base limpa de referência era A$60,21; a S16 ficou abaixo.
+> **O dashboard publicado mostra os 9 da SUPORTE porque é o que a conta reporta**; a
+> qualidade se resolve no cruzamento com o CRM, e o piano não é assunto com o cliente.
+
 > **FUSO, DE NOVO, PORQUE APARECEU INVERTIDO NA MEMÓRIA DA OUTRA SESSÃO.** Brisbane está
 > **13h à frente**. O domingo 20/09 de Brisbane vai de 11h BRT de sábado 19/09 a 11h BRT de
 > domingo 20/09. **Fecha às 11h de domingo, não de segunda.** Export puxado às 20h BRT de
