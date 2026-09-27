@@ -563,6 +563,11 @@ Mensagem própria, separada do fechamento de semana e separada da frente de marc
 - **Qualquer coisa da proposta de marca.** Frente separada, mensagem separada, como ficou
   combinado em 09/09.
 
+> **SEMANA 17 (21 a 27/09): dashboard publicado e mensagens enviadas em 27/09.** Ao Vaz (privado
+> e grupo de Dashboards) e ao Victor (grupo Tráfego e Leads). Primeira semana com o cruzamento
+> CRM x anúncios no dashboard. Compromissos: plano de criativos do Meta na semana de 28/09; os
+> acessos de 21/09 mencionados de passagem. Registro do que foi dito em `ESTADO.md`, bloco da S17.
+
 > **SEMANA 16 (14 a 20/09): dashboard publicado e mensagem enviada em 20/09**, no privado
 > do Rodrigo e no grupo de backup com Vaz e Victor. Nível de resultado e decisão, sem
 > mecânica. Reafirmada a **posição completa de sexta, 26/09**. Registro do que foi dito em

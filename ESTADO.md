@@ -11,7 +11,26 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
-### 27/09 · SEMANA 17 (21 a 27/09) PUBLICADA em `setembro-21-27/`
+### 27/09 · SEMANA 17 (21 a 27/09) PUBLICADA em `setembro-21-27/` · MENSAGENS ENVIADAS · CICLO FECHADO
+
+> **O QUE FOI DITO AO CLIENTE EM 27/09 (mensagem 1, privado do Rodrigo e grupo de Dashboards):**
+> objetivo da semana = provar a configuração nova pela medida combinada; resultado 37 formulários,
+> 65%, 14 reservas; investimento +73% sem teto novo; CPL A$55,03 concentrado na FRONT, "que passou
+> a alcançar um público maior, de propósito, para descobrir em qual faixa está o lead que fecha";
+> frente de rotas 13 conversões a A$45,47, "é o próximo passo"; **CRM x anúncios pela primeira
+> vez, com lugar fixo no dashboard: 18 agendamentos contra 12; as 13 fichas da calculadora ainda
+> novas no CRM, "primeiro lugar para olhar"; cruzamento hoje manual e por origem, "com os acessos
+> que te pedi passa a dizer de qual campanha cada lead veio"**; Meta filtrado por decisão, 16
+> ligações a A$33,59, criativos novos direcionados e para remarketing "esta semana eu te passo
+> esse plano". **Compromissos assumidos:** plano de criativos do Meta ao Vaz na semana de 28/09;
+> orçamento para a ROTAS como próximo passo (condicionado à resposta do Victor).
+>
+> **Mensagem 2, ao Victor no grupo Tráfego e Leads:** as duas perguntas com número (13 fichas em
+> New: atendidas por fora ou ainda não; 10 perdidos: quantos não atenderam e quantos travaram no
+> valor), com o pedido de marcar motivo de perda no CRM daqui em diante. **Aguardando resposta.**
+> A mensagem 3 (cobrança dos acessos no privado) não foi enviada; a 1 já menciona.
+
+
 
 **A$3.136,70 | 57 leads (37 formulários + 20 ligações) | CPL A$55,03**
 Google A$2.599,29 · 41 conv (40,98) · A$63,42 · toda em Search, sem resíduo | Meta A$537,41 · 16 lig · A$33,59
@@ -1531,7 +1550,7 @@ movers", "near me", marca Vaz Power.
 | 14 | 31/08-06/09 | A$2.481 | **78** | A$31,81 |
 | 15 | 07-13/09 | A$2.776 | 53 | A$52,37 |
 | 16 | 14-20/09 | A$1.813 | 44 | A$41,20 |
-| 17 | 21-27/09 | A$3.137 | 57 | A$55,03 |
+| 17 | 21-27/09 | A$3.137 | 57 | A$55,03 | 18 agendamentos no CRM (S16: 12) |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).
