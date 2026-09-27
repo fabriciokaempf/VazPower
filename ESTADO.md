@@ -73,8 +73,8 @@ FRONT, não a cesta.
 > para este lado em 17/09, quando quem fazia saiu da operação). Direção declarada por ele:
 > **anúncios direcionados e assertivos, principalmente para remarketing**, que é o caminho já
 > previsto ("Meta vira remarketing, não aquisição fria"). **Ele vai levar o assunto ao Vaz na
-> semana de 28/09**; por isso o dashboard da S17 não antecipa nada além de "criativos novos
-> entram". Quando estiver combinado com o cliente, entra no dashboard como decisão.
+> semana de 28/09**, e pediu que já entrasse no dashboard da S17: próximo passo "criativos novos
+> no Meta, direcionados e assertivos, principalmente para remarketing", como o que muda o jogo.
 
 > **A SUPORTE dobrou o uso do orçamento (46% → 91%) por gasto e clique, não por impressão:**
 > CPC A$17,52 → A$19,17, cliques 22 → 40, picos em 22/09 (A$184,52) e 24/09 (A$239,92), impressões
