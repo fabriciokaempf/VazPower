@@ -1,7 +1,8 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **17/09/2026** (call com o administrativo: acesso ao CRM, fonte de melhor lead
+Atualizado em **27/09/2026** (sessão de otimização: 21 a 23/09, cesta de conversão e público da FRONT mudaram dentro da S17).
+Antes disso, 17/09 (call com o administrativo: acesso ao CRM, fonte de melhor lead
 identificada e buraco de rastreio das ligações).
 Antes disso, 31/08 à noite (verificação adversarial: as três hipóteses caíram; base
 numérica corrigida).
@@ -9,6 +10,82 @@ numérica corrigida).
 ---
 
 ## 0. ESTADO ATUAL (retomar daqui)
+
+### 21 a 23/09 · SESSÃO DE OTIMIZAÇÃO · DUAS MUDANÇAS DENTRO DA SEMANA 17 (ler antes de montar o dashboard)
+
+> **Registro escrito em 27/09 pela sessão de otimização.** Cobre 21 a 23/09, tudo conferido no painel.
+> **LACUNA DECLARADA: de 24 a 27/09 esta sessão não acompanhou a conta.** Se a posição de 26/09 prometida ao cliente foi entregue, ou se as leituras daqueles dias geraram decisão, isso não está aqui.
+
+#### A. A "LEITURA LIMPA" DA S17 TEM DUAS MUDANÇAS DENTRO
+
+O bloco de 20/09 diz que a Semana 17 (21 a 27/09) é a primeira inteira na configuração nova e abre a leitura limpa. **Duas mudanças entraram no meio dela:**
+
+| Data (Brisbane) | Mudança | Efeito no número |
+|---|---|---|
+| **22 para 23/09** | **`Click to call (Website/LP)` virou `Click to call (Website)` e passou de Principal para Ação secundária.** O clique no link `tel:` do site deixou de contar como conversão | **o total de conversões CAI sem nada ter piorado**, e o CPA sobe junto. Eram 19 de 134 conversões em agosto. A S16 caiu de 25 para 23 no instante em que a mudança foi salva |
+| 22 para 23/09 | Formulário de lead do Google `Online Quote Request` **PAUSADO** na conta e em FRONT, BRAND, SUPORTE e MADRUGA (sempre Pausar, nunca Remover: o recurso está em 13 campanhas) | some a origem "Hospedado pelo Google". Ele gastava sem ter rota de entrega: sem CRM, sem webhook, só CSV que o Google apaga em 30 dias |
+| **24/09** | **Público da FRONT destravado** em idade e renda (bloco C) | tende a **subir** volume da FRONT |
+
+**Como ler a S17, e isso não é opcional:**
+
+- Comparar **leads de formulário do site por dia**, nunca o total da tela.
+- **Base travada de 14 a 20/09:** 20 leads de formulário do site (2,86/dia), A$1.291,95 (A$184,56/dia), **CPA A$64,60 sobre essa base**.
+- **Guarda-corpo pré-registrado:** queda acima de 30% nos leads de formulário do site e a mudança da cesta reverte.
+- A cesta de conversão mudou **duas vezes** em 2026: a Book Form Submit entrou em 26/08 e o clique no telefone saiu em 22/09. Série que atravesse essas datas compara coisas diferentes.
+- **Para o cliente, isso é mecânica.** Pela regra de 20/09, não vai no dashboard como explicação. Se o CPA da S17 subir, a leitura interna tem de separar o efeito da cesta antes de qualquer frase ao cliente.
+
+#### B. O QUE O GOOGLE MOSTRA DA FRONT DEPOIS DE 22/09
+
+**Destino:** nos últimos 30 dias a FRONT mandou **83% do investimento para o site** (A$966,56) e 5% para a LP (A$58,59). Existe um anúncio residual por grupo apontando para a LP, com entrega quase zero; sai na consolidação de 30/09. **Regra que nasceu de um erro corrigido em 22/09:** destino de campanha se confere em Insights e relatórios, Páginas de destino, filtrando pela campanha. Nunca pela coluna de URL da lista de anúncios, que mostra o anúncio e não o tráfego.
+
+**Duplicação FRONT e SUPORTE parte o índice de qualidade:** `"removalists"` tem **6 na FRONT e 3 na SUPORTE**; `[removalist]` tem 4 e 3. Perda por classificação em 14 a 20/09: **FRONT 60,26%, SUPORTE 66,62%**, zero por orçamento. CTR esperada abaixo da média em 33,4% do gasto; experiência na página acima da média em 75,4%, ou seja, **o site não é o problema**.
+
+#### C. PÚBLICO DA FRONT DESTRAVADO EM 23/09 (BRT)
+
+A conferência de heranças do histórico de alterações virou aplicação, por decisão do Fabricio. **Estavam excluídas três faixas etárias de seis** (18 a 24, 25 a 34 e +65), mais a **"Desconhecida" de idade** nos grupos 01, 02 e 03 e a **"Desconhecida" de renda nos quatro grupos**. Para ver o anúncio, a pessoa precisava ter idade determinada, estar entre 35 e 64, ter renda determinada e estar no top 20%. Os grupos 01, 02 e 03 somavam **1 clique em 30 dias**, e o próprio Google avisava: "só está qualificada para veicular anúncios para um público-alvo limitado".
+
+**Reativadas nos 4 grupos e conferidas na tabela:** 25 a 34, +65, Desconhecida de idade e Desconhecida de renda. **18 a 24 segue excluída.** Nenhum lance, orçamento ou palavra foi tocado.
+
+**A régua de renda premium ficou intacta, e o dado a valida:** os 10% de maior renda deram **15 das 17 conversões a A$60,85**; a faixa de 11 a 20% custou **A$94,63**.
+
+**Base travada, 25/08 a 22/09:** 55 cliques, 680 impressões, 17 conversões, CPA A$65,30. Por idade: 35 a 44 com 9 conversões a A$55,43; 45 a 54 com 6 a A$69,32; 55 a 64 com 2 a A$69,06. **Leitura em 28/09 às 15h, faixa por faixa** (a tela de Públicos-alvo segmenta). Faixa reativada com CPA muito fora de A$55 a A$70 sai sozinha.
+
+**Pendência menor:** igualar a régua de renda dos grupos 02 e 03 ao grupo 00 (excluir 21 a 30% e 31 a 40%) ficou por fazer, porque a interface caiu no meio. O grupo 01 foi salvo mas não reconferido. Efeito prático nulo hoje.
+
+**Heranças do histórico de alterações da FRONT** (185 alterações em dois anos: 116 do login do Ricardo, 67 do Fabricio, 2 do Rodrigo): a FRONT nasceu em 16/10/2025; o alvo foi remexido doze vezes entre dezembro e maio; **o Rodrigo alterou o CPA desejado da FRONT em 03/04/2026, duas vezes em quatro minutos**; os ajustes de lance por dia e hora de 25/02 não existem mais.
+
+#### D. O QUE FOI DITO AO CLIENTE EM 23/09 (não contradizer depois)
+
+**Canal novo:** grupo **"Vaz Power AUS - Backup | Tráfego e Leads"**, com o Victor. Decisão do Fabricio em 23/09: **assunto de tráfego e lead fica nesse grupo daqui em diante.** O grupo de Dashboards continua para o dashboard semanal. Decisão de dono (acessos, contratação, dinheiro) vai no privado do Rodrigo, mesmo que o assunto tenha nascido na conversa técnica.
+
+1. **No grupo de Dashboards, respondendo ao Rodrigo sobre um lead de Rockhampton:** não há anúncio rodando fora da área. Hoje (23/09) foram 17 cliques e A$247,33, todos na grande Brisbane; nos 30 dias anteriores, 34 localidades, 263 cliques e A$3.751,80, **Rockhampton nenhuma vez**. O lead estava marcado como "Local Move", o que aponta para mudança dentro de Rockhampton, provavelmente orgânico. Ao Victor foi dito por que cruzar horário de conversão do Analytics com a chegada do lead não prova origem (5 conversões no dia; o Ads registra no horário do clique; Analytics e Ads atribuem diferente) e que a solução é o gclid chegar no formulário. **Pedido ao Victor:** telefone e e-mail de lead ruim, para cruzar na conta. **Não mencionado:** Logan City teve 3 cliques e A$24,91 em 30 dias mesmo excluída, borda de geolocalização.
+2. **No grupo de Tráfego e Leads, ao Victor, sobre criativo de IA contra imagem:** IA é ferramenta de produção, não formato; o que move clique é formato, ângulo e oferta; teste "IA contra imagem" mistura variáveis; o gargalo do Meta é desgaste (entrega só no Facebook, repetição) e a leva nova vai testar ângulo contra ângulo. O Fabricio acrescentou que a Meta tem penalizado produtores de conteúdo por uso massivo de IA. **Nota interna:** a penalização vale para monetização de conteúdo orgânico; em anúncio pago o risco real é **IA não declarada** (terceira causa de rejeição, com strike) e **UGC com ator de IA simulando cliente real sem Partnership Ads**, que conta como prática enganosa. Isso muda o briefing da leva de criativos, não o método.
+3. **No privado do Rodrigo, sobre a empresa de IA e os acessos:** apoio à automação de follow up, ancorado no que ele quer (mais lead e lead melhor); pedido para entrar na conversa com a empresa **antes de mexerem no Movermate**; pedido da **data de entrada no ar**; lembrete dos dois acessos de 21/09. Frase que foi cortada antes do envio e não deve voltar: "o gargalo não está em gerar lead".
+
+#### E. DOIS ACHADOS QUE NÃO SÃO DE MÍDIA E VALEM PARA TODAS AS FRENTES
+
+1. **Todo lead do Cost Estimator é copiado para `ppc@bambrick.com.au`.** Verificado em 23/09: Bambrick Media Pty Ltd, Level 24/12 Creek Street, Brisbane, agência com Google Ads entre os serviços principais. Os outros destinatários são a própria operação e `costestimatorvaz@robot.zapier.com`. Provável herança de gestão anterior. **Comunicado ao Rodrigo em 23/09, aguardando decisão.** Remover depende do acesso ao WordPress.
+2. **O Rodrigo está contratando uma empresa de IA para follow up e mensagens automatizadas**, inclusive fora do horário comercial. Dito por ele em áudio de 22/09 (transcrição em `Vaz Power/Transcricao Audio Rodrigo - 22.09.2026.md`). O nome não ficou claro no áudio ("Western AI" ou "VEGTI"); **não usar sem confirmar**. Ataca o gargalo certo, mas é **confundidor de outubro** e **risco sobre o sinal de A$150**: se mexerem no Movermate sem alinhar, a cadeia do job fechado voltando para o Google quebra.
+
+**Leitura de maio a setembro, fechada em 22/09** (`Vaz Power/Leitura 4 a 6 meses - Vaz Power - 22.09.2026.md`): maio A$9.426,82 / 150 leads / A$62,85; junho A$8.737,42 / 137 / A$63,78; julho A$9.673,82 / 152 / A$63,64; **agosto A$10.062,52 / 134 / A$75,09**; 01 a 20/09 A$5.124,38 / 82 / A$62,49. O custo por lead não vem subindo; só agosto saiu da curva. A queda de qualidade veio da **origem** (em agosto 32 de 134 leads eram da LP de formulário curto, a A$107,31 contra A$53,93 do site). Busca com preço é só **1,6% do gasto**.
+
+#### F. AGENDA
+
+| Quando (Brasília) | O quê |
+|---|---|
+| **28/09, 9h** | 43 negativas |
+| **28/09, 15h** | Leitura das reativações de público da FRONT, faixa por faixa |
+| **30/09, 15h** | **Consolidação FRONT e SUPORTE** (fica a FRONT, pelo histórico: A$57.107,87 e 908 conversões contra A$9.157,44). Migram `moving services brisbane` e `local movers brisbane`; SUPORTE pausada; FRONT de A$174,98 para A$295,96/dia; anúncios novos; prova social de "1700+" para "2,400+". Plano em `Vaz Power/Consolidacao FRONT SUPORTE e Anuncios - 22.09.2026.md` |
+| **01/10** | Rampa de alta temporada |
+| **05/10** | Remessa do sinal de A$150 |
+| **07/10** | Leitura da consolidação. **Não tocar na FRONT antes** |
+| **Toda segunda, 15h** | Rotina de palavra-chave e correspondência (20 min), desde 05/10. Alvo, orçamento e estrutura ficam de fora |
+
+**Outubro vai ter quatro mudanças grandes em uma semana**, mais a automação de follow up do cliente sem data. Nenhuma variação de outubro vai ser atribuível a uma causa só.
+
+**Pendências:** acessos de 21/09 ainda não liberados (Administrador no WordPress e Perfil do Google como Gerente, no e-mail `vazpower.webops@gmail.com`); **o Ricardo ainda tem acesso Padrão à conta Google Ads** (último acesso em 10/06/2026); a causa do colapso da FRONT em julho segue aberta.
+
+---
 
 ### 20/09 · SEMANA 16 MONTADA · REGISTRO DOS MOVIMENTOS DA REENGENHARIA (datas)
 
