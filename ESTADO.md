@@ -49,16 +49,17 @@ FRONT, não a cesta.
 **Conta inteira, dois ritmos:** 21 a 23/09 A$821,68 / 18 conv / A$45,65; 24 a 27/09 A$1.777,61 /
 22,98 / A$77,35.
 
-> **FECHADO EM 27/09, PELO FABRICIO, COM CERTEZA: a padronização de idade e renda foi em TODAS
-> as campanhas de busca** (FRONT, SUPORTE, BRAND, ROTAS, MADRUGA), executada na sessão de
-> otimização em 23/09 BRT. **A seção C do registro de 21 a 23/09 descreve só a FRONT e está
-> incompleta nesse ponto**; este parágrafo é o registro que faltava. **O que o dia a dia mostra**
-> (impressões/dia, 21 a 23 contra 24 a 27/09): **FRONT 36 → 152 (x4,2)**; SUPORTE 73 → 61; BRAND
-> 21 → 9; ROTAS 24 → 57 (rampa própria, presa por orçamento). **A mesma padronização mudou a
-> entrega só na FRONT, que era a única com recorte estreito.** Para a leitura faixa a faixa de
-> 28/09: nas outras campanhas não há efeito de público para ler; na FRONT há. O dashboard diz
-> "todas as campanhas de busca passaram a alcançar o mesmo público", com a FRONT como o lugar
-> onde a entrega mudou.
+> **FECHADO EM 27/09, PELO FABRICIO: dois ajustes na sessão de otimização de 23/09 BRT.**
+> **(1) Idade e renda abertas SÓ NA FRONT**, como a seção C do registro descreve (o registro
+> está certo nesse ponto). **(2) GEOLOCALIZAÇÃO padronizada em TODAS as campanhas de busca**, que
+> até então variava entre elas; isso não está no registro da sessão de otimização e fica
+> registrado aqui. A primeira fala do Fabricio ("renda e faixa etária de todas") misturou os
+> dois; ele corrigiu: "é a mesma geolocalização". **O que o dia a dia mostra** (impressões/dia,
+> 21 a 23 contra 24 a 27/09): **FRONT 36 → 152 (x4,2)**; SUPORTE 73 → 61; BRAND 21 → 9; ROTAS
+> 24 → 57 (rampa própria). **A abertura de público mudou a entrega da FRONT; a padronização de
+> geolocalização não mudou a entrega de ninguém de forma visível.** Para a leitura faixa a faixa
+> de 28/09: só a FRONT tem efeito de público para ler. O dashboard diz "dois ajustes de alcance":
+> FRONT com público maior e todas as campanhas cobrindo a mesma área.
 >
 > **A SUPORTE dobrou o uso do orçamento (46% → 91%) por gasto e clique, não por impressão:**
 > CPC A$17,52 → A$19,17, cliques 22 → 40, picos em 22/09 (A$184,52) e 24/09 (A$239,92), impressões
@@ -74,8 +75,8 @@ decisão: nenhum orçamento mudou; ROTAS rodou os 7 dias; FRONT passou a alcanç
 em 24/09 "para medir o que cada faixa devolve"; FRONT e SUPORTE a 90% e 91% de uso. Sem idade,
 renda, cesta, lance ou formulário do Google (mecânica). Posição de 26/09 fora do dashboard,
 por instrução do Fabricio (é de outra sessão). **Bloco validado e publicado em 27/09.** O
-bloco diz "todas as campanhas de busca passaram a alcançar o mesmo público, mais amplo", com a
-FRONT como o lugar onde a entrega mudou. Confirmado pelo Fabricio em 27/09. **Mensagem ao Vaz: escrita, aguardando envio.**
+bloco diz "dois ajustes de alcance": FRONT com público maior e todas as campanhas cobrindo a
+mesma área geográfica. Validado pelo Fabricio em 27/09, depois de duas correções dele. **Mensagem ao Vaz: escrita, aguardando envio.**
 
 
 ### 21 a 23/09 · SESSÃO DE OTIMIZAÇÃO · DUAS MUDANÇAS DENTRO DA SEMANA 17 (ler antes de montar o dashboard)
