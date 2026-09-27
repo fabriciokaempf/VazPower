@@ -11,7 +11,7 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
-### 27/09 · SEMANA 17 (21 a 27/09) MONTADA · AGUARDANDO VALIDAÇÃO DO BLOCO DE AÇÃO
+### 27/09 · SEMANA 17 (21 a 27/09) PUBLICADA em `setembro-21-27/`
 
 **A$3.136,70 | 57 leads (37 formulários + 20 ligações) | CPL A$55,03**
 Google A$2.599,29 · 41 conv (40,98) · A$63,42 · toda em Search, sem resíduo | Meta A$537,41 · 16 lig · A$33,59
@@ -62,7 +62,9 @@ ao Fabricio.
 decisão: nenhum orçamento mudou; ROTAS rodou os 7 dias; FRONT passou a alcançar público maior
 em 24/09 "para medir o que cada faixa devolve"; FRONT e SUPORTE a 90% e 91% de uso. Sem idade,
 renda, cesta, lance ou formulário do Google (mecânica). Posição de 26/09 fora do dashboard,
-por instrução do Fabricio (é de outra sessão). **Mensagem ao Vaz: por escrever.**
+por instrução do Fabricio (é de outra sessão). **Bloco validado e publicado em 27/09.** A
+pergunta sobre a SUPORTE (uso de 46% para 91% sem registro) ficou sem resposta: o texto diz só
+o que o export mostra. **Mensagem ao Vaz: escrita, aguardando envio.**
 
 
 ### 21 a 23/09 · SESSÃO DE OTIMIZAÇÃO · DUAS MUDANÇAS DENTRO DA SEMANA 17 (ler antes de montar o dashboard)
