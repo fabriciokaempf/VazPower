@@ -13,6 +13,44 @@ numérica corrigida).
 
 ### 27/09 · SEMANA 17 (21 a 27/09) PUBLICADA em `setembro-21-27/` · MENSAGENS ENVIADAS · CICLO FECHADO
 
+> **RESPOSTAS DO RODRIGO EM 27/09 (ele mesmo respondeu no grupo Tráfego e Leads e no de
+> Dashboards). Cinco fatos e uma decisão:**
+>
+> 1. **"Se está New, é porque ainda não foram entrados em contato. Vou entrar hoje a partir das
+>    8am."** CONFIRMADO: as 13 fichas da calculadora e do estimador (as 13 conversões da ROTAS)
+>    ficaram até cinco dias sem contato. Contato a partir de 28/09 de manhã em Brisbane. **Na
+>    leitura da S18, reabrir a coorte de 21 a 27/09 e ver o que essas 13 viraram.**
+> 2. **Pending = "não atenderam".** Resolve a ambiguidade dos dois Pending: no uso real, Pending é
+>    lead que não atendeu. Lead não contatável é problema de origem, ou seja, de mídia.
+> 3. **Lost = "não atenderam ou não quiseram seguir, não dá para mensurar isso."** Decisão do
+>    cliente: motivo de perda NÃO vai ser registrado. **Parar de pedir Lost Reason.** A separação
+>    "não atendeu" contra "preço" fica sem medição por esse caminho.
+> 4. **Como o Rodrigo classifica a origem no CRM, nas palavras dele:** "Eu troco tudo pra Google
+>    Form (se for form), Incoming Call (se for ligação sem form), Facebook (se for social media).
+>    Aí vem repeat customer, referral e empresas." **Consequências:** (a) a origem é reescrita à
+>    mão quando a ficha é trabalhada, então **Volume Calculator e Cost Estimator só aparecem
+>    enquanto a ficha está New**; depois viram "Google Form". A linha "calculadora" da seção do
+>    CRM é "fichas ainda não abertas", e o "Formulário do site" inclui calculadora já trabalhada.
+>    O agregado de mídia não muda; o corte por origem é aproximado. (b) **Não há nenhuma ficha
+>    "Facebook" nas duas semanas exportadas**: o lead do Meta ou não vira ficha ou entra como
+>    Incoming Call. **O CRM não separa Meta de Google.** (c) Confirma o item 3 da call de 17/09.
+> 5. **"Victor não faz atendimento."** Corrige a leitura anterior: o primeiro contato e a
+>    qualificação são do Rodrigo; o Victor é administrativo e follow-up. As perguntas de contato
+>    vão para o Rodrigo, e ele respondeu na hora.
+>
+> **DECISÃO DO CLIENTE, 27/09, no grupo de Dashboards, palavras dele:** *"Tomar cuidado pra não
+> girar muito orçamento pra interestaduais, foco maior na região de Brisbane e mudanças locais
+> para mantermos a galera busy."* E: *"Interestadual bom, mas rodar em paralelo."* O Fabricio
+> respondeu "Fechado". **Efeito direto na ROTAS**, que cobre Gold Coast, Sunshine Coast, Sydney,
+> Melbourne, interestadual e calculadora: **o orçamento a mais vai para a parte local e regional;
+> interestadual segue no ar como frente paralela, sem ser o destino da verba nova.** Na coorte de
+> 21 a 27/09, 8 das 38 fichas eram interestaduais, várias da calculadora com mudança para meses
+> à frente (Adelaide, Perth, Albury, Melbourne). **Isso muda a instrução "dar orçamento à ROTAS"
+> para "dar orçamento à parte local da ROTAS"**, e entra na consolidação de 30/09 e na rampa de
+> 01/10 como restrição do cliente. Pela regra da operação: variação por decisão do cliente aparece
+> como decisão.
+
+
 > **O QUE FOI DITO AO CLIENTE EM 27/09 (mensagem 1, privado do Rodrigo e grupo de Dashboards):**
 > objetivo da semana = provar a configuração nova pela medida combinada; resultado 37 formulários,
 > 65%, 14 reservas; investimento +73% sem teto novo; CPL A$55,03 concentrado na FRONT, "que passou

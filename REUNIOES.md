@@ -563,6 +563,13 @@ Mensagem própria, separada do fechamento de semana e separada da frente de marc
 - **Qualquer coisa da proposta de marca.** Frente separada, mensagem separada, como ficou
   combinado em 09/09.
 
+> **27/09, respostas do Rodrigo nos dois grupos, no mesmo dia:** confirmou que fichas New não
+> foram contatadas e que ele começa em 28/09 às 8h de Brisbane; Pending é "não atenderam"; Lost
+> não vai ter motivo registrado ("não dá para mensurar"); explicou como reclassifica a origem no
+> CRM; disse que o Victor não faz atendimento. **Decisão dele: verba com foco em Brisbane e
+> mudanças locais "para manter a galera busy"; interestadual bom, mas em paralelo.** Detalhe
+> operacional em `ESTADO.md`, bloco da S17.
+
 > **SEMANA 17 (21 a 27/09): dashboard publicado e mensagens enviadas em 27/09.** Ao Vaz (privado
 > e grupo de Dashboards) e ao Victor (grupo Tráfego e Leads). Primeira semana com o cruzamento
 > CRM x anúncios no dashboard. Compromissos: plano de criativos do Meta na semana de 28/09; os
