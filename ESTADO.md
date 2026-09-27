@@ -118,8 +118,33 @@ FRONT, não a cesta.
 >
 > Reconciliação: Ads 37 conversões de formulário; CRM 44 fichas de formulário (inclui orgânico).
 > Formulário está bem capturado. Prazo nos jobs novos: mediana 10 dias até a mudança; 15 dos 35
-> com 7 dias ou menos. 5 jobs já concluídos na semana. **Comparação com 14 a 20/09: pendente dos
-> dois exports (Leads e Jobs).**
+> com 7 dias ou menos. 5 jobs já concluídos na semana.
+>
+> **COMPARAÇÃO S16 x S17 NA MESMA BASE (fichas de mídia criadas na semana → jobs criados na mesma
+> semana), exports lidos em 27/09:**
+>
+> | | S16 (14 a 20/09) | S17 (21 a 27/09) | Δ |
+> |---|---|---|---|
+> | Investimento Ads | A$1.812,90 | A$3.136,70 | +73% |
+> | Fichas de mídia no CRM | 33 | 54 | +64% |
+> | Jobs de mídia na semana | **12** | **18** | **+50%** |
+> | Conversão na semana | 36% | 33% | |
+> | Investimento por job de mídia | A$151 | A$174 | +15% |
+> | Google Forms: fichas → jobs | 29 → 8 (28%) | 31 → 10 (32%) | |
+> | Incoming Call: fichas → jobs | 4 → 4 | 10 → 8 | |
+> | Calculadora + estimador: fichas → jobs | 0 → 0 | **13 → 0, todas New** | |
+> | Repeat Customer: jobs | 8 | 10 | |
+>
+> **LEITURA DO RETORNO DO INVESTIMENTO MAIOR:** mais 6 jobs de mídia (+50%) por mais A$1.324 de
+> investimento (+73%); o investimento por job subiu 15%. **O crescimento de formulário no Ads (20
+> → 37) foi quase todo calculadora e estimador (+13), e essas 13 fichas estão paradas em New com
+> zero job.** Google Forms cresceu só 29 → 31 fichas. **Se as 13 forem trabalhadas e fecharem na
+> taxa do Google Forms (~30%), são ~4 jobs a mais: 22 jobs a A$143, melhor que a S16.** O retorno
+> da semana depende de a operação trabalhar o lead que a ROTAS trouxe. Ligação lançada dobrou (4 →
+> 10 fichas, 4 → 8 jobs) sem atribuição possível (Meta 19 → 16, Google 4 → 4 no Ads); pode ser
+> orgânico ou lançamento melhor. Lost Reason vazio nas duas semanas. **Nada disso vai ao cliente
+> por enquanto**: a leitura de "quantos agendaram" entra no dashboard quando virar rotina e depois
+> da resposta do Victor sobre as 13 fichas, enquadrada como "me ajuda a contar", nunca como erro.
 >
 > **Interno, não vai ao cliente (valor):** orçamentos enviados A$6.182,50 (7, média A$883); em
 > follow-up A$8.096 (5, média A$1.619); pendentes A$3.060 (3); perdidos A$6.782,51 (10, média
