@@ -301,7 +301,7 @@ mostrar) e fica só aqui. Regra nova gravada no `CLAUDE.md`. **Mensagem ao Vaz: 
 - **Status no CRM:** New = ainda não contactado (ele passa a atender a partir das 8am); Pending = não atenderam; Lost = não atenderam ou não quiseram seguir, motivo não mensurável hoje. O Fabricio pediu marcar motivo de perda daqui em diante.
 - **O Victor não faz atendimento**, corrige o registro da call de 17/09. Quem atende é o Rodrigo.
 - **O grupo Tráfego e Leads tem Rodrigo, Victor e Antonio Carlos.**
-- **Agenda:** todas as leituras pendentes (clique no telefone, bloco FRONT mais SUPORTE, ROTAS D+7 e público da FRONT) ficam em 28/09 das 8h às 11h, com as negativas às 10h30. Atenção: o evento das negativas diz "não negativar piano", mas o registro de 20/09 recomenda selar "piano" em frase. Resolver antes de colar.
+- **Agenda:** todas as leituras pendentes (clique no telefone, bloco FRONT mais SUPORTE, ROTAS D+7 e público da FRONT) ficam em 28/09 das 8h às 11h, com as negativas às 10h30. **Conflito do piano RESOLVIDO em 27/09:** piano agora é negativa. Frase "piano" em nível de campanha na FRONT, SUPORTE e ROTAS (não na lista compartilhada, para não pegar a BRAND) e pausa da exata [piano movers brisbane] no grupo 03. A regra antiga "não negativar piano" era de 14/09 e caiu com o corte do grupo de piano em 18/09 e a diretriz de foco local de 27/09. Evento das negativas atualizado.
 
 ---
 
