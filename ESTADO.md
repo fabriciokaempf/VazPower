@@ -38,6 +38,24 @@ numérica corrigida).
 > 5. **No dashboard, isso aparece como decisão do cliente**, nunca como performance: já está nos
 >    próximos passos da S17 ("interestadual segue em paralelo, como combinado").
 >
+> **E A META SEMANAL, DADA POR ELE ÀS 17:50 DO MESMO DIA, no grupo de Dashboards:**
+> *"Vamos dar o foco na revisão de Brisbane pq eu preciso encher mais agenda e mais bookings.
+> Tivemos 36 agendamentos essa semana, recorde das últimas 6-7 semanas. Meta dessa semana são de
+> 35 a 40 agendamentos pra devagar voltamos a ficar com agenda mais cheia. E irmos aumentando $$."*
+>
+> - **A régua da operação passa a ser agendamentos por semana, meta 35 a 40.** É o número dele,
+>   da operação inteira (mídia + recorrente + indicação + contas). **A S17 fez 36.** A leitura do
+>   CRM desta sessão deu 38 jobs criados na semana, 33 pessoas; o 36 é a contagem dele. Alinhar a
+>   forma de contar com o Victor ("me ajuda a contar do mesmo jeito"), sem discutir o número.
+> - **Mídia respondeu por 18 dos 36.** Nas próximas semanas o dashboard mostra: agendamentos da
+>   operação (meta 35 a 40) e, dentro deles, quantos vieram de mídia. Nunca misturar os dois como
+>   taxa (regra dos 51%).
+> - **"E irmos aumentando $$"**: sinal verde do cliente para subir o investimento aos poucos
+>   conforme a agenda enche, dentro do teto condicional de A$15 mil e com o foco local acima. É o
+>   enquadramento da rampa de 01/10: verba sobe junto com a agenda, para Brisbane e região.
+> - **"A gente te mantém avisado"**, com o Victor marcado: retorno semanal da operação combinado.
+> - Dashboard da S17 atualizado com o total de 36 e a meta, na nota do CRM e no diagnóstico.
+>
 > Contexto que veio junto, no grupo Tráfego e Leads: as 13 fichas da calculadora não tinham sido
 > contatadas e o contato começa em 28/09; Pending é "não atendeu"; Lost não vai ter motivo; a
 > origem no CRM é reescrita à mão ao abrir a ficha; o Victor não faz atendimento. Detalhe no bloco
