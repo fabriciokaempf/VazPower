@@ -61,6 +61,41 @@ FRONT, não a cesta.
 > de 28/09: só a FRONT tem efeito de público para ler. O dashboard diz "dois ajustes de alcance":
 > FRONT com público maior e todas as campanhas cobrindo a mesma área.
 >
+> **COORTE DO CRM, 21 a 27/09 (export do Movermate lido em 27/09; o arquivo tem telefone e
+> e-mail e NÃO entra no repositório; aqui só agregados).** 38 leads criados na semana.
+> **Fonte:** Google Forms 21 · Volume Calculator 7 · Cost Estimator Form 6 · Incoming Call 2 ·
+> Repeat Customer 2. **Status:** New 13 · Quoted 7 · FollowUp 5 · Pending 3 · Lost 10 · **Won 0**.
+>
+> **ACHADO 1, O MAIS IMPORTANTE: os 13 leads de Volume Calculator e Cost Estimator estão TODOS em
+> "New"**, com orçamento $0 e sem tamanho de imóvel, inclusive os de 23/09 (quatro dias). Os 21
+> de Google Forms estão todos trabalhados (Quoted, Pending, FollowUp, Lost). **A fonte que o
+> administrativo chamou de melhor lead, e que a ROTAS foi criada para trazer, não tem trabalho
+> registrado no CRM.** Ou não estão sendo contatados, ou são tratados fora do CRM (o Cost
+> Estimator manda e-mail para a operação, para o robô do Zapier e para a Bambrick). Pergunta
+> direta ao Victor antes de qualquer conclusão.
+>
+> **ACHADO 2: ligação quase não vira ficha.** A conta de anúncios reportou 20 ligações na semana
+> (16 Meta + 4 Google); o CRM tem **2** leads com fonte Incoming Call. A afirmação de 17/09 ("toda
+> ligação é lançada com a marcação Call") não bate com o dado. **Sem isso, a qualidade do lead do
+> Meta não é legível pelo CRM**, e a hipótese "Meta traz lead por preço" continua sem medição.
+>
+> **ACHADO 3: formulário bate.** 37 conversões de formulário no Ads contra 34 leads de fonte
+> formulário no CRM (21+7+6). A conta conta conversões e o CRM conta pessoas; a diferença é
+> pequena e explicável. O que entra por formulário está chegando.
+>
+> **ACHADO 4: Lost 10 em uma semana, nenhum com motivo preenchido.** 9 dos 10 são Google Forms.
+> Prazo entre criação e mudança nos perdidos: mediana 10 dias, 4 com mudança em 7 dias ou menos.
+> Sem "Lost Reason", não dá para separar não contatável de preço: é a pergunta ao Victor.
+>
+> **Won 0 pode ser estrutura**: se lead ganho sai de Leads e vai para Jobs, o booking fee da
+> coorte está em Jobs. Conferir antes de ler como zero.
+>
+> **Interno, não vai ao cliente (valor):** orçamentos enviados A$6.182,50 (7, média A$883); em
+> follow-up A$8.096 (5, média A$1.619); pendentes A$3.060 (3); perdidos A$6.782,51 (10, média
+> A$678). 8 dos 38 são interestaduais; os leads da calculadora têm mudança para longe no tempo
+> (mediana 20 dias, um em fevereiro e um em março de 2027): perfil diferente do "Hourly House"
+> em dez dias. **Comparação com a coorte de 14 a 20/09: pendente do export.**
+
 > **NARRATIVA DO META, dada pelo Fabricio em 27/09 e válida daqui em diante:** a queda de
 > ligações (44 → 28 → 19 → 16) e a alta do custo por ligação (A$15,02 → A$33,59) são **decisão,
 > não performance**. O Meta está sendo **filtrado de propósito** porque vinha trazendo lead que
