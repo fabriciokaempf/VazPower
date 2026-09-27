@@ -11,6 +11,39 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+> ### DECISÃO DO CLIENTE EM 27/09 · LER ANTES DA CONSOLIDAÇÃO DE 30/09 E DA RAMPA DE 01/10
+>
+> Palavras do Rodrigo, no grupo de Dashboards, depois de receber o dashboard da S17:
+>
+> > *"Tomar cuidado pra não girar muito orçamento pra interestaduais, foco maior na região de
+> > Brisbane e mudanças locais para mantermos a galera busy. Interestadual bom, mas rodar em
+> > paralelo."*
+>
+> O Fabricio respondeu "Fechado". **Isso é restrição de orçamento dada pelo cliente e vale para
+> toda decisão de verba daqui em diante:**
+>
+> 1. **Verba nova vai para Brisbane e região, mudança local.** É o que mantém a equipe ocupada,
+>    que é o critério dele.
+> 2. **Interestadual fica no ar como frente paralela**, sem receber o orçamento novo. Não é para
+>    pausar; é para não escalar.
+> 3. **Efeito na ROTAS** (Brisbane To + Calculadora: Gold Coast, Sunshine Coast, Sydney, Melbourne,
+>    interestadual e calculadora): o "dar orçamento à ROTAS" vira **dar orçamento à parte local e
+>    regional da ROTAS**. Se a estrutura da campanha não separa local de interestadual, separar
+>    antes de subir teto, senão a verba nova vai para onde ele pediu para não ir. Na coorte do CRM
+>    de 21 a 27/09, 8 das 38 fichas eram interestaduais, várias da calculadora com mudança para
+>    meses à frente (Adelaide, Perth, Albury, Melbourne).
+> 4. **Efeito na consolidação FRONT e SUPORTE de 30/09 e na rampa de 01/10:** a subida de
+>    orçamento respeita o critério local. Qualquer palavra, grupo ou rota interestadual que exista
+>    nessas campanhas fica com o teto que tem.
+> 5. **No dashboard, isso aparece como decisão do cliente**, nunca como performance: já está nos
+>    próximos passos da S17 ("interestadual segue em paralelo, como combinado").
+>
+> Contexto que veio junto, no grupo Tráfego e Leads: as 13 fichas da calculadora não tinham sido
+> contatadas e o contato começa em 28/09; Pending é "não atendeu"; Lost não vai ter motivo; a
+> origem no CRM é reescrita à mão ao abrir a ficha; o Victor não faz atendimento. Detalhe no bloco
+> da S17, logo abaixo.
+
+
 ### 27/09 · SEMANA 17 (21 a 27/09) PUBLICADA em `setembro-21-27/` · MENSAGENS ENVIADAS · CICLO FECHADO
 
 > **RESPOSTAS DO RODRIGO EM 27/09 (ele mesmo respondeu no grupo Tráfego e Leads e no de
@@ -49,6 +82,13 @@ numérica corrigida).
 > para "dar orçamento à parte local da ROTAS"**, e entra na consolidação de 30/09 e na rampa de
 > 01/10 como restrição do cliente. Pela regra da operação: variação por decisão do cliente aparece
 > como decisão.
+>
+> **DASHBOARD DA S17 ATUALIZADO NA NOITE DE 27/09, depois de enviado, com as respostas:** as 13
+> fichas "entram em contato a partir de 28/09" (diagnóstico, nota do CRM e próximos passos);
+> "ficha pendente é lead que ainda não atendeu"; origem "é a registrada no momento da leitura"
+> (calculadora = ficha ainda não aberta); saiu a frase sobre motivo de perda; **o próximo passo
+> da ROTAS passou a "orçamento na parte local e regional, interestadual em paralelo, como
+> combinado"**. A nota diz "atualizada em 27/09 com a resposta da operação".
 
 
 > **O QUE FOI DITO AO CLIENTE EM 27/09 (mensagem 1, privado do Rodrigo e grupo de Dashboards):**
