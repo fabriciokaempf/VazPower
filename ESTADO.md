@@ -61,6 +61,14 @@ FRONT, não a cesta.
 > de 28/09: só a FRONT tem efeito de público para ler. O dashboard diz "dois ajustes de alcance":
 > FRONT com público maior e todas as campanhas cobrindo a mesma área.
 >
+> **NARRATIVA DO META, dada pelo Fabricio em 27/09 e válida daqui em diante:** a queda de
+> ligações (44 → 28 → 19 → 16) e a alta do custo por ligação (A$15,02 → A$33,59) são **decisão,
+> não performance**. O Meta está sendo **filtrado de propósito** porque vinha trazendo lead que
+> decide por preço, que é o que o cliente não quer. Vale a regra do corte de agosto: variação
+> por decisão aparece como decisão. No dashboard e na mensagem: "menos ligações e custo maior é
+> o efeito esperado do filtro; o que se acompanha é a qualidade do que entra". Criativos novos
+> entram "para trazer o lead certo dentro do filtro". Não tratar a série do Meta como queda.
+
 > **A SUPORTE dobrou o uso do orçamento (46% → 91%) por gasto e clique, não por impressão:**
 > CPC A$17,52 → A$19,17, cliques 22 → 40, picos em 22/09 (A$184,52) e 24/09 (A$239,92), impressões
 > flat. Causa não registrada. Esta sessão não executa nada na conta; só lê export.
