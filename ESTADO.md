@@ -75,8 +75,11 @@ decisão: nenhum orçamento mudou; ROTAS rodou os 7 dias; FRONT passou a alcanç
 em 24/09 "para medir o que cada faixa devolve"; FRONT e SUPORTE a 90% e 91% de uso. Sem idade,
 renda, cesta, lance ou formulário do Google (mecânica). Posição de 26/09 fora do dashboard,
 por instrução do Fabricio (é de outra sessão). **Bloco validado e publicado em 27/09.** O
-bloco diz "dois ajustes de alcance": FRONT com público maior e todas as campanhas cobrindo a
-mesma área geográfica. Validado pelo Fabricio em 27/09, depois de duas correções dele. **Mensagem ao Vaz: escrita, aguardando envio.**
+bloco foi reescrito em **objetivo e resultado**, por pedido do Fabricio ("a narrativa precisa
+estar com foco no objetivo e resultado"): objetivo de provar a configuração nova pela medida
+combinada; resultado 37 formulários, 65%, 14 reservas; FRONT com público maior "para descobrir
+em qual faixa está o lead que fecha". A geolocalização saiu da narrativa (sem resultado para
+mostrar) e fica só aqui. Regra nova gravada no `CLAUDE.md`. **Mensagem ao Vaz: escrita, aguardando envio.**
 
 
 ### 21 a 23/09 · SESSÃO DE OTIMIZAÇÃO · DUAS MUDANÇAS DENTRO DA SEMANA 17 (ler antes de montar o dashboard)
