@@ -142,9 +142,14 @@ FRONT, não a cesta.
 > taxa do Google Forms (~30%), são ~4 jobs a mais: 22 jobs a A$143, melhor que a S16.** O retorno
 > da semana depende de a operação trabalhar o lead que a ROTAS trouxe. Ligação lançada dobrou (4 →
 > 10 fichas, 4 → 8 jobs) sem atribuição possível (Meta 19 → 16, Google 4 → 4 no Ads); pode ser
-> orgânico ou lançamento melhor. Lost Reason vazio nas duas semanas. **Nada disso vai ao cliente
-> por enquanto**: a leitura de "quantos agendaram" entra no dashboard quando virar rotina e depois
-> da resposta do Victor sobre as 13 fichas, enquadrada como "me ajuda a contar", nunca como erro.
+> orgânico ou lançamento melhor. Lost Reason vazio nas duas semanas. **DECISÃO DO FABRICIO EM
+> 27/09: o cruzamento CRM x Ads ENTRA NO DASHBOARD**, como seção própria "Do Lead ao Agendamento ·
+> o que o CRM mostra", porque é a medida combinada e nunca tinha sido possível. **Regras da seção:**
+> só agregados; agendamento = ficha que virou job no CRM na mesma semana; nada de valor de job ou
+> orçamento; as 13 fichas da calculadora aparecem como "ainda novas no CRM" e como oportunidade
+> ("é onde a semana pode render mais 4 agendamentos"), nunca como erro da operação; o motivo de
+> perda vazio aparece como o que falta para separar não contatável de preço. **A seção passa a
+> ser rotina semanal: pedir os exports de Leads e Jobs por data de criação junto com os do Ads.**
 >
 > **Interno, não vai ao cliente (valor):** orçamentos enviados A$6.182,50 (7, média A$883); em
 > follow-up A$8.096 (5, média A$1.619); pendentes A$3.060 (3); perdidos A$6.782,51 (10, média
