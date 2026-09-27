@@ -87,8 +87,39 @@ FRONT, não a cesta.
 > Prazo entre criação e mudança nos perdidos: mediana 10 dias, 4 com mudança em 7 dias ou menos.
 > Sem "Lost Reason", não dá para separar não contatável de preço: é a pergunta ao Victor.
 >
-> **Won 0 pode ser estrutura**: se lead ganho sai de Leads e vai para Jobs, o booking fee da
-> coorte está em Jobs. Conferir antes de ler como zero.
+> **WON ZERO ERA ESTRUTURA. Lead ganho vira Job e sai de Leads.** Export de Jobs criados de 21 a
+> 27/09 (lido em 27/09, sem dados pessoais aqui): **38 jobs, 33 pessoas** (mudança em duas pernas
+> gera dois jobs). 3 são fichas antigas convertidas na semana; **35 nasceram como ficha nesta
+> semana.** Por fonte dos 35: Repeat Customer 12 · Google Forms 11 · Incoming Call 8 · Referral 2
+> · Departamento de habitação do governo (cliente de conta) 2.
+>
+> **COORTE COMPLETA DA SEMANA (fichas criadas 21 a 27/09 = ainda em Leads + viraram Job), por
+> fonte, sem duplicar pessoa:**
+>
+> | Fonte | Em Leads | Virou Job | Conversão na semana |
+> |---|---|---|---|
+> | Google Forms | 21 | 10 | 32% |
+> | Incoming Call | 2 | 8 | **80%** |
+> | Repeat Customer | 2 | 10 | 83% |
+> | Volume Calculator | 7 | **0** | **0%** |
+> | Cost Estimator Form | 6 | **0** | **0%** |
+> | Referral | 0 | 2 | 100% |
+>
+> **Mídia (formulário + ligação): 54 fichas, 18 jobs, 33%.** Só formulário: 44 fichas, 10 jobs,
+> 23% (Google Forms sozinho 32%). **Calculadora + estimador: 13 fichas, 0 jobs, todas em New.**
+> As 13 fichas batem com as **13 conversões da ROTAS** no Ads: **o lead que a ROTAS traz está
+> parado no CRM sem trabalho registrado e sem conversão.** É a pergunta número um.
+>
+> **LIGAÇÃO CONVERTE MUITO QUANDO VIRA FICHA:** 10 fichas de Incoming Call na semana (Ads reportou
+> 20 ligações; metade vira ficha), 8 viraram job. **Não dá para atribuir a Meta ou Google**, e há
+> viés: só a ligação que valeu a pena talvez seja lançada. Mas é o primeiro dado que contraria a
+> leitura "ligação = lead ruim": a ligação lançada fecha 2,5x mais que o formulário. Usar com
+> cuidado; não vai ao cliente até a coorte de 14 a 20/09 confirmar ou não.
+>
+> Reconciliação: Ads 37 conversões de formulário; CRM 44 fichas de formulário (inclui orgânico).
+> Formulário está bem capturado. Prazo nos jobs novos: mediana 10 dias até a mudança; 15 dos 35
+> com 7 dias ou menos. 5 jobs já concluídos na semana. **Comparação com 14 a 20/09: pendente dos
+> dois exports (Leads e Jobs).**
 >
 > **Interno, não vai ao cliente (valor):** orçamentos enviados A$6.182,50 (7, média A$883); em
 > follow-up A$8.096 (5, média A$1.619); pendentes A$3.060 (3); perdidos A$6.782,51 (10, média
