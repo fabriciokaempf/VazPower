@@ -290,6 +290,21 @@ em qual faixa está o lead que fecha". A geolocalização saiu da narrativa (sem
 mostrar) e fica só aqui. Regra nova gravada no `CLAUDE.md`. **Mensagem ao Vaz: escrita, aguardando envio.**
 
 
+### 27/09 · DIRETRIZ DO CLIENTE: FOCO LOCAL · REGRAS DO CRM (sessão de otimização)
+
+**Dito pelo Rodrigo nos grupos em 27/09, depois do dashboard da S17. O Fabricio respondeu "Fechado".**
+
+- **Verba:** não girar muito orçamento para interestadual. Foco em Brisbane e mudança local, "para manter a galera busy". Interestadual é bom, mas roda em paralelo.
+- **ROTAS:** fica em A$80/dia, não recebe nada da rampa de 01/10, mesmo com leitura boa. Se for preciso cortar dentro dela, saem primeiro Sydney, Melbourne e Interestadual. Gold Coast, Sunshine Coast e Calculadora ficam. O Experimento 50/50 segue, porque testa destino e não verba.
+- **FRONT:** vira a destinatária da rampa. A consolidação de 30/09 (A$295,96/dia) é o eixo de outubro. As negativas cruzadas de rota e interestadual na FRONT ganham prioridade na manhã de 28/09.
+- **Origem no CRM:** o Rodrigo troca tudo para Google Form (qualquer formulário), Incoming Call (ligação sem formulário), Facebook (redes), repeat customer, referral e empresas. **"Google Form" no CRM não é Google Ads.** Cruzar sempre por telefone e e-mail.
+- **Status no CRM:** New = ainda não contactado (ele passa a atender a partir das 8am); Pending = não atenderam; Lost = não atenderam ou não quiseram seguir, motivo não mensurável hoje. O Fabricio pediu marcar motivo de perda daqui em diante.
+- **O Victor não faz atendimento**, corrige o registro da call de 17/09. Quem atende é o Rodrigo.
+- **O grupo Tráfego e Leads tem Rodrigo, Victor e Antonio Carlos.**
+- **Agenda:** todas as leituras pendentes (clique no telefone, bloco FRONT mais SUPORTE, ROTAS D+7 e público da FRONT) ficam em 28/09 das 8h às 11h, com as negativas às 10h30. Atenção: o evento das negativas diz "não negativar piano", mas o registro de 20/09 recomenda selar "piano" em frase. Resolver antes de colar.
+
+---
+
 ### 21 a 23/09 · SESSÃO DE OTIMIZAÇÃO · DUAS MUDANÇAS DENTRO DA SEMANA 17 (ler antes de montar o dashboard)
 
 > **Registro escrito em 27/09 pela sessão de otimização.** Cobre 21 a 23/09, tudo conferido no painel.
