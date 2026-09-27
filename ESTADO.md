@@ -11,6 +11,60 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+### 27/09 · SEMANA 17 (21 a 27/09) MONTADA · AGUARDANDO VALIDAÇÃO DO BLOCO DE AÇÃO
+
+**A$3.136,70 | 57 leads (37 formulários + 20 ligações) | CPL A$55,03**
+Google A$2.599,29 · 41 conv (40,98) · A$63,42 · toda em Search, sem resíduo | Meta A$537,41 · 16 lig · A$33,59
+**Formulários sobre o total: 64,9% (S16: 45,5%). Reservas pelo site: 14 (S16: 10, recorde desde 26/08).**
+37 formulários é o maior número desde a S10 (51, em 03 a 09/08).
+
+| Campanha | Gasto | Conv | CPL | Orç/dia | Uso | Parcela | Perd class | Perd orç |
+|---|---|---|---|---|---|---|---|---|
+| ROTAS | A$591,11 | 13,00 | **A$45,47** | A$80,00 | 106% | 39,12% | 20,50% | **40,38%** |
+| SUPORTE | A$766,94 | 12,99 | A$59,03 | A$120,98 | 91% | 38,67% | 61,33% | 0% |
+| FRONT | A$1.097,46 | 8,99 | **A$122,06** | A$174,98 | 90% | 41,13% | 58,87% | 0% |
+| BRAND | A$132,66 | 6,00 | A$22,11 | A$148,98 | 13% | 89,09% | 10,91% | 0% |
+| MADRUGA | A$11,13 | 0 | - | A$148,98 | 1% | 100% | 0% | 0% |
+
+Conta: parcela 40,96% (S16: 28,51%) · perd class 49,69% (70,81%) · perd orç 9,35% (0,68%).
+Ações de conversão: Submit Form 22,99 · Book Form 13,99 · Calls From Ads 3 · Click to call 1 (Todas: 2).
+ROTAS: 13 conversões, **todas Submit Form Volume**. Gasto/dia Google: 230,60 · 343,75 · 247,33 ·
+543,65 · 547,43 · 272,82 · 413,71. Meta: alcance 7.591, impr 28.041, freq 3,69, CPM A$19,17,
+148 cliques; Reels 10 a A$28,19 (52% da verba), Feed 6 a A$41,18, Marketplace 0; iPhone 8 a
+A$21,37 (98 cliques), Android 8 a A$45,66 (49 cliques). Meta gasto/dia: 92,64 · 62,76 · 72,23
+· 72,64 · 69,42 · 69,24 · 98,48.
+
+**LEITURA NA BASE COMPARÁVEL (leads de formulário do site, como o registro de 21 a 23/09 manda):**
+S16 20 form leads (2,86/dia), A$64,60 por form lead → **S17 36,98 (5,28/dia), A$70,29 (+8,8%)**.
+**Guarda-corpo dos -30% NÃO disparou** (+85%). Por campanha, custo por form lead S16 → S17:
+ROTAS A$164,19 (1) → **A$45,47** (13); SUPORTE A$64,23 (6) → A$69,79 (10,99); **FRONT A$77,26
+(6) → A$157,00 (6,99)**; BRAND A$41,01 (5) → A$22,11 (6). **Efeito da cesta na S17: A$1,50 no
+CPL** (40,98 na tela contra 41,98 com o clique no telefone dentro). A alta do CPL é real e é a
+FRONT, não a cesta.
+
+**A FRONT depois do público aberto em 24/09:** 21 a 23/09 A$136,37 / 4 conv (A$34,09); **24 a
+27/09 A$961,09 / 4,99 conv (A$192,60)**. Impressões de 34 para 156 num dia. Conversão por clique
+30,4% → 16,6%. Material para a leitura faixa a faixa de 28/09 às 15h.
+
+**Conta inteira, dois ritmos:** 21 a 23/09 A$821,68 / 18 conv / A$45,65; 24 a 27/09 A$1.777,61 /
+22,98 / A$77,35.
+
+**SUPORTE também dobrou o uso do orçamento (46% → 91%) sem mudança registrada.** Picos em 22/09
+(A$184,52) e 24/09 (A$239,92). O registro de 21 a 23/09 declara lacuna de 24 a 27/09. Perguntado
+ao Fabricio.
+
+> **A S16 PUBLICADA MOSTRA 25 CONVERSÕES DO GOOGLE; A CONTA HOJE MOSTRA 23**, porque o clique no
+> telefone saiu da cesta em 22/09 e o Google recalcula o passado. **Não republicar a S16.** Quem
+> puxar o período de novo vai ver 23 e 42 leads, não 25 e 44. A série semanal deste arquivo
+> mantém o número publicado.
+
+**Dashboard em `setembro-21-27/`, na forma da S16.** O bloco de ação descreve, no nível de
+decisão: nenhum orçamento mudou; ROTAS rodou os 7 dias; FRONT passou a alcançar público maior
+em 24/09 "para medir o que cada faixa devolve"; FRONT e SUPORTE a 90% e 91% de uso. Sem idade,
+renda, cesta, lance ou formulário do Google (mecânica). Posição de 26/09 fora do dashboard,
+por instrução do Fabricio (é de outra sessão). **Mensagem ao Vaz: por escrever.**
+
+
 ### 21 a 23/09 · SESSÃO DE OTIMIZAÇÃO · DUAS MUDANÇAS DENTRO DA SEMANA 17 (ler antes de montar o dashboard)
 
 > **Registro escrito em 27/09 pela sessão de otimização.** Cobre 21 a 23/09, tudo conferido no painel.
@@ -1349,6 +1403,7 @@ movers", "near me", marca Vaz Power.
 | 14 | 31/08-06/09 | A$2.481 | **78** | A$31,81 |
 | 15 | 07-13/09 | A$2.776 | 53 | A$52,37 |
 | 16 | 14-20/09 | A$1.813 | 44 | A$41,20 |
+| 17 | 21-27/09 | A$3.137 | 57 | A$55,03 |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).
