@@ -68,6 +68,13 @@ FRONT, não a cesta.
 > por decisão aparece como decisão. No dashboard e na mensagem: "menos ligações e custo maior é
 > o efeito esperado do filtro; o que se acompanha é a qualidade do que entra". Criativos novos
 > entram "para trazer o lead certo dentro do filtro". Não tratar a série do Meta como queda.
+>
+> **CRIATIVOS DO META, 27/09:** a produção de criativos agora é do Fabricio (a frente passou
+> para este lado em 17/09, quando quem fazia saiu da operação). Direção declarada por ele:
+> **anúncios direcionados e assertivos, principalmente para remarketing**, que é o caminho já
+> previsto ("Meta vira remarketing, não aquisição fria"). **Ele vai levar o assunto ao Vaz na
+> semana de 28/09**; por isso o dashboard da S17 não antecipa nada além de "criativos novos
+> entram". Quando estiver combinado com o cliente, entra no dashboard como decisão.
 
 > **A SUPORTE dobrou o uso do orçamento (46% → 91%) por gasto e clique, não por impressão:**
 > CPC A$17,52 → A$19,17, cliques 22 → 40, picos em 22/09 (A$184,52) e 24/09 (A$239,92), impressões
