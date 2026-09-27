@@ -308,6 +308,22 @@ em qual faixa está o lead que fecha". A geolocalização saiu da narrativa (sem
 mostrar) e fica só aqui. Regra nova gravada no `CLAUDE.md`. **Mensagem ao Vaz: escrita, aguardando envio.**
 
 
+### 27/09 · DIRETRIZ DO CLIENTE: FOCO LOCAL · REGRAS DO CRM (sessão de otimização)
+
+**Dito pelo Rodrigo nos grupos em 27/09, depois do dashboard da S17. O Fabricio respondeu "Fechado".**
+
+- **Verba:** não girar muito orçamento para interestadual. Foco em Brisbane e mudança local, "para manter a galera busy". Interestadual é bom, mas roda em paralelo.
+- **ROTAS:** fica em A$80/dia, não recebe nada da rampa de 01/10, mesmo com leitura boa. Se for preciso cortar dentro dela, saem primeiro Sydney, Melbourne e Interestadual. Gold Coast, Sunshine Coast e Calculadora ficam. O Experimento 50/50 segue, porque testa destino e não verba.
+- **FRONT:** vira a destinatária da rampa. A consolidação de 30/09 (A$295,96/dia) é o eixo de outubro. As negativas cruzadas de rota e interestadual na FRONT ganham prioridade na manhã de 28/09.
+- **Origem no CRM:** o Rodrigo troca tudo para Google Form (qualquer formulário), Incoming Call (ligação sem formulário), Facebook (redes), repeat customer, referral e empresas. **"Google Form" no CRM não é Google Ads.** Cruzar sempre por telefone e e-mail.
+- **Status no CRM:** New = ainda não contactado (ele passa a atender a partir das 8am); Pending = não atenderam; Lost = não atenderam ou não quiseram seguir, motivo não mensurável hoje. O Fabricio pediu marcar motivo de perda daqui em diante.
+- **Meta do cliente em agendamentos (dita por ele em 27/09):** a S17 teve **36 agendamentos, recorde das últimas 6 a 7 semanas.** Meta desta semana (S18, 28/09 a 04/10): **35 a 40 agendamentos**, para ir enchendo a agenda, e aí ir aumentando o investimento. Foco na revisão de Brisbane porque ele precisa encher agenda e bookings. **Consequência:** a métrica que o cliente acompanha é agendamento, não lead; a rampa de verba fica condicionada a manter essa faixa, e a leitura de outubro deve reportar agendamentos ao lado do CPL.
+- **O Victor não faz atendimento**, corrige o registro da call de 17/09. Quem atende é o Rodrigo.
+- **O grupo Tráfego e Leads tem Rodrigo, Victor e Antonio Carlos.**
+- **Agenda:** todas as leituras pendentes (clique no telefone, bloco FRONT mais SUPORTE, ROTAS D+7 e público da FRONT) ficam em 28/09 das 8h às 11h, com as negativas às 10h30. **Conflito do piano RESOLVIDO em 27/09:** piano agora é negativa. Frase "piano" em nível de campanha na FRONT, SUPORTE e ROTAS (não na lista compartilhada, para não pegar a BRAND) e pausa da exata [piano movers brisbane] no grupo 03. A regra antiga "não negativar piano" era de 14/09 e caiu com o corte do grupo de piano em 18/09 e a diretriz de foco local de 27/09. Evento das negativas atualizado.
+
+---
+
 ### 21 a 23/09 · SESSÃO DE OTIMIZAÇÃO · DUAS MUDANÇAS DENTRO DA SEMANA 17 (ler antes de montar o dashboard)
 
 > **Registro escrito em 27/09 pela sessão de otimização.** Cobre 21 a 23/09, tudo conferido no painel.
