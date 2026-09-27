@@ -49,9 +49,22 @@ FRONT, não a cesta.
 **Conta inteira, dois ritmos:** 21 a 23/09 A$821,68 / 18 conv / A$45,65; 24 a 27/09 A$1.777,61 /
 22,98 / A$77,35.
 
-**SUPORTE também dobrou o uso do orçamento (46% → 91%) sem mudança registrada.** Picos em 22/09
-(A$184,52) e 24/09 (A$239,92). O registro de 21 a 23/09 declara lacuna de 24 a 27/09. Perguntado
-ao Fabricio.
+> **PONTO EM ABERTO (27/09): a padronização de idade e renda foi só na FRONT ou em todas as
+> campanhas de busca?** O Fabricio disse "mudamos a renda e a faixa etária de todas as campanhas,
+> padronizamos", e em seguida ficou em dúvida. **O que existe de registro:** a seção C do bloco de
+> 21 a 23/09 (escrita pela sessão de otimização em 27/09) descreve **só a FRONT**, grupo a grupo:
+> "Reativadas nos 4 grupos e conferidas na tabela", "18 a 24 segue excluída", pendência de renda
+> nos grupos 02 e 03 da FRONT. Nada sobre SUPORTE, BRAND, ROTAS ou MADRUGA. **O que o dia a dia
+> mostra** (impressões/dia, 21 a 23 contra 24 a 27/09): **FRONT 36 → 152 (x4,2)**; SUPORTE 73 → 61;
+> BRAND 21 → 9; ROTAS 24 → 57 (rampa própria, presa por orçamento). Só a FRONT reagiu. Isso é
+> compatível com "só a FRONT foi mexida" e também com "todas foram conferidas e só a FRONT tinha
+> recorte estreito". **Não é prova de nenhuma das duas.** Para fechar: abrir Públicos-alvo >
+> Demografia na SUPORTE, BRAND e ROTAS e ver se idade e renda estão iguais às da FRONT. Dois
+> minutos, na conta. **O dashboard publicado usa o texto que o registro sustenta (FRONT).**
+>
+> **A SUPORTE dobrou o uso do orçamento (46% → 91%) por gasto e clique, não por impressão:**
+> CPC A$17,52 → A$19,17, cliques 22 → 40, picos em 22/09 (A$184,52) e 24/09 (A$239,92), impressões
+> flat. Causa não registrada. Esta sessão não executa nada na conta; só lê export.
 
 > **A S16 PUBLICADA MOSTRA 25 CONVERSÕES DO GOOGLE; A CONTA HOJE MOSTRA 23**, porque o clique no
 > telefone saiu da cesta em 22/09 e o Google recalcula o passado. **Não republicar a S16.** Quem
@@ -62,9 +75,10 @@ ao Fabricio.
 decisão: nenhum orçamento mudou; ROTAS rodou os 7 dias; FRONT passou a alcançar público maior
 em 24/09 "para medir o que cada faixa devolve"; FRONT e SUPORTE a 90% e 91% de uso. Sem idade,
 renda, cesta, lance ou formulário do Google (mecânica). Posição de 26/09 fora do dashboard,
-por instrução do Fabricio (é de outra sessão). **Bloco validado e publicado em 27/09.** A
-pergunta sobre a SUPORTE (uso de 46% para 91% sem registro) ficou sem resposta: o texto diz só
-o que o export mostra. **Mensagem ao Vaz: escrita, aguardando envio.**
+por instrução do Fabricio (é de outra sessão). **Bloco validado e publicado em 27/09.** O
+bloco foi trocado para "todas as campanhas" depois de uma fala do Fabricio, e **revertido para
+"FRONT" no mesmo dia** quando ele mesmo pôs a fala em dúvida: o dashboard fica com o que o
+registro sustenta até a conferência na conta. **Mensagem ao Vaz: escrita, aguardando envio.**
 
 
 ### 21 a 23/09 · SESSÃO DE OTIMIZAÇÃO · DUAS MUDANÇAS DENTRO DA SEMANA 17 (ler antes de montar o dashboard)
