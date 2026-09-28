@@ -123,8 +123,16 @@ numérica corrigida).
 > ficaram iguais (12 e 12) com o gasto do Google dobrando**; o crescimento veio de recompra,
 > indicação e ligação. Ressalva de safra: as fichas da S17 (13 em New até 27/09) aparecem na S18.
 >
-> **Pendentes de decisão do Fabricio:** Meta (16 ligações a A$33,59, acima do gatilho de A$30
-> registrado em 16/09); rampa de 01/10 (recomendação: não somar aumento na FRONT antes de 07/10);
+> **8. Meta, aplicado à tarde com ok do Fabricio.** No conjunto ativo da `LEADS | CALL | BRISBANE |
+> Asset Call`: (a) descartado um rascunho antigo, de origem desconhecida, que mudava os
+> posicionamentos para Facebook e Instagram e iria junto em qualquer publicação; (b) **removida a
+> sugestão de público `SITE | PAGEVIEW - 180D`**, pelo gatilho de 16/09 (S17: 16 ligações a
+> A$33,59, acima de A$30; frequência de 30 dias 6,53); (c) conjunto renomeado para
+> `ADV+ GEO Brisbane | H | 30~64 | Feed_Reels_Stories_Status` (era `RMKT 180D SIte + ...`).
+> Controles seguem Brisbane e 25+. **Confundidor para o dashboard:** o conjunto entrou em análise
+> e reaprende; a S18 do Meta não compara limpo com a S17. Ler a partir de 06/10.
+>
+> **Pendentes de decisão do Fabricio:** rampa de 01/10 (recomendação: não somar aumento na FRONT antes de 07/10);
 > régua de renda da FRONT (item 3). **Leituras datadas:** véspera da consolidação 30/09 às 14h;
 > termos a partir de 29/09 em 06/10 e 13/10; público e consolidação em 07/10.
 
