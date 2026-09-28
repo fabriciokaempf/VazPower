@@ -1,7 +1,8 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **27/09/2026** (sessão de otimização: 21 a 23/09, cesta de conversão e público da FRONT mudaram dentro da S17).
+Atualizado em **28/09/2026** (sessão de otimização: leituras da S17, negativas aplicadas, público da FRONT mantido e consolidação de 30/09 ajustada).
+Antes disso, 27/09 (sessão de otimização: 21 a 23/09, cesta de conversão e público da FRONT mudaram dentro da S17).
 Antes disso, 17/09 (call com o administrativo: acesso ao CRM, fonte de melhor lead
 identificada e buraco de rastreio das ligações).
 Antes disso, 31/08 à noite (verificação adversarial: as três hipóteses caíram; base
@@ -60,6 +61,72 @@ numérica corrigida).
 > contatadas e o contato começa em 28/09; Pending é "não atendeu"; Lost não vai ter motivo; a
 > origem no CRM é reescrita à mão ao abrir a ficha; o Victor não faz atendimento. Detalhe no bloco
 > da S17, logo abaixo.
+
+
+### 28/09 · BLOCO DE LEITURAS DA S17 E APLICAÇÃO NA CONTA (sessão de otimização)
+
+> **Tudo aplicado pelo painel em 28/09 (BRT) e conferido depois de recarregar a página.** Nenhum
+> lance, orçamento ou estrutura foi tocado. Nada disto vai ao cliente como mecânica.
+>
+> **1. Bloco FRONT mais SUPORTE (a leitura que manda, nunca as duas isoladas).** S16 A$848,95,
+> 16 conversões, CPA A$53,06; **S17 A$1.864,40, 21,98 conversões, CPA A$84,82**. O guarda-corpo de
+> 17/09 (acima de A$85 por 3 dias seguidos) **não disparou**: o diário alternou 117,85 / 58,73 /
+> 118,10 / 64,90 / 214,52 / 44,78 / 110,86. Dentro da semana, a FRONT depois do público aberto
+> (24 a 27/09) fez A$961,08, 6,99 conversões, **A$137,47**, com CPC igual e taxa de conversão
+> caindo de 30,9% para 14,3%; a SUPORTE, no mesmo período, **A$48,10**, perdendo leilão para a FRONT.
+>
+> **2. Público da FRONT lido faixa por faixa (24 a 27/09).** Renda "Desconhecida": 32 cliques,
+> A$597,79, 4 conversões, **A$149,45**; 10% maior renda: A$295,69, 2,99 conversões, A$98,85. As 4
+> conversões de idade Desconhecida são as mesmas 4 da renda Desconhecida. **Decisão (verificação
+> com três lentes independentes e um juiz): não mexer no público da FRONT hoje.** Contra o grupo
+> que ninguém tocou na mesma janela (10% maior renda, que também piorou de A$60,85 para A$98,85),
+> a diferença não é significativa; cortar a Desconhecida tiraria 62% do gasto e a FRONT seguiria
+> fora da faixa. **Desvio registrado:** o critério de 23/09 disparou ao pé da letra e não foi
+> executado, porque não tinha amostra mínima nem controle. **Critério novo com trava:** se a renda
+> Desconhecida somar A$1.200 com 6 conversões ou menos desde 24/09, sai no mesmo dia (hoje:
+> A$597,79 com 4). Leitura principal em 07/10.
+>
+> **3. Demografia da SUPORTE (60 dias, nunca conferida antes): exclui a renda Desconhecida nos 4
+> grupos.** Pela regra fixada antes de olhar, **na consolidação de 30/09 a renda Desconhecida volta
+> a ser excluída na FRONT** (é a base em que as duas campanhas construíram o histórico, inclusive o
+> A$46,50 da `moving services brisbane`), e só volta depois de 07/10 como teste isolado. A SUPORTE
+> tem régua de renda mais larga (aceita 21 a 40%) e essas faixas converteram bem: 21 a 30% a
+> A$46,19 e 31 a 40% a A$67,51 no grupo 01. Ponto para o Fabricio antes de igualar a régua da FRONT.
+>
+> **4. Negativas aplicadas.** Nível de campanha em FRONT, SUPORTE e MADRUGA: `"piano"`, `pianomoves`,
+> `pianomovers`, `"to brisbane"`, `"to sunshine coast"`, `"to melbourne"` e 9 de storage puro
+> (`[storage]`, `storage facility` e afins, mais `loxon`). ROTAS: as 3 de piano e as 9 de storage.
+> Lista compartilhada "Aluguel de veículo (DIY)": **87 para 141** (54 linhas: o lote de 14/09 ajustado e
+> as novas da semana, entre elas concorrentes com gasto, grafias de agregador e mudança pequena em coreano). O storage
+> foi para o nível de campanha porque a lista DIY também vale para a BRAND, e não pode bloquear
+> "vaz power storage". Cada negativa foi cruzada contra 8.390 linhas de termos de junho a 27/09:
+> nenhuma bloqueia palavra ativa nem termo que converteu. Lote e motivos em
+> `Vaz Power/Negativas - Vaz Power - 21 a 27.09.2026.md` (local). **Adiados:** `"to gold coast"` e
+> `"to sydney"` nas antigas, `"interstate"` (decisão do Fabricio) e qualquer negativa de preço
+> (espera o sinal de A$150).
+>
+> **5. Correções de leitura.** (a) O alerta de "calculadora inflada" (23 no Ads contra 7 no CRM)
+> **caiu**: os 7 eram só as fichas em New, e o export de Leads não traz ficha que virou job. A
+> conversão `Submit Form Volume` conta **"Uma"** por clique. (b) Piano: a conclusão de 20/09 estava
+> errada (correção no bloco de 20/09). (c) A palavra de piano da SUPORTE já estava pausada. (d) O
+> plano da consolidação tinha um erro: `local movers brisbane` já existe na FRONT em ampla, e
+> `moving services brisbane` já existe em frase e em exata, sem impressão. Em 30/09 migra só a ampla
+> `moving services brisbane`. Plano corrigido em `Vaz Power/Consolidacao FRONT SUPORTE e Anuncios`.
+>
+> **6. ROTAS D+7.** Desde a ativação, A$755,30 e 14 conversões (A$53,95). 73,6% do custo cai em
+> termos que o Google esconde. As 13 conversões da S17 são todas da calculadora, inclusive nos
+> grupos de rota (conferir Páginas de destino). O grupo de calculadora atrai busca de preço de
+> mudança local. **Experimento página de rota contra calculadora adiado para 12/10** (cerca de 21
+> cliques por lado por semana não separam nada). Segue em A$80/dia, sem escalar.
+>
+> **7. Agendamentos por origem (Jobs).** S16 27; S17 36 sem o Dept of Housing. **Os de formulário
+> ficaram iguais (12 e 12) com o gasto do Google dobrando**; o crescimento veio de recompra,
+> indicação e ligação. Ressalva de safra: as fichas da S17 (13 em New até 27/09) aparecem na S18.
+>
+> **Pendentes de decisão do Fabricio:** Meta (16 ligações a A$33,59, acima do gatilho de A$30
+> registrado em 16/09); rampa de 01/10 (recomendação: não somar aumento na FRONT antes de 07/10);
+> régua de renda da FRONT (item 3). **Leituras datadas:** véspera da consolidação 30/09 às 14h;
+> termos a partir de 29/09 em 06/10 e 13/10; público e consolidação em 07/10.
 
 
 ### 27/09 · SEMANA 17 (21 a 27/09) PUBLICADA em `setembro-21-27/` · MENSAGENS ENVIADAS · CICLO FECHADO
@@ -473,6 +540,13 @@ em 07/09 (registrado antes como 08/09; vale 07/09).
 > clique e zero gasto em 4 dias: com o CTR anterior (16,7%), a chance de isso ser acaso é
 > de 0,25%. **A negativação de 15 e 16/09 cumpriu o objetivo: a conta parou de pagar por
 > piano a partir de 17/09 (Brisbane).**
+>
+> **CORREÇÃO DE 28/09: essa conclusão estava errada.** Quatro dias de zero eram amostra curta.
+> De 21 a 27/09 o piano voltou: **9 cliques, A$186,96, 3 conversões (7,2% do Google)**, todo o
+> custo na SUPORTE, grupo 01, em correspondência ampla (`moving services brisbane`). A exata
+> `[piano movers brisbane]` citada abaixo não existe como palavra ativa: o "exata" do relatório é
+> o tipo de correspondência do termo, não da palavra. Vedado em 28/09 com negativa de campanha
+> (ver o bloco de 28/09 no topo).
 >
 > **O que ficou aberto:** os anúncios **continuam aparecendo** para piano (33 impressões
 > em 4 dias, 12 termos diferentes, quase todos no grupo `01 - House Movers Brisbane`).
