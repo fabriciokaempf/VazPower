@@ -1,7 +1,9 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **17/09/2026** (call com o administrativo: acesso ao CRM, fonte de melhor lead
+Atualizado em **28/09/2026** (sessão de otimização: leituras da S17, negativas aplicadas, público da FRONT mantido e consolidação de 30/09 ajustada).
+Antes disso, 27/09 (sessão de otimização: 21 a 23/09, cesta de conversão e público da FRONT mudaram dentro da S17).
+Antes disso, 17/09 (call com o administrativo: acesso ao CRM, fonte de melhor lead
 identificada e buraco de rastreio das ligações).
 Antes disso, 31/08 à noite (verificação adversarial: as três hipóteses caíram; base
 numérica corrigida).
@@ -9,6 +11,575 @@ numérica corrigida).
 ---
 
 ## 0. ESTADO ATUAL (retomar daqui)
+
+> ### DECISÃO DO CLIENTE EM 27/09 · LER ANTES DA CONSOLIDAÇÃO DE 30/09 E DA RAMPA DE 01/10
+>
+> Palavras do Rodrigo, no grupo de Dashboards, depois de receber o dashboard da S17:
+>
+> > *"Tomar cuidado pra não girar muito orçamento pra interestaduais, foco maior na região de
+> > Brisbane e mudanças locais para mantermos a galera busy. Interestadual bom, mas rodar em
+> > paralelo."*
+>
+> O Fabricio respondeu "Fechado". **Isso é restrição de orçamento dada pelo cliente e vale para
+> toda decisão de verba daqui em diante:**
+>
+> 1. **Verba nova vai para Brisbane e região, mudança local.** É o que mantém a equipe ocupada,
+>    que é o critério dele.
+> 2. **Interestadual fica no ar como frente paralela**, sem receber o orçamento novo. Não é para
+>    pausar; é para não escalar.
+> 3. **Efeito na ROTAS** (Brisbane To + Calculadora: Gold Coast, Sunshine Coast, Sydney, Melbourne,
+>    interestadual e calculadora): o "dar orçamento à ROTAS" vira **dar orçamento à parte local e
+>    regional da ROTAS**. Se a estrutura da campanha não separa local de interestadual, separar
+>    antes de subir teto, senão a verba nova vai para onde ele pediu para não ir. Na coorte do CRM
+>    de 21 a 27/09, 8 das 38 fichas eram interestaduais, várias da calculadora com mudança para
+>    meses à frente (Adelaide, Perth, Albury, Melbourne).
+> 4. **Efeito na consolidação FRONT e SUPORTE de 30/09 e na rampa de 01/10:** a subida de
+>    orçamento respeita o critério local. Qualquer palavra, grupo ou rota interestadual que exista
+>    nessas campanhas fica com o teto que tem.
+> 5. **No dashboard, isso aparece como decisão do cliente**, nunca como performance: já está nos
+>    próximos passos da S17 ("interestadual segue em paralelo, como combinado").
+>
+> **E A META SEMANAL, DADA POR ELE ÀS 17:50 DO MESMO DIA, no grupo de Dashboards:**
+> *"Vamos dar o foco na revisão de Brisbane pq eu preciso encher mais agenda e mais bookings.
+> Tivemos 36 agendamentos essa semana, recorde das últimas 6-7 semanas. Meta dessa semana são de
+> 35 a 40 agendamentos pra devagar voltamos a ficar com agenda mais cheia. E irmos aumentando $$."*
+>
+> - **A régua da operação passa a ser agendamentos por semana, meta 35 a 40.** É o número dele,
+>   da operação inteira (mídia + recorrente + indicação + contas). **A S17 fez 36.** A leitura do
+>   CRM desta sessão deu 38 jobs criados na semana, 33 pessoas; o 36 é a contagem dele. Alinhar a
+>   forma de contar com o Victor ("me ajuda a contar do mesmo jeito"), sem discutir o número.
+> - **Mídia respondeu por 18 dos 36.** Nas próximas semanas o dashboard mostra: agendamentos da
+>   operação (meta 35 a 40) e, dentro deles, quantos vieram de mídia. Nunca misturar os dois como
+>   taxa (regra dos 51%).
+> - **"E irmos aumentando $$"**: sinal verde do cliente para subir o investimento aos poucos
+>   conforme a agenda enche, dentro do teto condicional de A$15 mil e com o foco local acima. É o
+>   enquadramento da rampa de 01/10: verba sobe junto com a agenda, para Brisbane e região.
+> - **"A gente te mantém avisado"**, com o Victor marcado: retorno semanal da operação combinado.
+> - Dashboard da S17 atualizado com o total de 36 e a meta, na nota do CRM e no diagnóstico.
+>
+> Contexto que veio junto, no grupo Tráfego e Leads: as 13 fichas da calculadora não tinham sido
+> contatadas e o contato começa em 28/09; Pending é "não atendeu"; Lost não vai ter motivo; a
+> origem no CRM é reescrita à mão ao abrir a ficha; o Victor não faz atendimento. Detalhe no bloco
+> da S17, logo abaixo.
+
+
+### 28/09 · BLOCO DE LEITURAS DA S17 E APLICAÇÃO NA CONTA (sessão de otimização)
+
+> **Tudo aplicado pelo painel em 28/09 (BRT) e conferido depois de recarregar a página.** Nenhum
+> lance, orçamento ou estrutura foi tocado. Nada disto vai ao cliente como mecânica.
+>
+> **1. Bloco FRONT mais SUPORTE (a leitura que manda, nunca as duas isoladas).** S16 A$848,95,
+> 16 conversões, CPA A$53,06; **S17 A$1.864,40, 21,98 conversões, CPA A$84,82**. O guarda-corpo de
+> 17/09 (acima de A$85 por 3 dias seguidos) **não disparou**: o diário alternou 117,85 / 58,73 /
+> 118,10 / 64,90 / 214,52 / 44,78 / 110,86. Dentro da semana, a FRONT depois do público aberto
+> (24 a 27/09) fez A$961,08, 6,99 conversões, **A$137,47**, com CPC igual e taxa de conversão
+> caindo de 30,9% para 14,3%; a SUPORTE, no mesmo período, **A$48,10**, perdendo leilão para a FRONT.
+>
+> **2. Público da FRONT lido faixa por faixa (24 a 27/09).** Renda "Desconhecida": 32 cliques,
+> A$597,79, 4 conversões, **A$149,45**; 10% maior renda: A$295,69, 2,99 conversões, A$98,85. As 4
+> conversões de idade Desconhecida são as mesmas 4 da renda Desconhecida. **Decisão (verificação
+> com três lentes independentes e um juiz): não mexer no público da FRONT hoje.** Contra o grupo
+> que ninguém tocou na mesma janela (10% maior renda, que também piorou de A$60,85 para A$98,85),
+> a diferença não é significativa; cortar a Desconhecida tiraria 62% do gasto e a FRONT seguiria
+> fora da faixa. **Desvio registrado:** o critério de 23/09 disparou ao pé da letra e não foi
+> executado, porque não tinha amostra mínima nem controle. **Critério novo com trava:** se a renda
+> Desconhecida somar A$1.200 com 6 conversões ou menos desde 24/09, sai no mesmo dia (hoje:
+> A$597,79 com 4). Leitura principal em 07/10.
+>
+> **3. Demografia da SUPORTE (60 dias, nunca conferida antes): exclui a renda Desconhecida nos 4
+> grupos.** Pela regra fixada antes de olhar, **na consolidação de 30/09 a renda Desconhecida volta
+> a ser excluída na FRONT** (é a base em que as duas campanhas construíram o histórico, inclusive o
+> A$46,50 da `moving services brisbane`), e só volta depois de 07/10 como teste isolado. A SUPORTE
+> tem régua de renda mais larga (aceita 21 a 40%) e essas faixas converteram bem: 21 a 30% a
+> A$46,19 e 31 a 40% a A$67,51 no grupo 01. Ponto para o Fabricio antes de igualar a régua da FRONT.
+>
+> **4. Negativas aplicadas.** Nível de campanha em FRONT, SUPORTE e MADRUGA: `"piano"`, `pianomoves`,
+> `pianomovers`, `"to brisbane"`, `"to sunshine coast"`, `"to melbourne"` e 9 de storage puro
+> (`[storage]`, `storage facility` e afins, mais `loxon`). ROTAS: as 3 de piano e as 9 de storage.
+> Lista compartilhada "Aluguel de veículo (DIY)": **87 para 141** (54 linhas: o lote de 14/09 ajustado e
+> as novas da semana, entre elas concorrentes com gasto, grafias de agregador e mudança pequena em coreano). O storage
+> foi para o nível de campanha porque a lista DIY também vale para a BRAND, e não pode bloquear
+> "vaz power storage". Cada negativa foi cruzada contra 8.390 linhas de termos de junho a 27/09:
+> nenhuma bloqueia palavra ativa nem termo que converteu. Lote e motivos em
+> `Vaz Power/Negativas - Vaz Power - 21 a 27.09.2026.md` (local). **Adiados:** `"to gold coast"` e
+> `"to sydney"` nas antigas, `"interstate"` (decisão do Fabricio) e qualquer negativa de preço
+> (espera o sinal de A$150).
+>
+> **5. Correções de leitura.** (a) O alerta de "calculadora inflada" (23 no Ads contra 7 no CRM)
+> **caiu**: os 7 eram só as fichas em New, e o export de Leads não traz ficha que virou job. A
+> conversão `Submit Form Volume` conta **"Uma"** por clique. (b) Piano: a conclusão de 20/09 estava
+> errada (correção no bloco de 20/09). (c) A palavra de piano da SUPORTE já estava pausada. (d) O
+> plano da consolidação tinha um erro: `local movers brisbane` já existe na FRONT em ampla, e
+> `moving services brisbane` já existe em frase e em exata, sem impressão. Em 30/09 migra só a ampla
+> `moving services brisbane`. Plano corrigido em `Vaz Power/Consolidacao FRONT SUPORTE e Anuncios`.
+>
+> **6. ROTAS D+7.** Desde a ativação, A$755,30 e 14 conversões (A$53,95). 73,6% do custo cai em
+> termos que o Google esconde. As 13 conversões da S17 são todas da calculadora, inclusive nos
+> grupos de rota (conferir Páginas de destino). O grupo de calculadora atrai busca de preço de
+> mudança local. **Experimento página de rota contra calculadora adiado para 12/10** (cerca de 21
+> cliques por lado por semana não separam nada). Segue em A$80/dia, sem escalar.
+>
+> **7. Agendamentos por origem (Jobs).** S16 27; S17 36 sem o Dept of Housing. **Os de formulário
+> ficaram iguais (12 e 12) com o gasto do Google dobrando**; o crescimento veio de recompra,
+> indicação e ligação. Ressalva de safra: as fichas da S17 (13 em New até 27/09) aparecem na S18.
+>
+> **8. Meta, aplicado à tarde com ok do Fabricio.** No conjunto ativo da `LEADS | CALL | BRISBANE |
+> Asset Call`: (a) descartado um rascunho antigo, de origem desconhecida, que mudava os
+> posicionamentos para Facebook e Instagram e iria junto em qualquer publicação; (b) **removida a
+> sugestão de público `SITE | PAGEVIEW - 180D`**, pelo gatilho de 16/09 (S17: 16 ligações a
+> A$33,59, acima de A$30; frequência de 30 dias 6,53); (c) conjunto renomeado para
+> `ADV+ GEO Brisbane | H | 30~64 | Feed_Reels_Stories_Status` (era `RMKT 180D SIte + ...`).
+> Controles seguem Brisbane e 25+. **Confundidor para o dashboard:** o conjunto entrou em análise
+> e reaprende; a S18 do Meta não compara limpo com a S17. Ler a partir de 06/10.
+>
+> **Pendentes de decisão do Fabricio:** rampa de 01/10 (recomendação: não somar aumento na FRONT antes de 07/10);
+> régua de renda da FRONT (item 3). **Leituras datadas:** véspera da consolidação 30/09 às 14h;
+> termos a partir de 29/09 em 06/10 e 13/10; público e consolidação em 07/10.
+
+
+### 27/09 · SEMANA 17 (21 a 27/09) PUBLICADA em `setembro-21-27/` · MENSAGENS ENVIADAS · CICLO FECHADO
+
+> **RESPOSTAS DO RODRIGO EM 27/09 (ele mesmo respondeu no grupo Tráfego e Leads e no de
+> Dashboards). Cinco fatos e uma decisão:**
+>
+> 1. **"Se está New, é porque ainda não foram entrados em contato. Vou entrar hoje a partir das
+>    8am."** CONFIRMADO: as 13 fichas da calculadora e do estimador (as 13 conversões da ROTAS)
+>    ficaram até cinco dias sem contato. Contato a partir de 28/09 de manhã em Brisbane. **Na
+>    leitura da S18, reabrir a coorte de 21 a 27/09 e ver o que essas 13 viraram.**
+> 2. **Pending = "não atenderam".** Resolve a ambiguidade dos dois Pending: no uso real, Pending é
+>    lead que não atendeu. Lead não contatável é problema de origem, ou seja, de mídia.
+> 3. **Lost = "não atenderam ou não quiseram seguir, não dá para mensurar isso."** Decisão do
+>    cliente: motivo de perda NÃO vai ser registrado. **Parar de pedir Lost Reason.** A separação
+>    "não atendeu" contra "preço" fica sem medição por esse caminho.
+> 4. **Como o Rodrigo classifica a origem no CRM, nas palavras dele:** "Eu troco tudo pra Google
+>    Form (se for form), Incoming Call (se for ligação sem form), Facebook (se for social media).
+>    Aí vem repeat customer, referral e empresas." **Consequências:** (a) a origem é reescrita à
+>    mão quando a ficha é trabalhada, então **Volume Calculator e Cost Estimator só aparecem
+>    enquanto a ficha está New**; depois viram "Google Form". A linha "calculadora" da seção do
+>    CRM é "fichas ainda não abertas", e o "Formulário do site" inclui calculadora já trabalhada.
+>    O agregado de mídia não muda; o corte por origem é aproximado. (b) **Não há nenhuma ficha
+>    "Facebook" nas duas semanas exportadas**: o lead do Meta ou não vira ficha ou entra como
+>    Incoming Call. **O CRM não separa Meta de Google.** (c) Confirma o item 3 da call de 17/09.
+> 5. **"Victor não faz atendimento."** Corrige a leitura anterior: o primeiro contato e a
+>    qualificação são do Rodrigo; o Victor é administrativo e follow-up. As perguntas de contato
+>    vão para o Rodrigo, e ele respondeu na hora.
+>
+> **DECISÃO DO CLIENTE, 27/09, no grupo de Dashboards, palavras dele:** *"Tomar cuidado pra não
+> girar muito orçamento pra interestaduais, foco maior na região de Brisbane e mudanças locais
+> para mantermos a galera busy."* E: *"Interestadual bom, mas rodar em paralelo."* O Fabricio
+> respondeu "Fechado". **Efeito direto na ROTAS**, que cobre Gold Coast, Sunshine Coast, Sydney,
+> Melbourne, interestadual e calculadora: **o orçamento a mais vai para a parte local e regional;
+> interestadual segue no ar como frente paralela, sem ser o destino da verba nova.** Na coorte de
+> 21 a 27/09, 8 das 38 fichas eram interestaduais, várias da calculadora com mudança para meses
+> à frente (Adelaide, Perth, Albury, Melbourne). **Isso muda a instrução "dar orçamento à ROTAS"
+> para "dar orçamento à parte local da ROTAS"**, e entra na consolidação de 30/09 e na rampa de
+> 01/10 como restrição do cliente. Pela regra da operação: variação por decisão do cliente aparece
+> como decisão.
+>
+> **DASHBOARD DA S17 ATUALIZADO NA NOITE DE 27/09, depois de enviado, com as respostas:** as 13
+> fichas "entram em contato a partir de 28/09" (diagnóstico, nota do CRM e próximos passos);
+> "ficha pendente é lead que ainda não atendeu"; origem "é a registrada no momento da leitura"
+> (calculadora = ficha ainda não aberta); saiu a frase sobre motivo de perda; **o próximo passo
+> da ROTAS passou a "orçamento na parte local e regional, interestadual em paralelo, como
+> combinado"**. A nota diz "atualizada em 27/09 com a resposta da operação".
+
+
+> **O QUE FOI DITO AO CLIENTE EM 27/09 (mensagem 1, privado do Rodrigo e grupo de Dashboards):**
+> objetivo da semana = provar a configuração nova pela medida combinada; resultado 37 formulários,
+> 65%, 14 reservas; investimento +73% sem teto novo; CPL A$55,03 concentrado na FRONT, "que passou
+> a alcançar um público maior, de propósito, para descobrir em qual faixa está o lead que fecha";
+> frente de rotas 13 conversões a A$45,47, "é o próximo passo"; **CRM x anúncios pela primeira
+> vez, com lugar fixo no dashboard: 18 agendamentos contra 12; as 13 fichas da calculadora ainda
+> novas no CRM, "primeiro lugar para olhar"; cruzamento hoje manual e por origem, "com os acessos
+> que te pedi passa a dizer de qual campanha cada lead veio"**; Meta filtrado por decisão, 16
+> ligações a A$33,59, criativos novos direcionados e para remarketing "esta semana eu te passo
+> esse plano". **Compromissos assumidos:** plano de criativos do Meta ao Vaz na semana de 28/09;
+> orçamento para a ROTAS como próximo passo (condicionado à resposta do Victor).
+>
+> **Mensagem 2, ao Victor no grupo Tráfego e Leads:** as duas perguntas com número (13 fichas em
+> New: atendidas por fora ou ainda não; 10 perdidos: quantos não atenderam e quantos travaram no
+> valor), com o pedido de marcar motivo de perda no CRM daqui em diante. **Aguardando resposta.**
+> A mensagem 3 (cobrança dos acessos no privado) não foi enviada; a 1 já menciona.
+
+
+
+**A$3.136,70 | 57 leads (37 formulários + 20 ligações) | CPL A$55,03**
+Google A$2.599,29 · 41 conv (40,98) · A$63,42 · toda em Search, sem resíduo | Meta A$537,41 · 16 lig · A$33,59
+**Formulários sobre o total: 64,9% (S16: 45,5%). Reservas pelo site: 14 (S16: 10, recorde desde 26/08).**
+37 formulários é o maior número desde a S10 (51, em 03 a 09/08).
+
+| Campanha | Gasto | Conv | CPL | Orç/dia | Uso | Parcela | Perd class | Perd orç |
+|---|---|---|---|---|---|---|---|---|
+| ROTAS | A$591,11 | 13,00 | **A$45,47** | A$80,00 | 106% | 39,12% | 20,50% | **40,38%** |
+| SUPORTE | A$766,94 | 12,99 | A$59,03 | A$120,98 | 91% | 38,67% | 61,33% | 0% |
+| FRONT | A$1.097,46 | 8,99 | **A$122,06** | A$174,98 | 90% | 41,13% | 58,87% | 0% |
+| BRAND | A$132,66 | 6,00 | A$22,11 | A$148,98 | 13% | 89,09% | 10,91% | 0% |
+| MADRUGA | A$11,13 | 0 | - | A$148,98 | 1% | 100% | 0% | 0% |
+
+Conta: parcela 40,96% (S16: 28,51%) · perd class 49,69% (70,81%) · perd orç 9,35% (0,68%).
+Ações de conversão: Submit Form 22,99 · Book Form 13,99 · Calls From Ads 3 · Click to call 1 (Todas: 2).
+ROTAS: 13 conversões, **todas Submit Form Volume**. Gasto/dia Google: 230,60 · 343,75 · 247,33 ·
+543,65 · 547,43 · 272,82 · 413,71. Meta: alcance 7.591, impr 28.041, freq 3,69, CPM A$19,17,
+148 cliques; Reels 10 a A$28,19 (52% da verba), Feed 6 a A$41,18, Marketplace 0; iPhone 8 a
+A$21,37 (98 cliques), Android 8 a A$45,66 (49 cliques). Meta gasto/dia: 92,64 · 62,76 · 72,23
+· 72,64 · 69,42 · 69,24 · 98,48.
+
+**LEITURA NA BASE COMPARÁVEL (leads de formulário do site, como o registro de 21 a 23/09 manda):**
+S16 20 form leads (2,86/dia), A$64,60 por form lead → **S17 36,98 (5,28/dia), A$70,29 (+8,8%)**.
+**Guarda-corpo dos -30% NÃO disparou** (+85%). Por campanha, custo por form lead S16 → S17:
+ROTAS A$164,19 (1) → **A$45,47** (13); SUPORTE A$64,23 (6) → A$69,79 (10,99); **FRONT A$77,26
+(6) → A$157,00 (6,99)**; BRAND A$41,01 (5) → A$22,11 (6). **Efeito da cesta na S17: A$1,50 no
+CPL** (40,98 na tela contra 41,98 com o clique no telefone dentro). A alta do CPL é real e é a
+FRONT, não a cesta.
+
+**A FRONT depois do público aberto em 24/09:** 21 a 23/09 A$136,37 / 4 conv (A$34,09); **24 a
+27/09 A$961,09 / 4,99 conv (A$192,60)**. Impressões de 34 para 156 num dia. Conversão por clique
+30,4% → 16,6%. Material para a leitura faixa a faixa de 28/09 às 15h.
+
+**Conta inteira, dois ritmos:** 21 a 23/09 A$821,68 / 18 conv / A$45,65; 24 a 27/09 A$1.777,61 /
+22,98 / A$77,35.
+
+> **FECHADO EM 27/09, PELO FABRICIO: dois ajustes na sessão de otimização de 23/09 BRT.**
+> **(1) Idade e renda abertas SÓ NA FRONT**, como a seção C do registro descreve (o registro
+> está certo nesse ponto). **(2) GEOLOCALIZAÇÃO padronizada em TODAS as campanhas de busca**, que
+> até então variava entre elas; isso não está no registro da sessão de otimização e fica
+> registrado aqui. A primeira fala do Fabricio ("renda e faixa etária de todas") misturou os
+> dois; ele corrigiu: "é a mesma geolocalização". **O que o dia a dia mostra** (impressões/dia,
+> 21 a 23 contra 24 a 27/09): **FRONT 36 → 152 (x4,2)**; SUPORTE 73 → 61; BRAND 21 → 9; ROTAS
+> 24 → 57 (rampa própria). **A abertura de público mudou a entrega da FRONT; a padronização de
+> geolocalização não mudou a entrega de ninguém de forma visível.** Para a leitura faixa a faixa
+> de 28/09: só a FRONT tem efeito de público para ler. O dashboard diz "dois ajustes de alcance":
+> FRONT com público maior e todas as campanhas cobrindo a mesma área.
+>
+> **COORTE DO CRM, 21 a 27/09 (export do Movermate lido em 27/09; o arquivo tem telefone e
+> e-mail e NÃO entra no repositório; aqui só agregados).** 38 leads criados na semana.
+> **Fonte:** Google Forms 21 · Volume Calculator 7 · Cost Estimator Form 6 · Incoming Call 2 ·
+> Repeat Customer 2. **Status:** New 13 · Quoted 7 · FollowUp 5 · Pending 3 · Lost 10 · **Won 0**.
+>
+> **ACHADO 1, O MAIS IMPORTANTE: os 13 leads de Volume Calculator e Cost Estimator estão TODOS em
+> "New"**, com orçamento $0 e sem tamanho de imóvel, inclusive os de 23/09 (quatro dias). Os 21
+> de Google Forms estão todos trabalhados (Quoted, Pending, FollowUp, Lost). **A fonte que o
+> administrativo chamou de melhor lead, e que a ROTAS foi criada para trazer, não tem trabalho
+> registrado no CRM.** Ou não estão sendo contatados, ou são tratados fora do CRM (o Cost
+> Estimator manda e-mail para a operação, para o robô do Zapier e para a Bambrick). Pergunta
+> direta ao Victor antes de qualquer conclusão.
+>
+> **ACHADO 2: ligação quase não vira ficha.** A conta de anúncios reportou 20 ligações na semana
+> (16 Meta + 4 Google); o CRM tem **2** leads com fonte Incoming Call. A afirmação de 17/09 ("toda
+> ligação é lançada com a marcação Call") não bate com o dado. **Sem isso, a qualidade do lead do
+> Meta não é legível pelo CRM**, e a hipótese "Meta traz lead por preço" continua sem medição.
+>
+> **ACHADO 3: formulário bate.** 37 conversões de formulário no Ads contra 34 leads de fonte
+> formulário no CRM (21+7+6). A conta conta conversões e o CRM conta pessoas; a diferença é
+> pequena e explicável. O que entra por formulário está chegando.
+>
+> **ACHADO 4: Lost 10 em uma semana, nenhum com motivo preenchido.** 9 dos 10 são Google Forms.
+> Prazo entre criação e mudança nos perdidos: mediana 10 dias, 4 com mudança em 7 dias ou menos.
+> Sem "Lost Reason", não dá para separar não contatável de preço: é a pergunta ao Victor.
+>
+> **WON ZERO ERA ESTRUTURA. Lead ganho vira Job e sai de Leads.** Export de Jobs criados de 21 a
+> 27/09 (lido em 27/09, sem dados pessoais aqui): **38 jobs, 33 pessoas** (mudança em duas pernas
+> gera dois jobs). 3 são fichas antigas convertidas na semana; **35 nasceram como ficha nesta
+> semana.** Por fonte dos 35: Repeat Customer 12 · Google Forms 11 · Incoming Call 8 · Referral 2
+> · Departamento de habitação do governo (cliente de conta) 2.
+>
+> **COORTE COMPLETA DA SEMANA (fichas criadas 21 a 27/09 = ainda em Leads + viraram Job), por
+> fonte, sem duplicar pessoa:**
+>
+> | Fonte | Em Leads | Virou Job | Conversão na semana |
+> |---|---|---|---|
+> | Google Forms | 21 | 10 | 32% |
+> | Incoming Call | 2 | 8 | **80%** |
+> | Repeat Customer | 2 | 10 | 83% |
+> | Volume Calculator | 7 | **0** | **0%** |
+> | Cost Estimator Form | 6 | **0** | **0%** |
+> | Referral | 0 | 2 | 100% |
+>
+> **Mídia (formulário + ligação): 54 fichas, 18 jobs, 33%.** Só formulário: 44 fichas, 10 jobs,
+> 23% (Google Forms sozinho 32%). **Calculadora + estimador: 13 fichas, 0 jobs, todas em New.**
+> As 13 fichas batem com as **13 conversões da ROTAS** no Ads: **o lead que a ROTAS traz está
+> parado no CRM sem trabalho registrado e sem conversão.** É a pergunta número um.
+>
+> **LIGAÇÃO CONVERTE MUITO QUANDO VIRA FICHA:** 10 fichas de Incoming Call na semana (Ads reportou
+> 20 ligações; metade vira ficha), 8 viraram job. **Não dá para atribuir a Meta ou Google**, e há
+> viés: só a ligação que valeu a pena talvez seja lançada. Mas é o primeiro dado que contraria a
+> leitura "ligação = lead ruim": a ligação lançada fecha 2,5x mais que o formulário. Usar com
+> cuidado; não vai ao cliente até a coorte de 14 a 20/09 confirmar ou não.
+>
+> Reconciliação: Ads 37 conversões de formulário; CRM 44 fichas de formulário (inclui orgânico).
+> Formulário está bem capturado. Prazo nos jobs novos: mediana 10 dias até a mudança; 15 dos 35
+> com 7 dias ou menos. 5 jobs já concluídos na semana.
+>
+> **COMPARAÇÃO S16 x S17 NA MESMA BASE (fichas de mídia criadas na semana → jobs criados na mesma
+> semana), exports lidos em 27/09:**
+>
+> | | S16 (14 a 20/09) | S17 (21 a 27/09) | Δ |
+> |---|---|---|---|
+> | Investimento Ads | A$1.812,90 | A$3.136,70 | +73% |
+> | Fichas de mídia no CRM | 33 | 54 | +64% |
+> | Jobs de mídia na semana | **12** | **18** | **+50%** |
+> | Conversão na semana | 36% | 33% | |
+> | Investimento por job de mídia | A$151 | A$174 | +15% |
+> | Google Forms: fichas → jobs | 29 → 8 (28%) | 31 → 10 (32%) | |
+> | Incoming Call: fichas → jobs | 4 → 4 | 10 → 8 | |
+> | Calculadora + estimador: fichas → jobs | 0 → 0 | **13 → 0, todas New** | |
+> | Repeat Customer: jobs | 8 | 10 | |
+>
+> **LEITURA DO RETORNO DO INVESTIMENTO MAIOR:** mais 6 jobs de mídia (+50%) por mais A$1.324 de
+> investimento (+73%); o investimento por job subiu 15%. **O crescimento de formulário no Ads (20
+> → 37) foi quase todo calculadora e estimador (+13), e essas 13 fichas estão paradas em New com
+> zero job.** Google Forms cresceu só 29 → 31 fichas. **Se as 13 forem trabalhadas e fecharem na
+> taxa do Google Forms (~30%), são ~4 jobs a mais: 22 jobs a A$143, melhor que a S16.** O retorno
+> da semana depende de a operação trabalhar o lead que a ROTAS trouxe. Ligação lançada dobrou (4 →
+> 10 fichas, 4 → 8 jobs) sem atribuição possível (Meta 19 → 16, Google 4 → 4 no Ads); pode ser
+> orgânico ou lançamento melhor. Lost Reason vazio nas duas semanas. **DECISÃO DO FABRICIO EM
+> 27/09: o cruzamento CRM x Ads ENTRA NO DASHBOARD**, como seção própria "Do Lead ao Agendamento ·
+> o que o CRM mostra", porque é a medida combinada e nunca tinha sido possível. **Regras da seção:**
+> só agregados; agendamento = ficha que virou job no CRM na mesma semana; nada de valor de job ou
+> orçamento; as 13 fichas da calculadora aparecem como "ainda novas no CRM" e como oportunidade
+> ("é onde a semana pode render mais 4 agendamentos"), nunca como erro da operação; o motivo de
+> perda vazio aparece como o que falta para separar não contatável de preço. **A seção passa a
+> ser rotina semanal: pedir os exports de Leads e Jobs por data de criação junto com os do Ads.**
+>
+> **Interno, não vai ao cliente (valor):** orçamentos enviados A$6.182,50 (7, média A$883); em
+> follow-up A$8.096 (5, média A$1.619); pendentes A$3.060 (3); perdidos A$6.782,51 (10, média
+> A$678). 8 dos 38 são interestaduais; os leads da calculadora têm mudança para longe no tempo
+> (mediana 20 dias, um em fevereiro e um em março de 2027): perfil diferente do "Hourly House"
+> em dez dias. **Comparação com a coorte de 14 a 20/09: pendente do export.**
+
+> **NARRATIVA DO META, dada pelo Fabricio em 27/09 e válida daqui em diante:** a queda de
+> ligações (44 → 28 → 19 → 16) e a alta do custo por ligação (A$15,02 → A$33,59) são **decisão,
+> não performance**. O Meta está sendo **filtrado de propósito** porque vinha trazendo lead que
+> decide por preço, que é o que o cliente não quer. Vale a regra do corte de agosto: variação
+> por decisão aparece como decisão. No dashboard e na mensagem: "menos ligações e custo maior é
+> o efeito esperado do filtro; o que se acompanha é a qualidade do que entra". Criativos novos
+> entram "para trazer o lead certo dentro do filtro". Não tratar a série do Meta como queda.
+>
+> **CRIATIVOS DO META, 27/09:** a produção de criativos agora é do Fabricio (a frente passou
+> para este lado em 17/09, quando quem fazia saiu da operação). Direção declarada por ele:
+> **anúncios direcionados e assertivos, principalmente para remarketing**, que é o caminho já
+> previsto ("Meta vira remarketing, não aquisição fria"). **Ele vai levar o assunto ao Vaz na
+> semana de 28/09**, e pediu que já entrasse no dashboard da S17: próximo passo "criativos novos
+> no Meta, direcionados e assertivos, principalmente para remarketing", como o que muda o jogo.
+
+> **A SUPORTE dobrou o uso do orçamento (46% → 91%) por gasto e clique, não por impressão:**
+> CPC A$17,52 → A$19,17, cliques 22 → 40, picos em 22/09 (A$184,52) e 24/09 (A$239,92), impressões
+> flat. Causa não registrada. Esta sessão não executa nada na conta; só lê export.
+
+> **A S16 PUBLICADA MOSTRA 25 CONVERSÕES DO GOOGLE; A CONTA HOJE MOSTRA 23**, porque o clique no
+> telefone saiu da cesta em 22/09 e o Google recalcula o passado. **Não republicar a S16.** Quem
+> puxar o período de novo vai ver 23 e 42 leads, não 25 e 44. A série semanal deste arquivo
+> mantém o número publicado.
+
+**Dashboard em `setembro-21-27/`, na forma da S16.** O bloco de ação descreve, no nível de
+decisão: nenhum orçamento mudou; ROTAS rodou os 7 dias; FRONT passou a alcançar público maior
+em 24/09 "para medir o que cada faixa devolve"; FRONT e SUPORTE a 90% e 91% de uso. Sem idade,
+renda, cesta, lance ou formulário do Google (mecânica). Posição de 26/09 fora do dashboard,
+por instrução do Fabricio (é de outra sessão). **Bloco validado e publicado em 27/09.** O
+bloco foi reescrito em **objetivo e resultado**, por pedido do Fabricio ("a narrativa precisa
+estar com foco no objetivo e resultado"): objetivo de provar a configuração nova pela medida
+combinada; resultado 37 formulários, 65%, 14 reservas; FRONT com público maior "para descobrir
+em qual faixa está o lead que fecha". A geolocalização saiu da narrativa (sem resultado para
+mostrar) e fica só aqui. Regra nova gravada no `CLAUDE.md`. **Mensagem ao Vaz: escrita, aguardando envio.**
+
+
+### 27/09 · DIRETRIZ DO CLIENTE: FOCO LOCAL · REGRAS DO CRM (sessão de otimização)
+
+**Dito pelo Rodrigo nos grupos em 27/09, depois do dashboard da S17. O Fabricio respondeu "Fechado".**
+
+- **Verba:** não girar muito orçamento para interestadual. Foco em Brisbane e mudança local, "para manter a galera busy". Interestadual é bom, mas roda em paralelo.
+- **ROTAS:** fica em A$80/dia, não recebe nada da rampa de 01/10, mesmo com leitura boa. Se for preciso cortar dentro dela, saem primeiro Sydney, Melbourne e Interestadual. Gold Coast, Sunshine Coast e Calculadora ficam. O Experimento 50/50 segue, porque testa destino e não verba.
+- **FRONT:** vira a destinatária da rampa. A consolidação de 30/09 (A$295,96/dia) é o eixo de outubro. As negativas cruzadas de rota e interestadual na FRONT ganham prioridade na manhã de 28/09.
+- **Origem no CRM:** o Rodrigo troca tudo para Google Form (qualquer formulário), Incoming Call (ligação sem formulário), Facebook (redes), repeat customer, referral e empresas. **"Google Form" no CRM não é Google Ads.** Cruzar sempre por telefone e e-mail.
+- **Status no CRM:** New = ainda não contactado (ele passa a atender a partir das 8am); Pending = não atenderam; Lost = não atenderam ou não quiseram seguir, motivo não mensurável hoje. O Fabricio pediu marcar motivo de perda daqui em diante.
+- **Meta do cliente em agendamentos (dita por ele em 27/09):** a S17 teve **36 agendamentos, recorde das últimas 6 a 7 semanas.** Meta desta semana (S18, 28/09 a 04/10): **35 a 40 agendamentos**, para ir enchendo a agenda, e aí ir aumentando o investimento. Foco na revisão de Brisbane porque ele precisa encher agenda e bookings. **Consequência:** a métrica que o cliente acompanha é agendamento, não lead; a rampa de verba fica condicionada a manter essa faixa, e a leitura de outubro deve reportar agendamentos ao lado do CPL.
+- **Agendamentos passam a ser lidos por nós no CRM, sem depender do Vaz (decisão do Fabricio em 27/09).** Por enquanto o Fabricio exporta o Movermate na mão e salva na pasta `Jobs 2026\Vaz Power`, junto com os leads do Google Ads da mesma semana. O cruzamento é por telefone e e-mail, e separa os agendamentos por origem real (Google, Meta, ligação sem formulário e fora da mídia) e os status New, Pending e Lost. Primeira leitura em 28/09 às 7h30, conferindo os 36 da S17. **Vira rotina de segunda.** A saída definitiva é a integração do sinal de A$150.
+- **O Victor não faz atendimento**, corrige o registro da call de 17/09. Quem atende é o Rodrigo.
+- **O grupo Tráfego e Leads tem Rodrigo, Victor e Antonio Carlos.**
+- **Agenda:** todas as leituras pendentes (clique no telefone, bloco FRONT mais SUPORTE, ROTAS D+7 e público da FRONT) ficam em 28/09 das 8h às 11h, com as negativas às 10h30. **Conflito do piano RESOLVIDO em 27/09:** piano agora é negativa. Frase "piano" em nível de campanha na FRONT, SUPORTE e ROTAS (não na lista compartilhada, para não pegar a BRAND) e pausa da exata [piano movers brisbane] no grupo 03. A regra antiga "não negativar piano" era de 14/09 e caiu com o corte do grupo de piano em 18/09 e a diretriz de foco local de 27/09. Evento das negativas atualizado.
+
+---
+
+### 21 a 23/09 · SESSÃO DE OTIMIZAÇÃO · DUAS MUDANÇAS DENTRO DA SEMANA 17 (ler antes de montar o dashboard)
+
+> **Registro escrito em 27/09 pela sessão de otimização.** Cobre 21 a 23/09, tudo conferido no painel.
+> **LACUNA DECLARADA: de 24 a 27/09 esta sessão não acompanhou a conta.** Se a posição de 26/09 prometida ao cliente foi entregue, ou se as leituras daqueles dias geraram decisão, isso não está aqui.
+
+#### A. A "LEITURA LIMPA" DA S17 TEM DUAS MUDANÇAS DENTRO
+
+O bloco de 20/09 diz que a Semana 17 (21 a 27/09) é a primeira inteira na configuração nova e abre a leitura limpa. **Duas mudanças entraram no meio dela:**
+
+| Data (Brisbane) | Mudança | Efeito no número |
+|---|---|---|
+| **22 para 23/09** | **`Click to call (Website/LP)` virou `Click to call (Website)` e passou de Principal para Ação secundária.** O clique no link `tel:` do site deixou de contar como conversão | **o total de conversões CAI sem nada ter piorado**, e o CPA sobe junto. Eram 19 de 134 conversões em agosto. A S16 caiu de 25 para 23 no instante em que a mudança foi salva |
+| 22 para 23/09 | Formulário de lead do Google `Online Quote Request` **PAUSADO** na conta e em FRONT, BRAND, SUPORTE e MADRUGA (sempre Pausar, nunca Remover: o recurso está em 13 campanhas) | some a origem "Hospedado pelo Google". Ele gastava sem ter rota de entrega: sem CRM, sem webhook, só CSV que o Google apaga em 30 dias |
+| **24/09** | **Público da FRONT destravado** em idade e renda (bloco C) | tende a **subir** volume da FRONT |
+
+**Como ler a S17, e isso não é opcional:**
+
+- Comparar **leads de formulário do site por dia**, nunca o total da tela.
+- **Base travada de 14 a 20/09:** 20 leads de formulário do site (2,86/dia), A$1.291,95 (A$184,56/dia), **CPA A$64,60 sobre essa base**.
+- **Guarda-corpo pré-registrado:** queda acima de 30% nos leads de formulário do site e a mudança da cesta reverte.
+- A cesta de conversão mudou **duas vezes** em 2026: a Book Form Submit entrou em 26/08 e o clique no telefone saiu em 22/09. Série que atravesse essas datas compara coisas diferentes.
+- **Para o cliente, isso é mecânica.** Pela regra de 20/09, não vai no dashboard como explicação. Se o CPA da S17 subir, a leitura interna tem de separar o efeito da cesta antes de qualquer frase ao cliente.
+
+#### B. O QUE O GOOGLE MOSTRA DA FRONT DEPOIS DE 22/09
+
+**Destino:** nos últimos 30 dias a FRONT mandou **83% do investimento para o site** (A$966,56) e 5% para a LP (A$58,59). Existe um anúncio residual por grupo apontando para a LP, com entrega quase zero; sai na consolidação de 30/09. **Regra que nasceu de um erro corrigido em 22/09:** destino de campanha se confere em Insights e relatórios, Páginas de destino, filtrando pela campanha. Nunca pela coluna de URL da lista de anúncios, que mostra o anúncio e não o tráfego.
+
+**Duplicação FRONT e SUPORTE parte o índice de qualidade:** `"removalists"` tem **6 na FRONT e 3 na SUPORTE**; `[removalist]` tem 4 e 3. Perda por classificação em 14 a 20/09: **FRONT 60,26%, SUPORTE 66,62%**, zero por orçamento. CTR esperada abaixo da média em 33,4% do gasto; experiência na página acima da média em 75,4%, ou seja, **o site não é o problema**.
+
+#### C. PÚBLICO DA FRONT DESTRAVADO EM 23/09 (BRT)
+
+A conferência de heranças do histórico de alterações virou aplicação, por decisão do Fabricio. **Estavam excluídas três faixas etárias de seis** (18 a 24, 25 a 34 e +65), mais a **"Desconhecida" de idade** nos grupos 01, 02 e 03 e a **"Desconhecida" de renda nos quatro grupos**. Para ver o anúncio, a pessoa precisava ter idade determinada, estar entre 35 e 64, ter renda determinada e estar no top 20%. Os grupos 01, 02 e 03 somavam **1 clique em 30 dias**, e o próprio Google avisava: "só está qualificada para veicular anúncios para um público-alvo limitado".
+
+**Reativadas nos 4 grupos e conferidas na tabela:** 25 a 34, +65, Desconhecida de idade e Desconhecida de renda. **18 a 24 segue excluída.** Nenhum lance, orçamento ou palavra foi tocado.
+
+**A régua de renda premium ficou intacta, e o dado a valida:** os 10% de maior renda deram **15 das 17 conversões a A$60,85**; a faixa de 11 a 20% custou **A$94,63**.
+
+**Base travada, 25/08 a 22/09:** 55 cliques, 680 impressões, 17 conversões, CPA A$65,30. Por idade: 35 a 44 com 9 conversões a A$55,43; 45 a 54 com 6 a A$69,32; 55 a 64 com 2 a A$69,06. **Leitura em 28/09 às 15h, faixa por faixa** (a tela de Públicos-alvo segmenta). Faixa reativada com CPA muito fora de A$55 a A$70 sai sozinha.
+
+**Pendência menor:** igualar a régua de renda dos grupos 02 e 03 ao grupo 00 (excluir 21 a 30% e 31 a 40%) ficou por fazer, porque a interface caiu no meio. O grupo 01 foi salvo mas não reconferido. Efeito prático nulo hoje.
+
+**Heranças do histórico de alterações da FRONT** (185 alterações em dois anos: 116 do login do Ricardo, 67 do Fabricio, 2 do Rodrigo): a FRONT nasceu em 16/10/2025; o alvo foi remexido doze vezes entre dezembro e maio; **o Rodrigo alterou o CPA desejado da FRONT em 03/04/2026, duas vezes em quatro minutos**; os ajustes de lance por dia e hora de 25/02 não existem mais.
+
+#### D. O QUE FOI DITO AO CLIENTE EM 23/09 (não contradizer depois)
+
+**Canal novo:** grupo **"Vaz Power AUS - Backup | Tráfego e Leads"**, com o Victor. Decisão do Fabricio em 23/09: **assunto de tráfego e lead fica nesse grupo daqui em diante.** O grupo de Dashboards continua para o dashboard semanal. Decisão de dono (acessos, contratação, dinheiro) vai no privado do Rodrigo, mesmo que o assunto tenha nascido na conversa técnica.
+
+1. **No grupo de Dashboards, respondendo ao Rodrigo sobre um lead de Rockhampton:** não há anúncio rodando fora da área. Hoje (23/09) foram 17 cliques e A$247,33, todos na grande Brisbane; nos 30 dias anteriores, 34 localidades, 263 cliques e A$3.751,80, **Rockhampton nenhuma vez**. O lead estava marcado como "Local Move", o que aponta para mudança dentro de Rockhampton, provavelmente orgânico. Ao Victor foi dito por que cruzar horário de conversão do Analytics com a chegada do lead não prova origem (5 conversões no dia; o Ads registra no horário do clique; Analytics e Ads atribuem diferente) e que a solução é o gclid chegar no formulário. **Pedido ao Victor:** telefone e e-mail de lead ruim, para cruzar na conta. **Não mencionado:** Logan City teve 3 cliques e A$24,91 em 30 dias mesmo excluída, borda de geolocalização.
+2. **No grupo de Tráfego e Leads, ao Victor, sobre criativo de IA contra imagem:** IA é ferramenta de produção, não formato; o que move clique é formato, ângulo e oferta; teste "IA contra imagem" mistura variáveis; o gargalo do Meta é desgaste (entrega só no Facebook, repetição) e a leva nova vai testar ângulo contra ângulo. O Fabricio acrescentou que a Meta tem penalizado produtores de conteúdo por uso massivo de IA. **Nota interna:** a penalização vale para monetização de conteúdo orgânico; em anúncio pago o risco real é **IA não declarada** (terceira causa de rejeição, com strike) e **UGC com ator de IA simulando cliente real sem Partnership Ads**, que conta como prática enganosa. Isso muda o briefing da leva de criativos, não o método.
+3. **No privado do Rodrigo, sobre a empresa de IA e os acessos:** apoio à automação de follow up, ancorado no que ele quer (mais lead e lead melhor); pedido para entrar na conversa com a empresa **antes de mexerem no Movermate**; pedido da **data de entrada no ar**; lembrete dos dois acessos de 21/09. Frase que foi cortada antes do envio e não deve voltar: "o gargalo não está em gerar lead".
+
+#### E. DOIS ACHADOS QUE NÃO SÃO DE MÍDIA E VALEM PARA TODAS AS FRENTES
+
+1. **Todo lead do Cost Estimator é copiado para `ppc@bambrick.com.au`.** Verificado em 23/09: Bambrick Media Pty Ltd, Level 24/12 Creek Street, Brisbane, agência com Google Ads entre os serviços principais. Os outros destinatários são a própria operação e `costestimatorvaz@robot.zapier.com`. Provável herança de gestão anterior. **Comunicado ao Rodrigo em 23/09, aguardando decisão.** Remover depende do acesso ao WordPress.
+2. **O Rodrigo está contratando uma empresa de IA para follow up e mensagens automatizadas**, inclusive fora do horário comercial. Dito por ele em áudio de 22/09 (transcrição em `Vaz Power/Transcricao Audio Rodrigo - 22.09.2026.md`). O nome não ficou claro no áudio ("Western AI" ou "VEGTI"); **não usar sem confirmar**. Ataca o gargalo certo, mas é **confundidor de outubro** e **risco sobre o sinal de A$150**: se mexerem no Movermate sem alinhar, a cadeia do job fechado voltando para o Google quebra.
+
+**Leitura de maio a setembro, fechada em 22/09** (`Vaz Power/Leitura 4 a 6 meses - Vaz Power - 22.09.2026.md`): maio A$9.426,82 / 150 leads / A$62,85; junho A$8.737,42 / 137 / A$63,78; julho A$9.673,82 / 152 / A$63,64; **agosto A$10.062,52 / 134 / A$75,09**; 01 a 20/09 A$5.124,38 / 82 / A$62,49. O custo por lead não vem subindo; só agosto saiu da curva. A queda de qualidade veio da **origem** (em agosto 32 de 134 leads eram da LP de formulário curto, a A$107,31 contra A$53,93 do site). Busca com preço é só **1,6% do gasto**.
+
+#### F. AGENDA
+
+| Quando (Brasília) | O quê |
+|---|---|
+| **28/09, 9h** | 43 negativas |
+| **28/09, 15h** | Leitura das reativações de público da FRONT, faixa por faixa |
+| **30/09, 15h** | **Consolidação FRONT e SUPORTE** (fica a FRONT, pelo histórico: A$57.107,87 e 908 conversões contra A$9.157,44). Migram `moving services brisbane` e `local movers brisbane`; SUPORTE pausada; FRONT de A$174,98 para A$295,96/dia; anúncios novos; prova social de "1700+" para "2,400+". Plano em `Vaz Power/Consolidacao FRONT SUPORTE e Anuncios - 22.09.2026.md` |
+| **01/10** | Rampa de alta temporada |
+| **05/10** | Remessa do sinal de A$150 |
+| **07/10** | Leitura da consolidação. **Não tocar na FRONT antes** |
+| **Toda segunda, 15h** | Rotina de palavra-chave e correspondência (20 min), desde 05/10. Alvo, orçamento e estrutura ficam de fora |
+
+**Outubro vai ter quatro mudanças grandes em uma semana**, mais a automação de follow up do cliente sem data. Nenhuma variação de outubro vai ser atribuível a uma causa só.
+
+**Pendências:** acessos de 21/09 ainda não liberados (Administrador no WordPress e Perfil do Google como Gerente, no e-mail `vazpower.webops@gmail.com`); **o Ricardo ainda tem acesso Padrão à conta Google Ads** (último acesso em 10/06/2026); a causa do colapso da FRONT em julho segue aberta.
+
+---
+
+### 20/09 · SEMANA 16 MONTADA · REGISTRO DOS MOVIMENTOS DA REENGENHARIA (datas)
+
+**Dashboard da S16 (14 a 20/09) PUBLICADO em `setembro-14-20/` em 20/09**, bloco de ação
+validado pelo Fabricio. Faixa "Gestão contínua" mantida por ser genérica (decisão dele).
+**Mensagem ao Vaz ENVIADA em 20/09**, no privado do Rodrigo e no grupo de backup com Vaz
+e Victor. **Ciclo da S16 fechado.**
+
+> **O QUE FOI DITO AO CLIENTE NA MENSAGEM DA S16 (não contradizer depois):** investimento
+> caiu 35% por decisão; paramos de investir no que trazia lead a custo mais alto e sem
+> fechamento; busca concentrada no site; frente nova para rotas e calculadora, sem leitura
+> ainda; formulários mantidos em 20 com proporção de 38% para 45%; CPL caiu 21% "quando o
+> esperado era subir", com "é uma semana só" na mesma frase; leitura limpa começa em 21/09;
+> no Meta o custo subiu no Feed (A$33 -> A$64) e não no Reels (A$20), e é o ponto a
+> acompanhar; **posição completa na sexta, 26/09**. Nenhuma campanha nomeada na mensagem.
+> Nada de piano, negativa, lance, público ou estrutura.
+
+**Próximos compromissos:** posição completa do ajuste em **26/09** (sexta); dashboard da
+**Semana 17 (21 a 27/09)**, primeira semana inteira na configuração nova, que abre a
+leitura limpa; invoice **INV-2026-10-001** no início de outubro. A$1.812,90 | 44 leads (20 formulários + 24 ligações) |
+CPL A$41,20. Google A$1.291,95 · 25 conv · A$51,68 | Meta A$520,95 · 19 lig · A$27,42.
+**Formulários sobre o total: 45,5%, contra 37,7% na S15.** Formulários mantidos em 20 com
+34,7% menos investimento; o que saiu foi ligação (33 -> 24). CPL caiu 21,3%.
+Antes e depois (14-16 vs 17-20/09): A$662,85/13 conv (A$50,99) vs A$629,10/12 (A$52,43).
+
+**DATAS DOS MOVIMENTOS, informadas pelo Fabricio em 20/09 a partir da memória da sessão
+de otimização (não estavam no repositório):**
+
+| Data (BRT) | Movimento |
+|---|---|
+| 13/09 | **PMax pausada** (rastro de A$9,75 e 53 impr em 14/09 Brisbane) |
+| 16/09 | **LP Form A/B pausada** (rodou 14 e 15/09: A$64,01, 276 impr, 2 conv) |
+| 16/09 | **Meta Ligações: A$94,98 -> A$78,98/dia, público virou Advantage+** |
+| 17/09 | **Orçamentos Google:** FRONT A$174,98, SUPORTE A$120,98, BRAND A$148,98, MADRUGA A$148,98 |
+| 19/09, 10h BRT (23h Brisbane) | **ROTAS ativada**: `ROTAS - Search \| Crie@tive \| Brisbane To + Calculadora - SITE` (ID 24266345174), rotas Brisbane -> Gold Coast, Sunshine Coast, Sydney, Melbourne, interestadual e calculadora de volume. A$80/dia, Maximizar conversões sem alvo. Na S16 teve ~1h de 19/09 e o 20/09 inteiro (A$4,25 + A$159,94, 1 conv) |
+
+> A nota da S15 dizia "PMax e LP Form pausadas em 16/09". **Corrigido: a PMax saiu em
+> 13/09.** A linha de corte da reengenharia continua sendo 16/09 (data da decisão).
+
+**Teto da conta:** A$15 mil/mês, condicionado a lead e CPA saudáveis, decisão do Fabricio
+em 07/09 (registrado antes como 08/09; vale 07/09).
+
+> **REGRA DE COMUNICAÇÃO, dada em 20/09:** dashboard e mensagens ao cliente ficam no
+> **nível de resultado e decisão**. Mecânica de conta (testes, negativas, lances, tipo de
+> público, fase de aprendizado, estrutura) fica no registro interno. **O dashboard agora vai
+> no privado do Rodrigo e no grupo de backup com o Vaz e o Victor.** Aplicado na S16: o
+> bloco de ação descreve o que saiu, o que entrou e quando, sem estratégia de lance nem
+> Advantage+. A faixa "Gestão contínua" segue listando negativas e lances: **o Fabricio decidiu manter,
+> por ser genérica.**
+
+> **META POR PLATAFORMA: PENDÊNCIA ENCERRADA em 20/09.** O export não separa Facebook de
+> Instagram porque **a campanha imprime só no Facebook mesmo com o Instagram selecionado**.
+> Para testar a hipótese do administrativo (Facebook converte mais), seria preciso **isolar
+> cada plataforma em um conjunto de anúncios próprio**. Fica como decisão de estrutura, não
+> de export. O primeiro arquivo de **posicionamento** da semana veio idêntico ao de dispositivos;
+> o Fabricio reexportou e a S16 saiu com o quadro. **Achado: o Meta encareceu no Feed, não
+> no Reels.** Reels 16 lig a A$20,08 (S15: A$19,85), 62% da verba; Feed 3 lig a A$63,96
+> (S15: A$33,06), 37% da verba; Marketplace A$7,85 sem resultado. A razão Feed/Reels abriu
+> de 1,7x para 3,2x com o público novo. Meta por dispositivo: iPhone 14 a A$18,85 (140
+> cliques), Android 5 a A$51,20 (30 cliques).
+
+> **PIANO: O INVESTIMENTO PAROU EM 17/09; A EXIBIÇÃO NÃO.** Export de termos de
+> pesquisa de 14 a 20/09 filtrado em "piano", segmentado por dia, tudo na SUPORTE:
+>
+> | Período | Impr | Cliques | Custo | Conv |
+> |---|---|---|---|---|
+> | 14 a 16/09 (antes da negativação) | 42 | 7 | **A$122,67** | **3** |
+> | 17 a 20/09 (depois) | 33 | **0** | **A$0,00** | 0 |
+>
+> **Todo o custo e as 3 conversões de piano são de 14 a 16/09.** De 17/09 em diante, zero
+> clique e zero gasto em 4 dias: com o CTR anterior (16,7%), a chance de isso ser acaso é
+> de 0,25%. **A negativação de 15 e 16/09 cumpriu o objetivo: a conta parou de pagar por
+> piano a partir de 17/09 (Brisbane).**
+>
+> **CORREÇÃO DE 28/09: essa conclusão estava errada.** Quatro dias de zero eram amostra curta.
+> De 21 a 27/09 o piano voltou: **9 cliques, A$186,96, 3 conversões (7,2% do Google)**, todo o
+> custo na SUPORTE, grupo 01, em correspondência ampla (`moving services brisbane`). A exata
+> `[piano movers brisbane]` citada abaixo não existe como palavra ativa: o "exata" do relatório é
+> o tipo de correspondência do termo, não da palavra. Vedado em 28/09 com negativa de campanha
+> (ver o bloco de 28/09 no topo).
+>
+> **O que ficou aberto:** os anúncios **continuam aparecendo** para piano (33 impressões
+> em 4 dias, 12 termos diferentes, quase todos no grupo `01 - House Movers Brisbane`).
+> Negativa de frase "piano" em nível de campanha não deixaria impressão nenhuma. Ou seja,
+> a negativação foi parcial (termos específicos ou nível de grupo) ou algo mais está
+> segurando o clique. E **`[piano movers brisbane]` segue como palavra-chave exata ativa**
+> no grupo `03 - Furniture Removalists` (1 impressão em 17/09). **Para selar:** negativa
+> de frase `"piano"` em nível de campanha na SUPORTE, FRONT e ROTAS, e pausar a exata do
+> grupo 03. Custo zero, e as impressões vão a zero.
+>
+> **Leitura interna da S16 limpa de piano** (não vai ao cliente): Google A$1.169,28 / 22
+> conv / **A$53,15**; SUPORTE A$262,74 / 6 / A$43,79; conta A$1.690,23 / 41 / A$41,23.
+> **Antes e depois, limpo de piano:** 14 a 16/09 A$540,18 / 10 conv / **A$54,02**; 17 a
+> 20/09 A$629,10 / 12 / **A$52,43**. O "empate" do dashboard pende levemente para a conta
+> nova quando o piano sai. SUPORTE de 17 a 20/09: A$201,45 / 5 conv / **A$40,29**, sem
+> nenhum piano dentro. O dashboard publicado mostra os 9 da SUPORTE porque é o que a conta
+> reporta; o piano não é assunto com o cliente.
+
+> **FUSO, DE NOVO, PORQUE APARECEU INVERTIDO NA MEMÓRIA DA OUTRA SESSÃO.** Brisbane está
+> **13h à frente**. O domingo 20/09 de Brisbane vai de 11h BRT de sábado 19/09 a 11h BRT de
+> domingo 20/09. **Fecha às 11h de domingo, não de segunda.** Export puxado às 20h BRT de
+> domingo (9h de segunda em Brisbane) traz o domingo completo. A afirmação "o domingo de lá
+> só fecha às 11h de segunda em Brasília" está errada e precisa ser corrigida na memória
+> da pasta de otimização. A regra certa está em `CLAUDE.md`.
+
 
 ### 17/09 · CALL COM O ADMINISTRATIVO · O QUE MUDA NA OPERAÇÃO DE MÍDIA
 
@@ -1173,6 +1744,8 @@ movers", "near me", marca Vaz Power.
 | 13 | 24-30/08 | A$1.436 | 48 | **A$29,92** |
 | 14 | 31/08-06/09 | A$2.481 | **78** | A$31,81 |
 | 15 | 07-13/09 | A$2.776 | 53 | A$52,37 |
+| 16 | 14-20/09 | A$1.813 | 44 | A$41,20 |
+| 17 | 21-27/09 | A$3.137 | 57 | A$55,03 | 18 agendamentos no CRM (S16: 12) |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).

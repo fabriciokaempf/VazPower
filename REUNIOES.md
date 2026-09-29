@@ -636,6 +636,29 @@ Mensagem própria, separada do fechamento de semana e separada da frente de marc
 - **Qualquer coisa da proposta de marca.** Frente separada, mensagem separada, como ficou
   combinado em 09/09.
 
+> **27/09, 17:50, META SEMANAL DADA PELO RODRIGO:** "36 agendamentos essa semana, recorde das
+> últimas 6-7 semanas. Meta dessa semana são de 35 a 40 agendamentos... E irmos aumentando $$."
+> Foco na região de Brisbane "porque eu preciso encher mais agenda e mais bookings". A régua da
+> operação é agendamentos por semana; a mídia fez 18 dos 36. Sinal verde para subir investimento
+> aos poucos, com foco local. Victor mantém o retorno semanal.
+
+> **27/09, respostas do Rodrigo nos dois grupos, no mesmo dia:** confirmou que fichas New não
+> foram contatadas e que ele começa em 28/09 às 8h de Brisbane; Pending é "não atenderam"; Lost
+> não vai ter motivo registrado ("não dá para mensurar"); explicou como reclassifica a origem no
+> CRM; disse que o Victor não faz atendimento. **Decisão dele: verba com foco em Brisbane e
+> mudanças locais "para manter a galera busy"; interestadual bom, mas em paralelo.** Detalhe
+> operacional em `ESTADO.md`, bloco da S17.
+
+> **SEMANA 17 (21 a 27/09): dashboard publicado e mensagens enviadas em 27/09.** Ao Vaz (privado
+> e grupo de Dashboards) e ao Victor (grupo Tráfego e Leads). Primeira semana com o cruzamento
+> CRM x anúncios no dashboard. Compromissos: plano de criativos do Meta na semana de 28/09; os
+> acessos de 21/09 mencionados de passagem. Registro do que foi dito em `ESTADO.md`, bloco da S17.
+
+> **SEMANA 16 (14 a 20/09): dashboard publicado e mensagem enviada em 20/09**, no privado
+> do Rodrigo e no grupo de backup com Vaz e Victor. Nível de resultado e decisão, sem
+> mecânica. Reafirmada a **posição completa de sexta, 26/09**. Registro do que foi dito em
+> `ESTADO.md`, bloco da S16.
+
 > **COMPROMISSO DE DOMINGO, 13/09: CUMPRIDO.** Dashboard da Semana 15 publicado em
 > `setembro-07-13/` e mensagem enviada ao Vaz no mesmo dia, só sobre volume de lead, sem
 > promessa de cruzamento, como estava combinado. O que foi dito sobre orçamento está
