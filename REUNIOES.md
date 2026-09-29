@@ -37,6 +37,32 @@ horário de verão, então a diferença nunca muda.
 - **Nunca usar "amanhã" ou "hoje"** em mensagem para o Vaz: com 13h de diferença a
   palavra muda de significado. Sempre data e dia da semana.
 
+### SYDNEY NÃO É BRISBANE · regra nova a partir de 29/09
+
+**Com o Antonio Carlos na operação, existe um segundo fuso australiano em jogo.** Nova
+Gales do Sul tem horário de verão e Queensland não, então **Sydney e Brisbane só estão no
+mesmo horário durante parte do ano**.
+
+| Período | Sydney | Brisbane | Diferença para o BRT |
+|---|---|---|---|
+| até sábado 03/10/2026 | UTC+10 | UTC+10 | ambas **+13h** |
+| domingo 04/10/2026 a domingo 04/04/2027 | **UTC+11** | UTC+10 | Sydney **+14h**, Brisbane **+13h** |
+| a partir de 05/04/2027 | UTC+10 | UTC+10 | ambas **+13h** |
+
+**O efeito prático, com o horário que já foi combinado:** "20h de Sydney" é **7h da manhã
+BRT** até 03/10 e passa a ser **6h da manhã BRT** a partir de 04/10. **A mesma frase vale
+uma hora diferente**, e quem marcar de memória erra.
+
+> **REGRAS:**
+> - **Nunca tratar Sydney e Brisbane como o mesmo fuso.** Ao combinar horário, perguntar ou
+>   confirmar **de qual cidade** a pessoa está falando.
+> - **Continuar criando os eventos no fuso de Brasília e deixar o Google converter.** Ele
+>   resolve o horário de verão sozinho; conta feita à mão, não.
+> - **O Brasil não tem mais horário de verão**, então o lado de cá não se mexe. Toda a
+>   variação vem do lado australiano.
+> - **Se um dia a call juntar Sydney e Brisbane depois de 04/10**, os dois não estão mais na
+>   mesma hora: escolher o horário olhando para os dois, não para um.
+
 ## 3. Canal de contato
 
 - Situação em 01/09: **o WhatsApp Business do Fabricio está fora do ar há dias**, e o
@@ -236,6 +262,53 @@ e 18h51. O Vitor respondeu em vinte minutos e mandou mais conteúdo do que foi p
 frequência semanal às segundas com a semana anterior, os três campos que o próprio Vaz
 listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
 lançamento atrasado para o valor não cair em mês errado.
+
+### 29/09 · entrou um gerente comercial na operação do cliente, e um grupo novo
+
+**O cliente criou um grupo próprio para a frente de tráfego e leads**, com ele, o Fabricio,
+o Victor e uma pessoa nova: **Antonio Carlos, gerente comercial, baseado em Sydney**. O
+cliente encerrou a abertura do grupo com *"pra cima time"*, o que lê como delegação: os
+três alinham e ele acompanha.
+
+**O que muda com isso:** até aqui a operação do cliente tinha um lado administrativo e mais
+nada. **Agora existe um interlocutor comercial**, que é justamente quem sente a qualidade
+do lead na ponta. **É a peça que faltava para fechar o ciclo entre o que a mídia compra e o
+que a operação consegue vender.**
+
+**No grupo o Victor aparece rotulado como "Vaz Team | Comercial"**, e não como
+administrativo. Pode ser só o nome que ele usa nesse grupo ou pode ser mudança de função.
+**Não assumir nenhuma das duas: confirmar na call.**
+
+**Primeira call marcada para quinta, 01/10, às 20h de Sydney, que é 7h da manhã do mesmo
+dia aqui.** O horário foi escolhido por ele. **Falta o e-mail dele para o convite**, já
+pedido no grupo. O Victor se ofereceu para encaixar e entra na mesma call, porque é ele
+quem conhece o funil por dentro e não interessa sair com duas versões de como o lead é
+contado.
+
+**Pauta acordada para o convite:**
+
+1. Quem faz o quê no comercial hoje: quem atende, quem cota, quem fecha.
+2. **O que é um lead bom na visão de quem vende**, e o que denuncia isso na primeira
+   conversa.
+3. **O que é um lead sem encaixe**: item avulso, procura por preço, fora de área.
+4. Confirmar a definição de conversão, o booking fee cobrado, com o Victor na mesma call.
+5. **Cobertura da operação: só Brisbane, ou Sydney também?**
+6. Como o comercial registra no CRM o que não teve encaixe, para virar barreira na mídia.
+7. Cadência de troca.
+
+> **O ITEM 5 É O MAIOR E NINGUÉM DEVE DECIDIR NADA NELE NA CALL.** Um gerente comercial
+> baseado em Sydney numa operação de Brisbane pode ser só onde a pessoa mora, ou pode ser
+> abertura de praça. **Se for abertura, a geografia das campanhas muda por inteiro**, e isso
+> é decisão de outro tamanho, com o cliente e com dado. Na call, só levantar.
+
+> **ONDE ESTÁ O VALOR REAL DESSA RELAÇÃO: os itens 2 e 3.** Critério de lead dito por quem
+> vende é o que vira palavra negativa e ângulo de criativo, e **não existe em lugar nenhum
+> da conta de anúncios**. **A conversa se conduz para esse terreno**, onde ele é
+> insubstituível, e não para leitura de campanha, onde ele não tem como ajudar e a conversa
+> não rende para lado nenhum.
+
+**Retorno ao cliente depois da call, no grupo**, em vez de incluí-lo na call. Ele delegou.
+Com o dono dentro, a sessão de trabalho vira reunião de gestão e o comercial fala menos.
 
 ### Enviado ao Vaz em 18/09, em duas mensagens · entrega da semana e lembrete da invoice
 
