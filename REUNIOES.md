@@ -263,12 +263,12 @@ frequência semanal às segundas com a semana anterior, os três campos que o pr
 listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
 lançamento atrasado para o valor não cair em mês errado.
 
-### 29/09 · entrou um gerente comercial na operação do cliente, e um grupo novo
+### 29/09 · entrou um gerente comercial na operação do cliente
 
-**O cliente criou um grupo próprio para a frente de tráfego e leads**, com ele, o Fabricio,
-o Victor e uma pessoa nova: **Antonio Carlos, gerente comercial, baseado em Sydney**. O
-cliente encerrou a abertura do grupo com *"pra cima time"*, o que lê como delegação: os
-três alinham e ele acompanha.
+**Uma pessoa nova entrou no grupo Tráfego e Leads**, que já existia desde 23/09 com o
+cliente, o Fabricio e o Victor: **Antonio Carlos, gerente comercial, baseado em Sydney**.
+Quando a call foi combinada, o cliente fechou a conversa com *"pra cima time"*, o que lê
+como delegação: os três alinham e ele acompanha.
 
 **O que muda com isso:** até aqui a operação do cliente tinha um lado administrativo e mais
 nada. **Agora existe um interlocutor comercial**, que é justamente quem sente a qualidade
@@ -280,8 +280,10 @@ administrativo. Pode ser só o nome que ele usa nesse grupo ou pode ser mudança
 **Não assumir nenhuma das duas: confirmar na call.**
 
 **Primeira call marcada para quinta, 01/10, às 20h de Sydney, que é 7h da manhã do mesmo
-dia aqui.** O horário foi escolhido por ele. **Falta o e-mail dele para o convite**, já
-pedido no grupo. O Victor se ofereceu para encaixar e entra na mesma call, porque é ele
+dia aqui.** O horário foi escolhido por ele. **Convite enviado em 30/09** para ele e para o
+Victor, com a pauta abaixo. O e-mail que ele passou tem grafia incomum, então foi pedida a
+confirmação de recebimento no grupo. Antes da call, ele foi convidado a trazer dois ou três
+exemplos recentes, de lead que fechou e de lead sem encaixe. O Victor se ofereceu para encaixar e entra na mesma call, porque é ele
 quem conhece o funil por dentro e não interessa sair com duas versões de como o lead é
 contado.
 
