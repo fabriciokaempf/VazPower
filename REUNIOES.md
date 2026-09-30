@@ -282,8 +282,8 @@ administrativo. Pode ser só o nome que ele usa nesse grupo ou pode ser mudança
 **Primeira call marcada para quinta, 01/10, às 20h de Sydney, que é 7h da manhã do mesmo
 dia aqui.** O horário foi escolhido por ele. **Convite enviado em 30/09** para ele e para o
 Victor, com a pauta abaixo. O e-mail que ele passou tem grafia incomum, então foi pedida a
-confirmação de recebimento no grupo. Antes da call, ele foi convidado a trazer dois ou três
-exemplos recentes, de lead que fechou e de lead sem encaixe. O Victor se ofereceu para encaixar e entra na mesma call, porque é ele
+confirmação de recebimento no grupo. **Não houve pedido prévio de exemplos**: os casos
+recentes, de lead que fechou e de lead sem encaixe, são puxados na própria call. O Victor se ofereceu para encaixar e entra na mesma call, porque é ele
 quem conhece o funil por dentro e não interessa sair com duas versões de como o lead é
 contado.
 
