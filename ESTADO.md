@@ -13,6 +13,36 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+> ### 01/10, 14H BRT · A COORTE DE 21 A 27/09 QUATRO DIAS DEPOIS (para o contato no privado de hoje à noite)
+>
+> Exports de Leads e Jobs com Creation Date 21 a 27/09, tirados em 01/10 e comparados com os de
+> 27/09. Só agregados; arquivos fora do repositório.
+>
+> - **7 fichas saíram da lista de Leads** desde domingo (38 -> 31): 4 Google Forms, 1 Incoming
+>   Call, 1 Cost Estimator, 1 Repeat. Pelo status que tinham (4 Quoted, 1 FollowUp, 1 New, 1 Lost),
+>   **5 ou 6 viraram job depois de 27/09**. Os jobs criados de 21 a 27/09 não mudaram de lista
+>   (38, mesmos IDs): a conversão posterior aparece em Jobs com data de criação de 28/09 em diante.
+>   **Agendamentos de mídia da coorte: 18 na própria semana + ~5 depois ≈ 23.**
+> - **A coorte amadureceu para o Lost:** Lost 10 -> 18; Quoted 7 -> 3; FollowUp 5 -> 1; Pending
+>   3 -> 2; New 13 -> 7. Nenhum Lost com motivo (0 de 18), como o Rodrigo avisou.
+> - **AS 13 DA CALCULADORA E DO ESTIMADOR, 4 dias depois de "vou entrar hoje a partir das 8am":**
+>   **6 trabalhadas** (1 virou job, 2 Quoted, 3 Lost; todas reclassificadas para "Google Forms", o
+>   que confirma a regra de origem) e **7 AINDA EM NEW**, agora com 5 a 9 dias. **Das 7, 4 são
+>   mudança local em Brisbane e região** (destinos The Gap, Eagleby, Caboolture, Mitchelton), e
+>   uma delas tem **mudança marcada para 03/10, sábado**. As outras 3 são Perth (fev/2027), Albury
+>   e Townsville. **É a segunda semana seguida** com ficha de calculadora parada (a sessão de
+>   otimização já tinha visto 7 de 17 de 28 a 30/09).
+> - **Jobs da coorte:** Completed 5 -> 12; 1 cancelado (Incoming Call, motivo preenchido:
+>   "Customer decided to not go ahead", ou seja, Jobs registra motivo, Leads não).
+>
+> **PARA O PRIVADO DE HOJE ("preciso de mais lead"), com o cuidado de nunca soar como erro
+> dele:** o lead está chegando e está fechando (a semana de 21 a 27/09 já passou de 18 para cerca
+> de 23 agendamentos de mídia); **o volume mais rápido que existe hoje são as 7 fichas da
+> calculadora ainda sem contato, 4 locais, uma com mudança no sábado**: é agendamento na mão,
+> antes de qualquer verba nova. Enquadrar como ganho ("tem 4 mudanças locais esperando contato"),
+> não como cobrança. **Número da semana 28/09 a 04/10 só com a semana fechada.**
+
+
 ### 29/09 A 01/10 · CONSOLIDAÇÃO FRONT E SUPORTE EXECUTADA · RECLAMAÇÃO DE VOLUME · META PARA A$100,98 (sessão de otimização)
 
 > **A ESTRUTURA DO SEARCH MUDOU EM 01/10, ÀS 10H50 BRT (23H50 DE 01/10 EM BRISBANE).** A SUPORTE
