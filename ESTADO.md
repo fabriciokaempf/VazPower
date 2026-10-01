@@ -1,7 +1,8 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **28/09/2026** (sessão de otimização: leituras da S17, negativas aplicadas, público da FRONT mantido e consolidação de 30/09 ajustada).
+Atualizado em **01/10/2026** (sessão de otimização: conferências de 29/09, reclamação de volume, consolidação FRONT e SUPORTE executada e Meta para A$100,98).
+Antes disso, 28/09 (sessão de otimização: leituras da S17, negativas aplicadas, público da FRONT mantido e consolidação ajustada).
 Antes disso, 27/09 (sessão de otimização: 21 a 23/09, cesta de conversão e público da FRONT mudaram dentro da S17).
 Antes disso, 17/09 (call com o administrativo: acesso ao CRM, fonte de melhor lead
 identificada e buraco de rastreio das ligações).
@@ -11,6 +12,65 @@ numérica corrigida).
 ---
 
 ## 0. ESTADO ATUAL (retomar daqui)
+
+### 29/09 A 01/10 · CONSOLIDAÇÃO FRONT E SUPORTE EXECUTADA · RECLAMAÇÃO DE VOLUME · META PARA A$100,98 (sessão de otimização)
+
+> **A ESTRUTURA DO SEARCH MUDOU EM 01/10, ÀS 10H50 BRT (23H50 DE 01/10 EM BRISBANE).** A SUPORTE
+> está pausada e a FRONT ficou sozinha no Search principal. **02/10 é o primeiro dia inteiro da
+> estrutura nova.** Toda comparação de S18 em diante carrega essa data. Não mexer na FRONT antes de
+> 07/10, salvo guarda-corpo. Registro completo, passo a passo e com horários, em
+> `Vaz Power\Conferencias Consolidacao FRONT SUPORTE - 29.09.2026.md` (pasta local, seção 11).
+
+**1 · CONFERÊNCIAS DE 29/09 (só leitura, com verificação independente de três revisores e um juiz).**
+- **Stop-loss da renda Desconhecida não disparou:** A$773,82 e 5 conversões desde 24/09. O gatilho era A$1.200 com 6 ou menos.
+- **FRONT e SUPORTE têm as mesmas 15 listas de negativas.** Só a SUPORTE tinha `"enoggera storage"` e `"moveurself"`, e nenhuma das 21 negativas que só a FRONT tem bloqueia termo convertido visível.
+- **A frase e a exata de `moving services brisbane` sem impressão** se explicam porque a busca literal é rara: a exata da própria SUPORTE também teve zero em 60 dias.
+- **As duas campanhas mandam o tráfego do site para a página inicial**, não para `/removalists-brisbane/`.
+- **Piano era 17 das 37,32 conversões da ampla** em 60 dias. Sem piano, ela fica perto de A$62 por conversão, e não A$46,50.
+
+**2 · RECLAMAÇÃO DE VOLUME DO RODRIGO, EM 29/09 À NOITE E DE NOVO EM 01/10** ("sem leads para trabalhar", "bem fraco ontem", "preciso de mais lead").
+
+| | S17, média/dia | 28/09 a 01/10, média/dia |
+|---|---|---|
+| Conversões Google | 5,9 a A$63 | 4,5 a A$92 (dia a dia: 4, 3, 8 e 3) |
+| Ligações Meta | 2,3 a A$34 | 4,0 a A$20 |
+| Contatos somados | 8,1 | 8,5 |
+
+- **O volume total não caiu.** Saiu formulário e entrou ligação, e o formulário é o que o Rodrigo enxerga no CRM.
+- **O Google ficou mais caro por causa da FRONT com o público aberto** (renda Desconhecida a A$155 por conversão).
+- **As negativas de 28/09 não explicam a queda de impressões da FRONT** (7,5% do visível); o corte de piano tira cerca de 0,4 lead por dia da SUPORTE.
+- **No CRM, 7 de 17 fichas de 28 a 30/09 estavam em New sem contato**, todas da calculadora ou do `/book/`. É a segunda semana seguida. Foi levado ao grupo em 30/09, só com resultado.
+
+**3 · CONSOLIDAÇÃO EXECUTADA EM 01/10, DAS 10H ÀS 10H50 BRT (tudo conferido depois de recarregar).**
+
+| Passo | O quê |
+|---|---|
+| Público | Renda Desconhecida excluída nos 4 grupos da FRONT |
+| Anúncios novos | Um anúncio responsivo por grupo, URL `https://vazpower.com.au/` (a mesma do anúncio vencedor), sem título fixado, qualidade "Excelente" nos 4, todos "Qualificada" |
+| LP | Os 9 anúncios da LP da FRONT pausados; todo grupo ficou com anúncio ativo para o site |
+| Negativas | `"enoggera storage"` e `"moveurself"` em frase, no nível de campanha da FRONT |
+| Palavra | Ampla `moving services brisbane` no grupo 01 da FRONT, sem URL própria, "Qualificada" |
+| Orçamento | FRONT de A$174,98 para **A$295,96/dia** (a soma das duas); alvos intactos (00 A$69,65; 01, 02 e 03 A$70,00) |
+| SUPORTE | **Pausada às 10h49 BRT**, com o orçamento mantido em A$120,98 para a reversão |
+
+- **Textos:** claims sem prova no projeto foram trocados ("Never Subbed", "No Extra Cost", "Clear quote, no surprises", "Quote In Minutes"). Ficaram as versões que já rodam na ROTAS: "Our Own Moving Crew" e "Fully Insured Moves".
+- **Limites achados:** o Google aceita no máximo **3 anúncios responsivos ativos por grupo**, e **fixar título derruba a qualidade** do anúncio para "Médio".
+
+**4 · META: ORÇAMENTO DA CAMPANHA DE A$78,98 PARA A$100,98/DIA** em 01/10, às 10h55 BRT, aplicado pelo Fabricio e conferido no print. O orçamento é de campanha, não de conjunto. É a rampa de outubro, no canal com o contato mais barato e voltado para Brisbane.
+
+**5 · PRÓXIMOS PASSOS.**
+- **02/10 à tarde (BRT):** conferir as impressões da ampla no grupo 01 da FRONT (referência: cerca de 24 por dia na SUPORTE) e os 4 anúncios novos no relatório de recursos.
+- **03 a 06/10:** guarda-corpos só como leitura. Guarda-corpo B pela base ajustada, sem a renda Desconhecida.
+- **05/10:** remessa do sinal de A$150.
+- **06/10:** termos de pesquisa e leitura do Meta.
+- **07/10:** leitura da consolidação.
+
+**Pendências:**
+- UTMs literais `campaign.name` e `adset.name`, que vêm de configuração herdada;
+- negativas de Redland (`"removalists cleveland qld"` e `"removalists redlands qld"`) contra locais segmentados;
+- a ampla `furniture movers brisbane`, que só existia na SUPORTE, saiu do ar: olhar nos termos de 06/10.
+
+**Para o dashboard da S18 (28/09 a 04/10): a semana tem duas mudanças dentro, a consolidação no fim de 01/10 e o Meta a A$100,98.** Na leitura, separar 28/09 a 01/10 de 02 a 04/10.
 
 ### 01/10 · CALL COM ANTONIO E VICTOR · O QUE TOCA A OPERAÇÃO DE MÍDIA
 
