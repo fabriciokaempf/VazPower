@@ -263,6 +263,60 @@ frequência semanal às segundas com a semana anterior, os três campos que o pr
 listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
 lançamento atrasado para o valor não cair em mês errado.
 
+### 01/10 · call com Antonio e Victor · a pauta virou apresentação, e o Antonio é automação
+
+**1h19, em duas salas.** O Meet de conta pessoal encerrou a primeira aos 60 minutos e a
+conversa seguiu numa segunda. **Com três pessoas, o Meet gratuito corta em uma hora**:
+marcar uma hora cheia e fechar dentro dela, ou já contar com a segunda sala.
+
+**O que a call foi:** o Antonio abriu perguntando se o cliente tinha alinhado com os dois
+algo sobre automação. Não tinha, só uma conversa de minutos no domingo anterior. A partir
+dali ele conduziu, mostrando o trabalho que faz. **A pauta do convite não foi percorrida, e
+tudo bem**: a call serviu para entender quem ele é, que era a pergunta de fundo.
+
+**Quem é o Antonio, pelo que ele mesmo contou:** duas décadas com empresa própria na
+Austrália, venda online, campanha e automação. Hoje trabalha com automação por IA e toca
+projetos assim para outras marcas. **No rótulo é gerente comercial; na prática, o escopo
+dele é branding, conteúdo e automação.** Custo de ferramenta e plano ele trata direto com o
+cliente.
+
+**O papel do Victor ficou claro, na fala dele:** trabalha nas operações, com o time de campo
+e com os clientes, e ajuda o Fabricio com o retorno do que ouve. **Não é vendedor.** O
+rótulo "Comercial" no grupo é só rótulo.
+
+**O que ficou combinado:**
+
+- **Primeira fase: branding**, padronização da identidade em Facebook, Instagram, YouTube e
+  Pinterest. TikTok fora. Conteúdo automatizado vem depois.
+- **O Antonio liga para o cliente** para tratar custo e acesso às contas, e posta no grupo o
+  que vai apresentar.
+- **O Fabricio adiciona o Antonio no gerenciador do Meta**, com o escopo registrado em
+  `ESTADO.md`: Página e Instagram, não a conta de anúncios.
+- **O Fabricio manda o convite da próxima call e avisa no grupo.**
+
+**Próxima call: quinta, 08/10, 7h aqui, 21h em Sydney, 20h em Brisbane.** Convite enviado em
+01/10 para o Antonio e o Victor. Pauta: branding e padronização já com conteúdo, calendário
+de postagem, acessos e nível de cada um, **datas de cada entrega para separar o efeito do
+branding do efeito da mídia**, e o próximo pedaço do projeto.
+
+> **08/10 É A PRIMEIRA CALL DEPOIS DO HORÁRIO DE VERÃO DE SYDNEY.** No fim da call o Antonio
+> falou em "mesmo horário, 20h30". **Em 08/10, 20h30 de Sydney já seria 6h30 aqui.** O
+> convite manteve as 7h daqui, que em Sydney vira 21h. O convite mostra a cada um o horário
+> do próprio fuso, e a mensagem no grupo repete os três.
+
+**O Victor sai da Austrália na segunda quinzena de novembro** e segue trabalhando com o
+cliente a partir do Brasil, depois de alguns dias de instalação. **Coincide com o pico da
+temporada.** A partir daí, call com ele cai no fuso daqui.
+
+> **A GRAVAÇÃO BRUTA DA CALL NÃO CIRCULA.** Na call foi oferecido compartilhar a gravação
+> com os participantes e com o cliente. **O que vai é um resumo escrito** do que foi
+> combinado. Conversa gravada tem fala solta que não foi feita para circular, e o resumo é
+> o que as pessoas leem de fato.
+
+**Ficou aberto:** as perguntas de qualidade de lead, item 7 do bloco de 01/10 em
+`ESTADO.md`. E Sydney como praça não apareceu, nem pesa mais: o Antonio não está lá como
+vendedor regional.
+
 ### 29/09 · entrou um gerente comercial na operação do cliente
 
 **Uma pessoa nova entrou no grupo Tráfego e Leads**, que já existia desde 23/09 com o
@@ -270,14 +324,14 @@ cliente, o Fabricio e o Victor: **Antonio Carlos, gerente comercial, baseado em 
 Quando a call foi combinada, o cliente fechou a conversa com *"pra cima time"*, o que lê
 como delegação: os três alinham e ele acompanha.
 
-**O que muda com isso:** até aqui a operação do cliente tinha um lado administrativo e mais
-nada. **Agora existe um interlocutor comercial**, que é justamente quem sente a qualidade
-do lead na ponta. **É a peça que faltava para fechar o ciclo entre o que a mídia compra e o
-que a operação consegue vender.**
+> **CORRIGIDO EM 01/10: a leitura abaixo partiu do rótulo e estava errada.** Na call, o
+> escopo do Antonio se mostrou automação, branding e conteúdo, não atendimento. Quem atende
+> e fecha é o Rodrigo. Ver o bloco de 01/10.
 
 **No grupo o Victor aparece rotulado como "Vaz Team | Comercial"**, e não como
 administrativo. Pode ser só o nome que ele usa nesse grupo ou pode ser mudança de função.
-**Não assumir nenhuma das duas: confirmar na call.**
+**Não assumir nenhuma das duas: confirmar na call.** *Confirmado em 01/10: operações, com o
+time de campo e os clientes.*
 
 **Primeira call marcada para quinta, 01/10, às 20h de Sydney, que é 7h da manhã do mesmo
 dia aqui.** O horário foi escolhido por ele. **Convite enviado em 30/09** para ele e para o
@@ -303,11 +357,9 @@ contado.
 > abertura de praça. **Se for abertura, a geografia das campanhas muda por inteiro**, e isso
 > é decisão de outro tamanho, com o cliente e com dado. Na call, só levantar.
 
-> **ONDE ESTÁ O VALOR REAL DESSA RELAÇÃO: os itens 2 e 3.** Critério de lead dito por quem
-> vende é o que vira palavra negativa e ângulo de criativo, e **não existe em lugar nenhum
-> da conta de anúncios**. **A conversa se conduz para esse terreno**, onde ele é
-> insubstituível, e não para leitura de campanha, onde ele não tem como ajudar e a conversa
-> não rende para lado nenhum.
+> **ONDE ESTÁ O VALOR: os itens 2 e 3.** Critério de lead dito por quem vende vira palavra
+> negativa e ângulo de criativo, e **não existe em lugar nenhum da conta de anúncios**.
+> *Em 01/10 ficou claro que quem responde isso é o Rodrigo, não o Antonio.*
 
 **Retorno ao cliente depois da call, no grupo**, em vez de incluí-lo na call. Ele delegou.
 Com o dono dentro, a sessão de trabalho vira reunião de gestão e o comercial fala menos.

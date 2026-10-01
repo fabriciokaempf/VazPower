@@ -12,6 +12,63 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+### 01/10 · CALL COM ANTONIO E VICTOR · O QUE TOCA A OPERAÇÃO DE MÍDIA
+
+Call de 1h19, em duas salas, na quinta 01/10 às 7h BRT. **A pauta de qualidade de lead não
+foi percorrida**: o Antonio usou a call para apresentar o trabalho dele, que é automação por
+IA, branding e conteúdo, e não atendimento comercial. O lado de relação está em
+`REUNIOES.md`.
+
+**1 · NA PRÁTICA, O ESCOPO DO ANTONIO É AUTOMAÇÃO, BRANDING E CONTEÚDO.** O que ele descreveu:
+padronizar a identidade da marca em todas as plataformas, produzir conteúdo orgânico
+automatizado (Facebook, Instagram e Pinterest, depois YouTube), auditoria de SEO do site,
+conferência de tags de rastreamento, automação de follow-up e integração com o CRM.
+**TikTok fica fora, por avaliação dele**: o público não é o cliente, e lead desqualificado
+contamina a base. **Primeira fase acordada: branding.** O conteúdo vem depois.
+
+**2 · PARTE DESSE ESCOPO ENCOSTA NA CONTA DE ANÚNCIOS.** Ele falou em conectar a IA dele à
+conta do Google Ads para ler campanhas, conferir tags e fazer auditoria de negativas, e
+pediu acesso ao Facebook.
+
+> **REGRA: CONTA DE ANÚNCIO, TAG DE CONVERSÃO E NEGATIVA SÓ MUDAM PELO FABRICIO, E COM DATA
+> REGISTRADA.** Não é disputa de território, é disciplina de leitura. Se dois lados mexem na
+> mesma conta sem registro, nenhum dos dois consegue provar o efeito do próprio trabalho, e
+> o cliente fica sem saber o que funcionou. **Acesso de leitura, quando for preciso, tudo
+> bem.**
+>
+> **No Meta, o acesso do Antonio é na Página e no Instagram**, que é onde o trabalho dele
+> acontece. Conta de anúncios e pixel ficam de fora, ou no máximo com papel de análise.
+
+**3 · CONFUNDIDOR NOVO A PARTIR DE OUTUBRO: BRANDING E CONTEÚDO ORGÂNICO.** Padronização de
+marca e postagem constante mexem em busca pela marca, tráfego direto e taxa de conversão do
+site. **Registrar a data de início de cada entrega do Antonio** (branding no ar, primeiro
+post automatizado, mudança no site) do mesmo jeito que se registra mudança de campanha.
+Quando a BRAND ou a taxa de conversão subirem, a pergunta é qual frente moveu o número.
+**Isso foi pautado no convite de 08/10, como item próprio.**
+
+**4 · A FRENTE DE CRIATIVO GANHA MATÉRIA-PRIMA.** O pipeline dele produz vídeo e carrossel em
+volume, que é o que falta para o remarketing no Meta desde que a frente de criativo passou
+para cá. **Aproveitar o que sair dali como base de criativo pago**, junto das avaliações do
+Google registradas em 17/09. Display para remarketing segue como desejo, sem decisão.
+
+**5 · ARGUMENTO DE NEGÓCIO PARA O BRANDING, DITO PELO VICTOR.** Hoje o fechamento leva cerca
+de 10 minutos de conversa do Rodrigo, e a explicação do processo pelo Victor, de 5 a 6. Com
+o cliente chegando mais consciente da marca, a estimativa dele é de 6 a 8 minutos e de 3.
+**São estimativas de quem atende, não medição.** Sustentam a tese de que o lead procura a
+empresa em outros lugares antes de fechar e hoje não encontra credibilidade.
+
+**6 · PRÉ-VENDA: O VICTOR VIU CONVERSÃO ALTA, AINDA NÃO RECONCILIADO.** Num período em que ele
+assumiu uma etapa de pré-venda (contato, coleta de detalhes e agendamento da ligação com o
+Rodrigo), **a conversão nesse processo foi bem alta, segundo ele.** A tese do Antonio vai na
+mesma linha: o cliente que pede a ligação fecha melhor. **Não confundir com o confundidor de
+atendimento registrado em 17/09**: as duas leituras podem medir etapas diferentes, aceitar
+a ligação e fechar o job. **Não usar como número até separar as etapas no CRM.**
+
+**7 · AS PERGUNTAS DE QUALIDADE DE LEAD CONTINUAM ABERTAS.** Critério de lead bom, de lead sem
+encaixe e o sinal na primeira conversa. **Quem pode responder é quem atende e fecha, que é o
+Rodrigo**, com a experiência de pré-venda do Victor como complemento. O Antonio não está na
+ponta do atendimento.
+
 > ### DECISÃO DO CLIENTE EM 27/09 · LER ANTES DA CONSOLIDAÇÃO DE 30/09 E DA RAMPA DE 01/10
 >
 > Palavras do Rodrigo, no grupo de Dashboards, depois de receber o dashboard da S17:
