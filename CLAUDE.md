@@ -41,6 +41,9 @@ Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & 
   sem mandar o cliente cobrar ninguém. O Fabricio trabalha com essas pessoas.
 - **Ações reais, nunca inventadas.** O bloco "Ação da semana" do dashboard descreve o que
   o Fabricio executou de fato: eu proponho um rascunho e ele valida antes de publicar.
+- **Sem jargão de análise no que o cliente lê.** "Coorte", "atribuição", "denominador",
+  "amadurecida" e afins ficam na memória. No dashboard e na mensagem, dizer o que é: "os
+  mesmos leads da semana, contados de novo até 01/10".
 - **Narrativa com foco no objetivo e no resultado.** O bloco de ação e a mensagem ao cliente
   dizem qual era o objetivo e o que resultou, não a lista de ajustes feitos. Ajuste que não
   tem resultado para mostrar fica só na memória (`ESTADO.md`).
