@@ -714,6 +714,12 @@ Mensagem própria, separada do fechamento de semana e separada da frente de marc
 - **Qualquer coisa da proposta de marca.** Frente separada, mensagem separada, como ficou
   combinado em 09/09.
 
+> **01/10 · GRUPOS: o Antonio Carlos NÃO está no grupo de Dashboards e não vai entrar por
+> enquanto** (decisão do Fabricio em 01/10). Ele está só no grupo Tráfego e Leads. Mensagem de
+> dashboard no grupo de Dashboards é para o Vaz e o Victor; não contar com o Carlos lá. Em 01/10
+> o dashboard da S17 foi reenviado nesse grupo com pedido de desculpa pelo atraso, no formato
+> objetivo e resultado, sem tocar na reclamação de volume (que é assunto do privado).
+
 > **27/09, 17:50, META SEMANAL DADA PELO RODRIGO:** "36 agendamentos essa semana, recorde das
 > últimas 6-7 semanas. Meta dessa semana são de 35 a 40 agendamentos... E irmos aumentando $$."
 > Foco na região de Brisbane "porque eu preciso encher mais agenda e mais bookings". A régua da
