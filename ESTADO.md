@@ -75,6 +75,20 @@ o top 20%. Pesa na decomposição do guarda-corpo A.
 > - **Jobs da coorte:** Completed 5 -> 12; 1 cancelado (Incoming Call, motivo preenchido:
 >   "Customer decided to not go ahead", ou seja, Jobs registra motivo, Leads não).
 >
+> **CONFIRMADO COM O EXPORT DE JOBS 28/09 A 01/10 (lido em 01/10):** da coorte de 21 a 27/09, **6
+> fichas viraram job depois de domingo** (5 de mídia: 3 Google Forms, 1 Incoming Call, 1 Cost
+> Estimator; 1 Repeat). **Agendamentos de mídia da S17: 18 + 5 = 23**, investimento por
+> agendamento A$136 (era A$174 na própria semana). A ficha da calculadora convertida (contato em
+> 28/09) virou **2 jobs, os dois concluídos em 29 e 30/09**. S16, pelo mesmo critério, amadureceu
+> de 12 para 13 até 27/09 (e 14 até 01/10, com VA-lead de 16/09 convertida em 28/09).
+> **Semana 28/09 a 04/10 até quinta 01/10: 20 jobs criados, 18 pessoas, 15 de mídia (11 Google
+> Forms + 4 Incoming Call), 4 repeat, 1 referral.** Ritmo de 7 dias ≈ 35, dentro da meta de 35 a
+> 40. 11 dos 20 entraram na segunda 28/09. Dois jobs fora de QLD (Corlette NSW; Sydney para
+> Sydney, Chatswood para Gordon). **O dashboard da S17 foi atualizado em 01/10 com a coorte
+> amadurecida** (card, diagnóstico, linha nova no comparativo e nota do CRM, incluindo "sete ainda
+> aguardam o primeiro contato, quatro delas mudanças locais"). A S18 só entra no dashboard com a
+> semana fechada; o ritmo de 35 vai só na mensagem, datado "até quinta".
+>
 > **PARA O PRIVADO DE HOJE ("preciso de mais lead"), com o cuidado de nunca soar como erro
 > dele:** o lead está chegando e está fechando (a semana de 21 a 27/09 já passou de 18 para cerca
 > de 23 agendamentos de mídia); **o volume mais rápido que existe hoje são as 7 fichas da
