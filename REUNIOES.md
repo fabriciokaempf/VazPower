@@ -294,15 +294,16 @@ rótulo "Comercial" no grupo é só rótulo.
   `ESTADO.md`: Página e Instagram, não a conta de anúncios.
 - **O Fabricio manda o convite da próxima call e avisa no grupo.**
 
-**Próxima call: quinta, 08/10, 7h aqui, 21h em Sydney, 20h em Brisbane.** Convite enviado em
-01/10 para o Antonio e o Victor. Pauta: branding e padronização já com conteúdo, calendário
+**Próxima call: quinta, 08/10, 11h em Sydney, 10h em Brisbane, que é QUARTA, 07/10, às 21h
+aqui.** Horário proposto pelo Antonio no grupo e confirmado pelo cliente. Convite enviado em
+01/10 para o Antonio e o Victor, e corrigido no mesmo dia. Pauta: branding e padronização já com conteúdo, calendário
 de postagem, acessos e nível de cada um, **datas de cada entrega para separar o efeito do
 branding do efeito da mídia**, e o próximo pedaço do projeto.
 
-> **08/10 É A PRIMEIRA CALL DEPOIS DO HORÁRIO DE VERÃO DE SYDNEY.** No fim da call o Antonio
-> falou em "mesmo horário, 20h30". **Em 08/10, 20h30 de Sydney já seria 6h30 aqui.** O
-> convite manteve as 7h daqui, que em Sydney vira 21h. O convite mostra a cada um o horário
-> do próprio fuso, e a mensagem no grupo repete os três.
+> **08/10 É A PRIMEIRA CALL DEPOIS DO HORÁRIO DE VERÃO DE SYDNEY, E O DIA MUDA.** Com Sydney
+> em UTC+11, **11h de quinta lá é 21h de quarta aqui**. Quem marcar "quinta" na agenda daqui
+> perde a call por um dia. **Manhã de Sydney é sempre a noite anterior no Brasil.** O
+> convite foi criado no fuso de Brasília e mostra a cada um o horário do próprio fuso.
 
 **O Victor sai da Austrália na segunda quinzena de novembro** e segue trabalhando com o
 cliente a partir do Brasil, depois de alguns dias de instalação. **Coincide com o pico da
