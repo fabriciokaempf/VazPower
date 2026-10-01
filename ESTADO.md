@@ -1,7 +1,7 @@
 # Estado da operação · Vaz Power
 
 Resumo vivo do projeto, para retomar o contexto em qualquer sessão nova.
-Atualizado em **01/10/2026** (sessão de otimização: conferências de 29/09, reclamação de volume, consolidação FRONT e SUPORTE executada e Meta para A$100,98).
+Atualizado em **01/10/2026** (sessão de otimização: conferências de 29/09, reclamação de volume, consolidação FRONT e SUPORTE executada, Meta para A$100,98 e base do guarda-corpo B travada pelo MCP).
 Antes disso, 28/09 (sessão de otimização: leituras da S17, negativas aplicadas, público da FRONT mantido e consolidação ajustada).
 Antes disso, 27/09 (sessão de otimização: 21 a 23/09, cesta de conversão e público da FRONT mudaram dentro da S17).
 Antes disso, 17/09 (call com o administrativo: acesso ao CRM, fonte de melhor lead
@@ -12,6 +12,46 @@ numérica corrigida).
 ---
 
 ## 0. ESTADO ATUAL (retomar daqui)
+
+### 01/10, 14H30 BRT · BASE DO GUARDA-CORPO B TRAVADA (sessão de otimização, nova, com o MCP do Google Ads)
+
+A base de 24 a 30/09, que tinha ficado para trás quando a consolidação foi de 30/09 para 01/10,
+foi extraída pelo MCP (só leitura) e conferida por um recálculo cego e por uma crítica de
+método independentes. Zero divergência. Bloco FRONT mais SUPORTE, fuso de Brisbane, cesta de
+formulário do site (Book Form Submit, Submit Form Volume e Quote Form Conversion, por ação de
+conversão). Antes, o MCP foi testado contra 28 a 30/09: custo, clique e conversão bateram exato.
+
+| Dia | Investimento | Cesta | CPA da cesta | Investimento aj. | Cesta aj. | CPA da cesta aj. |
+|---|---|---|---|---|---|---|
+| 24/09 | A$454,33 | 6,00 | A$75,72 | A$344,52 | 5,00 | A$68,90 |
+| 25/09 | A$429,04 | 1,00 | A$429,04 | A$147,71 | 1,00 | A$147,71 |
+| 26/09 | A$178,66 | 3,99 | A$44,76 | A$123,14 | 2,99 | A$41,17 |
+| 27/09 | A$331,48 | 2,99 | A$110,82 | A$180,36 | 1,99 | A$90,58 |
+| 28/09 | A$418,49 | 4,00 | A$104,62 | A$257,03 | 3,00 | A$85,68 |
+| 29/09 | A$330,29 | 2,00 | A$165,15 | A$315,71 | 2,00 | A$157,86 |
+| 30/09 | A$375,44 | 3,00 | A$125,15 | A$341,65 | 3,00 | A$113,88 |
+| **Semana** | **A$2.517,73** | **22,98** | **A$109,55** | **A$1.710,11** | **18,98** | **A$90,09** |
+
+"Aj." é a versão ajustada, sem a renda Desconhecida da FRONT, que o pacote de 01/10 voltou a
+excluir. CPA da tela na semana: A$93,31 inteira e A$77,79 ajustada. Perda por classificação:
+FRONT 62,10% e SUPORTE 60,33%, com perda por orçamento zero nas duas. A renda Desconhecida
+custou A$807,62 na semana, 47% do custo da FRONT.
+
+> **GATILHO B, TRAVADO:** o dia de Brisbane conta quando a cesta fica **abaixo de 1,898** (70% de
+> 2,712 por dia, valor bruto com duas casas: 1,99 não conta, 1,60 conta). **Dispara com 3 dias
+> seguidos**, a partir de 02/10. O limiar não se recalcula com a base relida. Toda noite, ler o
+> dia fechado e reler os dois anteriores. **Se a sequência incluir 05/10** (feriado em
+> Queensland, depois de sábado e domingo), conferir antes BRAND, MADRUGA e ROTAS contra a média
+> delas na base; se elas também ficarem abaixo de 70%, é calendário, e 06/10 também precisa ficar
+> abaixo. **B protege contra colapso e não confirma a consolidação.** Reversão só com o ok do
+> Fabricio.
+
+**Leitura de 07/10, ajustada antes de abrir a janela:** janela de **02 a 06/10**, porque em 01/10
+a execução só entrou às 22h30 de Brisbane. Perguntas 1 e 3 contra esta base de 01/10, com
+maturidade parecida; a pergunta 2, perda por classificação, fica só descritiva.
+
+**Achado lateral:** os grupos 02 e 03 da FRONT aceitam renda de 21 a 40%, e os grupos 00 e 01 só
+o top 20%. Pesa na decomposição do guarda-corpo A.
 
 > ### 01/10, 14H BRT · A COORTE DE 21 A 27/09 QUATRO DIAS DEPOIS (para o contato no privado de hoje à noite)
 >
