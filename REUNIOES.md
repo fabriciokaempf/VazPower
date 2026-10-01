@@ -714,6 +714,11 @@ Mensagem própria, separada do fechamento de semana e separada da frente de marc
 - **Qualquer coisa da proposta de marca.** Frente separada, mensagem separada, como ficou
   combinado em 09/09.
 
+> **01/10, tarde · dashboard da S17 enviado no grupo de Dashboards**, com desculpa pelo atraso e
+> quatro dias de CRM dentro: 23 agendamentos de mídia, 36 no total, e a semana atual "até quinta"
+> com 20. Compromisso assumido na mensagem: **o número final da semana vai no dashboard de
+> domingo, 04/10.** As sete fichas sem contato ficaram para o privado.
+
 > **01/10 · GRUPOS: o Antonio Carlos NÃO está no grupo de Dashboards e não vai entrar por
 > enquanto** (decisão do Fabricio em 01/10). Ele está só no grupo Tráfego e Leads. Mensagem de
 > dashboard no grupo de Dashboards é para o Vaz e o Victor; não contar com o Carlos lá. Em 01/10

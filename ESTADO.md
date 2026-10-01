@@ -89,6 +89,17 @@ o top 20%. Pesa na decomposição do guarda-corpo A.
 > aguardam o primeiro contato, quatro delas mudanças locais"). A S18 só entra no dashboard com a
 > semana fechada; o ritmo de 35 vai só na mensagem, datado "até quinta".
 >
+> **MENSAGEM DO DASHBOARD DA S17 ENVIADA NO GRUPO DE DASHBOARDS EM 01/10 (Vaz e Victor; o Carlos
+> não está nesse grupo).** Abriu com pedido de desculpa pelo atraso e saiu em linguagem simples,
+> sem jargão. **O que foi dito:** 37 formulários contra 20; "de cada 100 leads, 65 chegaram por
+> formulário, antes eram 45"; 14 reservas contra 10; 57 leads com A$3.136,70; **18 agendamentos
+> na própria semana contra 12, "contando até hoje, já são 23"**; 36 agendamentos no total dentro
+> da meta de 35 a 40; **o lead da calculadora que virou dois trabalhos feitos em 48 horas, "o tipo
+> de cliente que a campanha de rotas foi criada para trazer"**; **"nesta semana, até quinta, 20
+> agendamentos no CRM, 15 vindos dos anúncios, ritmo perto de 35"**, com o número final prometido
+> para o dashboard de domingo. **As sete fichas sem contato ficaram fora da mensagem, de
+> propósito, e dentro do dashboard como oportunidade**: vão para o privado de hoje.
+>
 > **PARA O PRIVADO DE HOJE ("preciso de mais lead"), com o cuidado de nunca soar como erro
 > dele:** o lead está chegando e está fechando (a semana de 21 a 27/09 já passou de 18 para cerca
 > de 23 agendamentos de mídia); **o volume mais rápido que existe hoje são as 7 fichas da
