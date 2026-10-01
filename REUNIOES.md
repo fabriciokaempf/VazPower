@@ -263,6 +263,29 @@ frequência semanal às segundas com a semana anterior, os três campos que o pr
 listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
 lançamento atrasado para o valor não cair em mês errado.
 
+### 01/10 · o cliente cobrou volume de lead no grupo, e o compromisso assumido
+
+**No grupo Tráfego e Leads, com o Antonio e o Victor presentes**, logo depois de confirmar a
+call de 08/10, o cliente escreveu: *"Preciso de mais lead"*, *"Ta bem fraco de leads"*,
+marcando o Fabricio, e fechou com *"Mas, é isso. Bora"*.
+
+**Resposta enviada no grupo, em uma linha:** recebido, em cima disso, e **contato no privado
+na sexta de manhã dele, 02/10, com o que vai ser feito para subir o volume sem perder a
+qualidade do lead.**
+
+- **Por que curta e sem motivo:** no grupo, com uma pessoa nova chegando, explicação vira
+  desculpa. E o motivo mais à mão, o foco local pedido por ele em 27/09, soaria como devolver
+  a responsabilidade a ele.
+- **Por que "sem perder a qualidade":** amarra o pedido de volume ao critério que tirou a
+  conta da crise de setembro, sem precisar lembrar a crise.
+
+> **COMPROMISSO COM DATA: sexta, 02/10, de manhã em Brisbane, que é quinta, 01/10, por volta
+> das 19h aqui.** A decisão de verba sai da sessão de otimização (a rampa de 01/10 estava
+> pendente, com a leitura da consolidação marcada para 07/10). **No privado, perguntar o que
+> ele está vendo**, pouco lead entrando no CRM ou pouco agendamento, porque a régua dele é
+> agendamento por semana (35 a 40) e as duas coisas pedem respostas diferentes. **Número da
+> semana só com a semana fechada.**
+
 ### 01/10 · call com Antonio e Victor · a pauta virou apresentação, e o Antonio é automação
 
 **1h19, em duas salas.** O Meet de conta pessoal encerrou a primeira aos 60 minutos e a
