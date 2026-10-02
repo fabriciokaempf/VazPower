@@ -279,6 +279,9 @@ qualidade do lead.**
 - **Por que "sem perder a qualidade":** amarra o pedido de volume ao critério que tirou a
   conta da crise de setembro, sem precisar lembrar a crise.
 
+> **CUMPRIDO: mensagem enviada no privado do cliente na quinta, 01/10, dentro do prazo.** O
+> conteúdo não está registrado aqui.
+>
 > **COMPROMISSO COM DATA: sexta, 02/10, de manhã em Brisbane, que é quinta, 01/10, por volta
 > das 19h aqui.** A decisão de verba sai da sessão de otimização (a rampa de 01/10 estava
 > pendente, com a leitura da consolidação marcada para 07/10). **No privado, perguntar o que
