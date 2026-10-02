@@ -13,6 +13,13 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+### 02/10, 15:56 BRT · ALVO DO GRUPO 00 DA FRONT PARA A$83,08 (sessão de otimização)
+
+O grupo 00 da FRONT foi de A$69,65 para **A$83,08** (conferido pela API); os grupos 01 a 03 seguem em A$70. Pelo
+simulador, são cerca de 5 conversões a mais por semana, por cerca de A$108 a mais por dia. A régua passa a ser lead
+e job, não custo. **Volta para A$69,65 se o CPA sobre a cesta do bloco passar de A$140 por 3 dias seguidos.**
+Leitura em 06 e 07/10. O Meta segue em A$100,98 por decisão do Fabricio.
+
 ### 02/10, 15H45 BRT · SUPORTE REATIVADA (sessão de otimização)
 
 **02/10 em Brisbane, primeiro dia inteiro da estrutura nova, foi fraco:** a FRONT entregou A$27,43, 42 impressões e zero
