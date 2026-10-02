@@ -13,6 +13,23 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+### 02/10, 15H45 BRT · SUPORTE REATIVADA (sessão de otimização)
+
+**02/10 em Brisbane, primeiro dia inteiro da estrutura nova, foi fraco:** a FRONT entregou A$27,43, 42 impressões e zero
+lead de formulário, e a conta fez A$173,78 com zero conversão. A leitura hora a hora vai até as 23h, então não é atraso.
+A ampla `moving services brisbane` teve zero impressão. Guarda-corpo A: 0 de 3. Guarda-corpo B: 1 de 3.
+
+**Decisão do Fabricio: reativar a SUPORTE sem esperar o terceiro dia** (primeiro passo da reversão B). Reativada às 15h45
+BRT de 02/10, 04h45 de 03/10 em Brisbane, "Qualificada", A$120,98. A FRONT segue com A$295,96 e a ampla, e a renda
+Desconhecida segue excluída nas duas. A FRONT aparece "Limitada pela meta", a assinatura de alvo baixo.
+
+- **A leitura de 07/10 vira descritiva**, e a decisão de estrutura vai para 13/10. O guarda-corpo B volta a ler o bloco
+  FRONT mais SUPORTE a partir de 03/10, contra o mesmo limiar de 1,898.
+- **Próximo passo proposto:** subir o Meta de A$100,98 para A$121,98 (critério de 16/09) e mexer no alvo do Google só
+  com o simulador, a partir de 05/10.
+- **Nenhuma alteração de outro login** no histórico desde 01/10.
+
+
 ### 01/10, 14H30 BRT · BASE DO GUARDA-CORPO B TRAVADA (sessão de otimização, nova, com o MCP do Google Ads)
 
 A base de 24 a 30/09, que tinha ficado para trás quando a consolidação foi de 30/09 para 01/10,
