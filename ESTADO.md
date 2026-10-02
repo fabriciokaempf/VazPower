@@ -13,6 +13,20 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+### 02/10, 16:20 BRT · ALVOS DE VOLTA A A$69,65 E RENDA DE 21 A 40% NO GRUPO 01 DA FRONT (sessão de otimização)
+
+**O bloco de 15h56 logo abaixo (alvo de A$83,08) foi desfeito no mesmo dia.** O Fabricio vetou alvo acima da régua
+histórica de custo por lead (A$53 a A$75). O grupo 00 da FRONT e o grupo 01 da SUPORTE voltaram a **A$69,65**,
+conferidos pela API.
+
+**No lugar, entrou a renda de 21 a 40% no grupo 01 da FRONT**, para destravar a ampla `moving services brisbane`, que
+teve zero impressão em 02/10. Essas faixas converteram a A$46 e A$67 por lead na SUPORTE. A renda Desconhecida segue
+excluída.
+
+**Estado no fim de 02/10:** SUPORTE ativa (A$120,98); FRONT em A$295,96 com alvos de A$69,65 e A$70; Meta em
+A$100,98. A leitura do bloco é em 03 e 04/10, com o guarda-corpo B.
+
+
 ### 02/10, 15:56 BRT · ALVO DO GRUPO 00 DA FRONT PARA A$83,08 (sessão de otimização)
 
 O grupo 00 da FRONT foi de A$69,65 para **A$83,08** (conferido pela API); os grupos 01 a 03 seguem em A$70. Pelo
