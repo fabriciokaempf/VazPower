@@ -286,6 +286,17 @@ qualidade do lead.**
 > agendamento por semana (35 a 40) e as duas coisas pedem respostas diferentes. **Número da
 > semana só com a semana fechada.**
 
+**CUMPRIDO NA NOITE DE 01/10 (manhã de sexta em Brisbane), no grupo de Dashboards e não no
+privado, por decisão do Fabricio.** Antes disso, às 20h49, o cliente já tinha respondido no
+grupo a pergunta do privado: o que está fraco é agendamento, e a meta é de 35 a 40 por semana,
+constante. A mensagem saiu em resposta à dele e traz três coisas:
+- a régua dele assumida (leitura por agendamento, sem prometer número);
+- as 4 fichas locais ainda em New, conferidas no CRM na hora, uma com mudança no sábado;
+- o que já está rodando, em linguagem de resultado.
+
+**Compromisso novo: primeira leitura na quinta, 08/10, no horário dele**, que é quarta, 07/10, à
+noite aqui, saindo da leitura da consolidação.
+
 ### 01/10 · call com Antonio e Victor · a pauta virou apresentação, e o Antonio é automação
 
 **1h19, em duas salas.** O Meet de conta pessoal encerrou a primeira aos 60 minutos e a
