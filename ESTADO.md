@@ -13,6 +13,18 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+### 03/10, 11:36 BRT · FRONT EM MAXIMIZAR CONVERSÕES SEM ALVO, A$150/DIA (sessão de otimização)
+
+**Sábado, 03/10, em Brisbane:** A$170,98 e 4 leads, todos da calculadora (ROTAS 3, FRONT 1). Dois são mudanças dentro
+da Gold Coast e da Sunshine Coast, fora do escopo; conferir a geografia de origem na ROTAS (raio de Ormeau). O bloco
+FRONT mais SUPORTE fez cesta 1: **guarda-corpo B em 2 de 3**, e o A em 0. A FRONT seguia travada pelo alvo (A$21,44,
+perda por classificação de 76,5%).
+
+**Aplicado:** a FRONT passou para Maximizar conversões sem alvo, com orçamento de A$150/dia como freio (conferido pela
+API). Volta para CPA desejado se o CPA sobre a cesta do bloco passar de A$90 por 3 dias seguidos. No CRM, 9 fichas
+estavam em New no domingo de manhã em Brisbane. Mensagem enviada ao grupo de Dashboards.
+
+
 ### 02/10, 16:20 BRT · ALVOS DE VOLTA A A$69,65 E RENDA DE 21 A 40% NO GRUPO 01 DA FRONT (sessão de otimização)
 
 **O bloco de 15h56 logo abaixo (alvo de A$83,08) foi desfeito no mesmo dia.** O Fabricio vetou alvo acima da régua
