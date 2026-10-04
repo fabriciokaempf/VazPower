@@ -12,6 +12,12 @@ Produzido por **Kaempf Business** | Fabricio Nascimento
 
 A página inicial (`index.html`) é um hub que linka todos os períodos disponíveis.
 
+### Outubro 2026 · Relatórios semanais
+
+| Período | Status | Link |
+|---|---|---|
+| Semana 28/09 a 04/10 (virada de mês) | Semana 18 | [Ver dashboard](./setembro28-outubro04/) |
+
 ### Setembro 2026 · Relatórios semanais
 
 | Período | Status | Link |

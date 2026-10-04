@@ -13,6 +13,37 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+> ### 04/10 · SEMANA 18 MONTADA PELA SESSÃO NOVA DE DASHBOARDS (MCP do Google Ads, MCP do Meta e CRM pelo navegador)
+>
+> **Estado: `setembro28-outubro04/` gerada e validada na branch `claude/dashboards-f3598c5d`. Publicação no master
+> só com o OK do Fabricio ao bloco "Ação da semana".** Mensagem ao grupo ainda não enviada.
+>
+> **Números fechados (fuso de Brisbane, conta igual à soma das campanhas ao centavo):**
+> - Google A$2.399,02 · 1.502 impressões · 140 cliques · 29 conversões · A$82,72. Formulários 28 (18 pela
+>   calculadora, 9 reservas, 1 da landing page antiga) e 1 ligação direta do anúncio.
+> - Meta A$721,40 · 47.010 impressões · alcance 13.912 · 32 ligações (A$648,29, A$20,26) e 1 formulário da
+>   campanha nova (A$73,11, só o domingo 04/10).
+> - Total A$3.120,42 · 62 leads · A$50,33 · **formulário 29 de 62 = 46,8%** (S17: 64,9%).
+> - Por campanha: FRONT A$1.072,39 / 11 / A$97,49 · SUPORTE A$598,21 / 7 · ROTAS A$494,18 / 10 / A$49,42 ·
+>   BRAND A$189,94 / 1 · MADRUGA A$44,31 / 0. Presença da conta 34,91% (S17: 40,96%), perda por posição 62,74%.
+> - Os quatro momentos: 28/09 a 01/10 A$1.676,29 e 18 conv.; 02/10 A$173,78 e 0; 03/10 A$182,54 e 4; 04/10
+>   A$366,40 e 7.
+>
+> **CRM, lido direto no Movermate em 04/10 à noite de Brisbane (só agregados):**
+> - Fichas criadas de 28/09 a 04/10: mídia 37 (Google Forms 20, Incoming Call 4, calculadora e estimador 13,
+>   todas em New, 11 delas de 03 e 04/10); fora da mídia 8.
+> - Jobs criados na semana: **23 (20 pessoas)**, 16 de mídia e 7 fora. Dos 16 de mídia, **9 são de fichas da
+>   própria semana** (6 Google Forms, 3 Incoming Call) e 7 de fichas anteriores (6 da S17, 1 da S16).
+>   10 dos 23 estavam Unassigned: **a pergunta ao Victor sobre o que conta como booking segue aberta.**
+> - **S17 contando até 04/10: 24 agendamentos de mídia** (18 + 5 até 01/10 + 1 em 02/10). 7 fichas da
+>   calculadora da S17 seguem em New.
+> - Método para separar ficha da semana de ficha antiga sem export: o Job ID é sequencial na criação da ficha;
+>   job criado na S18 com ID até VA11836 é ficha anterior, de VA11839 em diante é ficha da semana. Bate com a
+>   contagem da sessão anterior (6 fichas da S17 convertidas até 01/10).
+> - Na tabela de Meta por dispositivo e no card da plataforma, "cliques" passou a ser clique no link (329).
+>
+> **Mensal de setembro (`setembro-01-30/`): ainda não iniciado**, entra depois de a S18 ir ao ar.
+
 > ### 04/10 · PASSAGEM DA SESSÃO DE DASHBOARDS · LER ANTES DE MONTAR A SEMANA 18 E O MENSAL
 >
 > **A receita completa do dashboard está em `DASHBOARD.md`** (fontes, pipeline, estrutura,
@@ -2075,6 +2106,7 @@ movers", "near me", marca Vaz Power.
 | 15 | 07-13/09 | A$2.776 | 53 | A$52,37 |
 | 16 | 14-20/09 | A$1.813 | 44 | A$41,20 |
 | 17 | 21-27/09 | A$3.137 | 57 | A$55,03 |
+| 18 | 28/09-04/10 | A$3.120 | 62 | A$50,33 |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).
