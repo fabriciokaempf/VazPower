@@ -13,6 +13,73 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+> ### 04/10 · PASSAGEM DA SESSÃO DE DASHBOARDS · LER ANTES DE MONTAR A SEMANA 18 E O MENSAL
+>
+> **A receita completa do dashboard está em `DASHBOARD.md`** (fontes, pipeline, estrutura,
+> regras de texto, mensagem). A sessão que montou S11 a S17 não tinha MCP nem navegador; os
+> dashboards passam para uma sessão nova com os conectores do Google Ads e do Meta.
+>
+> **PENDENTE 1 · SEMANA 18 (28/09 a 04/10), pasta `setembro28-outubro04/`.** A semana fechou
+> às 11h BRT de domingo 04/10. Tem **quatro momentos dentro**, e o dashboard separa (o dia a
+> dia e a nota "a semana tem dois ritmos" são o lugar): 28/09 a 01/10 na estrutura antiga;
+> 02/10 em Brisbane com a FRONT sozinha no Search (consolidação executada às 10h50 BRT de
+> 01/10, 23h50 de Brisbane); 03/10 com a SUPORTE de volta (reativada às 15h45 BRT de 02/10);
+> 04/10 com a FRONT em ajuste novo (03/10, 11h36 BRT). Meta em A$100,98/dia desde 01/10
+> (10h55 BRT), era A$78,98. Detalhe de cada movimento nos blocos da sessão de otimização de
+> 01, 02 e 03/10, abaixo. **No dashboard isso vira objetivo e resultado, sem mecânica.**
+> **Compromisso em aberto:** a mensagem de 01/10 ao grupo disse "o número final vai no
+> dashboard de domingo, com a semana inteira". Só número fechado.
+>
+> **PENDENTE 2 · MENSAL DE SETEMBRO**, pasta `setembro-01-30/`, head do `agosto-01-31/`.
+> Precisa dos exports de 01 a 30/09 (Google 4, Meta 3, CRM Leads e Jobs por data de
+> criação). Série: junho A$12.478/176/A$70,90; julho A$13.284/238/A$55,81; agosto
+> A$12.582/245/A$51,35 (tabela "Meses fechados"). **Setembro vai ficar abaixo de agosto em
+> investimento** (reengenharia e corte do Meta): aparece como decisão. **A cesta mudou em
+> 22/09 e o export mensal vem recalculado**: o total do Google não bate com a soma das
+> semanas publicadas; uma linha explica, nada é republicado. Composição por mês (% de
+> formulário) está no bloco "Diagnóstico de composição": abril 87%, maio 68%, junho 93%,
+> julho 68%, agosto 49%, S15 38%, S16 45%, S17 65%.
+>
+> **O CLIENTE SUBIU A RÉGUA EM 01/10, 20h49, no grupo de Dashboards (Victor lendo).** Palavras
+> dele: **"entre 45 a 55 bookings"** por semana para "voltarmos a ficar busy e voltarmos a
+> ganhar $$", e **"35/40 bookings constantemente"** como mínimo para a meta de outubro.
+> "Essa semana tá fraca de agendamentos." "Vamos ver se consigo converter alguns hoje e
+> amanhã." **Os valores de faturamento e prejuízo que ele citou ficam fora do repositório.**
+> Régua: 35 a 40 é o piso, 45 a 55 é o alvo. A resposta do Fabricio foi no grupo mesmo, na
+> noite de 01/10 (ver `REUNIOES.md`); primeira leitura combinada para quinta 08/10 no horário
+> dele.
+>
+> **ERRO A NÃO REPETIR (desta sessão):** a mensagem de 01/10 projetou "ritmo perto de 35"
+> com quatro dias. Jobs criados por dia na S18: **28/09: 11 (6 eram fichas antigas sendo
+> convertidas, só 5 novas) · 29/09: 0 · 30/09: 6 · 01/10: 3.** A segunda-feira foi fila sendo
+> limpa, não ritmo; na S17, segunda a quinta deram 24. O cliente contestou na hora e estava
+> certo. Regra: nenhuma projeção de semana parcial em mensagem ao cliente.
+>
+> **DIVERGÊNCIA DE CONTAGEM A ALINHAR COM O VICTOR** ("me ajuda a contar do mesmo jeito"):
+> dos 20 jobs criados de 28/09 a 01/10, **10 estavam Unassigned**. Se "booking" para o
+> Rodrigo é booking fee cobrado (Assigned ou Completed), ele conta ~10 e não 20. Meu 38 jobs
+> da S17 contra os 36 dele é a mesma diferença de régua. Perguntar o que conta como booking
+> antes de levar número novo de agendamento.
+>
+> **A CONTA DA META NOVA (interno):** jobs criados S16 27 (9 fora da mídia, 18 de mídia); S17
+> 38 (17 e 21); S18 até quinta 20 (5 e 15). Fora da mídia roda entre 9 e 17 por semana e não
+> é alavanca de anúncio. **Para 45 a 55 no total, a mídia precisa entregar 30 a 40 jobs por
+> semana, perto do dobro da S17.** Dois caminhos, os dois necessários: mais ficha de mídia
+> (S17: 54 fichas por A$3.137; dobrar no mesmo custo passa de A$6 mil por semana, acima do
+> teto condicional de A$15 mil/mês) e mais conversão da ficha em job (33% na semana; fila
+> parada da calculadora; Pending = não atendeu; metade dos jobs sem booking fee). Sem o
+> segundo, o primeiro não fecha a conta.
+>
+> **S17 CONTANDO ATÉ 01/10:** agendamentos de mídia 18 -> 23; a primeira ficha da
+> calculadora contatada virou 2 jobs concluídos em 48h; 7 fichas da calculadora ainda em
+> New em 01/10 (4 locais), e 9 fichas em New no domingo 04/10 de manhã em Brisbane (sessão
+> de otimização). O dashboard da S17 publicado já tem a seção do CRM com "contando até
+> 01/10"; não mexer mais nele.
+>
+> **Decisão do cliente de 27/09, vale para toda verba:** foco em Brisbane e mudanças
+> locais; interestadual no ar em paralelo, sem verba nova. No dashboard, como decisão.
+
+
 ### 03/10, 11:36 BRT · FRONT EM MAXIMIZAR CONVERSÕES SEM ALVO, A$150/DIA (sessão de otimização)
 
 **Sábado, 03/10, em Brisbane:** A$170,98 e 4 leads, todos da calculadora (ROTAS 3, FRONT 1). Dois são mudanças dentro
@@ -132,8 +199,8 @@ o top 20%. Pesa na decomposição do guarda-corpo A.
 > 28/09) virou **2 jobs, os dois concluídos em 29 e 30/09**. S16, pelo mesmo critério, amadureceu
 > de 12 para 13 até 27/09 (e 14 até 01/10, com VA-lead de 16/09 convertida em 28/09).
 > **Semana 28/09 a 04/10 até quinta 01/10: 20 jobs criados, 18 pessoas, 15 de mídia (11 Google
-> Forms + 4 Incoming Call), 4 repeat, 1 referral.** Ritmo de 7 dias ≈ 35, dentro da meta de 35 a
-> 40. 11 dos 20 entraram na segunda 28/09. Dois jobs fora de QLD (Corlette NSW; Sydney para
+> Forms + 4 Incoming Call), 4 repeat, 1 referral.** ~~Ritmo de 7 dias ≈ 35, dentro da meta de 35 a
+> 40.~~ **ERRADO: ver o bloco de 04/10 no topo.** 11 dos 20 entraram na segunda 28/09. Dois jobs fora de QLD (Corlette NSW; Sydney para
 > Sydney, Chatswood para Gordon). **O dashboard da S17 foi atualizado em 01/10 com a coorte
 > amadurecida** (card, diagnóstico, linha nova no comparativo e nota do CRM, incluindo "sete ainda
 > aguardam o primeiro contato, quatro delas mudanças locais"). A S18 só entra no dashboard com a
@@ -2007,7 +2074,7 @@ movers", "near me", marca Vaz Power.
 | 14 | 31/08-06/09 | A$2.481 | **78** | A$31,81 |
 | 15 | 07-13/09 | A$2.776 | 53 | A$52,37 |
 | 16 | 14-20/09 | A$1.813 | 44 | A$41,20 |
-| 17 | 21-27/09 | A$3.137 | 57 | A$55,03 | 18 agendamentos no CRM (S16: 12) |
+| 17 | 21-27/09 | A$3.137 | 57 | A$55,03 |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).

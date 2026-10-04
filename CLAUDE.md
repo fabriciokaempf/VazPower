@@ -6,6 +6,7 @@ Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & 
 > **Comece por `ESTADO.md`.** Ele traz o estado vivo da operação: próxima ação, histórico
 > de métricas semana a semana, situação de cada campanha, pontos abertos e pendências.
 > Para agenda, calls e frente comercial, ver **`REUNIOES.md`**.
+> Para montar o dashboard (fontes, pipeline, estrutura, regras de texto), ver **`DASHBOARD.md`**.
 > Este arquivo aqui guarda as regras que não mudam.
 
 > **O REPOSITÓRIO É PÚBLICO.** O cliente pode ler qualquer coisa comitada aqui. Nunca
@@ -81,5 +82,6 @@ Dashboards de tráfego pago (Google Ads + Meta Ads) para **Vaz Power Removals & 
 
 ## Skills do projeto
 
-- `metricas-trafego-2026` — playbook do dashboard semanal e comparativos.
+- `metricas-trafego-2026` — playbook do dashboard semanal e comparativos (se não existir
+  na sessão, `DASHBOARD.md` no repositório é a versão completa e atual).
 - `google-ads-2026` — negativação de palavras-chave e qualificação de lead premium.
