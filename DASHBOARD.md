@@ -100,7 +100,7 @@ mudam estão em `CLAUDE.md`; o estado vivo está em `ESTADO.md`. Este arquivo é
 4. **Bateria de validação do HTML**, tudo tem de passar: `<div>` e todas as tags (table,
    thead, tbody, tfoot, tr, td, th, span, ul, li, p, strong, svg, header, footer) abrindo e
    fechando em igual número (regex `<tag[\s>]` contra `</tag>`, porque `<strong style=…>`
-   existe); termina em `</html>`; um único `<body>`; **zero travessão** (— – −); **zero
+   existe); termina em `</html>`; um único `<body>`; **zero travessão** (em dash U+2014, en dash U+2013, sinal de menos U+2212); **zero
    emoji** (só ★ · • ▸); sem "barat"; sem "dinheiro"; `@media` intacto (7); título certo;
    nenhum resíduo da semana anterior no body; e as palavras vigiadas (ver seção 4).
 5. Card no hub `index.html` (inserir antes do card da semana anterior, na seção do mês;
