@@ -52,6 +52,16 @@ numérica corrigida).
 > **investimento por agendamento fica fora**, porque o dado ainda não é fidedigno com a semana recém-fechada; (3)
 > as fichas da calculadora sem contato entram como oportunidade, como na S17.
 >
+> **O QUE FOI DITO AO CLIENTE EM 04/10, 21h23 BRT, no grupo "Tráfego e Leads" (Antonio, Vaz, Victor), enviado pelo
+> Fabricio:** fechamento do fim de semana. Domingo entraram 8 pedidos pelo site, 4 pela calculadora (VA11881,
+> VA11884, VA11885, VA11886) e 4 pelo estimador (VA11882, VA11883, VA11887, VA11888), 11 no fim de semana com os
+> 3 de sábado; mais urgentes VA11884 (mudança em 08/10), VA11882 e VA11883 (10/10) e VA11888 (14/10); no Google,
+> domingo foi o melhor dia desde quarta, 7 pedidos, todos por formulário, **"o reforço na campanha principal de
+> Brisbane já apareceu no resultado"** (leitura de um dia: a FRONT fez 2 das 7, a ROTAS 3; não ampliar essa
+> afirmação sem a semana); no Meta, 4 ligações no domingo e o primeiro formulário da campanha nova; segunda é
+> feriado em Queensland; **"o dashboard da semana fechada sai no grupo de Dashboards"** (compromisso: enviar lá a
+> mensagem da S18). Os IDs VA saem da coluna "Lead Id" da tela de Leads, que fica oculta por padrão.
+>
 > **MENSAL DE SETEMBRO (`setembro-01-30/`): montado e validado na branch em 04/10, AGUARDANDO O OK do Fabricio ao
 > bloco "O mês em decisões" para publicar.** Google A$9.107,75 · 13.804 impressões · 653 cliques · 140,49
 > conversões · A$64,83 (formulários 119,49, sendo 44 reservas; ligações 21). Search sem PMax: CTR 8,81%, CPC
