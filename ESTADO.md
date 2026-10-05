@@ -42,6 +42,11 @@ numérica corrigida).
 >   contagem da sessão anterior (6 fichas da S17 convertidas até 01/10).
 > - Na tabela de Meta por dispositivo e no card da plataforma, "cliques" passou a ser clique no link (329).
 >
+> **Decisões do Fabricio em 04/10 sobre o que vai ao cliente:** (1) agendamento aparece **só o de mídia**; o total
+> da operação (jobs criados) fica fora do dashboard e da mensagem até a régua de booking ser alinhada; (2)
+> **investimento por agendamento fica fora**, porque o dado ainda não é fidedigno com a semana recém-fechada; (3)
+> as fichas da calculadora sem contato entram como oportunidade, como na S17.
+>
 > **Mensal de setembro (`setembro-01-30/`): ainda não iniciado**, entra depois de a S18 ir ao ar.
 
 > ### 04/10 · PASSAGEM DA SESSÃO DE DASHBOARDS · LER ANTES DE MONTAR A SEMANA 18 E O MENSAL
