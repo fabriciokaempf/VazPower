@@ -16,8 +16,8 @@ numérica corrigida).
 > ### 04/10 · SEMANA 18 MONTADA PELA SESSÃO NOVA DE DASHBOARDS (MCP do Google Ads, MCP do Meta e CRM pelo navegador)
 >
 > **Estado: `setembro28-outubro04/` PUBLICADA no master em 04/10 (commit d645d42), com o OK do Fabricio ao bloco
-> "Ação da semana", e conferida no ar.** Mensagem entregue ao Fabricio para envio no grupo de Dashboards e no
-> privado; **o envio ainda não foi confirmado.** O que a mensagem diz: 62 leads contra 57 com o mesmo
+> "Ação da semana", e conferida no ar.** **Mensagem da S18 ENVIADA pelo Fabricio no grupo de Dashboards em
+> 04/10 (confirmado por ele); ciclo da S18 fechado.** O que a mensagem diz: 62 leads contra 57 com o mesmo
 > investimento, CPL de A$55,03 para A$50,33; Meta com 32 ligações contra 16; formulário 29 contra 37 (47% contra
 > 65%) e 9 reservas contra 14, "o ponto que eu quero corrigir nesta semana"; Google com 11 conversões no fim de
 > semana a A$49,90; frente de rotas com 10 a A$49,42; 16 agendamentos vindos dos anúncios contra 21, e a semana
