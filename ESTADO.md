@@ -62,8 +62,9 @@ numérica corrigida).
 > feriado em Queensland; **"o dashboard da semana fechada sai no grupo de Dashboards"** (compromisso: enviar lá a
 > mensagem da S18). Os IDs VA saem da coluna "Lead Id" da tela de Leads, que fica oculta por padrão.
 >
-> **MENSAL DE SETEMBRO (`setembro-01-30/`): montado e validado na branch em 04/10, AGUARDANDO O OK do Fabricio ao
-> bloco "O mês em decisões" para publicar.** Google A$9.107,75 · 13.804 impressões · 653 cliques · 140,49
+> **MENSAL DE SETEMBRO (`setembro-01-30/`): PUBLICADO no master em 04/10, com o OK do Fabricio.** O
+> bloco "O mês em decisões" saiu sem a afirmação de qualidade de lead sobre a PMax e a landing page (ficou só o
+> custo, que é o que a conta mede), por decisão delegada pelo Fabricio. Mensagem do mensal ainda não enviada. Google A$9.107,75 · 13.804 impressões · 653 cliques · 140,49
 > conversões · A$64,83 (formulários 119,49, sendo 44 reservas; ligações 21). Search sem PMax: CTR 8,81%, CPC
 > A$15,19, A$59,99 por conversão. Meta A$2.561,55 · 108 ligações · A$23,72 (Reels 81 a A$18,26, Feed 27 a
 > A$39,13; iPhone 55 a A$17,74, Android 53 a A$29,83). Total A$11.669,30 · 248 leads · A$46,96 · formulário 48%.
