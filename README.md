@@ -22,6 +22,7 @@ A página inicial (`index.html`) é um hub que linka todos os períodos disponí
 
 | Período | Status | Link |
 |---|---|---|
+| **Setembro 2026 (01 a 30/09)** | **Mês fechado** | [Ver dashboard](./setembro-01-30/) |
 | Semana 21 a 27/09 | Semana 17 | [Ver dashboard](./setembro-21-27/) |
 | Semana 14 a 20/09 | Semana 16 | [Ver dashboard](./setembro-14-20/) |
 | Semana 07 a 13/09 | Semana 15 | [Ver dashboard](./setembro-07-13/) |

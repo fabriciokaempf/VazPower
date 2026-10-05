@@ -52,7 +52,18 @@ numérica corrigida).
 > **investimento por agendamento fica fora**, porque o dado ainda não é fidedigno com a semana recém-fechada; (3)
 > as fichas da calculadora sem contato entram como oportunidade, como na S17.
 >
-> **Mensal de setembro (`setembro-01-30/`): ainda não iniciado**, entra depois de a S18 ir ao ar.
+> **MENSAL DE SETEMBRO (`setembro-01-30/`): montado e validado na branch em 04/10, AGUARDANDO O OK do Fabricio ao
+> bloco "O mês em decisões" para publicar.** Google A$9.107,75 · 13.804 impressões · 653 cliques · 140,49
+> conversões · A$64,83 (formulários 119,49, sendo 44 reservas; ligações 21). Search sem PMax: CTR 8,81%, CPC
+> A$15,19, A$59,99 por conversão. Meta A$2.561,55 · 108 ligações · A$23,72 (Reels 81 a A$18,26, Feed 27 a
+> A$39,13; iPhone 55 a A$17,74, Android 53 a A$29,83). Total A$11.669,30 · 248 leads · A$46,96 · formulário 48%.
+> Os números do Google já vêm com o clique no telefone fora da contagem desde 22/09; uma linha no dashboard
+> explica por que o mês não bate com a soma das semanas. **CRM do mês (lido em 04/10, agregados):** fichas de
+> mídia criadas em setembro 172 (formulário 132, ligação e rede social 30, calculadora e estimador ainda novas
+> 10), 75 viraram job até 04/10 (44%); jobs de mídia criados em setembro 84 (73 de fichas do mês, 11 de agosto);
+> fora da mídia 59 fichas e 54 jobs. Limiares de Job ID usados: fichas de setembro vão de VA11616 a VA11866.
+> **Painel do Movermate conta menos fichas que a nossa leitura** (38 na S18 contra 45 nossas, 51 na S17 contra
+> 68): ele não é a base dos dashboards; a diferença está nas fichas que já viraram job.
 
 > ### 04/10 · PASSAGEM DA SESSÃO DE DASHBOARDS · LER ANTES DE MONTAR A SEMANA 18 E O MENSAL
 >
@@ -2129,6 +2140,7 @@ Recorde de volume: **72 leads** na Semana 10. Melhor CPL: A$49,37 na Semana 6.
 | Junho | A$12.478,20 | 176 | A$70,90 | A$8.737,42 · 137 conv | A$3.740,78 · 59 result |
 | Julho | A$13.283,97 | 238 | A$55,81 | A$9.673,82 · 152 conv | A$3.610,15 · 91 result |
 | Agosto | A$12.581,76 | 245 | **A$51,35** | A$10.062,52 · 134 conv | A$2.519,24 · 111 result |
+| Setembro | A$11.669,30 | 248 | **A$46,96** | A$9.107,75 · 140,49 conv | A$2.561,55 · 108 result |
 
 Julho superou junho em 35% de leads com 6,5% mais verba. O salto veio das **ligações**
 (12 em junho para 76 em julho), efeito do reposicionamento do Meta para marca premium.
