@@ -263,6 +263,23 @@ frequência semanal às segundas com a semana anterior, os três campos que o pr
 listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
 lançamento atrasado para o valor não cair em mês errado.
 
+### 06/10 · ideia do Victor: base de ex-clientes para a temporada
+
+O Victor propôs trabalhar a base de cerca de 3.000 e-mails de clientes já atendidos,
+começando por quem mudou entre novembro e janeiro do ano passado: o aluguel costuma ser
+anual, então boa parte volta a mudar agora. Oferta sugerida por ele: A$50 de desconto.
+
+**Resposta enviada em 06/10:** ideia apoiada; antes de qualquer e-mail, o teste são as
+20 a 30 ligações que ele fará no fim de semana (anotar se atendeu, se muda este ano,
+quando e se fechou); quem fechar entra no CRM como repeat customer, contado à parte da
+mídia; desconto e uso da base são decisão do cliente; levar à call de 08/10 com o
+Antonio, que já tinha citado essa base; do lado da mídia, a mesma lista pode virar
+público no Google e no Meta.
+
+> **Se rodar, é frente nova com data**, como o branding: agendamento vindo da base não
+> pode ser lido como resultado de mídia. Envio precisa de remetente identificado e link
+> de descadastro.
+
 ### 01/10 · o cliente cobrou volume de lead no grupo, e o compromisso assumido
 
 **No grupo Tráfego e Leads, com o Antonio e o Victor presentes**, logo depois de confirmar a
