@@ -266,9 +266,10 @@ lançamento atrasado para o valor não cair em mês errado.
 ### 08/10 · pagamento recebido, e a call de 07/10 não aconteceu
 
 - **Pagamento do cliente realizado em 07/10, no horário de Brisbane.** Sem nova cobrança
-  depois do lembrete de 18/09. Invoice quitada a confirmar pelo Fabricio.
-- **A call de quarta 07/10, 21h aqui (quinta 08/10 em Sydney), não aconteceu.** A pauta e
-  a folha seguem valendo para a nova data, incluindo a base de ex-clientes do Victor.
+  depois do lembrete de 18/09. **Invoice quitada: a de outubro.**
+- **A call de quarta 07/10, 21h aqui (quinta 08/10 em Sydney), não aconteceu.** Decisão do
+  Fabricio: **não remarcar, esperar o Antonio e o Victor se manifestarem.** A pauta e a
+  folha seguem valendo, incluindo a base de ex-clientes do Victor.
 
 ### 06/10 · ideia do Victor: base de ex-clientes para a temporada
 
