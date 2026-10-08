@@ -263,6 +263,13 @@ frequência semanal às segundas com a semana anterior, os três campos que o pr
 listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
 lançamento atrasado para o valor não cair em mês errado.
 
+### 08/10 · pagamento recebido, e a call de 07/10 não aconteceu
+
+- **Pagamento do cliente realizado em 07/10, no horário de Brisbane.** Sem nova cobrança
+  depois do lembrete de 18/09. Invoice quitada a confirmar pelo Fabricio.
+- **A call de quarta 07/10, 21h aqui (quinta 08/10 em Sydney), não aconteceu.** A pauta e
+  a folha seguem valendo para a nova data, incluindo a base de ex-clientes do Victor.
+
 ### 06/10 · ideia do Victor: base de ex-clientes para a temporada
 
 O Victor propôs trabalhar a base de cerca de 3.000 e-mails de clientes já atendidos,
