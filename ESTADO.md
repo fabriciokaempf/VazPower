@@ -35,7 +35,13 @@ numérica corrigida).
 > **No dashboard, por decisão de 04/10:** só agendamento de mídia, sem total da operação e sem investimento por
 > agendamento. A mudança de 12/10 em Brisbane (FRONT A$300 e A$85, SUPORTE A$200 e A$85, raio de 35 km, ROTAS
 > pausada) aparece como decisão "a partir de segunda". A PMax de 10/10 aparece como "rede ampliada por um dia" e
-> a conversão dela como "não virou ficha válida". Mensagem ao grupo ainda não escrita.
+> a conversão dela como "não virou ficha válida". **Republicada em 11/10 (commit 662134b) com tom mais suave sobre as
+> duas frentes do Meta ("recolhidas", não "encerradas sem resultado"), a pedido do Fabricio.** Mensagem ao grupo
+> entregue ao Fabricio em `Dashboard S18 - validacao\Mensagem grupo Dashboards - Semana 19.md`; envio não
+> confirmado. O que ela diz: 67 leads contra 62, CPL A$50,33 para A$47,66, A$3.193; 26 formulários contra 29 (39%
+> contra 47%), reservas 9 para 10; Google virou na quinta (19 pedidos a A$54,72 de sexta a domingo contra 8 de
+> segunda a quinta); Meta 40 ligações contra 32 a A$20,82; CRM 11 agendamentos de fichas da semana contra 9, 13
+> contando fichas antigas; foco em Brisbane e região a partir de segunda; proteções do site.
 
 > ### 04/10 · SEMANA 18 MONTADA PELA SESSÃO NOVA DE DASHBOARDS (MCP do Google Ads, MCP do Meta e CRM pelo navegador)
 >
