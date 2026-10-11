@@ -13,6 +13,30 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+> ### 11/10 · SEMANA 19 (05 a 11/10) MONTADA · `outubro-05-11/` NA BRANCH, AGUARDANDO O OK DO FABRICIO
+>
+> **Números (fuso de Brisbane, conta igual à soma das campanhas, dias, dispositivos e ações ao centavo):**
+> Google A$2.185,43 · 4.595 impressões (3.456 da PMax no único dia dela, 10/10) · 179 cliques · 27 conversões ·
+> A$80,94 (Search sem a PMax: A$2.063,59, 26 conversões, A$79,37, CTR 11,33%). Formulários 26 (16 calculadora,
+> 10 reservas), 1 ligação direta do anúncio. Por campanha: FRONT A$687,99/11/A$62,54 · ROTAS A$605,86/10/A$60,59 ·
+> SUPORTE A$540,74/4/A$135,18 · BRAND A$229,01/1 · PMax A$121,84/1 (a conversão falsa de 10/10) · MADRUGA A$0.
+> Presença Search 31,87%, perda por posição 50,81%, por orçamento 17,32% (FRONT 20,86%). Dois ritmos: 05 a 08/10
+> A$1.145,67 e 8 conv.; 09 a 11/10 A$1.039,77 e 19. Meta A$1.007,83: ligação A$832,93 e 40 ligações (A$20,82;
+> Reels 39 a A$16,42, Feed 0 com A$115,78, Instagram Stories 1); formulário A$145,54 e 0 (pausada 06/10);
+> remarketing A$29,36 e 0 (pausado 08/10). Total A$3.193,26 · 67 leads · A$47,66 · formulário 26 de 67 = 38,8%.
+>
+> **CRM (lido em 11/10 à noite BRT, agregados):** fichas de mídia criadas na semana 34 (formulário 21, ligação 3,
+> calculadora e estimador 10, todas em New, 9 delas de 09 a 11/10); fora da mídia 11. Jobs criados na semana: **24
+> (22 pessoas)**, nenhum em 10 e 11/10; 13 de mídia (11 de fichas da semana, 2 de fichas da S18) e 11 fora.
+> **O "22 bookings" do Rodrigo bate com as 22 pessoas**, então a régua dele parece ser pessoa, não job. S18 contando
+> até 11/10: 9 + 2 = 11 agendamentos de mídia. Limiar de Job ID: fichas da S19 começam em VA11889 (as de 04/10 vão
+> até VA11888). Painel do Movermate: 35 leads, 24 cotados, 15 convertidos (régua própria, não é a base).
+>
+> **No dashboard, por decisão de 04/10:** só agendamento de mídia, sem total da operação e sem investimento por
+> agendamento. A mudança de 12/10 em Brisbane (FRONT A$300 e A$85, SUPORTE A$200 e A$85, raio de 35 km, ROTAS
+> pausada) aparece como decisão "a partir de segunda". A PMax de 10/10 aparece como "rede ampliada por um dia" e
+> a conversão dela como "não virou ficha válida". Mensagem ao grupo ainda não escrita.
+
 > ### 04/10 · SEMANA 18 MONTADA PELA SESSÃO NOVA DE DASHBOARDS (MCP do Google Ads, MCP do Meta e CRM pelo navegador)
 >
 > **Estado: `setembro28-outubro04/` PUBLICADA no master em 04/10 (commit d645d42), com o OK do Fabricio ao bloco
@@ -2139,6 +2163,7 @@ movers", "near me", marca Vaz Power.
 | 16 | 14-20/09 | A$1.813 | 44 | A$41,20 |
 | 17 | 21-27/09 | A$3.137 | 57 | A$55,03 |
 | 18 | 28/09-04/10 | A$3.120 | 62 | A$50,33 |
+| 19 | 05-11/10 | A$3.193 | 67 | A$47,66 |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).
