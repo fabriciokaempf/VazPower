@@ -217,7 +217,8 @@ com o mês inteiro. Setembro: pasta `setembro-01-30/`, head do `agosto-01-31/`.
   com os três números da medida combinada (formulários, % do total, reservas); investimento
   e CPL; o que explica o custo, com motivo; a frente de rotas; o CRM ("dos leads de mídia,
   N viraram agendamento na própria semana, contra M"); Meta como decisão; próximo passo;
-  "Qualquer coisa me chama". Sem jargão, sem campanha nomeada, sem projeção.
+  **sem fecho** (o Fabricio não manda "Qualquer coisa me chama" e já pediu para parar de sugerir; a abertura
+  "Fala Vaz" também costuma sair). Sem jargão, sem campanha nomeada, sem projeção.
 - Registrar no `ESTADO.md` o que foi dito (bloco "O que foi dito ao cliente"), para nenhuma
   sessão contradizer depois.
 
