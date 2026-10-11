@@ -13,7 +13,7 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
-> ### 11/10 · SEMANA 19 (05 a 11/10) MONTADA · `outubro-05-11/` NA BRANCH, AGUARDANDO O OK DO FABRICIO
+> ### 11/10 · SEMANA 19 (05 a 11/10) PUBLICADA em `outubro-05-11/` com o OK do Fabricio (texto da Ação da semana como proposto)
 >
 > **Números (fuso de Brisbane, conta igual à soma das campanhas, dias, dispositivos e ações ao centavo):**
 > Google A$2.185,43 · 4.595 impressões (3.456 da PMax no único dia dela, 10/10) · 179 cliques · 27 conversões ·
