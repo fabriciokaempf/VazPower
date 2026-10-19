@@ -38,7 +38,8 @@ numérica corrigida).
 > como "segunda campanha de Brisbane que saiu na quarta"; a faxina de 18/10 como "limpeza de heranças antigas";
 > nada de tCPA, listas ou públicos. **Republicada com o Feed do Meta sem comparação de verba (commit 6cc24ea), conferida no
 > ar.** Textos entregues ao Fabricio em `Dashboard S18 - validacao\Mensagem grupo Dashboards - Semana 20.md`: descrição
-> curta para o grupo de Dashboards (que é só arquivo) e mensagem completa para o privado; envio não confirmado.
+> curta para o grupo de Dashboards. **Regra corrigida pelo Fabricio em 19/10: o dashboard vai SÓ no grupo, com link e
+> descrição curta; no privado não vai nada.** Envio não confirmado.
 
 > ### 11/10 · SEMANA 19 (05 a 11/10) PUBLICADA em `outubro-05-11/` com o OK do Fabricio (texto da Ação da semana como proposto)
 >

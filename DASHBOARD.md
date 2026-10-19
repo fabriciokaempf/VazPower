@@ -210,9 +210,10 @@ com o mês inteiro. Setembro: pasta `setembro-01-30/`, head do `agosto-01-31/`.
 
 ## 5. Mensagem ao Vaz
 
-- **Dois textos (regra do Fabricio em 19/10/2026):** no grupo "Vaz Power AUS - Backup | Dashboards" (Vaz, Victor,
-  Fabricio) vai **só o título, o link e uma descrição curta de arquivo**, porque o grupo é só leitura e guarda os
-  dashboards; a **mensagem completa vai no privado do Rodrigo**. O Antonio Carlos **não** está nesse grupo e não entra por enquanto; assunto de
+- **Regra do Fabricio em 19/10/2026: o dashboard vai SÓ no grupo "Vaz Power AUS - Backup | Dashboards"** (Vaz,
+  Victor, Fabricio), com **título, link e uma descrição curta** (2 a 3 linhas dizendo o que a semana foi). O grupo é
+  só leitura e guarda os dashboards. **No privado do Rodrigo não vai nada do dashboard.** Não propor mensagem longa
+  com bullets. O Antonio Carlos **não** está nesse grupo e não entra por enquanto; assunto de
   tráfego e lead vai no grupo "Tráfego e Leads"; decisão de dono vai no privado.
 - Forma que funcionou: link no topo; objetivo da semana numa frase; resultado em negrito
   com os três números da medida combinada (formulários, % do total, reservas); investimento
