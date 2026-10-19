@@ -16,6 +16,7 @@ A página inicial (`index.html`) é um hub que linka todos os períodos disponí
 
 | Período | Status | Link |
 |---|---|---|
+| Semana 12 a 18/10 | Semana 20 | [Ver dashboard](./outubro-12-18/) |
 | Semana 05 a 11/10 | Semana 19 | [Ver dashboard](./outubro-05-11/) |
 | Semana 28/09 a 04/10 (virada de mês) | Semana 18 | [Ver dashboard](./setembro28-outubro04/) |
 

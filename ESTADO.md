@@ -13,6 +13,31 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+> ### 19/10 · SEMANA 20 (12 a 18/10) MONTADA · `outubro-12-18/` NA BRANCH, AGUARDANDO O OK DO FABRICIO
+>
+> **Números (fuso de Brisbane, conta igual à soma das campanhas, dias, dispositivos e ações ao centavo):**
+> Google A$2.394,90 · 1.298 impressões · 97 cliques · 28 conversões · A$85,53 (formulários 27: 17 calculadora e 10
+> reservas; 1 ligação direta). Por campanha: FRONT A$1.732,31/22,5/A$76,99 (sozinha desde 14/10, A$375 e CPA A$85,
+> depois A$95 em 17/10) · SUPORTE A$458,90/1,5/A$305,93 (só 12 e 13/10) · INNER CITY A$109,67/2/A$54,83 (gasto só
+> em 17/10) · BRAND A$83,98/2 · ROTAS A$10,05 (horas de 12/10) · MADRUGA A$0. Presença 44,07%, perda por posição
+> 54,13%, por orçamento 1,80% (FRONT 42,42% / 57,58% / 0%). Dois ritmos: 12 e 13/10 A$1.057,27 e 9 conv.
+> (A$117,47); 14 a 18/10 A$1.337,63 e 19 (A$70,40). **Ações do Movermate no Google (secundárias): 6,05 Book
+> Appointment e 11,0 Qualified Lead na semana, quase todas na FRONT**; no dashboard viraram "6 agendamentos e 11
+> orçamentos ligados ao clique". Meta A$866,79: ligação A$853,22 e 39 ligações (A$21,88; Reels 35 a A$17,01, Feed 2
+> a A$76,86, Instagram Stories 2); remarketing A$13,57 só em 18/10. Total A$3.261,69 · 67 leads · A$48,68 ·
+> formulário 27 de 67 = 40,3%.
+>
+> **CRM (lido em 19/10 de manhã BRT, agregados):** fichas de mídia criadas na semana 40 (formulário 33, ligação 7;
+> nenhuma calculadora em New); fora da mídia 10. Jobs criados na semana: **24 (21 pessoas)**, 15 de mídia (12 de
+> fichas da semana, 6 GF e 6 IC; 3 de fichas da S19) e 9 fora. Mais 3 fichas da semana viraram job em 19/10
+> (contando até 19/10: 15). S19 contando até 19/10: 11 + 3 = 14. Limiares de Lead ID lidos na coluna oculta:
+> fichas da S19 VA11889 a VA11940, da S20 VA11942 a VA11995. Painel do Movermate: 44 leads, 24 cotados, 15
+> convertidos (régua própria).
+>
+> **No dashboard:** só agendamento de mídia; a INNER CITY aparece como "campanha dos bairros centrais"; a SUPORTE
+> como "segunda campanha de Brisbane que saiu na quarta"; a faxina de 18/10 como "limpeza de heranças antigas";
+> nada de tCPA, listas ou públicos. Mensagem ao grupo ainda não escrita.
+
 > ### 11/10 · SEMANA 19 (05 a 11/10) PUBLICADA em `outubro-05-11/` com o OK do Fabricio (texto da Ação da semana como proposto)
 >
 > **Números (fuso de Brisbane, conta igual à soma das campanhas, dias, dispositivos e ações ao centavo):**
@@ -2170,6 +2195,7 @@ movers", "near me", marca Vaz Power.
 | 17 | 21-27/09 | A$3.137 | 57 | A$55,03 |
 | 18 | 28/09-04/10 | A$3.120 | 62 | A$50,33 |
 | 19 | 05-11/10 | A$3.193 | 67 | A$47,66 |
+| 20 | 12-18/10 | A$3.262 | 67 | A$48,68 |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).
