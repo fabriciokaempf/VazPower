@@ -13,7 +13,7 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
-> ### 19/10 · SEMANA 20 (12 a 18/10) MONTADA · `outubro-12-18/` NA BRANCH, AGUARDANDO O OK DO FABRICIO
+> ### 19/10 · SEMANA 20 (12 a 18/10) PUBLICADA em `outubro-12-18/` com o OK do Fabricio (sem o "quatro vezes mais por conversão" da SUPORTE e sem o A$117,47 no texto corrido; a SUPORTE a A$305,93 fica só na tabela)
 >
 > **Números (fuso de Brisbane, conta igual à soma das campanhas, dias, dispositivos e ações ao centavo):**
 > Google A$2.394,90 · 1.298 impressões · 97 cliques · 28 conversões · A$85,53 (formulários 27: 17 calculadora e 10
