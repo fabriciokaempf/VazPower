@@ -39,7 +39,11 @@ numérica corrigida).
 > nada de tCPA, listas ou públicos. **Republicada com o Feed do Meta sem comparação de verba (commit 6cc24ea), conferida no
 > ar.** Textos entregues ao Fabricio em `Dashboard S18 - validacao\Mensagem grupo Dashboards - Semana 20.md`: descrição
 > curta para o grupo de Dashboards. **Regra corrigida pelo Fabricio em 19/10: o dashboard vai SÓ no grupo, com link e
-> descrição curta; no privado não vai nada.** Envio não confirmado.
+> descrição curta; no privado não vai nada.** **ENVIADO em 19/10 às 09h05 BRT no grupo de Dashboards** (título, link e
+> descrição; o "6 na semana" saiu a pedido do Fabricio, "número aparentemente ruim"). **O grupo passou a aceitar
+> mensagem só de admins** e ganhou descrição (arquivo de GADS, Meta e CRM, com link do hub e do último mensal). No
+> dashboard, o "6 agendamentos e 11 orçamentos" virou "os agendamentos e os orçamentos", sem número, pelo mesmo
+> motivo. **Ciclo da S20 fechado.**
 
 > ### 11/10 · SEMANA 19 (05 a 11/10) PUBLICADA em `outubro-05-11/` com o OK do Fabricio (texto da Ação da semana como proposto)
 >
