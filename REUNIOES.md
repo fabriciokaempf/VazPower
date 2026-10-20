@@ -263,6 +263,31 @@ frequência semanal às segundas com a semana anterior, os três campos que o pr
 listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
 lançamento atrasado para o valor não cair em mês errado.
 
+### Call de automação com Antonio, Rodrigo e Victor · data a confirmar (depois de 08/10)
+
+Registro a partir do resumo da call. **Prioridade combinada: follow-up automático por SMS e
+e-mail antes de mexer no site.**
+
+| Frente | Responsável | Prazo |
+|---|---|---|
+| Follow-up SMS + e-mail integrado ao CRM | Antonio | ~7 dias |
+| Campo "melhor horário para ligar" no formulário do site | Antonio, com o Rodrigo | junto do follow-up |
+| Site WordPress (404, páginas, integração Google) e contas Google/Meta | Antonio | 2 a 3 semanas, antes da viagem dele |
+| Conteúdo diário: 4 posts (7h30, 12h30, 16h30, 17h) | Antonio | contínuo, revisão em 1 mês |
+| Rotina de fotos e vídeos da equipe para o Drive | Victor | contínuo |
+| Demonstração do CRM ao Antonio e extração da base | Victor | próxima semana |
+| Acessos (WordPress, CRM) e o quiz de qualificação | Fabricio | a combinar |
+
+> **TRAVAS PARA A MÍDIA:**
+> - **Formulário e site mudam a medição.** Antes de qualquer mudança no formulário ou no
+>   WordPress, o Fabricio confere com o Antonio se a tag de conversão continua disparando,
+>   e a data de cada mudança entra no registro. Formulário quebrado zera conversão no Ads.
+> - **Follow-up automático é frente nova com data**, como o branding e a base de
+>   ex-clientes: agendamento recuperado por SMS não é resultado de mídia.
+> - **"Alinhar contas Google/Meta" não inclui mexer na conta de anúncios** (regra de 01/10).
+> - **Acesso por convite de usuário, não por senha.** Senha não circula em grupo nem em
+>   documento, e nunca neste repositório.
+
 ### 08/10 · pagamento recebido, e a call de 07/10 não aconteceu
 
 - **Pagamento do cliente realizado em 07/10, no horário de Brisbane.** Sem nova cobrança
