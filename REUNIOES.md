@@ -288,6 +288,26 @@ e-mail antes de mexer no site.**
 > - **Acesso por convite de usuário, não por senha.** Senha não circula em grupo nem em
 >   documento, e nunca neste repositório.
 
+**Da transcrição completa, o que o resumo não trazia:**
+
+- **O cliente delegou o plano aos três:** *"vocês têm que definir o que é melhor... mas
+  vocês têm que seguir o planejamento"*. Ele fica no comercial.
+- **Ordem combinada:** follow-up por SMS e e-mail (7 dias) → site → campanhas Google e Meta
+  (2 a 3 semanas). O Antonio declarou que **não mexe na conta de anúncios sem falar com o
+  Fabricio**: entra só para levantamento. Ele viaja ao Brasil em cerca de 3 semanas.
+- **O formulário do site muda já em 21/10** (campo de melhor horário para ligar). Na call,
+  o Antonio perguntou se isso afeta o Google e a resposta foi que não. **Afeta se a
+  conversão do Ads depende do envio desse formulário: conferir a tag no dia da mudança.**
+- **Quiz:** o Fabricio esboça em cerca de dois dias e marca com o Antonio para fechar
+  junto, usando a pesquisa de concorrentes dele.
+- **Tática comercial que o cliente relatou funcionando no dia:** pedir ao lead que, antes de
+  fechar com outro, dê a chance de revisar o valor. Fechou três jobs assim. Entra no
+  follow-up automático como mensagem. **Para a mídia, não muda o posicionamento dos
+  anúncios**: a revisão de valor acontece na conversa, não no anúncio.
+- **O Victor marcou o prazo:** cerca de 4 semanas até a temporada apertar.
+- Acessos foram passados por senha durante a call; o Antonio vai centralizar num perfil
+  Google da empresa com colaboradores. Nada de senha neste repositório.
+
 ### 08/10 · pagamento recebido, e a call de 07/10 não aconteceu
 
 - **Pagamento do cliente realizado em 07/10, no horário de Brisbane.** Sem nova cobrança
