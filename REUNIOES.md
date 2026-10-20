@@ -263,7 +263,7 @@ frequência semanal às segundas com a semana anterior, os três campos que o pr
 listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
 lançamento atrasado para o valor não cair em mês errado.
 
-### Call de automação com Antonio, Rodrigo e Victor · data a confirmar (depois de 08/10)
+### 20/10 · call de automação com Antonio, Rodrigo e Victor
 
 Registro a partir do resumo da call. **Prioridade combinada: follow-up automático por SMS e
 e-mail antes de mexer no site.**
