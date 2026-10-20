@@ -263,6 +263,23 @@ frequência semanal às segundas com a semana anterior, os três campos que o pr
 listou (data de criação do lead, data de agendamento e valor gerado) e como tratar o
 lançamento atrasado para o valor não cair em mês errado.
 
+### 20/10 · gerente de contas do Google Ads · contato passa a ser por e-mail
+
+**O canal com o gerente de contas do Google (Aleck, Google Customer Solutions, AU/NZ) passou
+a ser por e-mail**, a pedido dele, em 19/10: atualizações, dúvidas e pedidos por escrito;
+call só quando o assunto e a pauta já estiverem fechados por escrito.
+
+**Resposta enviada em 20/10:** formato aceito; atualização da conta até 03/10 (PMax e LPs
+pausadas em setembro, consolidação do Search em 01/10, Maximizar conversões sem alvo com
+teto diário em 03/10, acesso ao CRM); e uma pergunta: **qual configuração ele recomenda para
+devolver ao Google Ads o sinal de reserva de A$150 como conversão real com valor,
+importação offline ou conversões otimizadas para leads, com os formulários passando pelo
+GTM.**
+
+> **Pendente: a resposta dele.** Quando chegar, levar para `ESTADO.md`, porque a decisão é da
+> sessão de otimização. **Com esse contato, cumprir o que se escreve**: pedido de call só
+> com pauta escrita antes.
+
 ### 20/10 · call de automação com Antonio, Rodrigo e Victor
 
 Registro a partir do resumo da call. **Prioridade combinada: follow-up automático por SMS e
