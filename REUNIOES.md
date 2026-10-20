@@ -308,6 +308,31 @@ e-mail antes de mexer no site.**
 - Acessos foram passados por senha durante a call; o Antonio vai centralizar num perfil
   Google da empresa com colaboradores. Nada de senha neste repositório.
 
+**Enviado ao Antonio em 20/10, no privado · cuidado com o formulário do site**
+
+Mensagem mandada antes da mudança do formulário prevista para 21/10:
+
+> Carlos, um ponto sobre o formulário do site antes de tu mexer.
+>
+> A gente envia alguns dados do formulário pelo GTM pro Google Ads e pra nossa base. É assim
+> que a conversão é contada e que os leads são cruzados com o CRM. Se mudar o nome ou o ID de
+> algum campo, a estrutura do formulário ou a página de confirmação, o GTM pode parar de ler,
+> e a conversão zera sem nenhum aviso.
+>
+> Então:
+> Pode acrescentar o campo de melhor horário, mas sem renomear nem remover os campos que já
+> existem. Antes de publicar, me dá um toque com o horário. Eu acompanho no GTM e a gente faz
+> um envio de teste junto. Se for mexer em mais coisa no site depois, mesmo esquema: me avisa
+> antes.
+>
+> Pelo teu fuso, me fala que horário fica bom pra ti.
+
+**Pendente:** resposta dele com o horário do teste. No dia da mudança, conferir a conversão
+no Google Ads no mesmo dia e no seguinte, e registrar a data em `ESTADO.md`.
+
+> **Acessos ao WordPress e ao CRM foram passados por senha no privado em 20/10.** Trocar as
+> duas senhas quando ele tiver usuário próprio, antes da viagem dele.
+
 ### 08/10 · pagamento recebido, e a call de 07/10 não aconteceu
 
 - **Pagamento do cliente realizado em 07/10, no horário de Brisbane.** Sem nova cobrança
