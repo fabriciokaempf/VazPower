@@ -43,7 +43,7 @@ numérica corrigida).
 > A$113,28 só na tabela e numa linha do diagnóstico; nada de tCPA, snippet, GTM ou "trava" (virou "a calculadora
 > passou a recusar pedido fora de Brisbane e região e a contar como lead só quando o pedido chega de fato"); o
 > GoHighLevel do Antonio não entra. Próximos passos citam domingo 26/10 (ajustes finos em lote) e "campanhas prontas
-> para novembro". Print em `Dashboard S18 - validacao\s21_topo.png`. OK do Fabricio em 25/10 (custo do Google só na tabela, sem a data de 26/10). PUBLICADA; falta o texto do grupo.
+> para novembro". Print em `Dashboard S18 - validacao\s21_topo.png`. OK do Fabricio em 25/10 (custo do Google só na tabela, sem a data de 26/10). PUBLICADA e ENVIADA no grupo de Dashboards em 25/10 às 20h13 BRT (título, link e descrição, sem abertura: no grupo só o Fabricio fala). Ciclo fechado. Próximo: mensal de outubro em 31/10 depois das 11h, com troca do link do mensal na descrição do grupo.
 
 > ### 19/10 · SEMANA 20 (12 a 18/10) PUBLICADA em `outubro-12-18/` com o OK do Fabricio (sem o "quatro vezes mais por conversão" da SUPORTE e sem o A$117,47 no texto corrido; a SUPORTE a A$305,93 fica só na tabela)
 >
