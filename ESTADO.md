@@ -13,6 +13,38 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+> ### 25/10 · SEMANA 21 (19 a 25/10) MONTADA em `outubro-19-25/`, na branch, AGUARDANDO O OK do Fabricio para publicar
+>
+> **Números (fuso de Brisbane, conta igual à soma das campanhas, dias, dispositivos e ações ao centavo):**
+> Google A$3.831,80 · 1.383 impressões · 145 cliques · 35 conversões · A$109,48 (formulários 32: 20 reservas Book
+> Form, 10 calculadora, 2 Quote Form; 3 ligações diretas). Por campanha: FRONT A$3.058,62/27/A$113,28 (A$436,95 por
+> dia contra teto A$375, CPA desejado A$95; presença 48,84%, perda por posição 51,16%, por orçamento 0) · INNER CITY
+> A$496,14/6/A$82,69 (presença 30%, 5 das 6 no computador) · BRAND A$277,03/2/A$138,52 (23 cliques, CPC alto, sinal
+> de concorrente na marca) · MADRUGA A$0 (5 impressões). Conta: presença 47,06%, perda por posição 52,94%, por
+> orçamento 0%. Dispositivos: celular A$2.936,96/23 conv (A$127,69); computador A$787,81/11 (A$71,62); tablet
+> A$107,02/1. Dias (custo/conv): 19 A$354,57/2; 20 A$779,21/8; 21 A$496,07/8; 22 A$523,15/7; 23 A$580,78/5; 24
+> A$335,81/2; 25 A$762,20/3 (terça a sexta A$2.379,22 e 28 conv, A$84,97; segunda mais fim de semana A$1.452,58 e 7).
+> Ações do Movermate no Google (secundárias): 6,95 job e 12 quoted. Meta A$958,50: ligação A$890,09 e 38 toques
+> (A$23,42; Reels 31 a A$18,11, Feed 5 a A$51,52, IG Stories 2, Marketplace 0, IG feed/reels 0); remarketing
+> `RMKT | CALL | BRISBANE | Site 180D + FB 365D` A$68,41 e 9 (A$7,60; Reels 7, Feed 2). Conta Meta 66.087 impr,
+> alcance 15.094, 453 cliques, CPM A$14,50. Dispositivo Meta: iPhone A$823,66/38 lig; Android A$134,78/9. **Total
+> A$4.790,30 · 82 leads (recorde; S14 tinha 78) · formulário 32 = 39,0% · ligações 50 · CPL A$58,42.** Contra S20:
+> investimento +46,9%, leads +22,4%, CPL +20,0%, reservas +100% (20, recorde).
+>
+> **CRM (lido em 25/10 ~19h50 BRT, agregados; fichas da S21 VA11998 a VA12074):** Leads restantes da semana 37
+> (GF 29: 2 New, 5 Quoted, 2 Won, 16 Lost, 3 Pending, 1 Follow; VC 2 New; CE 3 New; IC 1; RC 2). Jobs criados na
+> semana **37 (29 pessoas)**: GF 18, IC 5, RC 8, RF 3, contas 3; por dia 19:4, 20:5, 21:7, 22:9, 23:10, 24:2, 25:0.
+> Mídia 23 (16 de fichas da S21: GF 11 e IC 5; 6 de fichas da S20; 1 antiga); fora 14. Derivados do dashboard:
+> fichas de mídia da semana 51 (formulário 40 com 11 agendamentos; ligação 6 com 5; calculadora/estimador 5 em New),
+> 16 de 51 = 31%; S20 contando até 25/10 = 18 (era 12 no fechamento, 15 até 19/10). Painel do Movermate: 53 leads,
+> 34 cotados, 23 convertidos (régua própria).
+>
+> **No dashboard:** o custo maior do Google aparece como "comprar presença custou mais por conversão", FRONT a
+> A$113,28 só na tabela e numa linha do diagnóstico; nada de tCPA, snippet, GTM ou "trava" (virou "a calculadora
+> passou a recusar pedido fora de Brisbane e região e a contar como lead só quando o pedido chega de fato"); o
+> GoHighLevel do Antonio não entra. Próximos passos citam domingo 26/10 (ajustes finos em lote) e "campanhas prontas
+> para novembro". Print em `Dashboard S18 - validacao\s21_topo.png`. Falta: OK, publicar, texto para o grupo.
+
 > ### 19/10 · SEMANA 20 (12 a 18/10) PUBLICADA em `outubro-12-18/` com o OK do Fabricio (sem o "quatro vezes mais por conversão" da SUPORTE e sem o A$117,47 no texto corrido; a SUPORTE a A$305,93 fica só na tabela)
 >
 > **Números (fuso de Brisbane, conta igual à soma das campanhas, dias, dispositivos e ações ao centavo):**
@@ -2203,6 +2235,7 @@ movers", "near me", marca Vaz Power.
 | 18 | 28/09-04/10 | A$3.120 | 62 | A$50,33 |
 | 19 | 05-11/10 | A$3.193 | 67 | A$47,66 |
 | 20 | 12-18/10 | A$3.262 | 67 | A$48,68 |
+| 21 | 19-25/10 | A$4.790 | 82 | A$58,42 |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).
