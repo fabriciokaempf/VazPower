@@ -13,7 +13,7 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
-> ### 25/10 · SEMANA 21 (19 a 25/10) MONTADA em `outubro-19-25/`, na branch, AGUARDANDO O OK do Fabricio para publicar
+> ### 25/10 · SEMANA 21 (19 a 25/10) PUBLICADA em `outubro-19-25/` com o OK do Fabricio
 >
 > **Números (fuso de Brisbane, conta igual à soma das campanhas, dias, dispositivos e ações ao centavo):**
 > Google A$3.831,80 · 1.383 impressões · 145 cliques · 35 conversões · A$109,48 (formulários 32: 20 reservas Book
@@ -43,7 +43,7 @@ numérica corrigida).
 > A$113,28 só na tabela e numa linha do diagnóstico; nada de tCPA, snippet, GTM ou "trava" (virou "a calculadora
 > passou a recusar pedido fora de Brisbane e região e a contar como lead só quando o pedido chega de fato"); o
 > GoHighLevel do Antonio não entra. Próximos passos citam domingo 26/10 (ajustes finos em lote) e "campanhas prontas
-> para novembro". Print em `Dashboard S18 - validacao\s21_topo.png`. Falta: OK, publicar, texto para o grupo.
+> para novembro". Print em `Dashboard S18 - validacao\s21_topo.png`. OK do Fabricio em 25/10 (custo do Google só na tabela, sem a data de 26/10). PUBLICADA; falta o texto do grupo.
 
 > ### 19/10 · SEMANA 20 (12 a 18/10) PUBLICADA em `outubro-12-18/` com o OK do Fabricio (sem o "quatro vezes mais por conversão" da SUPORTE e sem o A$117,47 no texto corrido; a SUPORTE a A$305,93 fica só na tabela)
 >
