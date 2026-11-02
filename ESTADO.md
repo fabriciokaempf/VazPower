@@ -13,6 +13,39 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+> ### 01/11 · MENSAL DE OUTUBRO (`outubro-01-31/`) MONTADO na branch, AGUARDANDO O OK do Fabricio para publicar
+>
+> **Números (fuso de Brisbane; conta igual à soma das campanhas, ações e dispositivos):** Google A$11.455,55 · 8.908
+> impressões · 575 cliques · 126 conversões · A$90,92 (Book Form 62, Submit Form Volume 57, Quote Form 2, Calls From
+> Ads 5). Por campanha: FRONT A$7.559,42/82,5 (A$91,63; presença 40,06%, perda por posição 55,90%, por orçamento
+> 4,04%) · SUPORTE A$1.229,68/9,5 (pausada 13/10) · ROTAS A$939,29/17 (pausada 11/10) · BRAND A$882,74/7 · INNER CITY
+> A$722,57/9 (desde 15/10; presença 23,62%) · PMax A$121,84/1 (só 10/10) · MADRUGA A$0. Conta: presença 38,24%,
+> perda por posição 55,69%, por orçamento 6,07%. Secundárias: Click to call 15, Movermate job 26, quoted 36,
+> completed 8, sinal A$150 5. Dispositivos: celular A$8.569,30/94; computador A$2.679,83/30; tablet A$206,42/2. Meta
+> A$4.246,90: ligação A$3.766,45/176 (A$21,40); formulário A$219,11/1 (03 a 06/10); remarketing A$181,07/12;
+> levas 2 e 3 A$80,27/2 (desde 30/10). Conta Meta 278.753 impr, alcance 39.561, 3.770 cliques, CPM A$15,24,
+> frequência 7,05. Posicionamento (4 campanhas): Reels A$2.656,16/166 (A$16,00), Feed A$1.087,58/16, IG Stories
+> A$339,79/7, Marketplace A$60,33/1, outros A$103,04/1 formulário. Dispositivo: iPhone A$3.437,74/150; Android
+> A$796,85/41; tablet e computador A$12,31/0. **Total A$15.702,45 · 317 leads (122 formulários + 195 ligações) ·
+> CPL A$49,53** (setembro A$46,96; +34,6% de investimento, +27,8% de leads, +5,5% de CPL). Semanas: S18 A$3.120/62/
+> A$50,33/47%; S19 A$3.193/67/A$47,66/39%; S20 A$3.262/67/A$48,68/40%; S21 A$4.790/82/A$58,42/39%; S22
+> A$3.472/80/A$43,39/31%.
+>
+> **CRM (lido em 01/11 ~23h BRT pela extensão; Jobs com a coluna "Lead Creation Date", Leads paginados pela URL
+> porque o clique de página renderiza fora de ordem):** jobs criados em outubro **134 (110 pessoas)**: GF 62, IC 14,
+> RC 39, Referral 9, contas 10; por semana S18 (01 a 04/10) 6, S19 24, S20 24, S21 37, S22 (26 a 31/10) 43; status 66
+> Completed, 53 Assigned, 14 Unassigned, 1 Cancelled. Mídia 76 (ficha de outubro 63, sem data de ficha 8, ficha
+> anterior 5); fora 58. Fichas de outubro ainda em Leads: 110 (GF 104, IC 4, CE 1 New, RC 1). Novembro já tem 4 jobs
+> GF de ficha de outubro. Derivados do dashboard: formulário 163 fichas e 59 agendamentos (36%); ligação 20 e 16
+> (80%); calculadora/estimador 1 e 0; fora 59 e 58; mídia 184 e 75 (41%; setembro 172 e 75, 44%).
+>
+> **No dashboard:** sem custo por conversão por plataforma no texto corrido (fica nos cards de plataforma e nas
+> tabelas); overview do Google diz "126 conversões | 62 reservas"; SUPORTE e ROTAS "recolhidas"; a PMax "voltou por
+> um dia"; GTM, snippet, trava e gclid viraram "o site passou a filtrar o que entra" e "cada lead carrega a marca do
+> clique"; evolução junho a outubro com a nota de que a sequência de quedas do CPL foi interrompida por pouco e com
+> 69 leads a mais. Print em `Dashboard S18 - validacao\mensal_out_topo.png`. Falta: OK, publicar, texto para o grupo
+> e **trocar o link do mensal na descrição do grupo de Dashboards** (hoje aponta para `setembro-01-30/`).
+
 > ### 01/11 · SEMANA 22 (26/10 a 01/11) PUBLICADA em `outubro26-novembro01/` com o OK do Fabricio
 >
 > **Números (fuso de Brisbane, conta igual à soma das campanhas, dias, dispositivos e ações ao centavo):**
@@ -2287,6 +2320,7 @@ Recorde de volume: **72 leads** na Semana 10. Melhor CPL: A$49,37 na Semana 6.
 | Julho | A$13.283,97 | 238 | A$55,81 | A$9.673,82 · 152 conv | A$3.610,15 · 91 result |
 | Agosto | A$12.581,76 | 245 | **A$51,35** | A$10.062,52 · 134 conv | A$2.519,24 · 111 result |
 | Setembro | A$11.669,30 | 248 | **A$46,96** | A$9.107,75 · 140,49 conv | A$2.561,55 · 108 result |
+| Outubro | A$15.702,45 | 317 | A$49,53 | A$11.455,55 · 126 conv | A$4.246,90 · 191 result (190 ligações + 1 formulário) |
 
 Julho superou junho em 35% de leads com 6,5% mais verba. O salto veio das **ligações**
 (12 em junho para 76 em julho), efeito do reposicionamento do Meta para marca premium.
