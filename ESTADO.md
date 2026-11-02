@@ -13,7 +13,7 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
-> ### 01/11 · MENSAL DE OUTUBRO (`outubro-01-31/`) MONTADO na branch, AGUARDANDO O OK do Fabricio para publicar
+> ### 01/11 · MENSAL DE OUTUBRO (`outubro-01-31/`) PUBLICADO com o OK do Fabricio em 01/11 (copy revisada: sem "segundo melhor", sem "promessas que a operação não sustenta", PMax "testada e recolhida")
 >
 > **Números (fuso de Brisbane; conta igual à soma das campanhas, ações e dispositivos):** Google A$11.455,55 · 8.908
 > impressões · 575 cliques · 126 conversões · A$90,92 (Book Form 62, Submit Form Volume 57, Quote Form 2, Calls From
