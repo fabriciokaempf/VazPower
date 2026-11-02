@@ -13,6 +13,43 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
+> ### 01/11 · SEMANA 22 (26/10 a 01/11) MONTADA em `outubro26-novembro01/`, na branch, AGUARDANDO O OK do Fabricio para publicar
+>
+> **Números (fuso de Brisbane, conta igual à soma das campanhas, dias, dispositivos e ações ao centavo):**
+> Google A$2.303,10 · 1.137 impressões · 104 cliques · 25 conversões · A$92,12 (Book Form 21, Submit Form Volume 4;
+> zero ligação direta). Por campanha: FRONT A$2.032,41/22/A$92,38 (CPA desejado A$110 desde 29/10, teto A$375,
+> A$290,34 por dia; presença 40,58%, perda por posição 59,42%, por orçamento 0; CTR 8,22%, CPC A$24,79) · INNER CITY
+> A$116,76/1 (gasto só em 27/10; presença 12,65%) · BRAND A$153,93/2/A$76,97 (17 cliques, CPC A$9,05; presença
+> 84,21%) · MADRUGA A$0 (2 impressões). Conta: presença 37,37%, perda por posição 62,63%, por orçamento 0%.
+> Dispositivos: celular A$1.580,19/18 (A$87,79); computador A$670,43/6 (A$111,74); tablet A$52,48/1. Dias
+> (custo/conv): 26 A$420,38/6; 27 A$558,97/6; 28 A$179,73/3; 29 A$209,14/0; 30 A$374,22/2; 31 A$286,90/4; 01
+> A$273,77/4. Ações do Movermate no Google (secundárias): 6 job e 12 quoted; Click to call 5. Meta A$1.168,43:
+> ligação A$946,77 e 46 toques (A$20,58; Reels 40 a A$12,86, Feed 5 a A$61,47, IG Stories 1); `LEADS | CALL |
+> BRISBANE | Levas 2 e 3 | 28.10.26` (120250035045830685, A$40/dia, gasto desde 30/10) A$134,82 e 5 (A$26,96; Reels
+> 3, IG Stories 2, Feed 0); remarketing (A$12/dia) A$86,84 e 4 (A$21,71). Conta Meta 82.520 impr, alcance 19.403,
+> 964 cliques, CPM A$14,16, frequência 4,25. Dispositivo Meta: iPhone A$1.030,36/43; Android A$137,87/12 (A$11,49).
+> Dia 30/10 no Meta: 1 toque por A$212 (oscilação, conferida pela otimização em 31/10). **Total A$3.471,53 · 80
+> leads · formulário 25 = 31,3% · ligações 55 (recorde; S21 50) · CPL A$43,39 (menor da operação; S19 A$47,66).**
+> Contra S21: investimento -27,5%, leads -2,4%, CPL -25,7%, formulários -21,9%, ligações +10%, reservas 21 (recorde,
+> +5%).
+>
+> **CRM (lido em 01/11 ~22h40 BRT pela extensão, agregados; coluna "Lead Creation Date" ligada em Jobs e "Lead Id"
+> em Leads):** fichas da S22 VA12075 a VA12145 (S23 começa em VA12146). Leads restantes da semana 31 (GF 29: 3
+> Inspection, 5 Pending, 7 Quoted, 13 Lost, 1 Won; CE 1 New; IC 1 Lost); S21 restantes 28 (eram 37). Jobs criados
+> na semana **45 (40 pessoas)**: GF 23, IC 1, RC 16, Referral 1, contas 4 (QLD Housing 2, Valiant Hire 2); por dia
+> 26:14, 27:4, 28:9, 29:6, 30:4, 31:6, 01:2; status 26 Assigned, 10 Unassigned, 8 Completed, 1 Cancelled. Mídia 24
+> (ficha da S22 13 GF + 2 sem data de ficha, IC e GF, = 15; ficha da S21 7; S20 1; antiga 1); fora 21. Derivados do
+> dashboard: fichas de mídia da semana 46 (formulário 43 com 14 agendamentos; ligação 2 com 1; estimador 1 em New),
+> 15 de 46 = 33%; S21 contando até 01/11 = 16 + 7 = 23. Rodrigo relatou 40 bookings até sexta (bate com as 40
+> pessoas). 02/11 (S23) já tem 2 jobs GF de fichas da S22.
+>
+> **No dashboard:** FRONT a A$92,38 e INNER CITY a A$116,76 ficam no card e na tabela, sem custo no texto corrido;
+> a subida do CPA desejado para A$110 (29/10) não aparece; o filtro de 27/10 virou "buscas de fora de Brisbane e de
+> concorrentes deixaram de receber anúncio"; a campanha nova do Meta é "anúncios próprios da Vaz Power"; o zero de
+> 30/10 é "oscilação de um dia, conferida na conta". Próximos passos sem data: verba da FRONT em degraus, INNER CITY
+> decide na segunda, Meta lê a campanha nova por uma semana. Print em `Dashboard S18 - validacao\s22_topo.png`.
+> Falta: OK, publicar, texto para o grupo. **Mensal de outubro (`outubro-01-31/`) ainda não montado.**
+
 > ### 25/10 · SEMANA 21 (19 a 25/10) PUBLICADA em `outubro-19-25/` com o OK do Fabricio
 >
 > **Números (fuso de Brisbane, conta igual à soma das campanhas, dias, dispositivos e ações ao centavo):**
@@ -2236,6 +2273,7 @@ movers", "near me", marca Vaz Power.
 | 19 | 05-11/10 | A$3.193 | 67 | A$47,66 |
 | 20 | 12-18/10 | A$3.262 | 67 | A$48,68 |
 | 21 | 19-25/10 | A$4.790 | 82 | A$58,42 |
+| 22 | 26/10-01/11 | A$3.472 | 80 | A$43,39 |
 
 Semana 11 = primeira sob o teto novo (corte no meio da semana).
 Semana 12 = primeira inteira sob o teto; fechou A$388 acima (PMax e BRAND seguram).
