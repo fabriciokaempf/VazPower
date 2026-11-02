@@ -48,7 +48,7 @@ numérica corrigida).
 > concorrentes deixaram de receber anúncio"; a campanha nova do Meta é "anúncios próprios da Vaz Power"; o zero de
 > 30/10 é "oscilação de um dia, conferida na conta". Próximos passos sem data: verba da FRONT em degraus, INNER CITY
 > decide na segunda, Meta lê a campanha nova por uma semana. Print em `Dashboard S18 - validacao\s22_topo.png`.
-> OK do Fabricio em 01/11 (custo por conversão do Google só nas tabelas; "pessoas e caminhões da empresa" virou "anúncios novos, no estilo do Instagram"). PUBLICADA; falta o texto do grupo. **Mensal de outubro (`outubro-01-31/`) ainda não montado.**
+> OK do Fabricio em 01/11 (custo por conversão do Google só nas tabelas; "pessoas e caminhões da empresa" virou "anúncios novos, no estilo do Instagram"). PUBLICADA e ENVIADA no grupo de Dashboards em 01/11 às 22h38 BRT (título, link e descrição; o Fabricio pediu "melhora a mensagem": a versão final abre com "A semana mais eficiente da operação"). Ciclo fechado. **Próximo: mensal de outubro (`outubro-01-31/`), ainda não montado, com troca do link do mensal na descrição do grupo.**
 
 > ### 25/10 · SEMANA 21 (19 a 25/10) PUBLICADA em `outubro-19-25/` com o OK do Fabricio
 >
