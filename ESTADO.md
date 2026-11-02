@@ -13,7 +13,7 @@ numérica corrigida).
 
 ## 0. ESTADO ATUAL (retomar daqui)
 
-> ### 01/11 · SEMANA 22 (26/10 a 01/11) MONTADA em `outubro26-novembro01/`, na branch, AGUARDANDO O OK do Fabricio para publicar
+> ### 01/11 · SEMANA 22 (26/10 a 01/11) PUBLICADA em `outubro26-novembro01/` com o OK do Fabricio
 >
 > **Números (fuso de Brisbane, conta igual à soma das campanhas, dias, dispositivos e ações ao centavo):**
 > Google A$2.303,10 · 1.137 impressões · 104 cliques · 25 conversões · A$92,12 (Book Form 21, Submit Form Volume 4;
@@ -48,7 +48,7 @@ numérica corrigida).
 > concorrentes deixaram de receber anúncio"; a campanha nova do Meta é "anúncios próprios da Vaz Power"; o zero de
 > 30/10 é "oscilação de um dia, conferida na conta". Próximos passos sem data: verba da FRONT em degraus, INNER CITY
 > decide na segunda, Meta lê a campanha nova por uma semana. Print em `Dashboard S18 - validacao\s22_topo.png`.
-> Falta: OK, publicar, texto para o grupo. **Mensal de outubro (`outubro-01-31/`) ainda não montado.**
+> OK do Fabricio em 01/11 (custo por conversão do Google só nas tabelas; "pessoas e caminhões da empresa" virou "anúncios novos, no estilo do Instagram"). PUBLICADA; falta o texto do grupo. **Mensal de outubro (`outubro-01-31/`) ainda não montado.**
 
 > ### 25/10 · SEMANA 21 (19 a 25/10) PUBLICADA em `outubro-19-25/` com o OK do Fabricio
 >
