@@ -2417,6 +2417,9 @@ conta fechou às 11h BRT e vem completo.
 > errou. **Se esse valor virar a versão aceita, ele volta em novembro como "você queimou
 > 50 mil".**
 
+> **DECISÃO DO FABRICIO EM 04/11: as invoices seguem "due on receipt", sem data de
+> vencimento escrita**, como sempre foram. O parágrafo abaixo fica como histórico.
+
 **O vencimento tem de aparecer escrito na própria invoice e na mensagem que a acompanha**,
 para ser informação de rotina e não precisar ser invocado depois. Prazo lembrado de
 memória, trazido no meio de uma cobrança, vira discussão sobre o que foi combinado em vez
