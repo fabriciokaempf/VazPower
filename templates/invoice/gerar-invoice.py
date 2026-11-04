@@ -101,7 +101,7 @@ def montar_extra(args):
     return linha, totais
 
 
-def montar_html(dados, numero, periodo, data_emissao, extra_linha, extra_totais):
+def montar_html(dados, numero, periodo, data_emissao, extra_linha, extra_totais, vencimento=None):
     with open(TEMPLATE, encoding="utf-8") as f:
         pagina = f.read()
 
@@ -117,7 +117,9 @@ def montar_html(dados, numero, periodo, data_emissao, extra_linha, extra_totais)
     valores.update({
         "INVOICE_NO": numero,
         "ISSUE_DATE": data_emissao,
-        "DUE_DATE": data_emissao,          # due on receipt
+        "DUE_DATE": vencimento or data_emissao,
+        "DUE_BADGE": f"Due {vencimento}" if vencimento else "Due Today",
+        "DUE_TERMS": f"Due by {vencimento}." if vencimento else "Due on receipt.",
         "SERVICE_PERIOD": periodo,
         "EXTRA_ROWS": extra_linha,
         "EXTRA_TOTALS": extra_totais,
@@ -204,6 +206,7 @@ def main():
     ap.add_argument("--numero", required=True, help="ex.: INV-2026-09-001")
     ap.add_argument("--periodo", required=True, help='ex.: "September 2026"')
     ap.add_argument("--data", help='ex.: "1 September 2026" (padrao: hoje)')
+    ap.add_argument("--vencimento", help='ex.: "10 November 2026" (padrao: due on receipt)')
     ap.add_argument("--saida", help="caminho do PDF (padrao: nome no padrao da pasta)")
 
     ap.add_argument("--extra-titulo", help="titulo do item entregue sem cobranca")
@@ -236,7 +239,7 @@ def main():
 
     extra_linha, extra_totais = montar_extra(args)
     pagina = montar_html(dados, args.numero, args.periodo, data_emissao,
-                         extra_linha, extra_totais)
+                         extra_linha, extra_totais, args.vencimento)
     gerar_pdf(pagina, os.path.abspath(saida))
     print(f"PDF gerado: {saida}")
 

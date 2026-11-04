@@ -31,8 +31,9 @@ deve ser commitado**.
 
    Saída: `Invoice #SETEMBRO - Vaz Power.pdf`
 
-O `--data` é opcional (usa a data de hoje). O vencimento acompanha a emissão,
-porque a condição é *due on receipt*.
+O `--data` é opcional (usa a data de hoje). Sem `--vencimento`, a condição é *due on
+receipt*. Com `--vencimento "10 November 2026"`, a data aparece no cabeçalho, no selo e nos
+termos de pagamento, que é a regra combinada: vencimento escrito na própria invoice.
 
 **PDF:** usa o `playwright` se ele estiver disponível para o Node. Se não estiver,
 cai automaticamente no Chrome ou no Edge em modo headless, que já existem no
