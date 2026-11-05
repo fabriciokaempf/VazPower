@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Estratégia Vaz Alta Temporada</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: mapa vertical em faixas, da busca do cliente até o agendamento, lido junto com a fala */
+:root{
+  --bg:#F4F5F8;--panel:#FFFFFF;--fg:#141B2D;--muted:#5A6378;--line:#D9DEE8;
+  --gold:#B87A0E;--goldsoft:#FBF1DC;--google:#2F66C9;--gsoft:#E7EEFB;--meta:#0A6FD6;--msoft:#E3F0FC;--good:#1E7A4F;--gdsoft:#E4F3EB;
+  --display:"Fraunces",Georgia,serif;--body:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0B0F1A;--panel:#131A2B;--fg:#E8EBF2;--muted:#9AA3B8;--line:#26304A;
+  --gold:#F5A623;--goldsoft:#2A2414;--google:#7FA6F2;--gsoft:#16223D;--meta:#5AB0FF;--msoft:#112437;--good:#4FC38A;--gdsoft:#122A20;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0B0F1A;--panel:#131A2B;--fg:#E8EBF2;--muted:#9AA3B8;--line:#26304A;
+  --gold:#F5A623;--goldsoft:#2A2414;--google:#7FA6F2;--gsoft:#16223D;--meta:#5AB0FF;--msoft:#112437;--good:#4FC38A;--gdsoft:#122A20;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 var(--body)}
+.wrap{max-width:960px;margin:0 auto;padding-block:32px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
+.eyebrow{font:500 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+h1{font:600 clamp(28px,5vw,42px)/1.12 var(--display);margin:6px 0 8px;text-wrap:balance}
+h2{font:600 22px/1.2 var(--display);margin:0;text-wrap:balance}
+p{margin:0}
+.lead{color:var(--muted);max-width:62ch}
+
+/* objetivo */
+.goal{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.goal div{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:2px}
+.goal b{font:600 26px var(--display);color:var(--gold)}
+.goal span{font-size:14px;color:var(--muted)}
+
+/* fluxo */
+.flow{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px clamp(14px,3vw,24px);display:grid;gap:16px}
+.lanes{display:grid;gap:14px}
+.lane{display:grid;grid-template-columns:110px 1fr;gap:12px;align-items:center}
+.lane .tag{font:500 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:6px 10px;border-radius:6px;text-align:center}
+.lane.g .tag{background:var(--gsoft);color:var(--google)}
+.lane.m .tag{background:var(--msoft);color:var(--meta)}
+.steps{display:flex;flex-wrap:wrap;align-items:center;gap:8px;min-width:0}
+.node{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:14px;line-height:1.3}
+.node.hot{border-color:var(--gold);background:var(--goldsoft);font-weight:600}
+.arr{color:var(--muted);font-size:18px}
+.merge{display:flex;flex-wrap:wrap;align-items:center;gap:8px;justify-content:center;border-top:1px dashed var(--line);padding-top:14px}
+.merge .node{background:var(--gdsoft);border-color:var(--good);color:var(--fg);font-weight:600}
+.loop{font-size:13px;color:var(--good);text-align:center}
+@media (max-width:560px){.lane{grid-template-columns:1fr}}
+
+/* frentes */
+.fronts{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.front{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;gap:10px;align-content:start;min-width:0}
+.front .num{font:600 13px var(--mono);color:var(--gold)}
+.front h3{font:600 18px/1.25 var(--display);margin:0}
+.front .where{font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.where.g{color:var(--google)}.where.m{color:var(--meta)}.where.b{color:var(--good)}
+.front ul{margin:0;padding-left:18px;display:grid;gap:4px;font-size:15px}
+.status{font:500 11px var(--mono);padding:3px 8px;border-radius:99px;justify-self:start;border:1px solid currentColor}
+.s-on{color:var(--good)}.s-next{color:var(--gold)}
+
+/* linha do tempo */
+.time{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px clamp(14px,3vw,24px);display:grid;gap:14px}
+.tl{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.tl div{border-top:3px solid var(--line);padding-top:10px;display:grid;gap:4px}
+.tl div.now{border-top-color:var(--gold)}
+.tl b{font:500 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--gold)}
+.tl span{font-size:15px}
+
+.rule{background:var(--goldsoft);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:12px 16px}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Vaz Power · Plano da alta temporada · Novembro a dezembro</div>
+  <h1>Como vamos trazer mais lead para a agenda</h1>
+  <p class="lead">O caminho do cliente, onde estamos perdendo lead hoje e as quatro frentes para recuperar.</p>
+</header>
+
+<div class="goal">
+  <div><b>45 a 55</b><span>bookings por semana até dezembro</span></div>
+  <div><b>Dia todo</b><span>lead entrando de manhã, à tarde e à noite</span></div>
+  <div><b>A$25 mil</b><span>teto de investimento por mês, Google e Meta</span></div>
+</div>
+
+<section class="flow">
+  <h2>O caminho até o agendamento</h2>
+  <div class="lanes">
+    <div class="lane g"><div class="tag">Google</div>
+      <div class="steps">
+        <span class="node">Pessoa busca "removalists Brisbane"</span><span class="arr">→</span>
+        <span class="node hot">Leilão: quem aparece?</span><span class="arr">→</span>
+        <span class="node">Anúncio da Vaz</span><span class="arr">→</span>
+        <span class="node">Site: orçamento ou calculadora</span>
+      </div></div>
+    <div class="lane m"><div class="tag">Meta</div>
+      <div class="steps">
+        <span class="node">Anúncio no Facebook e Instagram</span><span class="arr">→</span>
+        <span class="node">Ligar agora</span><span class="arr">ou</span>
+        <span class="node hot">Pedir visita técnica (novo)</span><span class="arr">ou</span>
+        <span class="node hot">Formulário ligado ao Go High Level (novo)</span>
+      </div></div>
+  </div>
+  <div class="merge">
+    <span class="node">Lead no CRM</span><span class="arr">→</span>
+    <span class="node">Contato da equipe</span><span class="arr">→</span>
+    <span class="node">Booking</span>
+  </div>
+  <p class="loop">↺ Cada job fechado volta para o Google, que aprende a buscar mais clientes parecidos.</p>
+</section>
+
+<section class="flow">
+  <h2>Onde o lead escapa hoje</h2>
+  <div class="rule"><strong>No leilão.</strong> De cada 100 buscas em que a Vaz poderia aparecer, ela aparece em 44. Nas outras 56, o lead vai para Kent, Optimove, Holloway e mais 14 concorrentes. Os anúncios rodam o dia todo; o que falta é ganhar mais leilões.</div>
+</section>
+
+<h2>As quatro frentes</h2>
+<div class="fronts">
+  <div class="front">
+    <span class="num">Frente 1</span><span class="where g">Google · campanha principal</span>
+    <h3>Ganhar mais leilões</h3>
+    <ul>
+      <li>Subir o lance (CPA desejado) de A$110 para A$132</li>
+      <li>Orçamento de A$600 por dia</li>
+      <li>Leitura em 3 dias; se o volume não vier, volta</li>
+    </ul>
+    <span class="status s-next">decidir hoje</span>
+  </div>
+  <div class="front">
+    <span class="num">Frente 2</span><span class="where g">Google · cobertura</span>
+    <h3>Não ficar sem anúncio no fim do dia</h3>
+    <ul>
+      <li>Orçamento subiu para a campanha não parar à tarde</li>
+      <li>Alerta automático de hora em hora se algo parar</li>
+      <li>Campanha dos bairros centrais com lance maior</li>
+    </ul>
+    <span class="status s-on">no ar</span>
+  </div>
+  <div class="front">
+    <span class="num">Frente 3</span><span class="where m">Meta</span>
+    <h3>Ligação e visita técnica</h3>
+    <ul>
+      <li>Campanha de ligação com mais verba</li>
+      <li>Campanha nova de formulário, só para visita técnica grátis</li>
+      <li>Página própria pronta; entra quando a visita e os pré-requisitos estiverem confirmados</li>
+      <li>Campanha nova com formulário ligado ao Go High Level, em construção com o Carlos</li>
+    </ul>
+    <span class="status s-on">ligação no ar</span>
+    <span class="status s-next">visita: confirmar</span>
+    <span class="status s-next">Go High Level: em construção</span>
+  </div>
+  <div class="front">
+    <span class="num">Frente 4</span><span class="where b">Medição</span>
+    <h3>Medir pelo que vira booking</h3>
+    <ul>
+      <li>Leitura diária das fichas no CRM</li>
+      <li>Jobs fechados enviados ao Google toda semana</li>
+      <li>A régua é booking, não só lead</li>
+    </ul>
+    <span class="status s-on">no ar</span>
+  </div>
+</div>
+
+<section class="time">
+  <h2>Próximos passos</h2>
+  <div class="tl">
+    <div class="now"><b>Hoje</b><span>Ok para subir o lance da campanha principal</span></div>
+    <div><b>Em 3 dias</b><span>Primeira leitura: volume de lead e fichas no CRM</span></div>
+    <div><b>Semana que vem</b><span>Ajuste do próximo passo dentro do teto</span></div>
+    <div><b>Toda semana</b><span>Resultado em bookings no grupo</span></div>
+  </div>
+</section>
+</div>
+</body>
+</html>
